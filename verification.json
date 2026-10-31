@@ -13,5 +13,6 @@
   "runtime_behavior": "NOT RUN: no application/tool execution or comparative performance validation",
   "cloud_parity": "NOT RUN in this synchronization; Git snapshot is of currently installed local skill bytes",
   "managed_provider_payloads": "NOT COPIED: provider-managed skills/runtimes are recorded with identity/version and require provider installation",
-  "remote_readback": "PENDING"
+  "remote_readback": "PASS: all 373 skill payload files read from a fresh GitHub fetch and SHA-256 matched",
+  "verified_payload_commit": "20e6eebeaea29343919e498b0e5b3fae4fbf2d8f"
 }
