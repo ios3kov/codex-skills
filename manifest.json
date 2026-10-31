@@ -1978,8 +1978,8 @@
       "executable": false
     },
     "plugins/product-intelligence/README.md": {
-      "sha256": "b6b48889fd42ddce39a6d17c29a45ca16628e55779ec5c667a589804a1780dd0",
-      "bytes": 3716,
+      "sha256": "d3d16be4d6e499ae9b8f0859c810026518415537bfe1044f91f598667309a05a",
+      "bytes": 3843,
       "executable": false
     },
     "plugins/product-intelligence/examples/features.example.csv": {

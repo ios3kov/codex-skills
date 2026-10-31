@@ -17,7 +17,11 @@ Local, offline Python 3.11+ helpers (no network/API keys/third-party dependencie
 
 Templates: examples/reviews.example.csv and examples/features.example.csv. Include source links in actual research; sample placeholders are not evidence.
 
-## Version 1.0.1
+## Current version: 1.0.4
+
+The current package version is recorded in `plugin.json` and `.codex-plugin/plugin.json`.
+
+### Version 1.0.1 changes
 
 Competitor Recon gains optional authorized Refero flow research and explicit no-dataset/no-model-evaluation boundaries. No provider connection is installed; the other skills and four offline helpers are unchanged.
 
