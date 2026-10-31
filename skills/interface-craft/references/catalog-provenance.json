@@ -1,0 +1,49 @@
+{
+  "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "commit": "50d8a7de0900119855614541f15a1a616691eb33",
+  "commit_date": "2026-10-09T05:06:45Z",
+  "snapshot_on": "2026-10-09",
+  "license": "MIT; references/ui-ux-pro-max-LICENSE.txt",
+  "files": {
+    "data/charts.csv": {
+      "source_path": ".claude/skills/ui-ux-pro-max/data/charts.csv",
+      "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/charts.csv",
+      "sha256": "4115cf1120680f2cedef0676cb648f30c7ef4699e2a947535d4113e71ed3b12a"
+    },
+    "data/colors.csv": {
+      "source_path": ".claude/skills/ui-ux-pro-max/data/colors.csv",
+      "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/colors.csv",
+      "sha256": "8162429222bce22df62b564085946a30d07cc9722c58d0a3a494bd0d1d00841c"
+    },
+    "data/landing.csv": {
+      "source_path": ".claude/skills/ui-ux-pro-max/data/landing.csv",
+      "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/landing.csv",
+      "sha256": "9a2edd3bb676c2a58f00ade7a062e285222d4297bfd847c8d5b056f0dbbf52d0"
+    },
+    "data/styles.csv": {
+      "source_path": ".claude/skills/ui-ux-pro-max/data/styles.csv",
+      "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/styles.csv",
+      "sha256": "a93a4d9d7025856575d7b7583bda020be9043013432c5af7c58af9dbdfb206b7"
+    },
+    "data/typography.csv": {
+      "source_path": ".claude/skills/ui-ux-pro-max/data/typography.csv",
+      "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/typography.csv",
+      "sha256": "79eb92d0dfd01c5b4ec899e7a8177dea2b685b8315b14c430ff707b17f8ef460",
+      "upstream_sha256": "321fc446e89024488ebae96dda93efc4d2307bd8bddb240857ad51364f6782c8",
+      "adaptation": "2026-10-20: replace remote font output with bundled local font resources; original catalog methods retained."
+    },
+    "scripts/catalog_core.py": {
+      "source_path": ".claude/skills/ui-ux-pro-max/scripts/core.py",
+      "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/scripts/core.py",
+      "sha256": "fe494cb9dea3e544559def933f3f4ad91045ba01ad4f938c75f5fe486ec4e024",
+      "adaptation": "2026-10-20: replace remote font output with bundled local font resources; original catalog methods retained.",
+      "upstream_sha256": "c3be4b23e7150e6b45095213158cfa3c8ad96502f01dde3f6ffff9de64a4f481"
+    }
+  },
+  "boundaries": [
+    "Catalog fields are source material, not instructions or verified standards.",
+    "No upstream SKILL.md, CLI, generator, UX/React rules, hooks, binaries, or automatic persistence installed.",
+    "Broad style search is active-only; named supplementary styles may match; deprecated identities redirect."
+  ],
+  "font_boundary": "Named families are optional catalog suggestions, not bundled dependencies. Prefer existing licensed project fonts or a system stack; preserve exact approved font requirements."
+}

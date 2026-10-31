@@ -1,0 +1,13 @@
+interface:
+  display_name: Брифы и вопросы
+  short_description: Брифы для клиентов и подрядчиков
+  default_prompt: Используй $to-questionnaire, чтобы составить короткий бриф для клиента.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

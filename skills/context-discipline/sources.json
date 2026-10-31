@@ -1,0 +1,75 @@
+{
+  "adapted_on": "2026-10-09",
+  "kind": "synthesized agreed working rules",
+  "sources": [
+    {
+      "number": 21,
+      "name": "Filesystem Context",
+      "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "source_file": "skills/filesystem-context/SKILL.md",
+      "commit": "58b55a8921758d13453b440704fb1b5b208c0b0e",
+      "commit_date": "2026-10-01T05:58:33Z",
+      "sha256": "91cd7f071e38dbeee15dbebd9dd549c9116affae939702f05409ed1952355f50",
+      "supplied_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/filesystem-context/SKILL.md",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/58b55a8921758d13453b440704fb1b5b208c0b0e/skills/filesystem-context/SKILL.md"
+    },
+    {
+      "number": 22,
+      "name": "Context Optimization",
+      "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "source_file": "skills/context-optimization/SKILL.md",
+      "commit": "58b55a8921758d13453b440704fb1b5b208c0b0e",
+      "commit_date": "2026-10-01T05:58:33Z",
+      "sha256": "96fbd47c16d163857b92d477ba5c7ec3ae947127772e327b8236d05d64d5b123",
+      "supplied_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-optimization/SKILL.md?utm_source=chatgpt.com",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/58b55a8921758d13453b440704fb1b5b208c0b0e/skills/context-optimization/SKILL.md"
+    },
+    {
+      "number": 23,
+      "name": "Context Compression",
+      "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "source_file": "skills/context-compression/SKILL.md",
+      "commit": "58b55a8921758d13453b440704fb1b5b208c0b0e",
+      "commit_date": "2026-10-01T05:58:33Z",
+      "sha256": "ab4fd1e1046db339d83ead5089d4cb9d9c487232945d4ff6be90e08a03f6cfea",
+      "supplied_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-compression/SKILL.md?utm_source=chatgpt.com",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/58b55a8921758d13453b440704fb1b5b208c0b0e/skills/context-compression/SKILL.md"
+    },
+    {
+      "number": 24,
+      "name": "Context Degradation",
+      "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "source_file": "skills/context-degradation/SKILL.md",
+      "commit": "58b55a8921758d13453b440704fb1b5b208c0b0e",
+      "commit_date": "2026-10-01T05:58:33Z",
+      "sha256": "4e1896f641ddc99cc9cb14322606c6133b9fd520c84d3af0541e64f553c7f928",
+      "supplied_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-degradation/SKILL.md",
+      "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/58b55a8921758d13453b440704fb1b5b208c0b0e/skills/context-degradation/SKILL.md"
+    },
+    {
+      "name": "Graphify project navigation mechanisms",
+      "repository": "Graphify-Labs/graphify",
+      "commit": "b90b9df7949bd04a15b40a1624af85d0a9cfdf04",
+      "version": "0.9.93",
+      "reviewed_on": "2026-10-21",
+      "adoption": "Original optional standard-library helper owned by codebase-understanding; no upstream implementation copied.",
+      "source_url": "https://github.com/Graphify-Labs/graphify/tree/b90b9df7949bd04a15b40a1624af85d0a9cfdf04"
+    }
+  ],
+  "supplemental_reviews": [
+    {
+      "reviewed_on": "2026-10-19",
+      "repository": "google-research/harness2",
+      "commit": "1cfe254e8d25b15f37048c3730134686abe60335",
+      "license": "Apache-2.0",
+      "license_notice": "references/upstream/harness2/LICENSE",
+      "kind": "Independently worded scoped adaptations; no runner, sandbox changes, automatic memory or mandatory optimization loops.",
+      "source_paths": [
+        "harness2/core/runmark.py"
+      ],
+      "targets": [
+        "SKILL.md"
+      ]
+    }
+  ]
+}

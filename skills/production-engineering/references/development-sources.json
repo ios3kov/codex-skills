@@ -1,0 +1,376 @@
+{
+  "reviewed_on": "2026-10-09",
+  "skill": "production-engineering",
+  "kind": "Independently authored, scoped engineering references informed by reviewed sources and official technical documentation; upstream prose/code/workflows are not installed.",
+  "sources": [
+    {
+      "repository": "trailofbits/skills",
+      "path": "plugins/property-based-testing/skills/property-based-testing/SKILL.md",
+      "commit": "fdfe4f41b65d4c75162b902d1458211b90e91113",
+      "commit_date": "2026-10-09T19:20:05Z",
+      "git_blob": "1cc39d8d8cba5955bf9c8d7c9a2aef348722a55e",
+      "sha256": "9448cacb65c6237a7c22dc59602667177ecae405524079ae9ff92240590b995a",
+      "source_url": "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/property-based-testing/skills/property-based-testing/SKILL.md",
+      "upstream_license": "CC-BY-SA-4.0"
+    },
+    {
+      "repository": "mattpocock/skills",
+      "path": "skills/engineering/tdd/SKILL.md",
+      "commit": "49dd158d1076134a641b33efb035946536778336",
+      "commit_date": "2026-10-09T10:56:49Z",
+      "git_blob": "01eadaa34e7c9a63a67d6dc3cce1cc81b0e49985",
+      "sha256": "5505d25bbaa8fc14a79e4d20163936958992a2995b7f1dd1d6197edc9ed722e0",
+      "source_url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/tdd/SKILL.md",
+      "upstream_license": "MIT"
+    },
+    {
+      "repository": "trailofbits/skills",
+      "path": "plugins/c-review/skills/c-review/SKILL.md",
+      "commit": "fdfe4f41b65d4c75162b902d1458211b90e91113",
+      "commit_date": "2026-10-09T19:20:05Z",
+      "git_blob": "b44033659d45a8e0f8d2c7201617d66c7ab8cbe3",
+      "sha256": "3fc2fc7f3dba9decd2dd9e449150395cf62ee156c8dd1c48d09a233318f4dc69",
+      "source_url": "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/c-review/skills/c-review/SKILL.md",
+      "upstream_license": "CC-BY-SA-4.0"
+    },
+    {
+      "repository": "mattpocock/skills",
+      "path": "skills/engineering/codebase-design/SKILL.md",
+      "commit": "49dd158d1076134a641b33efb035946536778336",
+      "commit_date": "2026-10-09T10:56:49Z",
+      "git_blob": "3f63c8146dd2604b419c929e9876b90c30d410e9",
+      "sha256": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2",
+      "source_url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/codebase-design/SKILL.md",
+      "upstream_license": "MIT"
+    },
+    {
+      "repository": "trailofbits/skills",
+      "path": "plugins/rust-review/skills/rust-review/SKILL.md",
+      "commit": "fdfe4f41b65d4c75162b902d1458211b90e91113",
+      "commit_date": "2026-10-09T19:20:05Z",
+      "git_blob": "f32c03a536c2f45f5b8b81af67dc2499c3554e65",
+      "sha256": "52ee8b08876b0ad90ecdf4a58de8d41fb2d8627f1e4d259a806a35a6e187ae91",
+      "source_url": "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/skills/rust-review/SKILL.md",
+      "upstream_license": "CC-BY-SA-4.0"
+    },
+    {
+      "repository": "wshobson/agents",
+      "path": "plugins/systems-programming/skills/rust-async-patterns/SKILL.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "commit_date": "2026-10-04T20:42:51Z",
+      "git_blob": "fb69c5861e57788ba59f1f1f767d6099345007f6",
+      "sha256": "8e9a951c21bb1ee671dd2e7391b193e8e3d362b95ef29c470915837d73bf87df",
+      "source_url": "https://github.com/wshobson/agents/blob/46891e7e60da0e52baf1050b7b6391b64e84c6d9/plugins/systems-programming/skills/rust-async-patterns/SKILL.md",
+      "upstream_license": "MIT"
+    },
+    {
+      "repository": "Jeffallan/claude-skills",
+      "path": "skills/typescript-pro/SKILL.md",
+      "commit": "1be15d8064f88fc25216442406d40add8fd23b53",
+      "commit_date": "2026-10-03T15:49:22Z",
+      "git_blob": "c38d542a870150f133b930e5e44fe5fa4a26064e",
+      "sha256": "1647f8b6f7efc926b61ccfad4832317bf336a78b13265735229e25602afb0350",
+      "source_url": "https://github.com/Jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/SKILL.md",
+      "upstream_license": "MIT"
+    },
+    {
+      "repository": "Jeffallan/claude-skills",
+      "path": "skills/cpp-pro/SKILL.md",
+      "commit": "1be15d8064f88fc25216442406d40add8fd23b53",
+      "commit_date": "2026-10-03T15:49:22Z",
+      "git_blob": "f87192133f19b9bd62247fba4f204af426219563",
+      "sha256": "53017f862c526df6080210a1a00e6678c2cd5382b5d1a51026bf3b0bde7f7ed2",
+      "source_url": "https://github.com/Jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/skills/cpp-pro/SKILL.md",
+      "upstream_license": "MIT"
+    },
+    {
+      "repository": "Jeffallan/claude-skills",
+      "path": "skills/cpp-pro/references/concurrency.md",
+      "commit": "1be15d8064f88fc25216442406d40add8fd23b53",
+      "commit_date": "2026-10-03T15:49:22Z",
+      "git_blob": "2eedf193a6d5a730eb87e88e531fba04b00f72a6",
+      "sha256": "cb772cec134530ed7ca4af25c261d42850ce27e92133657849e09d6cb2544891",
+      "source_url": "https://github.com/Jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/skills/cpp-pro/references/concurrency.md",
+      "upstream_license": "MIT"
+    },
+    {
+      "repository": "Jeffallan/claude-skills",
+      "path": "skills/python-pro/SKILL.md",
+      "commit": "1be15d8064f88fc25216442406d40add8fd23b53",
+      "commit_date": "2026-10-03T15:49:22Z",
+      "git_blob": "c1910a2a4732243a09ccc6b290d794a41cb4ee6b",
+      "sha256": "b94b59450d7372ac0cf47c7313a189796a5a7b0470552b2fe9e9581ec6c3de04",
+      "source_url": "https://github.com/Jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/skills/python-pro/SKILL.md",
+      "upstream_license": "MIT"
+    },
+    {
+      "repository": "wshobson/agents",
+      "path": "plugins/python-development/skills/python-testing-patterns/SKILL.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "commit_date": "2026-10-04T20:42:51Z",
+      "git_blob": "4fe8a4245c55e9e79e70b5f75ab387e2349f91dc",
+      "sha256": "a1020718f31629c2a5b20731cad1804dbb81b18800495c5cebdf16e6cac9c175",
+      "source_url": "https://github.com/wshobson/agents/blob/46891e7e60da0e52baf1050b7b6391b64e84c6d9/plugins/python-development/skills/python-testing-patterns/SKILL.md",
+      "upstream_license": "MIT"
+    },
+    {
+      "repository": "supabase/agent-skills",
+      "path": "skills/supabase-postgres-best-practices/SKILL.md",
+      "commit": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "commit_date": "2026-10-02T12:34:48Z",
+      "git_blob": "6400792389dfcc82c81953054e546bd72ebcd259",
+      "sha256": "ad65e776f45e761bafc609d3f506c77c1032225aa65e0c4c02f241b8071e5855",
+      "source_url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/SKILL.md",
+      "upstream_license": "MIT"
+    },
+    {
+      "repository": "supabase/agent-skills",
+      "path": "skills/supabase-postgres-best-practices/references/security-rls-basics.md",
+      "commit": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "commit_date": "2026-10-02T12:34:48Z",
+      "git_blob": "c61e1a8503de113be0981759b82f5e37090f344c",
+      "sha256": "e04dd1a3a382aafdaaa73fe9f7976352acdde6e90c2a2470d281b94d4f44b096",
+      "source_url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/security-rls-basics.md",
+      "upstream_license": "MIT"
+    },
+    {
+      "repository": "supabase/agent-skills",
+      "path": "skills/supabase-postgres-best-practices/references/monitor-explain-analyze.md",
+      "commit": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "commit_date": "2026-10-02T12:34:48Z",
+      "git_blob": "542978c3bafc510fa8d7a8864cff994ad40be4d7",
+      "sha256": "4cb67ffbf8e57f2e5b380b0beb4242528b513723ce314a2c2ffcf083bd4203d7",
+      "source_url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/monitor-explain-analyze.md",
+      "upstream_license": "MIT"
+    },
+    {
+      "repository": "wshobson/agents",
+      "path": "plugins/javascript-typescript/skills/typescript-advanced-types/SKILL.md",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "commit_date": "2026-10-04T20:42:51Z",
+      "git_blob": "5057af799047bbae1a066ffead0b6e298f0ef7ff",
+      "sha256": "c32101c65134d94ef1a3305ef486020b57be6408f97ed952c9c560e3fe04188d",
+      "source_url": "https://github.com/wshobson/agents/blob/46891e7e60da0e52baf1050b7b6391b64e84c6d9/plugins/javascript-typescript/skills/typescript-advanced-types/SKILL.md",
+      "upstream_license": "MIT"
+    },
+    {
+      "repository": "supabase/agent-skills",
+      "path": "skills/supabase-postgres-best-practices/references/security-rls-performance.md",
+      "commit": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "commit_date": "2026-10-02T12:34:48Z",
+      "git_blob": "c3c7c416d57d9a46a9993f4e0c20f772fb64483d",
+      "sha256": "2e1faeca7d5746e246b1c78f9492fe2a9cfa41c4d7fa1e23c402d58fa18ea014",
+      "source_url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/security-rls-performance.md",
+      "upstream_license": "MIT"
+    },
+    {
+      "repository": "supabase/agent-skills",
+      "path": "skills/supabase-postgres-best-practices/references/conn-prepared-statements.md",
+      "commit": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "commit_date": "2026-10-02T12:34:48Z",
+      "git_blob": "555547d834e35b5059152dfb2288eca5e9838ea0",
+      "sha256": "174e9332fe3dda5c99b2b00159fb1915ae36c00bab3a7882c14e73e4344e946e",
+      "source_url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/conn-prepared-statements.md",
+      "upstream_license": "MIT"
+    },
+    {
+      "repository": "trailofbits/skills",
+      "path": "plugins/rust-review/prompts/clusters/ffi-cross-language.md",
+      "commit": "fdfe4f41b65d4c75162b902d1458211b90e91113",
+      "commit_date": "2026-10-09T19:20:05Z",
+      "git_blob": "2539666a44f3b515fb31f8536e354be0c97ca113",
+      "sha256": "5f1d2184a34f6d000a6e18c695c82e2607d0dd56e6a6d9380bfe5c2df4c5280b",
+      "source_url": "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/prompts/clusters/ffi-cross-language.md",
+      "upstream_license": "CC-BY-SA-4.0"
+    },
+    {
+      "repository": "trailofbits/skills",
+      "path": "plugins/rust-review/prompts/clusters/memory-safety.md",
+      "commit": "fdfe4f41b65d4c75162b902d1458211b90e91113",
+      "commit_date": "2026-10-09T19:20:05Z",
+      "git_blob": "46b247070e8330e76592d90475f99bf403c9a5d3",
+      "sha256": "24a788bd692e90870265addec88f05707bf88c422cbca097785702521eb09195",
+      "source_url": "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/prompts/clusters/memory-safety.md",
+      "upstream_license": "CC-BY-SA-4.0"
+    },
+    {
+      "repository": "trailofbits/skills",
+      "path": "plugins/rust-review/prompts/clusters/concurrency-locking.md",
+      "commit": "fdfe4f41b65d4c75162b902d1458211b90e91113",
+      "commit_date": "2026-10-09T19:20:05Z",
+      "git_blob": "8aa5590c159f9b6292d7001d32445bfe32fb49f0",
+      "sha256": "a1c771a6dc73df18d244363f051ff37e54153e1bef848f130e30a3a14f456080",
+      "source_url": "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/prompts/clusters/concurrency-locking.md",
+      "upstream_license": "CC-BY-SA-4.0"
+    },
+    {
+      "repository": "trailofbits/skills",
+      "path": "plugins/rust-review/prompts/clusters/unsafe-boundary.md",
+      "commit": "fdfe4f41b65d4c75162b902d1458211b90e91113",
+      "commit_date": "2026-10-09T19:20:05Z",
+      "git_blob": "6c0a89a5720e65a80a733e5a8a91a21027eea001",
+      "sha256": "10f7dabee93a1ff0b9229ba7e23c5b0900da64825d2b3d186ffcc297f6da4dfd",
+      "source_url": "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/prompts/clusters/unsafe-boundary.md",
+      "upstream_license": "CC-BY-SA-4.0"
+    },
+    {
+      "repository": "Graphify-Labs/graphify",
+      "commit": "b90b9df7949bd04a15b40a1624af85d0a9cfdf04",
+      "version": "0.9.93",
+      "reviewed_on": "2026-10-21",
+      "adoption": "Optional candidate impact navigation through codebase-understanding shared helper; no upstream code installed."
+    }
+  ],
+  "integration": {
+    "architecture-design.md": [
+      "mattpocock/skills: codebase-design",
+      "Keep project vocabulary and compatibility; no exact-one-interface/two-adapter rule, line-count score, mandatory interview, or automatic design agents."
+    ],
+    "behavior-testing.md": [
+      "mattpocock/skills: tdd",
+      "trailofbits/skills: property-based-testing",
+      "wshobson/agents: python-testing-patterns",
+      "Risk-based TDD remains in workflow.md; permit meaningful internal tests, infer test surfaces from contracts, no mandatory seam approval or fixed coverage percentage."
+    ],
+    "native-code-review.md": [
+      "trailofbits/skills: c-review, rust-review and selected technical clusters",
+      "Jeffallan/claude-skills: cpp-pro and concurrency",
+      "Technical ownership/unsafe/FFI/locking guidance; no copied plugin orchestration, fabricated coverage, forced model, scanner or toolchain install."
+    ],
+    "language-patterns.md": [
+      "Jeffallan/claude-skills: cpp-pro, python-pro, typescript-pro",
+      "wshobson/agents: rust-async-patterns, typescript-advanced-types, python-testing-patterns",
+      "Use actual stack/version; no automatic libraries, universal type tricks, runtime upgrades, formatter changes or coverage targets."
+    ],
+    "postgres-review.md": [
+      "supabase/agent-skills: selected PostgreSQL guidance",
+      "Conditional on actual PostgreSQL; independently verified EXPLAIN/RLS/pooling semantics, no copied grants/helpers, universal index rule or speedup claim."
+    ]
+  },
+  "excluded_examples": [
+    "C++ concepts/C++20/23, smart pointers, sanitizers and a new header/CMake/test bundle as unconditional requirements.",
+    "Jeffallan lock-free stack example: atomic head plus immediate delete does not establish safe multi-consumer reclamation; no example code copied.",
+    "Python mandatory >90% coverage, strict mypy/Black/Poetry, async-first for all I/O, and the incorrect categorical os.path-deprecated statement.",
+    "TypeScript universal strict configuration/NodeNext, ban on enums, compulsory branded types; assertions do not validate runtime input.",
+    "Matt mandatory confirmation of every test seam and fixed vocabulary; retain material clarification only.",
+    "Trail of Bits workflow/agents/cache primers/runtime, mandatory parameter interviews, and broad numeric coverage declarations.",
+    "Supabase sequential-scan-equals-missing-index, unconditional SECURITY DEFINER bypass claim, pool-mode prepared-statement generalization, copied port/driver settings and speedup percentages."
+  ],
+  "ownership": {
+    "production-engineering": "Engineering intake, architecture decisions, behavioral tests, language/native/database checks; existing issue/evidence/release contracts.",
+    "codebase-understanding": "Descriptive source-linked repository/architecture mapping.",
+    "interface-craft": "Visual direction, component reuse, task UX, browser UI and focused React performance.",
+    "apple-design": "Physical gestures and materials.",
+    "context-discipline": "Selective reading, resumable checkpoints and requirement preservation.",
+    "editorial-copy": "Prose and marketing claims."
+  },
+  "technical_authorities": [
+    {
+      "topic": "C++ ownership, interface and concurrency",
+      "url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+    },
+    {
+      "topic": "Rust FFI ownership/ABI/unwind",
+      "url": "https://doc.rust-lang.org/nomicon/ffi.html"
+    },
+    {
+      "topic": "Miri support and limitations",
+      "url": "https://github.com/rust-lang/miri"
+    },
+    {
+      "topic": "Python cancellation; check project-supported version",
+      "url": "https://docs.python.org/3/library/asyncio-task.html"
+    },
+    {
+      "topic": "TypeScript narrowing",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html"
+    },
+    {
+      "topic": "PostgreSQL EXPLAIN execution",
+      "url": "https://www.postgresql.org/docs/current/using-explain.html"
+    },
+    {
+      "topic": "PostgreSQL RLS roles and policies",
+      "url": "https://www.postgresql.org/docs/current/ddl-rowsecurity.html"
+    },
+    {
+      "topic": "PgBouncer pooling/statement feature matrix",
+      "url": "https://www.pgbouncer.org/features.html"
+    },
+    {
+      "topic": "AddressSanitizer scope and platform limitations",
+      "url": "https://clang.llvm.org/docs/AddressSanitizer.html"
+    },
+    {
+      "topic": "ThreadSanitizer instrumentation and support",
+      "url": "https://clang.llvm.org/docs/ThreadSanitizer.html"
+    },
+    {
+      "topic": "Rust raw slice validity including zero-length pointer contract",
+      "url": "https://doc.rust-lang.org/std/slice/fn.from_raw_parts.html"
+    }
+  ],
+  "validation_limits": [
+    "Installing these references does not prove a project or external host is correct.",
+    "No upstream tool or automatic agent workflow is installed.",
+    "Skill structure/link checks and manual compatibility scenarios do not guarantee implicit selection or exhaustive vulnerability detection."
+  ],
+  "supplemental_reviews": [
+    {
+      "reviewed_on": "2026-10-17",
+      "repository": "mattpocock/skills",
+      "commit": "49dd158d1076134a641b33efb035946536778336",
+      "license": "MIT",
+      "license_notice": "references/upstream/mattpocock/LICENSE",
+      "kind": "Scoped adaptations in existing references; no upstream slash-command workflow, mandatory interviews, or automatic tracker writes installed.",
+      "adoptions": [
+        {
+          "source_path": "skills/productivity/writing-for-agents/SKILL.md",
+          "target": "references/agent-documents.md",
+          "scope": "Canonical ownership, conditional pointers, observable completion, and scoped validation while retaining required evidence and permissions.",
+          "source_url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/writing-for-agents/SKILL.md"
+        },
+        {
+          "source_path": "skills/engineering/retro/SKILL.md",
+          "target": "references/session-retrospective.md",
+          "scope": "Observed-session analysis, inspection of existing checks, and scoped prevention measures; proposals do not authorize permanent changes.",
+          "source_url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/retro/SKILL.md"
+        },
+        {
+          "source_path": "skills/engineering/domain-modeling/SKILL.md",
+          "target": "references/architecture-design.md",
+          "scope": "Consistent domain terms and the three-condition filter for optional ADRs; required project records remain applicable.",
+          "source_url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/domain-modeling/SKILL.md"
+        },
+        {
+          "source_path": "skills/engineering/to-tickets/SKILL.md",
+          "target": "references/workflow.md",
+          "scope": "Expand-migrate-contract for wide mechanical changes with explicit consumer and integration evidence.",
+          "source_url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/to-tickets/SKILL.md"
+        },
+        {
+          "source_path": "skills/engineering/code-review/SKILL.md",
+          "target": "references/workflow.md",
+          "scope": "Distinct compliance/quality conclusions and explicit committed/WIP coverage, correcting the upstream committed-diff limitation.",
+          "source_url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/code-review/SKILL.md"
+        }
+      ]
+    },
+    {
+      "reviewed_on": "2026-10-19",
+      "repository": "google-research/harness2",
+      "commit": "1cfe254e8d25b15f37048c3730134686abe60335",
+      "license": "Apache-2.0",
+      "license_notice": "references/upstream/harness2/LICENSE",
+      "kind": "Independently worded scoped adaptations; no runner, sandbox changes, automatic memory or mandatory optimization loops.",
+      "source_paths": [
+        "harness2/core/prompts.py",
+        "harness2/core/selection.py"
+      ],
+      "targets": [
+        "references/skill-comparison.md",
+        "references/session-retrospective.md"
+      ]
+    }
+  ]
+}

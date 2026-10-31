@@ -1,0 +1,36 @@
+{
+  "adapted_on": "2026-10-09",
+  "adaptation": "Original concise synthesis; primary source revisions pinned; selected references studied; upstream executable tools were not run.",
+  "sources": [
+    {
+      "number": 14,
+      "name": "Remotion Best Practices",
+      "repository": "remotion-dev/skills",
+      "source_file": "skills/remotion-best-practices/SKILL.md",
+      "commit": "32b241b97f4e0e4ab61fe9a41b05e6e64503f8c5",
+      "commit_date": "2026-10-07T09:40:08Z",
+      "sha256": "6a15b47c4b237a790b9c45a7be74a4312202efea9ded837e946fc86164d606f5",
+      "source_url": "https://github.com/remotion-dev/skills/blob/32b241b97f4e0e4ab61fe9a41b05e6e64503f8c5/skills/remotion-best-practices/SKILL.md",
+      "supplied_url": "https://skills.sh/remotion-dev/skills/remotion-best-practices"
+    }
+  ],
+  "official_references": [
+    {
+      "url": "https://www.remotion.dev/docs/animating-properties",
+      "verified_on": "2026-10-09"
+    },
+    {
+      "url": "https://www.remotion.dev/docs/sequence",
+      "verified_on": "2026-10-09"
+    },
+    {
+      "url": "https://www.remotion.dev/docs/transitions",
+      "verified_on": "2026-10-09"
+    }
+  ],
+  "adaptation_decisions": [
+    "Installed version governs API selection; latest examples do not authorize upgrading.",
+    "Deterministic frame state is separate from wall-clock web animation.",
+    "Preview and delivered-file verification are separate; render when the requested deliverable requires it."
+  ]
+}

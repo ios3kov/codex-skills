@@ -1,0 +1,215 @@
+{
+  "adapted_on": "2026-10-09",
+  "adaptation": "Original concise synthesis; primary source revisions pinned; selected references studied; upstream executable tools were not run.",
+  "sources": [
+    {
+      "number": 9,
+      "name": "Storyboard Shot Breakdown",
+      "repository": "0xsline/openchatcut",
+      "source_file": "src/agent/skills/storyboard-shot-breakdown/SKILL.md",
+      "commit": "2e6f4a29b784200cfb32b859b16f2561592bc3e8",
+      "commit_date": "2026-10-07T06:36:19Z",
+      "sha256": "2ef11607680020048b0620d416bd36209f13e37864d9fa749d69460133e4f9b2",
+      "source_url": "https://github.com/0xsline/openchatcut/blob/2e6f4a29b784200cfb32b859b16f2561592bc3e8/src/agent/skills/storyboard-shot-breakdown/SKILL.md",
+      "supplied_url": "https://skills.sh/0xsline/openchatcut/storyboard-shot-breakdown"
+    },
+    {
+      "number": 10,
+      "name": "Motion Art Direction",
+      "repository": "iart-ai/motion-design-skills",
+      "source_file": "skills/motion-art-direction/SKILL.md",
+      "commit": "3c129f769d90a1328c209c386492333c9ac62312",
+      "commit_date": "2026-06-22T13:24:16Z",
+      "sha256": "0337edf7c93b8e130bd7658e3d43f546c46f333cacbb2bb970613d65d340c5de",
+      "source_url": "https://github.com/iart-ai/motion-design-skills/blob/3c129f769d90a1328c209c386492333c9ac62312/skills/motion-art-direction/SKILL.md",
+      "supplied_url": "https://skills.sh/iart-ai/motion-design-skills/motion-art-direction"
+    },
+    {
+      "number": 11,
+      "name": "Shot Composition",
+      "repository": "iart-ai/motion-design-skills",
+      "source_file": "skills/shot-composition/SKILL.md",
+      "commit": "3c129f769d90a1328c209c386492333c9ac62312",
+      "commit_date": "2026-06-22T13:24:16Z",
+      "sha256": "c2bbedc1d615ba9969755054bae4fb9d6733df17226b8010b02e064e7838f0c1",
+      "source_url": "https://github.com/iart-ai/motion-design-skills/blob/3c129f769d90a1328c209c386492333c9ac62312/skills/shot-composition/SKILL.md",
+      "supplied_url": "https://skills.sh/iart-ai/motion-design-skills/shot-composition"
+    },
+    {
+      "number": 12,
+      "name": "Beat Sync Editing",
+      "repository": "iart-ai/motion-design-skills",
+      "source_file": "skills/beat-sync-editing/SKILL.md",
+      "commit": "3c129f769d90a1328c209c386492333c9ac62312",
+      "commit_date": "2026-06-22T13:24:16Z",
+      "sha256": "92118cd6a5821974aa084a9838f263b46ee65fa1f48aaded8e676861f8c2de28",
+      "source_url": "https://github.com/iart-ai/motion-design-skills/blob/3c129f769d90a1328c209c386492333c9ac62312/skills/beat-sync-editing/SKILL.md",
+      "supplied_url": "https://skills.sh/iart-ai/motion-design-skills/beat-sync-editing"
+    },
+    {
+      "number": 13,
+      "name": "After Effects",
+      "repository": "iart-ai/motion-design-skills",
+      "source_file": "skills/after-effects/SKILL.md",
+      "commit": "3c129f769d90a1328c209c386492333c9ac62312",
+      "commit_date": "2026-06-22T13:24:16Z",
+      "sha256": "161bbd861954779670609cc71cee9edc75e0b63d39ef861ed99b55681156ecc8",
+      "source_url": "https://github.com/iart-ai/motion-design-skills/blob/3c129f769d90a1328c209c386492333c9ac62312/skills/after-effects/SKILL.md",
+      "supplied_url": "https://skills.sh/iart-ai/motion-design-skills/after-effects"
+    },
+    {
+      "number": 15,
+      "name": "Motion Design",
+      "repository": "lottiefiles/motion-design-skill",
+      "source_file": "skills/motion-design/SKILL.md",
+      "commit": "f9a8a041b85185ee4881b3471d3415e939aac772",
+      "commit_date": "2026-05-18T11:30:13Z",
+      "sha256": "8729ecbc7e5736c1295baaa8ba0384bb4b1aac9cf91b83fcdc64d9548a57bb19",
+      "source_url": "https://github.com/lottiefiles/motion-design-skill/blob/f9a8a041b85185ee4881b3471d3415e939aac772/skills/motion-design/SKILL.md",
+      "supplied_url": "https://skills.sh/lottiefiles/motion-design-skill/motion-design"
+    }
+  ],
+  "official_corrections": [
+    {
+      "topic": "Native H.264 Render Queue export is supported in current After Effects",
+      "url": "https://helpx.adobe.com/after-effects/desktop/render-and-export/export-h-264-from-the-after-effects/exporting-h264-from-the-after-effects-render-queue.html",
+      "verified_on": "2026-10-09"
+    }
+  ],
+  "adaptation_decisions": [
+    "Secondary/ambient motion and numeric composition presets are context heuristics, not universal requirements.",
+    "Observed shot evidence is distinguished from inferred focal length or intention.",
+    "Musical positions are rounded from absolute timestamps to avoid accumulated timing drift.",
+    "Physical web interaction rules remain owned by apple-design; common brief preservation remains owned by context-discipline."
+  ],
+  "creative_extension": {
+    "reviewed_on": "2026-10-09",
+    "scope": "Seven supplied directions, eight entrypoints and twelve PostPlus supporting references reviewed; originals and all four license files retained with verified Git blob and SHA-256 in task-local evidence.",
+    "reviewed_sources": [
+      {
+        "repository": "AlterLab-IEU/AlterLab-FC-Skills",
+        "source_file": "skills/cdm/alterlab-cdm-screenwriter/SKILL.md",
+        "commit": "9559c97a6b6fc90c0fbe5a20b7718716f7aee677",
+        "git_blob_sha": "9cad09764c8592a022e61aef8525e585d967e66b",
+        "sha256": "7dba3e6a1c31ed4777eadc9435d19350991d287c5eccf294fecbc16021597660",
+        "source_url": "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/cdm/alterlab-cdm-screenwriter/SKILL.md",
+        "license": "MIT",
+        "license_url": "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+        "use": "Independently worded, scoped synthesis of selected craft decisions; upstream entrypoint and workflow not installed."
+      },
+      {
+        "repository": "calesthio/generative-media-skills",
+        "source_file": "skills/production/post-production/title-kinetic-typography/SKILL.md",
+        "commit": "8c85352d5d75d4dcbe58480bd138e37b9742bab1",
+        "git_blob_sha": "db9200e933aafa51aee6d9e5ce089777c63399d4",
+        "sha256": "e2eca84944e7b21b1de970ac5c7a91ac3a57acf27b25c1363110a2248f367d29",
+        "source_url": "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/post-production/title-kinetic-typography/SKILL.md",
+        "license": "MIT",
+        "license_url": "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/LICENSE",
+        "use": "Independently worded, scoped synthesis of selected craft decisions; upstream entrypoint and workflow not installed."
+      },
+      {
+        "repository": "postplusai/postplus-skills",
+        "source_file": "skills/40-creative/cartoon-ad/SKILL.md",
+        "commit": "7f28d1494958f69136a7d6fe85fdea3942a300f3",
+        "git_blob_sha": "c5d49793983f3e2d35f95d8d064e1dc19c45f061",
+        "sha256": "aaa1f2756e7fffab8ca56ad646dd7aad5bb11d0ac7c16b0e3abb53db9bf50d5a",
+        "source_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/SKILL.md",
+        "license": "PolyForm Shield 1.0.0",
+        "license_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/LICENSE",
+        "use": "Read as a comparison source only; no upstream wording, schemas, code, runner or runtime installed."
+      },
+      {
+        "repository": "postplusai/postplus-skills",
+        "source_file": "skills/40-creative/commercial-ad/SKILL.md",
+        "commit": "7f28d1494958f69136a7d6fe85fdea3942a300f3",
+        "git_blob_sha": "ae6c0ee592e1c5a58bbf613184c49f546fcc55fc",
+        "sha256": "eaf5e1068d168f50b6ec9a278cc5362591878a5efaceaa13eaf76efd9d1d4b33",
+        "source_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/SKILL.md",
+        "license": "PolyForm Shield 1.0.0",
+        "license_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/LICENSE",
+        "use": "Read as a comparison source only; no upstream wording, schemas, code, runner or runtime installed."
+      }
+    ],
+    "excluded_or_contextualized": [
+      "No copied PostPlus tables, field schemas, proprietary templates, runners or production handoff workflow. Product guidance independently expresses general visual causality and evidence principles.",
+      "No mandatory three-act/15-beat structure, character wound, indirect dialogue, camera ban or page-count-as-duration claim.",
+      "No universal text beat duration, platform margin, font count or blanket WCAG video certification. Full captions are distinguished from abridged emphasis."
+    ],
+    "ownership": {
+      "editorial-copy": "Creative mechanisms, message, factual claims and brand positioning.",
+      "motion-storytelling": "Scene dramatic change, product action/outcome, shot design, timed text and edit craft.",
+      "interface-craft": "Shared type rendering and editorial image/text layout.",
+      "html-slide-decks": "Browser deck stage, navigation, content completeness and export.",
+      "film plugin": "Owns its invoked film pipeline stages and approvals; new references do not replace them.",
+      "media-production-control": "Asset acceptance and provenance.",
+      "other format skills": "Own their requested format and render/verification workflows."
+    },
+    "validation_limits": [
+      "Structural and preservation checks do not prove automatic selection or future creative quality.",
+      "No media generation, production render, caption delivery, font rendering, print preflight, campaign experiment or market survey run by this update."
+    ],
+    "reviewed_supporting_files": [
+      {
+        "source_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/continuity-rules.md",
+        "sha256": "42b1a2ad3bf8980e493f3f862dcb960e92ed583e2bb59e9f11f5c74369a87e4c",
+        "git_blob_sha": "36e8853ff8f52c62a65e2dd7a62e3178539f8de6"
+      },
+      {
+        "source_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/metaphor-and-proof.md",
+        "sha256": "e5613004ef7ebfe05015deb2e640569dde52f3bb83fdb1f3d9fe0f330f52d737",
+        "git_blob_sha": "53212914365a688fea924331826aab9134875782"
+      },
+      {
+        "source_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/narrative-grammar.md",
+        "sha256": "ec6d7e79268eb209dd699eb3d0d5ef9d2b6b822e492070ae2f1227dbfd57731b",
+        "git_blob_sha": "3fe7701d9d5e4477aa936db7ae17710565c423b5"
+      },
+      {
+        "source_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/shot-script-rubric.md",
+        "sha256": "22e59a25392c664899d0ae90002801e9e8b397159f4de6af1f6422691ccda00f",
+        "git_blob_sha": "63babcdefa35b98d433b34cb8d9cad8dae5d612a"
+      },
+      {
+        "source_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/workflow-handoff.md",
+        "sha256": "07ac30fc779e70b6b60f5ac1cc69eb54973e35627a57e6129533a58c44cd21ec",
+        "git_blob_sha": "43d87429c22e3a7a441ddadf0e429a0dec6ddea9"
+      },
+      {
+        "source_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/brand-film.md",
+        "sha256": "fdeb037e98a785876f00224f89cab0e21b4d82efcde571424ff1dfe24745772b",
+        "git_blob_sha": "a65af13853ac382cc74e2915d87414687166a720"
+      },
+      {
+        "source_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/cgi-product-world.md",
+        "sha256": "f05f016ccd226c466c3c58dcd7e676bd7c514c0eca894a38380c635145f07aa5",
+        "git_blob_sha": "f53034666c81a46bb745e034fa20477891ef833d"
+      },
+      {
+        "source_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/editorial-try-on.md",
+        "sha256": "f2ef3f8997babe92a1a76c095a307f9e7b27f5ed71ba3a7e438569cd229457f4",
+        "git_blob_sha": "d98b8d972edb754caa3fe08345a18cc4a332b247"
+      },
+      {
+        "source_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/proof-test.md",
+        "sha256": "76535231f43d6b1694fe4ca714a65cb594fabf4c43b9bd815fb4df0e896bc1b6",
+        "git_blob_sha": "f759c1adbd071241183f69c5239f942c52e69212"
+      },
+      {
+        "source_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/reveal-suspense.md",
+        "sha256": "b9aed33d8e14fdc02301796f5794eb80ea36d29128b9cacae93a68d1a2334251",
+        "git_blob_sha": "6e7698e30f2ccfee814373b339543bdd0c4f6b95"
+      },
+      {
+        "source_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/satisfying-restock.md",
+        "sha256": "b3f0194b9ece1b3692d8a1a9b76e78f325993fe22f5648e897f4c3ce4bee38bc",
+        "git_blob_sha": "974ea34078b86b38897dbf89ca1dab5efb623572"
+      },
+      {
+        "source_url": "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/surreal-escalation.md",
+        "sha256": "b94f47aefacaeb0fb10ee38f627df42ad3b165dc05a44d6493596cca022327cc",
+        "git_blob_sha": "5c1905157e760212157fa7b72bd48e8933f52cca"
+      }
+    ]
+  }
+}

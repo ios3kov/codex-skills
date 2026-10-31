@@ -1,0 +1,204 @@
+{
+  "adapted_on": "2026-10-09",
+  "skill": "interface-craft",
+  "kind": "Adapted decision guidance plus five pinned design catalogs and a verified read-only search core",
+  "sources": [
+    {
+      "number": 3,
+      "name": "UI/UX Pro Max",
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "source_file": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "commit": "50d8a7de0900119855614541f15a1a616691eb33",
+      "commit_date": "2026-10-09T05:06:45Z",
+      "sha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9",
+      "supplied_url": "https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill",
+      "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/SKILL.md",
+      "adaptation": "Product/stack detection, scoped decisions; five pinned design catalogs and read-only BM25 core exposed through a bounded local wrapper. No generator, upstream CLI or framework/UX rule catalogs."
+    },
+    {
+      "number": 4,
+      "name": "Impeccable",
+      "repository": "pbakaus/impeccable",
+      "source_file": ".agents/skills/impeccable/SKILL.md",
+      "commit": "d631a8827f99414d2b6daba4ef08b7f8701751d7",
+      "commit_date": "2026-10-09T04:19:38Z",
+      "sha256": "58c0252bca04521de87007aeb495f7ec99dc4c7341bc890fe82b6d577573af91",
+      "supplied_url": "https://skills.sh/pbakaus/impeccable",
+      "source_url": "https://github.com/pbakaus/impeccable/blob/d631a8827f99414d2b6daba4ef08b7f8701751d7/.agents/skills/impeccable/SKILL.md",
+      "adaptation": "Surface modes, incumbent visual truth, refinement versus replacement, bounded visual passes; binaries/hooks not installed. Scoped component extraction and task/onboarding/recovery scenario review; no numeric health score or alternate standards."
+    },
+    {
+      "number": 5,
+      "name": "Taste",
+      "repository": "Leonxlnx/taste-skill",
+      "source_file": "skills/taste-skill/SKILL.md",
+      "commit": "18dfc928b135629e0eddfdd445a06400d04ed439",
+      "commit_date": "2026-10-08T20:35:00Z",
+      "sha256": "aa194351b246b8b4799099d4ed7b033d29eab6e6e3d58d8d2172978be7b3ec89",
+      "supplied_url": "https://skills.sh/Leonxlnx/taste-skill",
+      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/18dfc928b135629e0eddfdd445a06400d04ed439/skills/taste-skill/SKILL.md",
+      "adaptation": "Brief-driven distinctiveness and redesign preservation; fixed aesthetics, defaults, packages, and dashboard misrouting removed."
+    },
+    {
+      "number": 18,
+      "name": "Web Design Guidelines",
+      "repository": "vercel-labs/agent-skills",
+      "source_file": "skills/web-design-guidelines/SKILL.md",
+      "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "commit_date": "2026-08-28T13:36:07Z",
+      "sha256": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f",
+      "supplied_url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
+      "source_url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/web-design-guidelines/SKILL.md",
+      "adaptation": "Semantics, focus, forms, state, responsive/media handling; editorial casing and broad mechanical rules contextualized."
+    },
+    {
+      "number": 19,
+      "name": "React Best Practices",
+      "repository": "vercel-labs/agent-skills",
+      "source_file": "skills/react-best-practices/SKILL.md",
+      "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "commit_date": "2026-08-28T13:36:07Z",
+      "sha256": "71ed7794962fa6e803ee83030517b5b93a9f70fbfeb431ec4535c5480a8d8355",
+      "supplied_url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
+      "source_url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-best-practices/SKILL.md",
+      "adaptation": "Impact-ordered React performance patterns; version-sensitive APIs and benchmark claims require current verification."
+    },
+    {
+      "number": 20,
+      "name": "Webapp Testing",
+      "repository": "anthropics/skills",
+      "source_file": "skills/webapp-testing/SKILL.md",
+      "commit": "9d630808e4add0a7146de4af9384155d5dee350a",
+      "commit_date": "2026-10-09T10:06:51Z",
+      "sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2",
+      "supplied_url": "https://skills.sh/anthropics/skills/webapp-testing",
+      "source_url": "https://github.com/anthropics/skills/blob/9d630808e4add0a7146de4af9384155d5dee350a/skills/webapp-testing/SKILL.md",
+      "adaptation": "Rendered-state reconnaissance, interaction, screenshots, logs; networkidle/fixed-sleep instructions replaced by official Playwright guidance."
+    },
+    {
+      "number": 31,
+      "name": "better-typography",
+      "repository": "jakubkrehel/skills",
+      "source_file": "skills/better-typography/SKILL.md",
+      "commit": "d574cc8a576dc24256ad38268b8d03d86724a1b3",
+      "commit_date": "2026-10-06T03:22:04Z",
+      "sha256": "e60ca6467ba60e68f95ed2d2cfa35f2a850d96ef2a0c0d3fcfcfd9510e51f184",
+      "supplied_url": "https://github.com/jakubkrehel/skills/blob/main/skills/better-typography/SKILL.md",
+      "source_url": "https://github.com/jakubkrehel/skills/blob/d574cc8a576dc24256ad38268b8d03d86724a1b3/skills/better-typography/SKILL.md"
+    },
+    {
+      "number": 6,
+      "name": "Anthropic Frontend Design",
+      "repository": "anthropics/skills",
+      "source_file": "skills/frontend-design/SKILL.md",
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "commit_date": "2026-10-09T18:45:49Z",
+      "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/SKILL.md",
+      "adaptation": "Independently worded brief-specific composition and intentional focal treatment; no copied entrypoint, global font/style bans or stack constraints."
+    }
+  ],
+  "technical_authorities": [
+    {
+      "topic": "Text contrast and large text thresholds",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+    },
+    {
+      "topic": "WCAG 2.2 AA target size and exceptions",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html"
+    },
+    {
+      "topic": "Playwright readiness/action discouragement",
+      "url": "https://playwright.dev/docs/api/class-page"
+    },
+    {
+      "topic": "Auto-retrying assertions",
+      "url": "https://playwright.dev/docs/test-assertions"
+    },
+    {
+      "topic": "Non-text contrast scope and exceptions",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+      "verified_on": "2026-10-09"
+    },
+    {
+      "topic": "User-facing Playwright locators",
+      "url": "https://playwright.dev/docs/locators",
+      "verified_on": "2026-10-09"
+    }
+  ],
+  "additional_source": {
+    "url": "https://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/main/command.md",
+    "local_snapshot": "work/source-study/vercel-web-interface-guidelines-command.md",
+    "reviewed_on": "2026-10-09",
+    "note": "Linked by Web Design Guidelines; fresh snapshot was studied. Refresh applicable guidance during a requested standards review.",
+    "sha256": "d246b026f4f29b5823a9cc857f9edf3d2507002e055e32040cadeaf3b38e0234"
+  },
+  "ownership": {
+    "interface-craft": "Visual direction, surface-specific interaction decisions, scoped React performance, browser verification; optional design candidate search, incumbent token/component reuse and scenario-based UX decisions",
+    "apple-design": "Apple-style gesture physics, momentum and material details",
+    "production-engineering": "Requirements/specifications, engineering audits, risk-based gates, release and evidence workflow",
+    "editorial-copy": "Prose/copy editing and advertising claims",
+    "context-discipline": "Selective reading, deduplication, durable summaries and preservation of requirements"
+  },
+  "validation_limits": [
+    "Pinned upstream search core executed only through the five-domain read-only wrapper in local behavior checks.",
+    "No upstream generators, CLI, hooks, binaries or external application/browser/React benchmark acceptance performed during skill update.",
+    "Behavior checks validate retrieval and integration; they do not guarantee implicit skill selection for every future prompt."
+  ],
+  "typography_adaptation": {
+    "ownership": "one shared reference for interfaces, browser slides and SVG/HTML diagrams",
+    "boundaries": "fonts and approved strings preserved; numeric recipes treated as contextual; computed/rendered verification required",
+    "authorities": [
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-wrap",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-variant-numeric",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-synthesis",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-smooth"
+    ]
+  },
+  "catalog_provenance": "catalog-provenance.json",
+  "creative_extension": {
+    "reviewed_on": "2026-10-09",
+    "scope": "Seven supplied directions, eight entrypoints and twelve PostPlus supporting references reviewed; originals and all four license files retained with verified Git blob and SHA-256 in task-local evidence.",
+    "reviewed_sources": [
+      {
+        "repository": "AlterLab-IEU/AlterLab-FC-Skills",
+        "source_file": "skills/vcd/alterlab-vcd-layout-designer/SKILL.md",
+        "commit": "9559c97a6b6fc90c0fbe5a20b7718716f7aee677",
+        "git_blob_sha": "115a89e6d3b9a6574df4c59cbaefad9343d9cb8f",
+        "sha256": "5a20b80498fd98ae85321f0c780c7c32de294bd9abc780d9c2d3868c2ad83123",
+        "source_url": "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/vcd/alterlab-vcd-layout-designer/SKILL.md",
+        "license": "MIT",
+        "license_url": "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+        "use": "Independently worded, scoped synthesis of selected craft decisions; upstream entrypoint and workflow not installed."
+      },
+      {
+        "repository": "AlterLab-IEU/AlterLab-FC-Skills",
+        "source_file": "skills/vcd/alterlab-vcd-typographer/SKILL.md",
+        "commit": "9559c97a6b6fc90c0fbe5a20b7718716f7aee677",
+        "git_blob_sha": "7c72c30253a8686f9740cd3bd01222e1f36317d9",
+        "sha256": "a0d06bd37f30ce6b1f66b6295e1e21ca60d4b273ca6bbccc9363976cb2b34389",
+        "source_url": "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/vcd/alterlab-vcd-typographer/SKILL.md",
+        "license": "MIT",
+        "license_url": "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+        "use": "Independently worded, scoped synthesis of selected craft decisions; upstream entrypoint and workflow not installed."
+      }
+    ],
+    "excluded_or_contextualized": [
+      "No forced grids, asymmetric margins, narrower inner margins, facing-page-only design, 3mm bleed, 300dpi or generic CMYK/PDF-X requirement.",
+      "No absolute 45-75 character rule, 1.4-1.6 leading, fixed paragraph gap or modular scale; no mandatory type replacement."
+    ],
+    "ownership": {
+      "editorial-copy": "Creative mechanisms, message, factual claims and brand positioning.",
+      "motion-storytelling": "Scene dramatic change, product action/outcome, shot design, timed text and edit craft.",
+      "interface-craft": "Shared type rendering and editorial image/text layout.",
+      "html-slide-decks": "Browser deck stage, navigation, content completeness and export.",
+      "film plugin": "Owns its invoked film pipeline stages and approvals; new references do not replace them.",
+      "media-production-control": "Asset acceptance and provenance.",
+      "other format skills": "Own their requested format and render/verification workflows."
+    },
+    "validation_limits": [
+      "Structural and preservation checks do not prove automatic selection or future creative quality.",
+      "No media generation, production render, caption delivery, font rendering, print preflight, campaign experiment or market survey run by this update."
+    ]
+  }
+}

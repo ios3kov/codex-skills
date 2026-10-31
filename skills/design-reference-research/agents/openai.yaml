@@ -1,0 +1,14 @@
+interface:
+  display_name: Design Reference Research
+  short_description: Research references and choose a distinct direction
+  default_prompt: Use $design-reference-research to inspect references, remove repetition,
+    and turn the best direction into a concrete design brief.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

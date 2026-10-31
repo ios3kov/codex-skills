@@ -1,0 +1,14 @@
+interface:
+  display_name: Smart Router
+  short_description: Choose task execution, model and effort
+  default_prompt: Use $smart-router to choose direct or delegated execution and supported
+    model/effort, then verify the accepted result.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

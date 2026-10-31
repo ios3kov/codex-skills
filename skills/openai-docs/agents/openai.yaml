@@ -1,0 +1,14 @@
+interface:
+  display_name: OpenAI Docs
+  short_description: Reference the official OpenAI Developer docs
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: Use $openai-docs with local SDK/CLI evidence and available official
+    docs; mark unavailable current checks clearly.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

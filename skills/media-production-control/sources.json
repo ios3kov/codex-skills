@@ -1,0 +1,39 @@
+{
+  "adapted_on": "2026-10-09",
+  "kind": "synthesized instructions; no upstream providers or scripts installed",
+  "sources": [
+    {
+      "number": 26,
+      "name": "reference-media-analysis",
+      "repository": "calesthio/generative-media-skills",
+      "source_file": "skills/production/governance-delivery/reference-media-analysis/SKILL.md",
+      "commit": "8c85352d5d75d4dcbe58480bd138e37b9742bab1",
+      "commit_date": "2026-07-14T13:44:10Z",
+      "sha256": "958de1fb10f1e14843f712727b519ca363361e8512ec92852086b638aec0b9a3",
+      "supplied_url": "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/governance-delivery/reference-media-analysis/SKILL.md",
+      "source_url": "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/governance-delivery/reference-media-analysis/SKILL.md"
+    },
+    {
+      "number": 27,
+      "name": "generated-media-qa",
+      "repository": "calesthio/generative-media-skills",
+      "source_file": "skills/production/governance-delivery/generated-media-qa/SKILL.md",
+      "commit": "8c85352d5d75d4dcbe58480bd138e37b9742bab1",
+      "commit_date": "2026-07-14T13:44:10Z",
+      "sha256": "cd4d3437122320e93f65a9a5ab84f94e0680c35898b66c8029233e42d1febf0e",
+      "supplied_url": "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/governance-delivery/generated-media-qa/SKILL.md",
+      "source_url": "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/governance-delivery/generated-media-qa/SKILL.md"
+    },
+    {
+      "number": 28,
+      "name": "asset-continuity-management",
+      "repository": "calesthio/generative-media-skills",
+      "source_file": "skills/production/governance-delivery/asset-continuity-management/SKILL.md",
+      "commit": "8c85352d5d75d4dcbe58480bd138e37b9742bab1",
+      "commit_date": "2026-07-14T13:44:10Z",
+      "sha256": "aed11fd9b600c9d76e8f21eaf07484423f4b2bd38363f78a79f9b49345db390c",
+      "supplied_url": "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/governance-delivery/asset-continuity-management/SKILL.md",
+      "source_url": "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/governance-delivery/asset-continuity-management/SKILL.md"
+    }
+  ]
+}

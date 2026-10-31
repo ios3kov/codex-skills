@@ -1,0 +1,95 @@
+{
+  "adapted_on": "2026-10-09",
+  "kind": "synthesized guidance; upstream scripts and plugin runtimes are not included",
+  "sources": [
+    {
+      "number": 2,
+      "name": "Stop Slop",
+      "repository": "hardikpandya/stop-slop",
+      "source_file": "SKILL.md",
+      "commit": "8da1f030185bdfe8471220585162991eaeb970e9",
+      "commit_date": "2026-03-17T18:50:36Z",
+      "sha256": "7432a1d9ebdd42b27666da8458af252edf549f723fb14bcd4791425103930310",
+      "supplied_url": "https://skills.sh/hardikpandya/stop-slop",
+      "source_url": "https://github.com/hardikpandya/stop-slop/blob/8da1f030185bdfe8471220585162991eaeb970e9/SKILL.md"
+    },
+    {
+      "number": 6,
+      "name": "Humanizer",
+      "repository": "blader/humanizer",
+      "source_file": "SKILL.md",
+      "commit": "225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8",
+      "commit_date": "2026-09-28T05:54:38Z",
+      "sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+      "supplied_url": "https://skills.sh/blader/humanizer",
+      "source_url": "https://github.com/blader/humanizer/blob/225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8/SKILL.md"
+    },
+    {
+      "number": 16,
+      "name": "Ad Creative",
+      "repository": "coreyhaines31/marketingskills",
+      "source_file": "skills/ad-creative/SKILL.md",
+      "commit": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+      "commit_date": "2026-10-08T21:51:37Z",
+      "sha256": "24a3753c6c5ca17ecc93867177211dfbddcdc4cb5c33ecb8efec49b053f35780",
+      "supplied_url": "https://skills.sh/coreyhaines31/marketingskills/ad-creative",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ad-creative/SKILL.md"
+    },
+    {
+      "number": 17,
+      "name": "Copywriting",
+      "repository": "coreyhaines31/marketingskills",
+      "source_file": "skills/copywriting/SKILL.md",
+      "commit": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+      "commit_date": "2026-10-08T21:51:37Z",
+      "sha256": "78c0a09b78a41995ba055d6549bbd7db3fe958673d039b9121e7a2e32bb4bb06",
+      "supplied_url": "https://skills.sh/coreyhaines31/marketingskills/copywriting",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/copywriting/SKILL.md"
+    }
+  ],
+  "creative_extension": {
+    "reviewed_on": "2026-10-09",
+    "scope": "Seven supplied directions, eight entrypoints and twelve PostPlus supporting references reviewed; originals and all four license files retained with verified Git blob and SHA-256 in task-local evidence.",
+    "reviewed_sources": [
+      {
+        "repository": "motion-team/creative-strategy-skills",
+        "source_file": "creative-mechanics/SKILL.md",
+        "commit": "8e467a3547dcd2118e4d08fa58099553677d52ff",
+        "git_blob_sha": "652ae7e8655e17b6403007341a055f6027c2545e",
+        "sha256": "e9349ab49abeb9ab311ad175e60ad45584faecc35426cad9b1da5c383a679c47",
+        "source_url": "https://github.com/motion-team/creative-strategy-skills/blob/8e467a3547dcd2118e4d08fa58099553677d52ff/creative-mechanics/SKILL.md",
+        "license": "MIT",
+        "license_url": "https://github.com/motion-team/creative-strategy-skills/blob/8e467a3547dcd2118e4d08fa58099553677d52ff/LICENSE",
+        "use": "Independently worded, scoped synthesis of selected craft decisions; upstream entrypoint and workflow not installed."
+      },
+      {
+        "repository": "AlterLab-IEU/AlterLab-FC-Skills",
+        "source_file": "skills/pra/alterlab-pra-brand-analyst/SKILL.md",
+        "commit": "9559c97a6b6fc90c0fbe5a20b7718716f7aee677",
+        "git_blob_sha": "0a78235ac9ed610c3713d71ffb4bd17ba49be129",
+        "sha256": "2a7b0dc94e376eb275bf2e5ffdb29a5094c1b0fda2bf47fd38ea381106cd60f6",
+        "source_url": "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/pra/alterlab-pra-brand-analyst/SKILL.md",
+        "license": "MIT",
+        "license_url": "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+        "use": "Independently worded, scoped synthesis of selected craft decisions; upstream entrypoint and workflow not installed."
+      }
+    ],
+    "excluded_or_contextualized": [
+      "No mandatory Hook Writing/Hook Tactics dependencies, fake customer conversations or claims of guaranteed psychology.",
+      "No automatic library writes, fixed competitor count, compulsory frameworks or invented numeric brand-health scores."
+    ],
+    "ownership": {
+      "editorial-copy": "Creative mechanisms, message, factual claims and brand positioning.",
+      "motion-storytelling": "Scene dramatic change, product action/outcome, shot design, timed text and edit craft.",
+      "interface-craft": "Shared type rendering and editorial image/text layout.",
+      "html-slide-decks": "Browser deck stage, navigation, content completeness and export.",
+      "film plugin": "Owns its invoked film pipeline stages and approvals; new references do not replace them.",
+      "media-production-control": "Asset acceptance and provenance.",
+      "other format skills": "Own their requested format and render/verification workflows."
+    },
+    "validation_limits": [
+      "Structural and preservation checks do not prove automatic selection or future creative quality.",
+      "No media generation, production render, caption delivery, font rendering, print preflight, campaign experiment or market survey run by this update."
+    ]
+  }
+}

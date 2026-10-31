@@ -1,0 +1,15 @@
+interface:
+  display_name: Production Engineering
+  short_description: Разработка, выбор исполнителей и проверка результата
+  default_prompt: 'Используй $production-engineering: оцени задачу, для сложной работы
+    подключи $smart-router и при оправданном делегировании $agent-orchestrator; реализуй
+    и проверь результат.'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

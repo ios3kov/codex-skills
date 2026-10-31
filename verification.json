@@ -1,0 +1,17 @@
+{
+  "snapshot_date": "2026-10-31",
+  "personal_skills": 37,
+  "standalone_skills": 25,
+  "owned_plugin_skills": 12,
+  "payload_files": 373,
+  "payload_sha256_and_executable_modes": "PASS: exact installed-source match",
+  "local_loader_inventory": "PASS: all 49 entries accounted for; 37 copied and 12 managed provider entries listed",
+  "skill_format": "PASS: 37/37",
+  "local_reference_targets": "PASS: zero missing",
+  "publication_pattern_check": "PASS within scanned patterns; no credential candidates or sensitive filenames, including archive contents",
+  "review": "Separate final scope review: existing source files preserved, no runtime settings/auth/history copied, no skill content rewritten, no duplicate plugin copies packaged",
+  "runtime_behavior": "NOT RUN: no application/tool execution or comparative performance validation",
+  "cloud_parity": "NOT RUN in this synchronization; Git snapshot is of currently installed local skill bytes",
+  "managed_provider_payloads": "NOT COPIED: provider-managed skills/runtimes are recorded with identity/version and require provider installation",
+  "remote_readback": "PENDING"
+}

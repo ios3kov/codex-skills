@@ -1,0 +1,103 @@
+{
+  "observed_date": "2026-10-31",
+  "count": 12,
+  "skills": [
+    {
+      "name": "documents:documents",
+      "enabled": true,
+      "provider": "documents@openai-primary-runtime",
+      "version": "26.1026.10807",
+      "entrypoint_sha256": "c9b9ba61ac15f20a600220bc10a380c7753992bbd3c323bfe33fae864adefc21",
+      "restore": "Use the same Codex release or install/enable the official provider plugin; this snapshot does not redistribute provider-managed runtimes."
+    },
+    {
+      "name": "pdf:pdf",
+      "enabled": true,
+      "provider": "pdf@openai-primary-runtime",
+      "version": "26.1026.10807",
+      "entrypoint_sha256": "a6e20f4ae66364a06d577dd51e0ce66ee2ef955be129cbe195e0a27f403daaf8",
+      "restore": "Use the same Codex release or install/enable the official provider plugin; this snapshot does not redistribute provider-managed runtimes."
+    },
+    {
+      "name": "presentations:Presentations",
+      "enabled": true,
+      "provider": "presentations@openai-primary-runtime",
+      "version": "26.1026.10807",
+      "entrypoint_sha256": "7abcc85f66d28c019963374cea7249c290803e6e64d214f6cd0473bc17559230",
+      "restore": "Use the same Codex release or install/enable the official provider plugin; this snapshot does not redistribute provider-managed runtimes."
+    },
+    {
+      "name": "spreadsheets:Spreadsheets",
+      "enabled": true,
+      "provider": "spreadsheets@openai-primary-runtime",
+      "version": "26.1026.10807",
+      "entrypoint_sha256": "25da47cec10100f2a08df9feaa252864a738816aca30562ae6ba111d7b1eb48e",
+      "restore": "Use the same Codex release or install/enable the official provider plugin; this snapshot does not redistribute provider-managed runtimes."
+    },
+    {
+      "name": "spreadsheets:excel-live-control",
+      "enabled": true,
+      "provider": "spreadsheets@openai-primary-runtime",
+      "version": "26.1026.10807",
+      "entrypoint_sha256": "1c27488fa2a59ce2cc8925a12527ee9c7aa40ccf0701f3f2719ab17858586e8b",
+      "restore": "Use the same Codex release or install/enable the official provider plugin; this snapshot does not redistribute provider-managed runtimes."
+    },
+    {
+      "name": "template-creator:template-creator",
+      "enabled": true,
+      "provider": "template-creator@openai-primary-runtime",
+      "version": "26.1026.10807",
+      "entrypoint_sha256": "f1d14fd2847a2e879611a8b8f872f5dc4676a0607958d015274d2dc61e812deb",
+      "restore": "Use the same Codex release or install/enable the official provider plugin; this snapshot does not redistribute provider-managed runtimes."
+    },
+    {
+      "name": "visualize:visualize",
+      "enabled": true,
+      "provider": "visualize@openai-bundled",
+      "version": "1.0.66",
+      "entrypoint_sha256": "155f893d861eb33c8c63b028872e20cfef8a3e94cc336a6a6fe89eba888c2ed3",
+      "restore": "Use the same Codex release or install/enable the official provider plugin; this snapshot does not redistribute provider-managed runtimes."
+    },
+    {
+      "name": "imagegen",
+      "enabled": true,
+      "provider": "Codex system",
+      "version": "managed by Codex",
+      "entrypoint_sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba",
+      "restore": "Use the same Codex release or install/enable the official provider plugin; this snapshot does not redistribute provider-managed runtimes."
+    },
+    {
+      "name": "openai-docs",
+      "enabled": true,
+      "provider": "Codex system",
+      "version": "managed by Codex",
+      "entrypoint_sha256": "aa6829e21df2223167c85d2e49b6337a7345c84c1033f1ec10182c7882b36d45",
+      "restore": "Use the same Codex release or install/enable the official provider plugin; this snapshot does not redistribute provider-managed runtimes."
+    },
+    {
+      "name": "review-agent",
+      "enabled": true,
+      "provider": "Codex system",
+      "version": "managed by Codex",
+      "entrypoint_sha256": "07079efd0dc76f05fade424e5dfb048dce1de2df7626e1a4f56292a4f3f92228",
+      "restore": "Use the same Codex release or install/enable the official provider plugin; this snapshot does not redistribute provider-managed runtimes."
+    },
+    {
+      "name": "skill-creator",
+      "enabled": true,
+      "provider": "Codex system",
+      "version": "managed by Codex",
+      "entrypoint_sha256": "6656e54755638e8efcf275a472b9672eaa8a9a1b9e59dc210e275b03b59e1e66",
+      "restore": "Use the same Codex release or install/enable the official provider plugin; this snapshot does not redistribute provider-managed runtimes."
+    },
+    {
+      "name": "skill-installer",
+      "enabled": true,
+      "provider": "Codex system",
+      "version": "managed by Codex",
+      "entrypoint_sha256": "d68b77e5bbb34dedab89d134da52855f140fc4b4299b80104f534e3b9e98f8ee",
+      "restore": "Use the same Codex release or install/enable the official provider plugin; this snapshot does not redistribute provider-managed runtimes."
+    }
+  ],
+  "note": "This is the fresh local Codex loader inventory, not a claim that every connected cloud tool or host-provided skill is portable."
+}

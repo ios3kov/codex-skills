@@ -1,0 +1,12 @@
+interface:
+  display_name: Editorial Copy
+  short_description: Естественные тексты, страницы и рекламные варианты
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

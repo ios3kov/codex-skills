@@ -1,0 +1,12 @@
+interface:
+  display_name: Media Production Control
+  short_description: Референсы, проверка генераций и учёт ассетов
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

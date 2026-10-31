@@ -1,0 +1,12 @@
+interface:
+  display_name: Context Discipline
+  short_description: Экономный контекст с сохранением требований
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,12 @@
+interface:
+  display_name: Character Continuity
+  short_description: Постоянство персонажей между кадрами и вариантами
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

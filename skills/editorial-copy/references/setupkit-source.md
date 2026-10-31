@@ -1,0 +1,1 @@
+Adapted from [SetupKit Fact Check](https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md), reviewed 2026-10-20. See [MIT notice](setupkit-MIT-LICENSE.txt). Clarify and Starter are not included.

@@ -1,0 +1,14 @@
+interface:
+  display_name: PDF Skill
+  short_description: Create, edit, and review PDFs
+  icon_large: assets/icon.svg
+  default_prompt: Create, edit, or review this PDF and summarize the key output or
+    changes.
+  icon_small: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

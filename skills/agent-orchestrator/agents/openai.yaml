@@ -1,0 +1,14 @@
+interface:
+  display_name: Agent Orchestrator
+  short_description: Coordinate useful parallel work and integration
+  default_prompt: Use $agent-orchestrator with $smart-router to coordinate justified
+    independent tasks, integrate changes and verify requirements.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

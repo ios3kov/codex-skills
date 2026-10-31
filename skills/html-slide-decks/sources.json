@@ -1,0 +1,17 @@
+{
+  "adapted_on": "2026-10-09",
+  "kind": "synthesized guidance; upstream scripts and plugin runtimes are not included",
+  "sources": [
+    {
+      "number": 8,
+      "name": "Frontend Slides",
+      "repository": "zarazhangrui/frontend-slides",
+      "source_file": "plugins/frontend-slides/skills/frontend-slides/SKILL.md",
+      "commit": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "commit_date": "2026-06-23T20:08:18Z",
+      "sha256": "832994fe1dfcce2aa7ceca9a1b7b708eca94becef242713999855f4e946cf4d5",
+      "supplied_url": "https://skills.sh/zarazhangrui/frontend-slides",
+      "source_url": "https://github.com/zarazhangrui/frontend-slides/blob/9906a34d640d2111f724544cbc50f7f130569ae1/plugins/frontend-slides/skills/frontend-slides/SKILL.md"
+    }
+  ]
+}

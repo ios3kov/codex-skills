@@ -1,0 +1,20 @@
+{
+  "interface": {
+    "displayName": "Product Intelligence",
+    "shortDescription": "Competitors, customer pain and feature gaps",
+    "longDescription": "Three optional source-grounded research skills plus offline reviews, parity, brand sweep and store-listing checks. Complements, never replaces, project development rules.",
+    "developerName": "ios3kov",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/ios3kov/production-engineering",
+    "capabilities": [],
+    "defaultPrompt": null
+  },
+  "name": "product-intelligence",
+  "version": "1.0.2",
+  "description": "Optional cross-project competitor research, evidence-linked customer feedback and feature-gap analysis with four offline Python helpers.",
+  "author": {
+    "name": "Workspace upload"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

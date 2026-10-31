@@ -1,0 +1,773 @@
+{
+  "inspected_on": "2026-10-10",
+  "purpose": "Original mobile-specific synthesis; no upstream executable code or catalog data bundled.",
+  "review_modes": {
+    "full": "Entry point, selected reference, or all CSV rows read.",
+    "prose_and_selected_examples": "Instructional prose reviewed; code blocks selectively inspected. Some long tool extracts were truncated; do not infer every line or example was audited.",
+    "inventory_only": "Entrypoint path/name and scope recorded; no detailed claim."
+  },
+  "repositories": [
+    {
+      "name": "ui-ux-pro-max",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "50d8a7de0900119855614541f15a1a616691eb33",
+      "license": "MIT",
+      "reviewed": [
+        {
+          "path": ".claude/skills/ui-ux-pro-max/SKILL.md",
+          "mode": "full",
+          "sha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/SKILL.md"
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/references/pro-rules.md",
+          "mode": "full",
+          "sha256": "d28442d61c310b49c054a4ea736f89fb3008beebdbbc38c4b3a540b8f7fadf23",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/references/pro-rules.md"
+        },
+        {
+          "path": "src/ui-ux-pro-max/data/stacks/flutter.csv",
+          "mode": "full",
+          "sha256": "64dba0ac17349f28bce517a0f5f48c54d9ed2e487ec0c0258303463b382f41a0",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/src/ui-ux-pro-max/data/stacks/flutter.csv"
+        },
+        {
+          "path": "src/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+          "mode": "full",
+          "sha256": "699de218b286948eaec7d15767b6e1350ee299167e49bf476d82e3ff58724e0a",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/src/ui-ux-pro-max/data/stacks/jetpack-compose.csv"
+        },
+        {
+          "path": "src/ui-ux-pro-max/data/stacks/react-native.csv",
+          "mode": "full",
+          "sha256": "ba31dd9c0c04da6bc02a74448bf121f9c0728ae5ba3b4d47b487778b0a1135b5",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/src/ui-ux-pro-max/data/stacks/react-native.csv"
+        },
+        {
+          "path": "src/ui-ux-pro-max/data/stacks/swiftui.csv",
+          "mode": "full",
+          "sha256": "bdd9231ff3ad658f4e7c063e1eb49df2fd09ac8d90631a86df899b39833b9623",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/src/ui-ux-pro-max/data/stacks/swiftui.csv"
+        }
+      ]
+    },
+    {
+      "name": "vercel",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "license": "MIT declared in README/frontmatter; no root license file found",
+      "reviewed": [
+        {
+          "path": "skills/react-native-skills/SKILL.md",
+          "mode": "full",
+          "sha256": "4012750a5ccbe064ca04af3835d5d1b011979d2d09d9b6df1c8128fac58e0a66",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/SKILL.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/animation-derived-value.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "689228e9d59227934f296563963951aa9368be0afb2a188f650de161203b1862",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/animation-derived-value.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/animation-gesture-detector-press.md",
+          "mode": "full",
+          "sha256": "69408d4be669e74689d865c5f50a22fc3a802d521fe493371761abd20526e58e",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/animation-gesture-detector-press.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/animation-gpu-properties.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "f885e4179445da27cbc225e0a4aa3ed9016fc3507ca6f864392ba7a9d0bd7516",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/animation-gpu-properties.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/design-system-compound-components.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "dcb10900a58fcf57cca2e27c062d02df2325a7949e08fb45e9e05cc2b132b1a6",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/design-system-compound-components.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/fonts-config-plugin.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "b92568774064a604e7a479d4c8d7263aed5609740e9161d2f2764bfff761905d",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/fonts-config-plugin.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/imports-design-system-folder.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "aa6337f7f2869a46a9141ec65e02c3da5c3bf051023899b82e0f0aef5bff8423",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/imports-design-system-folder.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/js-hoist-intl.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "b4b08622465ffcd5e5961878eb8c6d7359aa242d16c990b59941c9111962fe46",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/js-hoist-intl.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-callbacks.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "db800e9dfe0080eb4954b96e2a362ee8344d08e08b1ed06bc8059450f3e6f0dd",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-callbacks.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-function-references.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "b54470e41d578b207ee3223f6853efb7fbf8e5f83d9aecf8da16989072f99544",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-function-references.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-images.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "e88f16ac113c29230d674b7aa2c66c31d5772a74b1ea378d48a97b1143fe6c19",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-images.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-inline-objects.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "e2a80aac0f29c6abaf0163c1cc273d09cc8a0030ec077ca2022bbf5c309e4625",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-inline-objects.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-item-expensive.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "a68cc8ec5dba3c55761bd5df9dfd3d98485f63076868d3e03af15f1e58907ce3",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-item-expensive.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-item-memo.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "38ec1d149ee485434d11c2b9e2101dfc914afadae4a0738ca905f26b05f708c1",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-item-memo.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-item-types.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "eed225f4e9e504bfa7db01f5395d1402545cc47de8adf1829a9408cd5d158cf6",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-item-types.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/list-performance-virtualize.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "98cad308118acb4d6e8e975c0168ce56e2d48ca52ed47f23bc9a30667c066ada",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-virtualize.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/monorepo-native-deps-in-app.md",
+          "mode": "full",
+          "sha256": "8368b109027fcec1b8a81bfb99718aef2b64edaba77107f73d7c465cc5a14217",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/monorepo-native-deps-in-app.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/monorepo-single-dependency-versions.md",
+          "mode": "full",
+          "sha256": "61c01b9eaab1e319bf078204231fb573bdfea3c43a6eb99e7ef73ee95d474ccc",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/monorepo-single-dependency-versions.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/navigation-native-navigators.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "6642dedb57e72f0b56df5fbc3d5b8aaa91fc4456932c12712cfd076d393f32c6",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/navigation-native-navigators.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/react-compiler-destructure-functions.md",
+          "mode": "full",
+          "sha256": "8048926a4fa3fbd28fc0ecf4ba4c383a2f0ed06c2fd7330dd4a15d7f4e548044",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-compiler-destructure-functions.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/react-compiler-reanimated-shared-values.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "3174303a72b6849ff0eda5cd9f9650f26baa5f31ed28d35a75076af714fb2ffc",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-compiler-reanimated-shared-values.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/react-state-dispatcher.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "7ec5b653e3ff8d9ca97d8d66981cce5590c0e49fa79ab708fd6324542b588870",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-state-dispatcher.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/react-state-fallback.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "eb76e386d71680bfdfc0ab64dba1221f4d3d0fdcb4980bb4a871381d58e9e58b",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-state-fallback.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/react-state-minimize.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "31b989de61defda1c61d8578c4700efd64a427218c3f3dbb7062a1666e1cbe43",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-state-minimize.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/rendering-no-falsy-and.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "7300fa45ac3a4968db144727a21052421bc62de9b5e9f6f59e28bd16d2fff001",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/rendering-no-falsy-and.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/rendering-text-in-text-component.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "fc67897b6126b6b5574f4d284a6c5b2282528fe89de8ec08e6cfd2a86ab5b235",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/rendering-text-in-text-component.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/scroll-position-no-state.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "70aa1ee679e755556d7b01b326431fe898d3c23ddba40d0da6bdac23c87a1525",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/scroll-position-no-state.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/state-ground-truth.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "9f3efc73d2e66a5deb3199c9774f42524cd6a0f69784af38301946be5d747cb5",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/state-ground-truth.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-expo-image.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "c3c13cce3dd2cc7f8a9b4861e5743af98f62e28f5699f72f492e79a335cfae55",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-expo-image.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-image-gallery.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "b34d1ba03710ed9622187716541ae618968e7d03bc28895c2ac918d3cc5853f1",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-image-gallery.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-measure-views.md",
+          "mode": "full",
+          "sha256": "170d058abc4900ea9e851e54f5e8b437ffffc2c9d3847ae35e30a515c8990c3d",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-measure-views.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-menus.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "5964adbecfe9aeb28d736a4eaacec6469a1c4ca3f48779d243eb38b6d181cfe9",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-menus.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-native-modals.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "d803493b3046ad31cbb2c189f1fffb948fd0055050e3c322589bd548421e23a8",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-native-modals.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-pressable.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "52cdbad127d713d7d32c59ef74ab1bbd6dca211edc9b25993453f7f4545e79fa",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-pressable.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-safe-area-scroll.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "3dd776caef2344d73529010940b50042861d06d31a192122a4df64bc06aed0e8",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-safe-area-scroll.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-scrollview-content-inset.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "89e4bbe5e9a602660f4155e9d4c0dee09db1adf21c73f47213cd67ec896e5a13",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-scrollview-content-inset.md"
+        },
+        {
+          "path": "skills/react-native-skills/rules/ui-styling.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "cdef4d8b1a097b844e5992ab78e66a2dc604faf1e90f8d325a0eb116e8ef6a7e",
+          "url": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-styling.md"
+        }
+      ]
+    },
+    {
+      "name": "swiftui",
+      "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
+      "commit": "204dba7c67256a8b707ee3fbc5759a824191974f",
+      "license": "MIT",
+      "reviewed": [
+        {
+          "path": "skills/swiftui-expert-skill/SKILL.md",
+          "mode": "full",
+          "sha256": "3b794f9cb46efb016eafcad2fcedce7127c74d60c50a949619e0bcd2bc38351f",
+          "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/SKILL.md"
+        },
+        {
+          "path": "skills/swiftui-expert-skill/references/accessibility-patterns.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "bb942dd3b31fa24aa051943a6b7754a2de45a263dda0da3ac9dc2c7ce43b14d2",
+          "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/accessibility-patterns.md"
+        },
+        {
+          "path": "skills/swiftui-expert-skill/references/layout-best-practices.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "95b8b6df0111301d4ea75c5db7b6eed2cb01bf69c4468b1cde5ef8f90f3298b7",
+          "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/layout-best-practices.md"
+        },
+        {
+          "path": "skills/swiftui-expert-skill/references/list-patterns.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "2002b89b5c869e54b69f4ab3e61f9a3d715fd6b56a1d5284fe900dc2353f0537",
+          "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/list-patterns.md"
+        },
+        {
+          "path": "skills/swiftui-expert-skill/references/localization.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "f6adcf85da40bd011e9aa585cd45cca96223f2d8f9ec4f55b5bda87c2538d574",
+          "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/localization.md"
+        },
+        {
+          "path": "skills/swiftui-expert-skill/references/modifier-patterns.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "24d08e954398da0787e8dbac764bb20c53447e33260cf890c025fc915c2037cc",
+          "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/modifier-patterns.md"
+        },
+        {
+          "path": "skills/swiftui-expert-skill/references/performance-patterns.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "2e2643503ae283f2a99f31b5a97abbf141d15c61f1c6271640cfef9333940818",
+          "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/performance-patterns.md"
+        },
+        {
+          "path": "skills/swiftui-expert-skill/references/sheet-navigation-patterns.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "48349b929e54bf2bbc7213cc20af8bb56d2bfa5de452b58a3ea9056dbb2d8ef6",
+          "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/sheet-navigation-patterns.md"
+        },
+        {
+          "path": "skills/swiftui-expert-skill/references/soft-deprecation.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "ac907d3729e75747c6b19e9cc6a911337c05b8ff1c25695495ce7cda9d2f5548",
+          "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/soft-deprecation.md"
+        },
+        {
+          "path": "skills/swiftui-expert-skill/references/state-management.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "49a0e00334f94176d5c5a4835061238fdbc9c67dd8dce73b847718eab8a1c5a2",
+          "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/state-management.md"
+        },
+        {
+          "path": "skills/swiftui-expert-skill/references/text-patterns.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "26b960e9c8c7f5e15e9b2e297b6bd36eb872ec4ab8a0a84f61aa9c64d50191b8",
+          "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/text-patterns.md"
+        }
+      ]
+    },
+    {
+      "name": "expo",
+      "url": "https://github.com/expo/skills",
+      "commit": "d4f484024fec15196bfd3c272e953e3f983972cf",
+      "license": "MIT",
+      "reviewed": [
+        {
+          "path": "plugins/expo/skills/expo-animation/SKILL.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "915279236d5ff74ad1ca6004d13917ba9792853c28e5e10cfec4e0884bcc3ebf",
+          "url": "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-animation/SKILL.md"
+        },
+        {
+          "path": "plugins/expo/skills/expo-data-fetching/SKILL.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "30cbf20ce56f4acf3adb5ff44d94509174b40d1612481c94a48f874d5d2bdd21",
+          "url": "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-data-fetching/SKILL.md"
+        },
+        {
+          "path": "plugins/expo/skills/expo-design-system/SKILL.md",
+          "mode": "full",
+          "sha256": "581d755baacc268373229f79546ddd6907bbf4f002e5182b9ec6c72ad0c8f31d",
+          "url": "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-design-system/SKILL.md"
+        },
+        {
+          "path": "plugins/expo/skills/expo-design-system/references/audit.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "a0ead76ab904c119a1353d8d91b9138144a97da43fdff683f291f2d45d868915",
+          "url": "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-design-system/references/audit.md"
+        },
+        {
+          "path": "plugins/expo/skills/expo-design-system/references/native-slop.md",
+          "mode": "full",
+          "sha256": "5662bd04ac2d6367fc4ca3ae355ec1b970752dcd8693a099a5e0792227eb09c1",
+          "url": "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-design-system/references/native-slop.md"
+        },
+        {
+          "path": "plugins/expo/skills/expo-dev-client/SKILL.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "401c48b5273c4363717033db154353bb1f59bc7a79da925fa51dd48aa8636ca9",
+          "url": "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-dev-client/SKILL.md"
+        },
+        {
+          "path": "plugins/expo/skills/expo-native-ui/SKILL.md",
+          "mode": "full",
+          "sha256": "f6f92e12c7ba5e6cd7e731734286ae707adda873227c563ceb2d0f9ac5037107",
+          "url": "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-native-ui/SKILL.md"
+        },
+        {
+          "path": "plugins/expo/skills/expo-native-ui/references/icons.md",
+          "mode": "full",
+          "sha256": "2c0622d8a3f61626a72fa7829d3044f3391cbd8ca91806f4752926cf4e66be59",
+          "url": "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-native-ui/references/icons.md"
+        },
+        {
+          "path": "plugins/expo/skills/expo-router/SKILL.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "71d0e312f432a809a6fd91583846644e82e0ba842ee05a41c179ce9dc222dcdb",
+          "url": "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-router/SKILL.md"
+        },
+        {
+          "path": "plugins/expo/skills/expo-ui/SKILL.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "2634a4eb1524b43262e9932f3527f3823c82d5be6cf76437c3a05e5753930bf7",
+          "url": "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-ui/SKILL.md"
+        }
+      ]
+    },
+    {
+      "name": "callstack",
+      "url": "https://github.com/callstackincubator/agent-skills",
+      "commit": "59e9d17446a248b21d86f078fcd0bd2d36db1ca4",
+      "license": "MIT",
+      "reviewed": [
+        {
+          "path": "plugins/vendored/.agents/skills/agent-device/SKILL.md",
+          "mode": "full",
+          "sha256": "2a0dd294991e1f84730c73dadc5c91baf9248621945633f51e662ba195534ed4",
+          "url": "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/plugins/vendored/.agents/skills/agent-device/SKILL.md"
+        },
+        {
+          "path": "plugins/vendored/.agents/skills/react-native-testing/SKILL.md",
+          "mode": "full",
+          "sha256": "dea54d1d397cbd271a9ee7f6c09e841bb1aa546d9f2a3ee46fd466275061e6e1",
+          "url": "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/plugins/vendored/.agents/skills/react-native-testing/SKILL.md"
+        },
+        {
+          "path": "skills/react-native-best-practices/SKILL.md",
+          "mode": "full",
+          "sha256": "abdbb7fc34ad739420fe43632e0baa1d646a01d097c6905211aa8b5b41957bf1",
+          "url": "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/SKILL.md"
+        },
+        {
+          "path": "skills/react-native-best-practices/references/bundle-hermes-mmap.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "5eca09ae487bce41436461cc7d8d96fa8861b39815a2b930263807591778b757",
+          "url": "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/bundle-hermes-mmap.md"
+        },
+        {
+          "path": "skills/react-native-best-practices/references/js-animations-reanimated.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "b0912deb98d8af8b8bf97d98789e39d467466be28cab9d96def7101b6e799b16",
+          "url": "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-animations-reanimated.md"
+        },
+        {
+          "path": "skills/react-native-best-practices/references/js-lists-flatlist-flashlist.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "4d62b3a9d6325fc77cdc4fc18597d9e5d241e5afd37f9284babf0fc69ce0def7",
+          "url": "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-lists-flatlist-flashlist.md"
+        },
+        {
+          "path": "skills/react-native-best-practices/references/js-measure-fps.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "5efca75bfbe57ebf1ec1e38df8704909e0df2e41df856715bb425d438cb48a34",
+          "url": "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-measure-fps.md"
+        },
+        {
+          "path": "skills/react-native-best-practices/references/js-memory-leaks.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "52d0f71f0addbd6b03e8a12e46fa7405a5ae68394f106081768e2625f1ffd838",
+          "url": "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-memory-leaks.md"
+        },
+        {
+          "path": "skills/react-native-best-practices/references/js-uncontrolled-components.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "4c27d770d1818edcb193612f141efe62f1ec907aa3aa8fbc54d15e677ffa54e7",
+          "url": "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-uncontrolled-components.md"
+        },
+        {
+          "path": "skills/react-native-best-practices/references/native-measure-tti.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "f27bc1de4d443a9e49d372806aea91bf793bb4c7125e693db7cae3442eff57a1",
+          "url": "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/native-measure-tti.md"
+        },
+        {
+          "path": "skills/react-navigation/SKILL.md",
+          "mode": "full",
+          "sha256": "f127331ac68f2966168c5c12bb65217eac310804b91d2210f447672d1cbd0f1c",
+          "url": "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-navigation/SKILL.md"
+        },
+        {
+          "path": "skills/react-navigation/references/safe-areas.md",
+          "mode": "full",
+          "sha256": "319c6aa77e2ae417f2e8475b3e842afbdb6bce01f546167f09609585e5428dd1",
+          "url": "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-navigation/references/safe-areas.md"
+        }
+      ]
+    },
+    {
+      "name": "ios-simulator-skill",
+      "url": "https://github.com/conorluddy/ios-simulator-skill",
+      "commit": "e38b3ad5cc2585140c91b9c0f974124c3add31dc",
+      "license": "MIT",
+      "reviewed": [
+        {
+          "path": "README.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "b66b5f941514667877f3d3dbfca6e7de2422845e7617402a6874f3b1ffb6468a",
+          "url": "https://github.com/conorluddy/ios-simulator-skill/blob/e38b3ad5cc2585140c91b9c0f974124c3add31dc/README.md"
+        },
+        {
+          "path": "ios-simulator-skill/skills/ios-simulator-skill/SKILL.md",
+          "mode": "prose_and_selected_examples",
+          "sha256": "d150fdc7ee2e6065391b2a02f4ecccc05e5685cf60cabe8781ada58fd8b16c09",
+          "url": "https://github.com/conorluddy/ios-simulator-skill/blob/e38b3ad5cc2585140c91b9c0f974124c3add31dc/ios-simulator-skill/skills/ios-simulator-skill/SKILL.md"
+        },
+        {
+          "path": "LICENSE.md",
+          "mode": "full",
+          "sha256": "c85c6f44a27a6c05102eacbb1f81fdb4a59a4253e594a93cf7fe1e11960464ea",
+          "url": "https://github.com/conorluddy/ios-simulator-skill/blob/e38b3ad5cc2585140c91b9c0f974124c3add31dc/LICENSE.md"
+        }
+      ],
+      "inspected_on": "2026-10-25",
+      "adoption": "Original tool adapter only; no upstream executable code bundled or audited. Reviewed command inventory, environment, diagnostic, localization and summary guidance; runtime verification on macOS not performed."
+    }
+  ],
+  "authorities": [
+    {
+      "url": "https://reactnative.dev/docs/scrollview",
+      "inspected_on": "2026-10-10",
+      "note": "iOS scope of contentInsetAdjustmentBehavior verified"
+    },
+    {
+      "url": "https://docs.expo.dev/develop/development-builds/introduction/",
+      "inspected_on": "2026-10-10",
+      "note": "Development-build rationale reviewed"
+    },
+    {
+      "url": "https://docs.expo.dev/versions/latest/sdk/ui/",
+      "inspected_on": "2026-10-10",
+      "note": "UI overview; project SDK-specific documentation still required"
+    },
+    {
+      "url": "https://docs.expo.dev/modules/autolinking/",
+      "inspected_on": "2026-10-10",
+      "note": "Autolinking authority; actual project resolution must be inspected"
+    },
+    {
+      "url": "https://shopify.github.io/flash-list/docs/v2-changes/",
+      "inspected_on": "2026-10-10",
+      "note": "v2 version boundary checked"
+    },
+    {
+      "url": "https://docs.swmansion.com/react-native-reanimated/docs/core/useSharedValue/",
+      "inspected_on": "2026-10-10",
+      "note": "Compiler get/set guidance and render-side-effect warning verified"
+    },
+    {
+      "url": "https://docs.flutter.dev/release/breaking-changes/android-predictive-back",
+      "inspected_on": "2026-10-10",
+      "note": "Ahead-of-time pop eligibility and migration rationale reviewed"
+    },
+    {
+      "url": "https://docs.flutter.dev/release/breaking-changes/deprecate-textscalefactor",
+      "inspected_on": "2026-10-10",
+      "note": "TextScaler migration reference reviewed"
+    },
+    {
+      "url": "https://developer.android.com/develop/ui/compose/state",
+      "inspected_on": "2026-10-10",
+      "note": "State/lifecycle reference reviewed"
+    },
+    {
+      "url": "https://developer.apple.com/documentation/swiftui/migrating-from-the-observable-object-protocol-to-the-observable-macro",
+      "inspected_on": "2026-10-10",
+      "note": "Official link checked; detailed article body was not exposed by web parser; SDK/source remain needed"
+    },
+    {
+      "url": "https://mobbin.com/pricing",
+      "inspected_on": "2026-10-10",
+      "note": "Public plan features reviewed; private account/catalog not inspected"
+    },
+    {
+      "url": "https://mobbin.com/mcp",
+      "inspected_on": "2026-10-10",
+      "note": "Public integration capability reviewed; connector not installed or exercised"
+    },
+    {
+      "url": "https://github.com/conorluddy/xc-mcp",
+      "inspected_on": "2026-10-25",
+      "note": "README capability/setup reviewed as optional executor alternative; no code audit, installation or execution. Pin/review the actual selected version before use."
+    }
+  ],
+  "rule_ownership": {
+    "keyboard_insets_back_data_states_a11y": "mobile-experience.md",
+    "rn_rendering_lists_worklets_native_integration": "react-native.md",
+    "expo_sdk_router_ui_build_environment": "expo.md",
+    "swiftui_ownership_identity_availability": "swiftui.md",
+    "flutter_compose_version_adapter": "flutter-compose.md",
+    "mobile_capture_context_mobbin_access": "mobile-references.md",
+    "native_runtime_performance_evidence": "verification.md",
+    "generic_reference_research": "existing design-reference-research",
+    "palette_type_style_catalog": "existing interface-craft",
+    "general_engineering_release": "existing project engineering workflow",
+    "ios_executor_preflight_capture_catalog_mechanics": "ios-verification-tools.md"
+  },
+  "foldable_ios": {
+    "reviewed_on": "2026-10-31",
+    "scope": "One optional foldable-ios.md, narrow existing entrypoint route; shared contracts unchanged",
+    "primary_sources": [
+      {
+        "url": "https://developer.apple.com/iphone-duo/prepare/",
+        "review": "Live official page inspected"
+      },
+      {
+        "url": "https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo",
+        "sha256": "54c91dd432ad0d1f9dbe54adf91ab295b6dae00b86f98624fe37f80dc5c0989f"
+      },
+      {
+        "url": "https://developer.apple.com/documentation/swiftui/arrangementview",
+        "sha256": "8ae2e426819d1c234a0eb4e24d0e91e4d85991e8f81a1b6c02df6e8b617c8eb4"
+      },
+      {
+        "url": "https://developer.apple.com/documentation/uikit/uiview/reservedregion",
+        "sha256": "73e2ae10808a168073010898adcac14e788972f47ded6fb3a2c9164a8113de47"
+      },
+      {
+        "url": "https://developer.apple.com/documentation/technologyoverviews/preparing-your-app-for-iphone-duo",
+        "sha256": "ed5b2998b11a6cce81bd6443239ea108efa3700bc811c8b4e9c7a4ce32ed2d3e"
+      }
+    ],
+    "xcode_export": {
+      "xcode": "27.2 (27B52)",
+      "sdk": "iOS Simulator27.2",
+      "command": "xcrun agent skills export --output-dir <fresh-task-directory>",
+      "status": "Export succeeded;11 skills not installed. app-resizability instructions and relevant references read as evidence, no automatic rewrite policies adopted.",
+      "files": [
+        {
+          "path": "apple-export/app-resizability/SKILL.md",
+          "sha256": "1b16afdc3702c1ab843ff8ca5c629d7fc2aaf01079852336cb150b4fe16cfdf2"
+        },
+        {
+          "path": "apple-export/app-resizability/references/uiscreen-task.md",
+          "sha256": "2792146f5a7439d26b8a51c60ef7a28becc1851139545baf2226caf6984a4d4f"
+        },
+        {
+          "path": "apple-export/app-resizability/references/safe-area-task.md",
+          "sha256": "39a162cbad6c4fe4648f665156c8919bdc7a5279800225515325e10d252490db"
+        },
+        {
+          "path": "apple-export/app-resizability/references/orientation-task.md",
+          "sha256": "e8262a75739be16d6687bfcb5daadd91189097d3824a1375df4b539e44f0d7c2"
+        },
+        {
+          "path": "apple-export/app-resizability/references/idiom-task.md",
+          "sha256": "d3d5b5c053c5cdce8114666e3168a5783b2181fb7de12f12afb6ea0825428e7c"
+        },
+        {
+          "path": "apple-export/app-resizability/references/scene-lifecycle-task.md",
+          "sha256": "917b8f0bee7ab080ed71f409db6d8c4fd19478459d12d4f9d5127b13c53e612d"
+        }
+      ],
+      "license_boundary": "Apple copyright/terms retained in task evidence; no Apple skill/document text redistributed in installed package"
+    },
+    "community_sources": [
+      {
+        "repository": "hechen/iphone-duo-skills",
+        "commit": "3d0e4532534bc090513e0fda416dd4d4f229910b",
+        "license": "MIT",
+        "license_sha256": "220f64a02cd779ee883e4af93f7c6ffa5746d3d453be19aa05f92f2199d5c5da",
+        "reviewed": [
+          {
+            "path": "scripts/check-sdk.sh",
+            "sha256": "9bae0decfd4f4be96ffe64b69286d218cc497ef8562a027edc34a5e9a653c8de"
+          },
+          {
+            "path": "tests/iPhoneDuoProbe.swift",
+            "sha256": "535ce488e993d2f55a76209ce60230d54f7bd9c86ccbecc2918a9c3a0ea4bc54"
+          },
+          {
+            "path": "skills/iphone-duo-testing/SKILL.md",
+            "sha256": "eb2261aa6aa66f8b040d072402561fd8ec6ffd47e80b467ecd6c9a592e476d18"
+          },
+          {
+            "path": "skills/iphone-duo-testing/references/test-matrix.md",
+            "sha256": "1a55e20b0dc7f72a9158f07e7dfa746d4075ea252f18a58d00d07f1a51ff8c3d"
+          }
+        ],
+        "adoption": "Original synthesis of selected methods/scenarios only; no executable or app templates installed"
+      },
+      {
+        "repository": "alexey1312/iPhone-Duo-Agent-Skill",
+        "commit": "98cdb7c19d9cbb07ded0bd7966e109a4ef0d8f4a",
+        "license": "MIT",
+        "license_sha256": "8732243d57e261822e4815e6928e43d8ec90b55c5954c843b2a3b155dd967c5d",
+        "reviewed": [
+          {
+            "path": "scripts/duo_scan.py",
+            "sha256": "2002390e61fec256b67101674baf12dfea38dcfec0c68eae5a653eb8643f5b07"
+          },
+          {
+            "path": "scripts/sdk_api_check.py",
+            "sha256": "27b484a698ff5e8d0ed40ae5808941ce4f1acbb5169f5c3b1b94d287caa3a731"
+          },
+          {
+            "path": "tests/test_duo_scan.py",
+            "sha256": "4795858b9862df625ee58df3e163aeb60a3df71349424139f624c5a1ddf5e6ee"
+          },
+          {
+            "path": "tests/test_sdk_api_check.py",
+            "sha256": "a121e2e8b8344b52acc735994c34171cf4b044861c438283133ff70f47d8f49e"
+          }
+        ],
+        "adoption": "Original synthesis of selected methods/scenarios only; no executable or app templates installed"
+      },
+      {
+        "repository": "Kimeur/duology",
+        "commit": "49d4658705d31b49c4b1d6e0aaa4012ab38c2290",
+        "license": "MIT",
+        "license_sha256": "5e2c7cd21c2ea60b9f92791da7de564f450ad8a38ac9746ce0816be2224fc6f9",
+        "reviewed": [
+          {
+            "path": "plugins/duology/skills/duo-continuity/SKILL.md",
+            "sha256": "24306b4974796cdd65248ac2487ea22ce966ed87bf009ce351ada78878c4ed35"
+          },
+          {
+            "path": "plugins/duology-design/skills/duo-accessibility/SKILL.md",
+            "sha256": "2d262fca091e99526bde5127b2d461002eebc0dc13dc203a1eceba2b600197a4"
+          },
+          {
+            "path": "plugins/duology-ship/skills/duo-testing/SKILL.md",
+            "sha256": "6eb18eec8e2f7608afd5eedf94c2fbed3cc4b418f9374f2324d6f7689abe6371"
+          }
+        ],
+        "adoption": "Original synthesis of selected methods/scenarios only; no executable or app templates installed"
+      },
+      {
+        "repository": "sven-ericmolzahn/iphone-duo-skill",
+        "commit": "1029d2ffe23360ad89568efbfd58dd2c394c1788",
+        "license": "MIT",
+        "license_sha256": "0197fab8e89b35279d0031c61b02d0e91ce18c75fbf4a97911ed669738a7fa3b",
+        "reviewed": [
+          {
+            "path": "skills/iphone-duo-adaptation/SKILL.md",
+            "sha256": "b4409dff9538db0eae5428cabdf30f6b18eadd2957d2fb562d7c85215d2ee599"
+          },
+          {
+            "path": "tests/typecheck.sh",
+            "sha256": "179ec720024acbde53caae0fa8ebbf6900a2904497a36b2ff878bd744eb582b4"
+          },
+          {
+            "path": "skills/iphone-duo-adaptation/references/reserved-regions-and-hinge.md",
+            "sha256": "16c19247c8a475ec4f6051b4503089c2220371553b732b0b56089ef8d09a1c15"
+          },
+          {
+            "path": "skills/iphone-duo-adaptation/references/simulator-and-verification.md",
+            "sha256": "0e0f9189b91da3241ae295b1dca0c15d1a93c0204213277dea1829ff1b6174e1"
+          }
+        ],
+        "adoption": "Original synthesis of selected methods/scenarios only; no executable or app templates installed"
+      }
+    ],
+    "execution_boundary": "No community executables bundled.83 selected Alexey unit tests used synthetic fixtures. Minimal original compiler probes validate only SDK syntax, not app UI."
+  }
+}

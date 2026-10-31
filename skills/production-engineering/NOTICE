@@ -1,0 +1,15 @@
+Production Engineering includes selected and modified MIT-licensed material from:
+- GitHub Spec Kit — Copyright GitHub, Inc.
+- web-audit — see references/upstream/web-audit/LICENSE
+- vibe-audit — Copyright (c) 2026 ika.explains
+Original license texts are retained under references/upstream/.
+Pinned revisions: references/upstream.json. Changes: references/upstream-review.md.
+
+Selected workflow additions adapt MIT-licensed instructions by Matt Pocock.
+Copyright (c) 2026 Matt Pocock. License: references/upstream/mattpocock/LICENSE.
+Reviewed source revisions and integration scope: references/development-sources.json.
+
+Skill comparison and attribution guidance uses independently worded adaptations
+of Harness² methods, Copyright 2026 Google LLC, Apache License 2.0.
+License: references/upstream/harness2/LICENSE. Adaptation date: 2026-10-19.
+No Harness² execution framework is bundled or installed.

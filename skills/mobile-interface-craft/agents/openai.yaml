@@ -1,0 +1,14 @@
+interface:
+  display_name: Mobile Interface Craft
+  short_description: Native mobile UI, flows, and measured performance
+  default_prompt: Use $mobile-interface-craft to refine this mobile screen and verify
+    its primary task on the project's actual platforms.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

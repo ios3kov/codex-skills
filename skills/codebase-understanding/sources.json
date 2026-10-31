@@ -1,0 +1,26 @@
+{
+  "adapted_on": "2026-10-09",
+  "kind": "synthesized guidance; upstream scripts and plugin runtimes are not included",
+  "sources": [
+    {
+      "number": 7,
+      "name": "Understand Anything",
+      "repository": "Egonex-AI/Understand-Anything",
+      "source_file": "understand-anything-plugin/skills/understand/SKILL.md",
+      "commit": "ffa2f0a84a85525623e9f94f7a6b560e39ae43ce",
+      "commit_date": "2026-10-09T05:35:24Z",
+      "sha256": "12a224cbe2dfdb49c7262949a30b90fdaed784fe436df23fcec45485e663e625",
+      "supplied_url": "https://skills.sh/Egonex-AI/Understand-Anything",
+      "source_url": "https://github.com/Egonex-AI/Understand-Anything/blob/ffa2f0a84a85525623e9f94f7a6b560e39ae43ce/understand-anything-plugin/skills/understand/SKILL.md"
+    },
+    {
+      "name": "Graphify project navigation mechanisms",
+      "repository": "Graphify-Labs/graphify",
+      "commit": "b90b9df7949bd04a15b40a1624af85d0a9cfdf04",
+      "version": "0.9.93",
+      "reviewed_on": "2026-10-21",
+      "adoption": "Original optional standard-library helper owned by codebase-understanding; no upstream implementation copied.",
+      "source_url": "https://github.com/Graphify-Labs/graphify/tree/b90b9df7949bd04a15b40a1624af85d0a9cfdf04"
+    }
+  ]
+}

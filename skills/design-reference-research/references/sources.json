@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "adaptation": "Original condensed workflow; upstream craft manuals are not bundled. Provider details are optional and version-bound.",
+  "sources": [
+    {
+      "name": "mengto",
+      "repository": "MengTo/Skills",
+      "commit": "83a47fee32f0b6349bff1fede99257a5ef03dc93",
+      "checkedDate": "2026-10-10",
+      "skillPath": "agent-skills/codex/daily-ui-inspiration-capture/SKILL.md",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "b2a071ba22fefd803f4e9d1f5c777dd79c62d191695586a1a73fd4d0ebd051c6",
+          "url": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "48379bf7fa5b8f04ee81e09088526564fbdfc7d0361e78616ac3778d45aced33",
+          "url": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/README.md"
+        },
+        {
+          "path": "agent-skills/codex/daily-ui-inspiration-capture/SKILL.md",
+          "sha256": "26f316421cbb18f24a3aba96ff5d064b0f62f1ca74a6fa86160643a2f21460e0",
+          "url": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/SKILL.md"
+        },
+        {
+          "path": "agent-skills/codex/daily-ui-inspiration-capture/agents/openai.yaml",
+          "sha256": "9d19ee2c441db9fcebd2add090e2ffadad49f6c2d701430ee2f706b3d15006d2",
+          "url": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/agents/openai.yaml"
+        },
+        {
+          "path": "agent-skills/codex/daily-ui-inspiration-capture/demo/PROMPT.md",
+          "sha256": "d47f716333d7459bbd1c140ea22b2f33e0a226828f5bf9585968e1b8bf4fd6ea",
+          "url": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/demo/PROMPT.md"
+        },
+        {
+          "path": "agent-skills/codex/daily-ui-inspiration-capture/demo/expected-output.md",
+          "sha256": "d73b742ad2fe4bb87c232d6bfdfde28d40e92dbee299ec9d380fb7df619802dc",
+          "url": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/demo/expected-output.md"
+        },
+        {
+          "path": "agent-skills/codex/daily-ui-inspiration-capture/demo/input.md",
+          "sha256": "8560761b780d0aa392cf003777e7c7444461986cdefd7eb0bc8de71f7df18f90",
+          "url": "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/demo/input.md"
+        }
+      ]
+    },
+    {
+      "name": "refero",
+      "repository": "referodesign/refero_skill",
+      "commit": "a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d",
+      "checkedDate": "2026-10-10",
+      "skillPath": "skills/refero-design/SKILL.md",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "7b5d57a0e210289fa900a0e2ab0513442e439e9d20b96f0cf5cba0e1b31b665e",
+          "url": "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "fc5c1c8492059a7ab02c1308bce7de2fde1b13193b00a34fda2cd2252666882b",
+          "url": "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/README.md"
+        },
+        {
+          "path": "skills/refero-design/SKILL.md",
+          "sha256": "4a4a7a0b72a2fa0a454903debe6e872ada79a724cb452fe2113d266c2f0c6978",
+          "url": "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/SKILL.md"
+        },
+        {
+          "path": "skills/refero-design/agents/openai.yaml",
+          "sha256": "3338bfb63fae7c4d61a35599e2e626b1e0fa0f31728ae206af95298b919b9754",
+          "url": "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/agents/openai.yaml"
+        },
+        {
+          "path": "skills/refero-design/references/anti-ai-slop.md",
+          "sha256": "433b5639b17ceec877ce827799c2c2e1ca3dbc05a00540e87db3ad95e78f914e",
+          "url": "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/anti-ai-slop.md"
+        },
+        {
+          "path": "skills/refero-design/references/color.md",
+          "sha256": "1f212d3fad2866a1f4c6ba4123eb014889be589d2450fb3ebbcb0295542c8f3a",
+          "url": "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/color.md"
+        },
+        {
+          "path": "skills/refero-design/references/copywriting.md",
+          "sha256": "a133d1775ac82bcd24a4f50e2acb29ba921cfc4a831da3fc3cda9012f53ef505",
+          "url": "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/copywriting.md"
+        },
+        {
+          "path": "skills/refero-design/references/craft-details.md",
+          "sha256": "bc6b016a3ff336f491c148195635e7b8fca7bae247168798170919746d6cb44a",
+          "url": "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/craft-details.md"
+        },
+        {
+          "path": "skills/refero-design/references/example-workflow.md",
+          "sha256": "c0b4aefdbab428bfbcc53b0185ff08ad9c0827dbb038ea12a80ec8b12c237a1a",
+          "url": "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/example-workflow.md"
+        },
+        {
+          "path": "skills/refero-design/references/icons.md",
+          "sha256": "32a83ed4aea58cb164320ec08afbc826b6de9b2248d7a12fc0a67f2ad75dc0ee",
+          "url": "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/icons.md"
+        },
+        {
+          "path": "skills/refero-design/references/mcp-tools.md",
+          "sha256": "ab5e19417802c4a4e3be720c5c6acfdb5c97c3e4634b8b6d8b594db880bfb02f",
+          "url": "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/mcp-tools.md"
+        },
+        {
+          "path": "skills/refero-design/references/motion.md",
+          "sha256": "6ab9c171f61badd47cd4ca4d981295982b17317841be38d8efe816aef1ffeea6",
+          "url": "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/motion.md"
+        },
+        {
+          "path": "skills/refero-design/references/typography.md",
+          "sha256": "5c2211d3e432571225015c41f7a24693ecc61a6c84a33d44088aed2d19f6fdcb",
+          "url": "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/typography.md"
+        },
+        {
+          "path": "skills/refero-design/references/visual-workflow.md",
+          "sha256": "0647bfdfeb503649263a81f3dbc23ffd6f257a5d41ca5fb8921ed9bf1fdfde5a",
+          "url": "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/visual-workflow.md"
+        }
+      ]
+    },
+    {
+      "name": "scenario",
+      "repository": "scenario-labs/skills",
+      "commit": "f6f8ab71aa1f1e8322624869a173c1024aa875b8",
+      "checkedDate": "2026-10-10",
+      "skillPath": "skills/scenario-inspiration/SKILL.md",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "fbe0c4a68fd93b739dc3ecbba960581600b8db3c3a8d57feba069f2f22865dfb",
+          "url": "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "sha256": "621e64f517a1553197494527b1c76ea713fa625f3c1965ed2b7d2e876f3b3ee4",
+          "url": "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/README.md"
+        },
+        {
+          "path": "skills/scenario-inspiration/SKILL.md",
+          "sha256": "42183f6a06e12ecfc8d6b541317d1361f81b4d51889318dfab83bc5ecf17017c",
+          "url": "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/SKILL.md"
+        },
+        {
+          "path": "skills/scenario-inspiration/references/choose.md",
+          "sha256": "6fe97f04bf35bcd433041164a8e617aadc495b8e3e2b090680b70f1a3b8f7f0a",
+          "url": "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/references/choose.md"
+        },
+        {
+          "path": "skills/scenario-inspiration/references/moodboard.md",
+          "sha256": "3883571ce815251030fa46941ddca6921087a051458c0c62ae5fbacf1a811e2d",
+          "url": "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/references/moodboard.md"
+        },
+        {
+          "path": "skills/scenario-inspiration/references/sources.md",
+          "sha256": "5e7228ee60beb4e4bbd83e8bbd79a0a21ab0b6d1e3d3de5437210e36a691e135",
+          "url": "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/references/sources.md"
+        },
+        {
+          "path": "skills/scenario-inspiration/references/widen.md",
+          "sha256": "1144d3e62a92704e44f189269a7e5b9dfc2db4f6d95cfe2b49b2f05de71fc4af",
+          "url": "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/references/widen.md"
+        },
+        {
+          "path": "skills/scenario-inspiration/scripts/wildcard.py",
+          "sha256": "12fe988a53428e59c4f31dd91c83bf3768a253345a322e54f28057dd0c53640a",
+          "url": "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/scripts/wildcard.py"
+        }
+      ]
+    }
+  ]
+}

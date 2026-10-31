@@ -1,0 +1,12 @@
+interface:
+  display_name: Бренд-система
+  short_description: Логотипы, айдентика и точное применение в 2D/3D
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
