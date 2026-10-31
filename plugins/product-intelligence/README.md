@@ -19,7 +19,7 @@ Templates: examples/reviews.example.csv and examples/features.example.csv. Inclu
 
 ## Current version: 1.0.4
 
-The current package version is recorded in `plugin.json` and `.codex-plugin/plugin.json`.
+The current package version is recorded in `plugin.json` and `.codex-plugin/plugin.json`. See the [changelog](CHANGELOG.md) for current and historical changes.
 
 ### Version 1.0.1 changes
 

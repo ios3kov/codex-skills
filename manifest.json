@@ -1978,8 +1978,8 @@
       "executable": false
     },
     "plugins/product-intelligence/README.md": {
-      "sha256": "d3d16be4d6e499ae9b8f0859c810026518415537bfe1044f91f598667309a05a",
-      "bytes": 3843,
+      "sha256": "ab75ebc2673e7b80fc6a6f809cc0451566e27a242625328282472a6840c77071",
+      "bytes": 3913,
       "executable": false
     },
     "plugins/product-intelligence/examples/features.example.csv": {
@@ -2090,6 +2090,11 @@
     "skills/agentation/assets/icon.svg": {
       "sha256": "72343cc4b66256ae7de8474c7cad14e711ad84a94c473732a44f96a56124c42d",
       "bytes": 786,
+      "executable": false
+    },
+    "plugins/product-intelligence/CHANGELOG.md": {
+      "sha256": "77f7db374859751e27c398abcb106535be6a2ac7dd37b05662e4c56a2c02241d",
+      "bytes": 858,
       "executable": false
     }
   },

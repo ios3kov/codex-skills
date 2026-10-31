@@ -12,6 +12,15 @@ def payload(root):
     return {str(p.relative_to(root)): p for folder in ['skills', 'plugins'] for p in (root / folder).rglob('*')
             if p.is_file() and not any(x in IGNORED for x in p.parts) and p.suffix not in {'.pyc', '.pyo'}}
 
+def check_release_docs(folder, version):
+    errors = []
+    if ('## Current version: ' + version) not in (folder / 'README.md').read_text():
+        errors.append('Current README version mismatch: ' + folder.name)
+    changelog = folder / 'CHANGELOG.md'
+    if not changelog.is_file() or not re.search(r'^## ' + re.escape(version) + r' —', changelog.read_text(), re.MULTILINE):
+        errors.append('Current changelog entry missing: ' + folder.name)
+    return errors
+
 def check(root):
     root = Path(root)
     errors = []
@@ -46,16 +55,11 @@ def check(root):
         codex = json.loads((folder / '.codex-plugin/plugin.json').read_text())
         if current['version'] != codex['version']:
             errors.append('Plugin version mismatch: ' + package)
+        errors.extend(check_release_docs(folder, current['version']))
         # Active pointers must use the new repository; historical evidence links stay untouched.
         for f in [folder / 'README.md', folder / 'plugin.json', folder / '.codex-plugin/plugin.json']:
             if 'ios3kov/production-engineering' in f.read_text():
                 errors.append('Stale installation/provider pointer: ' + str(f.relative_to(root)))
-    general = root / 'plugins/general-skills'
-    version = json.loads((general / 'plugin.json').read_text())['version']
-    if ('## Current version: ' + version) not in (general / 'README.md').read_text():
-        errors.append('Current General Skills README version mismatch')
-    if ('## ' + version + ' —') not in (general / 'CHANGELOG.md').read_text():
-        errors.append('Current General Skills changelog entry missing')
     for f in [root / 'skills/production-engineering/README.md', root / 'skills/production-engineering/docs/GENERAL_SKILLS.md']:
         if re.search(r'(?:git clone https://github.com/|marketplace add )ios3kov/production-engineering', f.read_text()):
             errors.append('Stale standalone installation command: ' + str(f.relative_to(root)))

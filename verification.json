@@ -22,7 +22,7 @@
   "current_repository": {
     "recorded_on": "2026-11-01",
     "payload_manifest": "manifest.json",
-    "payload_files": 380,
+    "payload_files": 381,
     "additional_payload_files_since_snapshot": [
       "skills/agentation/agents/openai.yaml",
       "skills/agentation/assets/icon.svg",
@@ -30,7 +30,8 @@
       "skills/production-engineering/integrations/visual-refinement/tests/capture-probe.mjs",
       "skills/production-engineering/integrations/visual-refinement/tests/fixture.html",
       "skills/production-engineering/integrations/visual-refinement/tests/story.test.mjs",
-      "skills/production-engineering/scripts/tests/test_temp_path_regression.py"
+      "skills/production-engineering/scripts/tests/test_temp_path_regression.py",
+      "plugins/product-intelligence/CHANGELOG.md"
     ],
     "modified_existing_payload_files_since_snapshot": 15,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
@@ -127,7 +128,7 @@
       "other_specialized_workflows": "Design QA later completed at ff0eabf; remaining REA specialized lanes not run in this repository."
     },
     "core_tests": "PASS: 92 locally and Python 3.11/3.12/3.13 CI, including linked temporary-parent regression",
-    "repository_tests": "PASS: 40 locally and CI"
+    "repository_tests": "PASS: 42 locally and CI"
   },
   "synchronization_2026_11_01": {
     "scope": "All 37 personal skills; provider-managed runtimes excluded",
@@ -146,5 +147,11 @@
     "notice": "NOTICE",
     "root_license": "MIT limited to original repository-maintenance contributions; no blanket relicensing of skills, plugins or third-party material",
     "unresolved_status": "Packages without an established grant remain explicitly unresolved in the inventory. This inventory is not legal clearance for all public reuse."
+  },
+  "release_documentation_2026_11_01": {
+    "scope": "Repository documentation and integrity checks only; installed and cloud packages not refreshed by this change",
+    "repository_tests": "PASS: 42 locally",
+    "version_drift_counterchecks": "PASS: both plugins reject stale current-version headings and missing changelogs",
+    "integrity": "PASS: 381 payload entries"
   }
 }
