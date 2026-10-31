@@ -44,7 +44,8 @@
     "visual_node_tests": "PASS: 15 tests including localhost preview",
     "specialized_browser_and_REA_workflows": "NOT RUN; migrated as explicit manual workflows",
     "installed_snapshot": "Historical local-byte match is retained under original_installed_snapshot.snapshot_payload_commit. Current full local/cloud parity is not claimed.",
-    "history": "Preserved in the original production-engineering repository through reversible archive. Full cross-repository history publication was blocked by automatic security review; no bypass attempted."
+    "history": "Preserved in the original production-engineering repository through reversible archive. Full cross-repository history publication was blocked by automatic security review; no bypass attempted.",
+    "record_scope": "Historical migration at c630df824ae94160a509de6fbb941a5e692b3e17; later scoped CI/smoke evidence is recorded separately."
   },
   "library_maintenance_2026_11_01": {
     "scope": [
@@ -72,6 +73,24 @@
         "workflow": "tests.yml",
         "conclusion": "success",
         "observed_on": "2026-11-01"
+      },
+      {
+        "tested_commit": "6e8f8edf7931bec037ef08033244631df0ff4f3f",
+        "run_id": 41253150523,
+        "run_url": "https://github.com/ios3kov/codex-skills/actions/runs/41253150523",
+        "workflow": "tests.yml",
+        "conclusion": "success",
+        "observed_on": "2026-11-01",
+        "scope": "Python matrix, portable symlink regression, Node regressions and library integrity checks"
+      },
+      {
+        "tested_commit": "6e8f8edf7931bec037ef08033244631df0ff4f3f",
+        "run_id": 41253159365,
+        "run_url": "https://github.com/ios3kov/codex-skills/actions/runs/41253159365",
+        "workflow": "rea-runner-qualification.yml",
+        "conclusion": "success",
+        "observed_on": "2026-11-01",
+        "scope": "Exact archived Linux runtime integrity plus owned JavaScript fixture; no application/runtime correctness certification"
       }
     ]
   },
@@ -81,6 +100,23 @@
     "runtime_symlink_protection": "UNCHANGED",
     "plugin_author": "ios3kov in both Codex manifests",
     "agentation_metadata": "Added UI name and description only; no new tool dependency or policy change",
-    "specialized_smoke": "Awaiting explicit scoped rea-runner-qualification.yml run; other specialized lanes remain NOT RUN"
+    "specialized_smoke": {
+      "status": "PASS",
+      "tested_commit": "6e8f8edf7931bec037ef08033244631df0ff4f3f",
+      "run_url": "https://github.com/ios3kov/codex-skills/actions/runs/41253159365",
+      "job_id": 124690693486,
+      "artifact_id": 13062246598,
+      "artifact_sha256": "136dd810284c7c6ecdcfe70a3b02fb7797eb8172e6f57dc244731612ce8969c0",
+      "runtime_id": "rea-6.5.0-patch3552.1",
+      "manifest_sha256": "b3ba3f9f4806d7decaa8df1187b8c519d2ae1f37d29d7c652b60429aa6789c11",
+      "stdout_sha256": "cb16e6a6dccda53659ccdb17d9fd6950839ff35173bb72c186f430d94ddb4803",
+      "analysis_status": "NEEDS_REVIEW",
+      "scope": "Exact archived runtime, qualified.py execution, renamed module receiver and shadow exclusion",
+      "evidence_id": "ev_6517baf25e1d8f2827e20c6c5f1f2d75019fbd1fa4c682cb7620185f81e2500b",
+      "product_readiness": "NOT_ASSESSED",
+      "other_specialized_workflows": "NOT RUN in this repository"
+    },
+    "core_tests": "PASS: 92 locally and Python 3.11/3.12/3.13 CI, including linked temporary-parent regression",
+    "repository_tests": "PASS: 40 locally and CI"
   }
 }
