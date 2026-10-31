@@ -14,8 +14,8 @@ Canonical Git repository for our personal skill library. It started from an inst
 | Scope | Meaning |
 |---|---|
 | Original installed payload | **373 files**, copied and verified against the local installation on 2026-10-31 at commit `20e6eebeaea29343919e498b0e5b3fae4fbf2d8f`. This is historical evidence for that snapshot only. |
-| Package maintenance | **4 added files**: one visual-refinement README and three test/fixture files. Existing package documentation, metadata and test fixtures have also been updated. |
-| Current payload manifest | **377 entries** in `manifest.json`, covering current files under `skills/` and `plugins/`. Its hashes establish repository payload integrity, not parity with an installation. |
+| Package maintenance | **6 added files**: one visual-refinement README, three visual test/fixture files, the symlink-parent regression test and Agentation UI metadata. Existing package documentation, metadata and test fixtures have also been updated. |
+| Current payload manifest | **379 entries** in `manifest.json`, covering current files under `skills/` and `plugins/`. Its hashes establish repository payload integrity, not parity with an installation. |
 | Repository maintenance outside the payload | Root documentation, routing, integrity scripts, regression tests, CI and repository records are tracked by Git but are not entries in the payload manifest. |
 
 Full byte parity of the current HEAD with local installed copies or ChatGPT cloud copies has **not been checked and is not claimed**. A successful CI run or Git readback does not establish that parity. See [verification.json](verification.json) for separate historical snapshot evidence and current repository boundaries.
@@ -95,3 +95,9 @@ The admitted REA workflow reads the bundled checksum-verified runtime archive, a
 ## Library maintenance checks
 
 Run `python3 scripts/check_library.py` and `python3 scripts/sync_references.py --check` from the repository root. CI checks the payload manifest, local Markdown targets, declared shared-reference copies, current package versions and active installation pointers. The routing guide is a repository selection/installation guide; installed skill instructions are unchanged by this documentation maintenance.
+
+## Commit-bound CI evidence
+
+`verification.json` keeps the historical `snapshot_payload_commit` separate from `repository_ci_evidence`. Every CI or smoke record names its tested commit, workflow/run URL and result. Records do not attest to a newer HEAD: publishing a record creates another commit. For the current HEAD, resolve the checkout SHA and inspect the matching GitHub Actions run. This avoids pretending a source file can contain its own final commit hash.
+
+The portable symlink-parent regression runs in the normal Ubuntu Python matrix: it constructs a linked temporary parent and invokes the actual REA test fixtures, checking their canonical roots and real adapter/verifier calls. Native macOS execution remains separate evidence; runtime symlink rejection is unchanged.

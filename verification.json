@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "original_installed_snapshot": {
     "snapshot_date": "2026-10-31",
     "personal_skills": 37,
@@ -15,19 +15,21 @@
     "runtime_behavior": "NOT RUN: no application/tool execution or comparative performance validation",
     "cloud_parity": "NOT RUN for the original snapshot; local installed-byte evidence is not cloud parity.",
     "managed_provider_payloads": "NOT COPIED: provider-managed skills/runtimes are recorded with identity/version and require provider installation",
-    "remote_readback": "PASS: all 373 skill payload files read from a fresh GitHub fetch and SHA-256 matched",
-    "verified_payload_commit": "20e6eebeaea29343919e498b0e5b3fae4fbf2d8f",
-    "scope": "Historical installed snapshot at verified_payload_commit only; not current HEAD or current installation."
+    "scope": "Historical installed snapshot at snapshot_payload_commit only; not current HEAD or current installation.",
+    "snapshot_payload_commit": "20e6eebeaea29343919e498b0e5b3fae4fbf2d8f",
+    "snapshot_remote_readback": "PASS: all 373 skill payload files read from a fresh GitHub fetch and SHA-256 matched"
   },
   "current_repository": {
     "recorded_on": "2026-11-01",
     "payload_manifest": "manifest.json",
-    "payload_files": 377,
+    "payload_files": 379,
     "additional_payload_files_since_snapshot": [
+      "skills/agentation/agents/openai.yaml",
       "skills/production-engineering/integrations/visual-refinement/README.md",
       "skills/production-engineering/integrations/visual-refinement/tests/capture-probe.mjs",
       "skills/production-engineering/integrations/visual-refinement/tests/fixture.html",
-      "skills/production-engineering/integrations/visual-refinement/tests/story.test.mjs"
+      "skills/production-engineering/integrations/visual-refinement/tests/story.test.mjs",
+      "skills/production-engineering/scripts/tests/test_temp_path_regression.py"
     ],
     "modified_existing_payload_files_since_snapshot": 11,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
@@ -41,7 +43,7 @@
     "plugin_tests": "PASS: 35 tests",
     "visual_node_tests": "PASS: 15 tests including localhost preview",
     "specialized_browser_and_REA_workflows": "NOT RUN; migrated as explicit manual workflows",
-    "installed_snapshot": "Historical local-byte match is retained under original_installed_snapshot.verified_payload_commit. Current full local/cloud parity is not claimed.",
+    "installed_snapshot": "Historical local-byte match is retained under original_installed_snapshot.snapshot_payload_commit. Current full local/cloud parity is not claimed.",
     "history": "Preserved in the original production-engineering repository through reversible archive. Full cross-repository history publication was blocked by automatic security review; no bypass attempted."
   },
   "library_maintenance_2026_11_01": {
@@ -58,5 +60,27 @@
     "managed_skill_settings": "UNCHANGED: selection documented; no automatic disabling/deletion",
     "installed_or_cloud_refresh": "NOT RUN: this update changes repository docs, CI and test fixtures; all 37 skill instructions remain unchanged",
     "CI": "Use GitHub Actions for the exact commit; local results above do not establish CI status."
+  },
+  "repository_ci_evidence": {
+    "scope": "Each record applies only to its tested_commit. It does not verify a newer HEAD or installed/cloud parity.",
+    "current_head_lookup": "Use the actual checkout SHA with GitHub Actions workflow tests.yml and head_sha=<checkout SHA>; never infer current HEAD success from an older record.",
+    "records": [
+      {
+        "tested_commit": "410fad06c6764c89f9c21da410b0ea5f07513663",
+        "run_id": 41251837618,
+        "run_url": "https://github.com/ios3kov/codex-skills/actions/runs/41251837618",
+        "workflow": "tests.yml",
+        "conclusion": "success",
+        "observed_on": "2026-11-01"
+      }
+    ]
+  },
+  "library_metadata_and_regression_2026_11_01": {
+    "regression": "PASS: both actual fixtures accept canonical roots under a linked temporary parent",
+    "regression_countercheck": "PASS: isolated removal of .resolve() makes both new tests fail",
+    "runtime_symlink_protection": "UNCHANGED",
+    "plugin_author": "ios3kov in both Codex manifests",
+    "agentation_metadata": "Added UI name and description only; no new tool dependency or policy change",
+    "specialized_smoke": "Awaiting explicit scoped rea-runner-qualification.yml run; other specialized lanes remain NOT RUN"
   }
 }

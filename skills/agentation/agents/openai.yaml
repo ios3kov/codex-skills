@@ -1,0 +1,3 @@
+interface:
+  display_name: "Agentation"
+  short_description: "Set up Agentation feedback for Next.js apps"

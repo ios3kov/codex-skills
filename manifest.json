@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "snapshot_date": "2026-10-31",
-  "scope": "37 personal skills and supporting payloads; maintenance documentation and canonical macOS test fixtures updated. Original installed snapshot remains in Git history.",
+  "scope": "37 personal skills and supporting payloads; metadata, documentation and portable symlink regression updated. Original installed snapshot remains in Git history.",
   "standalone_count": 25,
   "owned_plugin_skill_count": 12,
   "skills": [
@@ -1828,8 +1828,8 @@
       "executable": false
     },
     "plugins/general-skills/.codex-plugin/plugin.json": {
-      "sha256": "fdf2a702e8e379a138a83f9aab7f85b9fd2864994a4b42526fe6aa48c2215845",
-      "bytes": 814,
+      "sha256": "786312a4e0391b22108d1f5a72533ae7d35bb5d93e356e66dd885013fa4ce261",
+      "bytes": 805,
       "executable": false
     },
     "plugins/general-skills/CHANGELOG.md": {
@@ -1973,8 +1973,8 @@
       "executable": false
     },
     "plugins/product-intelligence/.codex-plugin/plugin.json": {
-      "sha256": "658ea37cb0db991288c338cec7f0d7c1936333d321cfa24a0674e7d6b94b3161",
-      "bytes": 816,
+      "sha256": "77fedb161c08190b80b81e228a6254903c675acd1235b5ea1e119e7f464db361",
+      "bytes": 807,
       "executable": false
     },
     "plugins/product-intelligence/README.md": {
@@ -2075,6 +2075,16 @@
     "skills/production-engineering/integrations/visual-refinement/tests/fixture.html": {
       "sha256": "cc85a61ec0b0ed15260b2f4dbf83680e7133800ead8cf62bd463d24396940a44",
       "bytes": 1113,
+      "executable": false
+    },
+    "skills/agentation/agents/openai.yaml": {
+      "sha256": "54cf06caa8c19e6a5d3f1c82b4ea87e9bdcf9ce3547c2d0f5f469b36cfad5e5c",
+      "bytes": 107,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/tests/test_temp_path_regression.py": {
+      "sha256": "0d44aa825c16ed778ea8fa07e1020f64adae7444c3770488d0e1ff0d73315a6c",
+      "bytes": 2522,
       "executable": false
     }
   },

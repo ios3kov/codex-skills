@@ -59,6 +59,18 @@ def check(root):
     for f in [root / 'skills/production-engineering/README.md', root / 'skills/production-engineering/docs/GENERAL_SKILLS.md']:
         if re.search(r'(?:git clone https://github.com/|marketplace add )ios3kov/production-engineering', f.read_text()):
             errors.append('Stale standalone installation command: ' + str(f.relative_to(root)))
+    verification = json.loads((root / 'verification.json').read_text())
+    snapshot = verification['original_installed_snapshot']
+    if not re.fullmatch(r'[0-9a-f]{40}', snapshot['snapshot_payload_commit']):
+        errors.append('Invalid historical snapshot commit')
+    current = verification['current_repository']
+    if current['payload_files'] != len(expected):
+        errors.append('Current verification payload count mismatch')
+    for record in verification['repository_ci_evidence']['records']:
+        if not re.fullmatch(r'[0-9a-f]{40}', record['tested_commit']):
+            errors.append('Invalid CI tested commit')
+        if record['run_url'] != 'https://github.com/ios3kov/codex-skills/actions/runs/' + str(record['run_id']):
+            errors.append('CI run ID and URL mismatch')
     return errors
 
 if __name__ == '__main__':
