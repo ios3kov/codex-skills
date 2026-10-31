@@ -22,8 +22,8 @@ python3 scripts/readiness.py passport.json --evidence evidence.json --issues iss
 Требуется Python 3.11+. Для локального сканера внешних зависимостей нет.
 
 ```bash
-git clone https://github.com/ios3kov/production-engineering.git
-cd production-engineering
+git clone https://github.com/ios3kov/codex-skills.git
+cd codex-skills/skills/production-engineering
 python3 scripts/audit.py /path/to/project --profile web --format markdown
 python3 scripts/audit.py /path/to/project --profile code --format json
 python3 scripts/audit.py /path/to/project --format sarif --out /fresh/report.sarif
@@ -60,7 +60,7 @@ python3 -m unittest discover -s scripts/tests -v
 python3 -m compileall -q scripts
 ```
 
-63 регрессионных тестов. Автоматический CI описан в `.github/workflows/tests.yml`; статус конкретного запуска смотрите в Actions.
+Основной набор содержит 90 тестов (проверено 2026-11-01). Запуск из этой папки: `python -B -m unittest discover -s scripts/tests -v`. Действующий CI находится в [корне библиотеки](../../.github/workflows/tests.yml), а не во вложенной копии `.github/`. Статус запуска смотрите в [Actions](https://github.com/ios3kov/codex-skills/actions).
 
 ## Документация
 
@@ -86,4 +86,4 @@ python3 scripts/deep_audit.py /absolute/project --history --profile code --forma
 python3 scripts/deep_audit.py /absolute/project --url https://example.com/ --policy /policy.json
 ```
 
-Формат политики, импорт результатов и ограничения: [deep-audit.md](references/deep-audit.md). Сбор browser/axe, Lighthouse, ZAP, SBOM, OSV, Trivy и authorization evidence выполняется внешними инструментами; их живой запуск здесь не проверен. Проверено 63 автоматических тестов, включая реальные локальные Git и HTTP fixtures. Версия 1.2.1 отклоняет ошибочные и неполные отчёты и требует обязательные сценарии авторизации в политике.
+Формат политики, импорт результатов и ограничения: [deep-audit.md](references/deep-audit.md). Сбор browser/axe, Lighthouse, ZAP, SBOM, OSV, Trivy и authorization evidence выполняется внешними инструментами; их живой запуск здесь не проверен. Историческая проверка версии 1.2.1 охватывала 63 теста, включая локальные Git и HTTP fixtures; актуальный состав и запуск описаны в разделе «Проверки» выше. Версия 1.2.1 отклоняет ошибочные и неполные отчёты и требует обязательные сценарии авторизации в политике.

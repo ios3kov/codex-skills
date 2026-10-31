@@ -2,7 +2,11 @@
 
 An optional, cross-project set of nine **independent** Agent Skills. No changes to the existing `production-engineering` skill or the AE/AS project rules are required.
 
-## Version 1.3.0
+## Current version: 1.3.4
+
+The package manifest and current release are **1.3.4**. This README includes historical release summaries below; see the [changelog](CHANGELOG.md) for recorded changes. The November 2026 library maintenance corrects documentation/routing guidance and adds repository checks without changing skill instructions or executable plugin behavior.
+
+## Version 1.3.0 (historical)
 
 Adds `write-russian-ui` for Russian interface strings, with product-state and localization safeguards. Genjutsu gains optional typography, component-polish and web-library-selection guidance; Motion Design gains focused UI recipes. The [five-source supplement](references/ui-refinement-sources.md) records the inspected revisions and deliberate adaptations. The six other skills retain their contents. No new executable resources or plugin dependencies are bundled. Source publication and an installed client's refresh remain separate operations.
 

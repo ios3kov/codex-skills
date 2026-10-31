@@ -15,7 +15,7 @@ spec.loader.exec_module(qualified)
 class QualifiedRuntimeTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory(); self.addCleanup(self.temp.cleanup)
-        self.root = Path(self.temp.name)
+        self.root = Path(self.temp.name).resolve()
         self.runtime = self.root / 'runtime'; (self.runtime / 'scripts').mkdir(parents=True)
         self.entry = self.runtime / 'scripts/rea.mjs'; self.entry.write_bytes(b'example fixture only')
         self.manifest = self.root / 'manifest.json'

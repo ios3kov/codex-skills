@@ -19,6 +19,8 @@ jobs:
           python-version: ${{ matrix.python }}
       - run: python -B -m unittest discover -s skills/production-engineering/scripts/tests -v
       - run: python -B -m unittest discover -s tests -v
+      - run: python -B scripts/check_library.py
+      - run: python -B scripts/sync_references.py --check
   visual-tools:
     runs-on: ubuntu-latest
     timeout-minutes: 5

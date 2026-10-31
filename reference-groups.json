@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "groups": [
+    {
+      "source": "skills/interface-craft/references/typography.md",
+      "copies": [
+        "skills/brand-system/references/shared/interface-craft/references/typography.md",
+        "skills/html-slide-decks/references/shared/interface-craft/references/typography.md",
+        "skills/motion-storytelling/references/shared/interface-craft/references/typography.md",
+        "skills/visual-diagrams/references/shared/interface-craft/references/typography.md"
+      ]
+    },
+    {
+      "source": "skills/editorial-copy/references/brand-positioning.md",
+      "copies": [
+        "skills/brand-system/references/shared/editorial-copy/references/brand-positioning.md"
+      ]
+    }
+  ]
+}

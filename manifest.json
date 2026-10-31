@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "snapshot_date": "2026-10-31",
-  "scope": "37 personal skills plus migrated regression fixtures; installation pointers updated for canonical repository. Original installed snapshot preserved in Git history.",
+  "scope": "37 personal skills and supporting payloads; maintenance documentation and canonical macOS test fixtures updated. Original installed snapshot remains in Git history.",
   "standalone_count": 25,
   "owned_plugin_skill_count": 12,
   "skills": [
@@ -1303,8 +1303,8 @@
       "executable": false
     },
     "skills/production-engineering/README.md": {
-      "sha256": "7747d4c7fb633d3019b883cd7ba6b2cd70672de21a8633bf95ad579e2121e413",
-      "bytes": 8005,
+      "sha256": "b481a3e572d3dead407ed739badb5ea12df172d5c77798109bb4d29d91321a43",
+      "bytes": 8409,
       "executable": false
     },
     "skills/production-engineering/SKILL.md": {
@@ -1338,8 +1338,8 @@
       "executable": false
     },
     "skills/production-engineering/docs/GENERAL_SKILLS.md": {
-      "sha256": "82b8e89f406297d94a91335ef1bb471c6ed633e2c47e3f46540a2693f672dc89",
-      "bytes": 2711,
+      "sha256": "95cf0f23931603d6c4d971f72587133b5e4da2c78d38ae1049e8702c574433f8",
+      "bytes": 472,
       "executable": false
     },
     "skills/production-engineering/integrations/browser-qa/README.md": {
@@ -1663,13 +1663,13 @@
       "executable": false
     },
     "skills/production-engineering/scripts/tests/test_rea_adapter.py": {
-      "sha256": "8a5986c1f648b24308d8c5aeb03caf709c99c09702e5d266497c1426a92ee109",
-      "bytes": 6561,
+      "sha256": "74002eae0a869b206352fa0c28454eef9c7a61af324861f550f12bb53e9477e9",
+      "bytes": 6571,
       "executable": false
     },
     "skills/production-engineering/scripts/tests/test_rea_qualified.py": {
-      "sha256": "a2276407b4b3af9b29f679bbfb7d2ef793f9372873e68f164fbf92b599960bbe",
-      "bytes": 4072,
+      "sha256": "0cf5f08599a52214f32bf33afb11187cc09899afa0fd86c0b8594495b63e11f0",
+      "bytes": 4082,
       "executable": false
     },
     "skills/production-engineering/scripts/tests/test_readiness.py": {
@@ -1833,13 +1833,13 @@
       "executable": false
     },
     "plugins/general-skills/CHANGELOG.md": {
-      "sha256": "62d4663235ac38204a3ddc3d62338a95cbe0fb45bda8e965a662683d74e2e389",
-      "bytes": 5063,
+      "sha256": "e241e9c7e1d56be024643b2255f6717cd12f7b171a084efe91732ee5f9a730b6",
+      "bytes": 5524,
       "executable": false
     },
     "plugins/general-skills/README.md": {
-      "sha256": "b8603d9abbbb80bf0e3039e1985a01e864167393f641c22934ad8464e31386bd",
-      "bytes": 4509,
+      "sha256": "dcc7f10e2579df04712b9d9900641492ad742710a4fc8d37b59ca7a9d0cc9ac6",
+      "bytes": 4891,
       "executable": false
     },
     "plugins/general-skills/plugin.json": {

@@ -51,6 +51,8 @@ Canonical Git repository for our personal skill library. This snapshot was copie
 | `product-intelligence:customer-voice` | [plugins/product-intelligence/skills/customer-voice/SKILL.md](plugins/product-intelligence/skills/customer-voice/SKILL.md) |
 | `product-intelligence:feature-parity` | [plugins/product-intelligence/skills/feature-parity/SKILL.md](plugins/product-intelligence/skills/feature-parity/SKILL.md) |
 
+For design responsibilities, overlapping triggers and PDF/OpenAI provider choices, read [skill routing](ROUTING.md).
+
 ## Use and maintain
 
 For a standalone skill, use the existing Codex skill installer with this repository and the corresponding `skills/<name>` path. Inspect and back up an existing installation before merging; do not overwrite local changes blindly.
@@ -78,3 +80,7 @@ This is a collection with multiple upstream licenses, not a relicensing of all c
 Run `python -B -m unittest discover -s skills/production-engineering/scripts/tests -v`, `python -B -m unittest discover -s tests -v`, and `node --test skills/production-engineering/integrations/visual-refinement/tests/story.test.mjs`. Standard tests run in CI. The five specialized browser/REA qualification workflows are retained as manual opt-ins; they may acquire large external tools and are not triggered automatically.
 
 The admitted REA workflow reads the bundled checksum-verified runtime archive, avoiding an expiring artifact in the old repository. Historical SHA/source references are preserved.
+
+## Library maintenance checks
+
+Run `python3 scripts/check_library.py` and `python3 scripts/sync_references.py --check` from the repository root. CI checks the payload manifest, local Markdown targets, declared shared-reference copies, current package versions and active installation pointers. The routing guide is a repository selection/installation guide; installed skill instructions are unchanged by this documentation maintenance.

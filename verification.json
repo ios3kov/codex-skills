@@ -23,5 +23,20 @@
     "specialized_browser_and_REA_workflows": "NOT RUN; migrated as explicit manual workflows",
     "installed_snapshot": "Original 2026-10-31 match retained in verified_payload_commit. Migration updates installation docs/metadata and adds tests, so current full package parity with installed copies is not claimed.",
     "history": "Preserved in the original production-engineering repository through reversible archive. Full cross-repository history publication was blocked by automatic security review; no bypass attempted."
+  },
+  "library_maintenance_2026_11_01": {
+    "scope": [
+      "active install pointers",
+      "current/historical version documentation",
+      "macOS fixture paths",
+      "routing guide and bundled-reference integrity",
+      "PDF/OpenAI provider selection guide"
+    ],
+    "core_tests": "PASS: 90 on normal macOS TMPDIR; runtime symlink guards unchanged",
+    "repository_tests": "PASS: 40 tests (35 existing plus 5 reference-maintenance tests)",
+    "integrity_failure_injection": "PASS: isolated copy detected hash change, reference drift, unlisted file and broken link",
+    "managed_skill_settings": "UNCHANGED: selection documented; no automatic disabling/deletion",
+    "installed_or_cloud_refresh": "NOT RUN: this update changes repository docs, CI and test fixtures; all 37 skill instructions remain unchanged",
+    "CI": "Use GitHub Actions for the exact commit; local results above do not establish CI status."
   }
 }
