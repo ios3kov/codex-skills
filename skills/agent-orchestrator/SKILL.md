@@ -3,6 +3,7 @@ name: agent-orchestrator
 description: Plan and coordinate authorized multi-agent work with explicit dependencies, resource ownership, acceptance checks and integration. Use when the user requests delegation, or an authorized engineering workflow identifies independent tasks worth parallel execution and host policy permits it. Small serial tasks remain direct.
 ---
 
+
 # Agent Orchestrator
 
 Use `production-engineering` for requirements and final acceptance, and load `smart-router` before selecting worker models or effort. Resolve these skills by name in the current catalog. Keep one coordinator responsible for integration; worker completion never replaces combined-result verification.

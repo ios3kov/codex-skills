@@ -14,7 +14,13 @@ class LinkedTemporaryParentRegression(unittest.TestCase):
             physical = base / 'physical'
             physical.mkdir()
             linked = base / 'alias'
-            linked.symlink_to(physical, target_is_directory=True)
+            try:
+                linked.symlink_to(physical, target_is_directory=True)
+            except OSError as error:
+                import errno
+                if error.errno in {errno.EPERM, errno.EACCES, errno.ENOSYS, errno.ENOTSUP} or getattr(error, 'winerror', None) == 1314:
+                    self.skipTest('Symlink creation unavailable: ' + str(error))
+                raise
             raw_paths = []
             def linked_factory(*args, **kwargs):
                 temp = original_factory(*args, dir=str(linked), **kwargs)

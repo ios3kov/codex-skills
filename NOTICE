@@ -1,0 +1,37 @@
+# License and attribution inventory
+
+This repository contains original maintenance code, adapted skill instructions and third-party material. A filename scan or license mention does not establish permission for every file. Preserve each retained license and notice.
+
+The root MIT license applies only to original repository-maintenance contributions (root scripts, root maintenance tests and original root documentation). It does not relicense files under skills/ or plugins/, copied/adapted material, fixtures inherited from upstream, or the REA archive. Their existing notices and applicable upstream terms continue to apply. Where no grant is established, no new redistribution grant is asserted.
+
+| Package | Recorded status | License mentions |
+|---|---|---|
+| `skills/agent-orchestrator` | no package-level license grant established; source review required | Not established |
+| `skills/agentation` | no package-level license grant established; source review required | Not established |
+| `skills/apple-design` | no package-level license grant established; source review required | Not established |
+| `skills/audio-production` | no package-level license grant established; source review required | Not established |
+| `skills/brand-system` | upstream notices present; scope varies by file | MIT |
+| `skills/character-continuity` | no package-level license grant established; source review required | Not established |
+| `skills/codebase-understanding` | no package-level license grant established; source review required | Not established |
+| `skills/context-discipline` | no package-level license grant established; source review required | Apache-2.0 |
+| `skills/design-reference-research` | upstream notices present; scope varies by file | MIT |
+| `skills/develop-web-game` | upstream notices present; scope varies by file | Apache-2.0 |
+| `skills/editorial-copy` | upstream notices present; scope varies by file | MIT |
+| `skills/html-slide-decks` | no package-level license grant established; source review required | Not established |
+| `skills/independent-reviewer` | upstream notices present; scope varies by file | MIT |
+| `skills/interface-craft` | upstream notices present; scope varies by file | MIT |
+| `skills/ios-simulator-skill` | upstream notices present; scope varies by file | MIT |
+| `skills/media-production-control` | upstream notices present; scope varies by file | MIT |
+| `skills/mobile-interface-craft` | upstream notices present; scope varies by file | MIT |
+| `skills/motion-storytelling` | upstream notices present; scope varies by file | MIT |
+| `skills/openai-docs` | upstream notices present; scope varies by file | Apache-2.0 |
+| `skills/pdf` | upstream notices present; scope varies by file | Apache-2.0 |
+| `skills/production-engineering` | upstream notices present; scope varies by file | Apache-2.0, CC-BY-SA-4.0, MIT |
+| `skills/remotion-video` | no package-level license grant established; source review required | Not established |
+| `skills/smart-router` | no package-level license grant established; source review required | Not established |
+| `skills/to-questionnaire` | no package-level license grant established; source review required | Not established |
+| `skills/visual-diagrams` | no package-level license grant established; source review required | Not established |
+| `plugins/product-intelligence` | no package-level license grant established; source review required | Not established |
+| `plugins/general-skills` | upstream notices present; scope varies by file | MIT |
+
+Machine-readable source/notice pointers: [license-inventory.json](license-inventory.json). These records identify unresolved packages instead of claiming the entire library is MIT. Review original source and rights before relicensing any unresolved skill.

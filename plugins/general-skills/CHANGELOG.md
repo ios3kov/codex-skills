@@ -1,5 +1,15 @@
 # General Skills changelog
 
+## 1.3.6 — 2026-11-01
+
+Declare the publisher in the portable root manifest so generated Codex metadata retains the requested author during cloud synchronization.
+
+
+## 1.3.5 — 2026-11-01
+
+Synchronize canonical installation links, publisher metadata and current release documentation across Git, local and cloud packages. Skill instructions and tools are preserved.
+
+
 ## 1.3.4 — 2026-10-31
 
 Integrate the scoped Unslop visual-production and repair guidance in Genjutsu, with local CC BY attribution. Shared browser/helper implementation stays with Interface Craft; it is not bundled as an executable in General Skills. Installation and cloud release are separate from source publication.

@@ -5,7 +5,7 @@ Canonical Git repository for our personal skill library. It started from an inst
 ## Included
 
 - **25 standalone skills** in `skills/`.
-- **12 skills in two owned plugins** in `plugins/`: General Skills 1.3.4 and Product Intelligence 1.0.2.
+- **12 skills in two owned plugins** in `plugins/`: General Skills 1.3.6 and Product Intelligence 1.0.4.
 - Full supporting references, scripts, assets and license notices. `manifest.json` records every payload file with its SHA-256.
 - `managed-skills.json` accounts for the other **12 system/provider-managed skills** reported by the local loader. Their provider runtimes are not copied into this public repository. Restore them through Codex and the official plugins.
 
@@ -14,11 +14,11 @@ Canonical Git repository for our personal skill library. It started from an inst
 | Scope | Meaning |
 |---|---|
 | Original installed payload | **373 files**, copied and verified against the local installation on 2026-10-31 at commit `20e6eebeaea29343919e498b0e5b3fae4fbf2d8f`. This is historical evidence for that snapshot only. |
-| Package maintenance | **6 added files**: one visual-refinement README, three visual test/fixture files, the symlink-parent regression test and Agentation UI metadata. Existing package documentation, metadata and test fixtures have also been updated. |
-| Current payload manifest | **379 entries** in `manifest.json`, covering current files under `skills/` and `plugins/`. Its hashes establish repository payload integrity, not parity with an installation. |
+| Package maintenance | **7 added files** since the original snapshot; existing documentation, metadata and fixtures were also updated. The exact delta is in `verification.json`. |
+| Current payload manifest | **380 entries** covering current `skills/` and `plugins/` files. |
 | Repository maintenance outside the payload | Root documentation, routing, integrity scripts, regression tests, CI and repository records are tracked by Git but are not entries in the payload manifest. |
 
-Full byte parity of the current HEAD with local installed copies or ChatGPT cloud copies has **not been checked and is not claimed**. A successful CI run or Git readback does not establish that parity. See [verification.json](verification.json) for separate historical snapshot evidence and current repository boundaries.
+Full byte parity of all 37 personal skills was freshly verified across local installation, saved cloud packages and Git payload on 2026-11-01. See `synchronization_2026_11_01` in `verification.json` for the exact scope. Later changes require a fresh comparison; CI or Git readback alone cannot renew parity. See [verification.json](verification.json) for separate historical snapshot evidence and current repository boundaries.
 
 ## Skills
 
@@ -84,7 +84,7 @@ Generated Python bytecode and OS caches are excluded. No authentication files, a
 
 ## License
 
-This is a collection with multiple upstream licenses, not a relicensing of all content. Preserve the notices and licenses inside each skill/plugin. Provider-managed skills are listed by identity only; reinstall them through the provider.
+Original repository-maintenance contributions use the scoped [MIT license](LICENSE). The [NOTICE](NOTICE) and [license inventory](license-inventory.json) record upstream pointers and unresolved package status. This is a collection with multiple upstream licenses, not a relicensing of all content. Preserve the notices and licenses inside each skill/plugin. Provider-managed skills are listed by identity only; reinstall them through the provider.
 
 ## Tests and migrated history
 
@@ -103,3 +103,5 @@ Run `python3 scripts/check_library.py` and `python3 scripts/sync_references.py -
 The portable symlink-parent regression runs in the normal Ubuntu Python matrix: it constructs a linked temporary parent and invokes the actual REA test fixtures, checking their canonical roots and real adapter/verifier calls. Native macOS execution remains separate evidence; runtime symlink rejection is unchanged.
 
 Recorded scoped smoke: [REA admitted runtime qualification](https://github.com/ios3kov/codex-skills/actions/runs/41253159365) passed at `6e8f8edf7931bec037ef08033244631df0ff4f3f`. It verified the exact bundled Linux runtime and one owned JavaScript fixture with execution networking disabled. It does not certify application correctness or the other specialized workflows; see the commit-bound receipt in `verification.json`.
+
+Design QA [run 41253687766](https://github.com/ios3kov/codex-skills/actions/runs/41253687766) passed at `ff0eabf1d339aadd6e8dffbea06f9744112c5fd2`. Both the owned browser-fixture lane and isolated Obscura pilot completed; this does not admit Obscura for general use or establish application quality.

@@ -22,19 +22,20 @@
   "current_repository": {
     "recorded_on": "2026-11-01",
     "payload_manifest": "manifest.json",
-    "payload_files": 379,
+    "payload_files": 380,
     "additional_payload_files_since_snapshot": [
       "skills/agentation/agents/openai.yaml",
+      "skills/agentation/assets/icon.svg",
       "skills/production-engineering/integrations/visual-refinement/README.md",
       "skills/production-engineering/integrations/visual-refinement/tests/capture-probe.mjs",
       "skills/production-engineering/integrations/visual-refinement/tests/fixture.html",
       "skills/production-engineering/integrations/visual-refinement/tests/story.test.mjs",
       "skills/production-engineering/scripts/tests/test_temp_path_regression.py"
     ],
-    "modified_existing_payload_files_since_snapshot": 11,
+    "modified_existing_payload_files_since_snapshot": 15,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
-    "local_installed_parity": "NOT RUN for current HEAD; no parity claim",
-    "cloud_parity": "NOT RUN for current HEAD; no parity claim",
+    "local_installed_parity": "See synchronization_2026_11_01: PASS for its exact measured payload",
+    "cloud_parity": "See synchronization_2026_11_01: PASS for its exact measured payload",
     "integrity_boundary": "Manifest hashes and Git readback validate recorded repository files, not installed or cloud copies."
   },
   "migration_updated_on": "2026-11-01",
@@ -91,6 +92,15 @@
         "conclusion": "success",
         "observed_on": "2026-11-01",
         "scope": "Exact archived Linux runtime integrity plus owned JavaScript fixture; no application/runtime correctness certification"
+      },
+      {
+        "tested_commit": "ff0eabf1d339aadd6e8dffbea06f9744112c5fd2",
+        "run_id": 41253687766,
+        "run_url": "https://github.com/ios3kov/codex-skills/actions/runs/41253687766",
+        "workflow": "design-qa.yml",
+        "conclusion": "success",
+        "observed_on": "2026-11-01",
+        "scope": "Owned Chromium/Firefox/WebKit fixture lane and isolated Obscura pilot; not application readiness or candidate admission."
       }
     ]
   },
@@ -114,9 +124,27 @@
       "scope": "Exact archived runtime, qualified.py execution, renamed module receiver and shadow exclusion",
       "evidence_id": "ev_6517baf25e1d8f2827e20c6c5f1f2d75019fbd1fa4c682cb7620185f81e2500b",
       "product_readiness": "NOT_ASSESSED",
-      "other_specialized_workflows": "NOT RUN in this repository"
+      "other_specialized_workflows": "Design QA later completed at ff0eabf; remaining REA specialized lanes not run in this repository."
     },
     "core_tests": "PASS: 92 locally and Python 3.11/3.12/3.13 CI, including linked temporary-parent regression",
     "repository_tests": "PASS: 40 locally and CI"
+  },
+  "synchronization_2026_11_01": {
+    "scope": "All 37 personal skills; provider-managed runtimes excluded",
+    "payload_files": 380,
+    "local_cloud_git": "PASS exact full-file bytes, including YAML frontmatter",
+    "evidence": "Fresh exports of all 25 cloud skills; changed skills exported again after save; both plugins read in full after release update. Local backups retained outside repository.",
+    "versions": {
+      "general-skills": "1.3.6",
+      "product-intelligence": "1.0.4"
+    },
+    "future_changes": "This parity record applies to the measured payload hashes. It does not promise future automatic synchronization.",
+    "loader": "PASS: both refreshed plugin releases and personal skills enabled; zero loader errors"
+  },
+  "license_review_2026_11_01": {
+    "inventory": "license-inventory.json",
+    "notice": "NOTICE",
+    "root_license": "MIT limited to original repository-maintenance contributions; no blanket relicensing of skills, plugins or third-party material",
+    "unresolved_status": "Packages without an established grant remain explicitly unresolved in the inventory. This inventory is not legal clearance for all public reuse."
   }
 }

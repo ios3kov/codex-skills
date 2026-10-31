@@ -1,0 +1,1640 @@
+{
+  "reviewed_on": "2026-11-01",
+  "scope": "File/provenance inventory, not blanket legal clearance. License mentions are evidence pointers, not grants for an entire package.",
+  "packages": [
+    {
+      "package": "skills/agent-orchestrator",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [],
+      "source_links": [
+        "https://github.com/firecrawl/model-picker",
+        "https://github.com/ruvnet/ruflo/tree/main/plugins/ruflo-swarm"
+      ]
+    },
+    {
+      "package": "skills/agentation",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [],
+      "source_links": []
+    },
+    {
+      "package": "skills/apple-design",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [],
+      "source_links": []
+    },
+    {
+      "package": "skills/audio-production",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "skills/audio-production/sources.json",
+        "skills/audio-production/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/audio-craft/audio-mixing-mastering/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/audio-craft/sound-design-foley/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/audio-craft/audio-mixing-mastering/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/audio-craft/sound-design-foley/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/brand-system",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/brand-system/references/source-notices.txt"
+      ],
+      "provenance_files": [
+        "skills/brand-system/references/sources.json",
+        "skills/brand-system/references/source-notices.txt"
+      ],
+      "source_links": [
+        "https://github.com/Leonxlnx/taste-skill/blob/18dfc928b135629e0eddfdd445a06400d04ed439/LICENSE",
+        "https://github.com/Leonxlnx/taste-skill/blob/18dfc928b135629e0eddfdd445a06400d04ed439/skills/brandkit/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/d574cc8a576dc24256ad38268b8d03d86724a1b3/LICENSE",
+        "https://github.com/jakubkrehel/skills/blob/d574cc8a576dc24256ad38268b8d03d86724a1b3/skills/better-typography/SKILL.md",
+        "https://github.com/zstvns/design-skills/blob/8dab61b527bf5fb5dd8a0050a2111020e08df8ea/LICENSE",
+        "https://github.com/zstvns/design-skills/blob/8dab61b527bf5fb5dd8a0050a2111020e08df8ea/skills/logo-design/SKILL.md",
+        "https://github.com/zstvns/design-skills/blob/8dab61b527bf5fb5dd8a0050a2111020e08df8ea/skills/logo-design/references/logo-construction.md",
+        "https://github.com/zstvns/design-skills/blob/8dab61b527bf5fb5dd8a0050a2111020e08df8ea/skills/logo-design/references/logo-fixes.md"
+      ]
+    },
+    {
+      "package": "skills/character-continuity",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "skills/character-continuity/sources.json"
+      ],
+      "source_links": [
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/creative-direction/character-design-continuity/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/creative-direction/character-design-continuity/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/codebase-understanding",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "skills/codebase-understanding/sources.json"
+      ],
+      "source_links": [
+        "https://github.com/Egonex-AI/Understand-Anything/blob/ffa2f0a84a85525623e9f94f7a6b560e39ae43ce/understand-anything-plugin/skills/understand/SKILL.md",
+        "https://github.com/Graphify-Labs/graphify/tree/b90b9df7949bd04a15b40a1624af85d0a9cfdf04"
+      ]
+    },
+    {
+      "package": "skills/context-discipline",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [],
+      "provenance_files": [
+        "skills/context-discipline/sources.json"
+      ],
+      "source_links": [
+        "https://github.com/Graphify-Labs/graphify/tree/b90b9df7949bd04a15b40a1624af85d0a9cfdf04",
+        "https://github.com/google-research/harness2/blob/1cfe254e8d25b15f37048c3730134686abe60335/harness2/core/runmark.py",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/58b55a8921758d13453b440704fb1b5b208c0b0e/skills/context-compression/SKILL.md",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/58b55a8921758d13453b440704fb1b5b208c0b0e/skills/context-degradation/SKILL.md",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/58b55a8921758d13453b440704fb1b5b208c0b0e/skills/context-optimization/SKILL.md",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/58b55a8921758d13453b440704fb1b5b208c0b0e/skills/filesystem-context/SKILL.md",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-compression/SKILL.md?utm_source=chatgpt.com",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-degradation/SKILL.md",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-optimization/SKILL.md?utm_source=chatgpt.com",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/filesystem-context/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/design-reference-research",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/design-reference-research/THIRD_PARTY_NOTICES.md"
+      ],
+      "provenance_files": [
+        "skills/design-reference-research/references/sources.json",
+        "skills/design-reference-research/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+        "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/README.md",
+        "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/SKILL.md",
+        "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/agents/openai.yaml",
+        "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/demo/PROMPT.md",
+        "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/demo/expected-output.md",
+        "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/demo/input.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/LICENSE",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/README.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/SKILL.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/agents/openai.yaml",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/anti-ai-slop.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/color.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/copywriting.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/craft-details.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/example-workflow.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/icons.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/mcp-tools.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/motion.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/typography.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/visual-workflow.md",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/LICENSE",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/README.md",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/SKILL.md",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/references/choose.md",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/references/moodboard.md",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/references/sources.md",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/references/widen.md",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/scripts/wildcard.py"
+      ]
+    },
+    {
+      "package": "skills/develop-web-game",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [
+        "skills/develop-web-game/LICENSE.txt"
+      ],
+      "provenance_files": [],
+      "source_links": []
+    },
+    {
+      "package": "skills/editorial-copy",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/editorial-copy/references/setupkit-MIT-LICENSE.txt",
+        "skills/editorial-copy/references/creative-source-notices.txt"
+      ],
+      "provenance_files": [
+        "skills/editorial-copy/sources.json",
+        "skills/editorial-copy/references/creative-source-notices.txt",
+        "skills/editorial-copy/references/setupkit-source.md"
+      ],
+      "source_links": [
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/pra/alterlab-pra-brand-analyst/SKILL.md",
+        "https://github.com/blader/humanizer/blob/225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8/SKILL.md",
+        "https://github.com/coreyhaines31/marketingskills/blob/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ad-creative/SKILL.md",
+        "https://github.com/coreyhaines31/marketingskills/blob/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/copywriting/SKILL.md",
+        "https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md",
+        "https://github.com/hardikpandya/stop-slop/blob/8da1f030185bdfe8471220585162991eaeb970e9/SKILL.md",
+        "https://github.com/motion-team/creative-strategy-skills/blob/8e467a3547dcd2118e4d08fa58099553677d52ff/LICENSE",
+        "https://github.com/motion-team/creative-strategy-skills/blob/8e467a3547dcd2118e4d08fa58099553677d52ff/creative-mechanics/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/html-slide-decks",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "skills/html-slide-decks/sources.json"
+      ],
+      "source_links": [
+        "https://github.com/zarazhangrui/frontend-slides/blob/9906a34d640d2111f724544cbc50f7f130569ae1/plugins/frontend-slides/skills/frontend-slides/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/independent-reviewer",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/independent-reviewer/THIRD_PARTY_NOTICES.md"
+      ],
+      "provenance_files": [],
+      "source_links": [
+        "https://github.com/DietrichGebert/ponytail/tree/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
+        "https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/interface-craft",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/interface-craft/references/ui-ux-pro-max-LICENSE.txt",
+        "skills/interface-craft/references/creative-source-notices.txt",
+        "skills/interface-craft/scripts/unslop/LICENSE-CC-BY-4.0.txt"
+      ],
+      "provenance_files": [
+        "skills/interface-craft/references/sources.json",
+        "skills/interface-craft/references/offline-resources.md",
+        "skills/interface-craft/references/catalog-provenance.json",
+        "skills/interface-craft/references/creative-source-notices.txt"
+      ],
+      "source_links": [
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/vcd/alterlab-vcd-layout-designer/SKILL.md",
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/vcd/alterlab-vcd-typographer/SKILL.md",
+        "https://github.com/Leonxlnx/taste-skill/blob/18dfc928b135629e0eddfdd445a06400d04ed439/skills/taste-skill/SKILL.md",
+        "https://github.com/anthropics/skills/blob/9d630808e4add0a7146de4af9384155d5dee350a/skills/webapp-testing/SKILL.md",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/d574cc8a576dc24256ad38268b8d03d86724a1b3/skills/better-typography/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/main/skills/better-typography/SKILL.md",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/SKILL.md",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/charts.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/colors.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/landing.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/styles.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/typography.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/scripts/core.py",
+        "https://github.com/pbakaus/impeccable/blob/d631a8827f99414d2b6daba4ef08b7f8701751d7/.agents/skills/impeccable/SKILL.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-best-practices/SKILL.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/web-design-guidelines/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/ios-simulator-skill",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/ios-simulator-skill/LICENSE.md"
+      ],
+      "provenance_files": [],
+      "source_links": [
+        "https://github.com/conorluddy/ios-simulator-skill/blob/main/AGENTS.md)**",
+        "https://github.com/conorluddy/ios-simulator-skill/blob/main/README.md)**"
+      ]
+    },
+    {
+      "package": "skills/media-production-control",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/media-production-control/references/setupkit-MIT-LICENSE.txt"
+      ],
+      "provenance_files": [
+        "skills/media-production-control/sources.json",
+        "skills/media-production-control/references/setupkit-source.md"
+      ],
+      "source_links": [
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/governance-delivery/asset-continuity-management/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/governance-delivery/generated-media-qa/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/governance-delivery/reference-media-analysis/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/governance-delivery/asset-continuity-management/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/governance-delivery/generated-media-qa/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/governance-delivery/reference-media-analysis/SKILL.md",
+        "https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/mobile-interface-craft",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/mobile-interface-craft/THIRD_PARTY_NOTICES.md"
+      ],
+      "provenance_files": [
+        "skills/mobile-interface-craft/references/sources.json",
+        "skills/mobile-interface-craft/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/SKILL.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/accessibility-patterns.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/layout-best-practices.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/list-patterns.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/localization.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/modifier-patterns.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/performance-patterns.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/sheet-navigation-patterns.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/soft-deprecation.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/state-management.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/text-patterns.md",
+        "https://github.com/callstackincubator/agent-skills",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/plugins/vendored/.agents/skills/agent-device/SKILL.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/plugins/vendored/.agents/skills/react-native-testing/SKILL.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/SKILL.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/bundle-hermes-mmap.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-animations-reanimated.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-lists-flatlist-flashlist.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-measure-fps.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-memory-leaks.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-uncontrolled-components.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/native-measure-tti.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-navigation/SKILL.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-navigation/references/safe-areas.md",
+        "https://github.com/conorluddy/ios-simulator-skill",
+        "https://github.com/conorluddy/ios-simulator-skill/blob/e38b3ad5cc2585140c91b9c0f974124c3add31dc/LICENSE.md",
+        "https://github.com/conorluddy/ios-simulator-skill/blob/e38b3ad5cc2585140c91b9c0f974124c3add31dc/README.md",
+        "https://github.com/conorluddy/ios-simulator-skill/blob/e38b3ad5cc2585140c91b9c0f974124c3add31dc/ios-simulator-skill/skills/ios-simulator-skill/SKILL.md",
+        "https://github.com/conorluddy/xc-mcp",
+        "https://github.com/expo/skills",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-animation/SKILL.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-data-fetching/SKILL.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-design-system/SKILL.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-design-system/references/audit.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-design-system/references/native-slop.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-dev-client/SKILL.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-native-ui/SKILL.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-native-ui/references/icons.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-router/SKILL.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-ui/SKILL.md",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/SKILL.md",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/references/pro-rules.md",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/src/ui-ux-pro-max/data/stacks/flutter.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/src/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/src/ui-ux-pro-max/data/stacks/react-native.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/src/ui-ux-pro-max/data/stacks/swiftui.csv",
+        "https://github.com/vercel-labs/agent-skills",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/SKILL.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/animation-derived-value.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/animation-gesture-detector-press.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/animation-gpu-properties.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/design-system-compound-components.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/fonts-config-plugin.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/imports-design-system-folder.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/js-hoist-intl.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-callbacks.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-function-references.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-images.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-inline-objects.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-item-expensive.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-item-memo.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-item-types.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-virtualize.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/monorepo-native-deps-in-app.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/monorepo-single-dependency-versions.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/navigation-native-navigators.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-compiler-destructure-functions.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-compiler-reanimated-shared-values.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-state-dispatcher.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-state-fallback.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-state-minimize.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/rendering-no-falsy-and.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/rendering-text-in-text-component.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/scroll-position-no-state.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/state-ground-truth.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-expo-image.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-image-gallery.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-measure-views.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-menus.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-native-modals.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-pressable.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-safe-area-scroll.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-scrollview-content-inset.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-styling.md",
+        "https://github.com/vsouza/awesome-ios#readme"
+      ]
+    },
+    {
+      "package": "skills/motion-storytelling",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/motion-storytelling/references/creative-source-notices.txt"
+      ],
+      "provenance_files": [
+        "skills/motion-storytelling/sources.json",
+        "skills/motion-storytelling/references/offline-resources.md",
+        "skills/motion-storytelling/references/creative-source-notices.txt"
+      ],
+      "source_links": [
+        "https://github.com/0xsline/openchatcut/blob/2e6f4a29b784200cfb32b859b16f2561592bc3e8/src/agent/skills/storyboard-shot-breakdown/SKILL.md",
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/cdm/alterlab-cdm-screenwriter/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/LICENSE",
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/post-production/title-kinetic-typography/SKILL.md",
+        "https://github.com/iart-ai/motion-design-skills/blob/3c129f769d90a1328c209c386492333c9ac62312/skills/after-effects/SKILL.md",
+        "https://github.com/iart-ai/motion-design-skills/blob/3c129f769d90a1328c209c386492333c9ac62312/skills/beat-sync-editing/SKILL.md",
+        "https://github.com/iart-ai/motion-design-skills/blob/3c129f769d90a1328c209c386492333c9ac62312/skills/motion-art-direction/SKILL.md",
+        "https://github.com/iart-ai/motion-design-skills/blob/3c129f769d90a1328c209c386492333c9ac62312/skills/shot-composition/SKILL.md",
+        "https://github.com/lottiefiles/motion-design-skill/blob/f9a8a041b85185ee4881b3471d3415e939aac772/skills/motion-design/SKILL.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/LICENSE",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/SKILL.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/continuity-rules.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/metaphor-and-proof.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/narrative-grammar.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/shot-script-rubric.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/workflow-handoff.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/SKILL.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/brand-film.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/cgi-product-world.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/editorial-try-on.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/proof-test.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/reveal-suspense.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/satisfying-restock.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/surreal-escalation.md"
+      ]
+    },
+    {
+      "package": "skills/openai-docs",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [
+        "skills/openai-docs/LICENSE.txt"
+      ],
+      "provenance_files": [
+        "skills/openai-docs/references/offline-resources.md"
+      ],
+      "source_links": []
+    },
+    {
+      "package": "skills/pdf",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [
+        "skills/pdf/LICENSE.txt"
+      ],
+      "provenance_files": [],
+      "source_links": []
+    },
+    {
+      "package": "skills/production-engineering",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0",
+        "CC-BY-SA-4.0",
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/production-engineering/THIRD_PARTY_NOTICES.md"
+      ],
+      "provenance_files": [
+        "skills/production-engineering/references/interface-sources.md",
+        "skills/production-engineering/references/offline-resources.md",
+        "skills/production-engineering/references/development-sources.json",
+        "skills/production-engineering/references/upstream/production-auditor/PROVENANCE.md"
+      ],
+      "source_links": [
+        "https://github.com/DietrichGebert/ponytail/tree/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
+        "https://github.com/Jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/skills/cpp-pro/SKILL.md",
+        "https://github.com/Jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/skills/cpp-pro/references/concurrency.md",
+        "https://github.com/Jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/skills/python-pro/SKILL.md",
+        "https://github.com/Jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/SKILL.md",
+        "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/scripts/inspect.mjs",
+        "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+        "https://github.com/emilkowalski/skills):",
+        "https://github.com/h4ckf0r0day/obscura-benchmark",
+        "https://github.com/h4ckf0r0day/obscura/blob/v0.2.4/crates/obscura-cli/src/main.rs",
+        "https://github.com/h4ckf0r0day/obscura/tree/v0.2.4",
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/code-review/SKILL.md",
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/codebase-design/SKILL.md",
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/domain-modeling/SKILL.md",
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/retro/SKILL.md",
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/tdd/SKILL.md",
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/to-tickets/SKILL.md",
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/writing-for-agents/SKILL.md",
+        "https://github.com/pbakaus/impeccable):",
+        "https://github.com/referodesign/refero_skill",
+        "https://github.com/rust-lang/miri",
+        "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/SKILL.md",
+        "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/conn-prepared-statements.md",
+        "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/monitor-explain-analyze.md",
+        "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/security-rls-basics.md",
+        "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/security-rls-performance.md",
+        "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/c-review/skills/c-review/SKILL.md",
+        "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/property-based-testing/skills/property-based-testing/SKILL.md",
+        "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/prompts/clusters/concurrency-locking.md",
+        "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/prompts/clusters/ffi-cross-language.md",
+        "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/prompts/clusters/memory-safety.md",
+        "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/prompts/clusters/unsafe-boundary.md",
+        "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/skills/rust-review/SKILL.md",
+        "https://github.com/vsouza/awesome-ios#readme",
+        "https://github.com/wshobson/agents/blob/46891e7e60da0e52baf1050b7b6391b64e84c6d9/plugins/javascript-typescript/skills/typescript-advanced-types/SKILL.md",
+        "https://github.com/wshobson/agents/blob/46891e7e60da0e52baf1050b7b6391b64e84c6d9/plugins/python-development/skills/python-testing-patterns/SKILL.md",
+        "https://github.com/wshobson/agents/blob/46891e7e60da0e52baf1050b7b6391b64e84c6d9/plugins/systems-programming/skills/rust-async-patterns/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/remotion-video",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "skills/remotion-video/sources.json",
+        "skills/remotion-video/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/remotion-dev/skills/blob/32b241b97f4e0e4ab61fe9a41b05e6e64503f8c5/skills/remotion-best-practices/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/smart-router",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [],
+      "source_links": [
+        "https://github.com/firecrawl/model-picker"
+      ]
+    },
+    {
+      "package": "skills/to-questionnaire",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [],
+      "source_links": [
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/to-questionnaire/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/visual-diagrams",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "skills/visual-diagrams/sources.json"
+      ],
+      "source_links": [
+        "https://github.com/cathrynlavery/diagram-design/blob/f4547ee95f88e5b28a52517feff6b6c11cc657f9/skills/diagram-design/SKILL.md"
+      ]
+    },
+    {
+      "package": "plugins/product-intelligence",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "plugins/product-intelligence/skills/competitor-recon/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/Jakeschincariol/replica-skill"
+      ]
+    },
+    {
+      "package": "plugins/general-skills",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "plugins/general-skills/skills/fact-check/references/setupkit-MIT-LICENSE.txt"
+      ],
+      "provenance_files": [
+        "plugins/general-skills/references/interface-sources.md",
+        "plugins/general-skills/references/ui-refinement-sources.md",
+        "plugins/general-skills/skills/threejs/references/offline-resources.md",
+        "plugins/general-skills/skills/gsap/references/offline-resources.md",
+        "plugins/general-skills/skills/fact-check/references/setupkit-source.md",
+        "plugins/general-skills/skills/motion-design/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/AThevon/genjutsu",
+        "https://github.com/CloudAI-X/threejs-skills",
+        "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/scripts/inspect.mjs",
+        "https://github.com/LottieFiles/motion-design-skill",
+        "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+        "https://github.com/emilkowalski/skills):",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/animate/SKILL.md",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/pick-ui-library/SKILL.md",
+        "https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md",
+        "https://github.com/greensock/gsap-skills",
+        "https://github.com/h4ckf0r0day/obscura-benchmark",
+        "https://github.com/h4ckf0r0day/obscura/blob/v0.2.4/crates/obscura-cli/src/main.rs",
+        "https://github.com/h4ckf0r0day/obscura/tree/v0.2.4",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-typography/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-ui/SKILL.md",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/ideation/brainstorming",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/research/verification/fact-check",
+        "https://github.com/magnus919/agent-skills/tree/main/research-methodology",
+        "https://github.com/mishanaer/deslop/blob/c38287513d3d1e4b04be0d349380633c1a9d49f2/sasha/SKILL.md",
+        "https://github.com/pbakaus/impeccable):",
+        "https://github.com/referodesign/refero_skill",
+        "https://github.com/zanwei/design-dna"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "package": "skills/agent-orchestrator",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [],
+      "source_links": [
+        "https://github.com/firecrawl/model-picker",
+        "https://github.com/ruvnet/ruflo/tree/main/plugins/ruflo-swarm"
+      ]
+    },
+    {
+      "package": "skills/agentation",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [],
+      "source_links": []
+    },
+    {
+      "package": "skills/apple-design",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [],
+      "source_links": []
+    },
+    {
+      "package": "skills/audio-production",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "skills/audio-production/sources.json",
+        "skills/audio-production/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/audio-craft/audio-mixing-mastering/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/audio-craft/sound-design-foley/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/audio-craft/audio-mixing-mastering/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/audio-craft/sound-design-foley/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/brand-system",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/brand-system/references/source-notices.txt"
+      ],
+      "provenance_files": [
+        "skills/brand-system/references/sources.json",
+        "skills/brand-system/references/source-notices.txt"
+      ],
+      "source_links": [
+        "https://github.com/Leonxlnx/taste-skill/blob/18dfc928b135629e0eddfdd445a06400d04ed439/LICENSE",
+        "https://github.com/Leonxlnx/taste-skill/blob/18dfc928b135629e0eddfdd445a06400d04ed439/skills/brandkit/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/d574cc8a576dc24256ad38268b8d03d86724a1b3/LICENSE",
+        "https://github.com/jakubkrehel/skills/blob/d574cc8a576dc24256ad38268b8d03d86724a1b3/skills/better-typography/SKILL.md",
+        "https://github.com/zstvns/design-skills/blob/8dab61b527bf5fb5dd8a0050a2111020e08df8ea/LICENSE",
+        "https://github.com/zstvns/design-skills/blob/8dab61b527bf5fb5dd8a0050a2111020e08df8ea/skills/logo-design/SKILL.md",
+        "https://github.com/zstvns/design-skills/blob/8dab61b527bf5fb5dd8a0050a2111020e08df8ea/skills/logo-design/references/logo-construction.md",
+        "https://github.com/zstvns/design-skills/blob/8dab61b527bf5fb5dd8a0050a2111020e08df8ea/skills/logo-design/references/logo-fixes.md"
+      ]
+    },
+    {
+      "package": "skills/character-continuity",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "skills/character-continuity/sources.json"
+      ],
+      "source_links": [
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/creative-direction/character-design-continuity/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/creative-direction/character-design-continuity/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/codebase-understanding",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "skills/codebase-understanding/sources.json"
+      ],
+      "source_links": [
+        "https://github.com/Egonex-AI/Understand-Anything/blob/ffa2f0a84a85525623e9f94f7a6b560e39ae43ce/understand-anything-plugin/skills/understand/SKILL.md",
+        "https://github.com/Graphify-Labs/graphify/tree/b90b9df7949bd04a15b40a1624af85d0a9cfdf04"
+      ]
+    },
+    {
+      "package": "skills/context-discipline",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [],
+      "provenance_files": [
+        "skills/context-discipline/sources.json"
+      ],
+      "source_links": [
+        "https://github.com/Graphify-Labs/graphify/tree/b90b9df7949bd04a15b40a1624af85d0a9cfdf04",
+        "https://github.com/google-research/harness2/blob/1cfe254e8d25b15f37048c3730134686abe60335/harness2/core/runmark.py",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/58b55a8921758d13453b440704fb1b5b208c0b0e/skills/context-compression/SKILL.md",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/58b55a8921758d13453b440704fb1b5b208c0b0e/skills/context-degradation/SKILL.md",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/58b55a8921758d13453b440704fb1b5b208c0b0e/skills/context-optimization/SKILL.md",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/58b55a8921758d13453b440704fb1b5b208c0b0e/skills/filesystem-context/SKILL.md",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-compression/SKILL.md?utm_source=chatgpt.com",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-degradation/SKILL.md",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-optimization/SKILL.md?utm_source=chatgpt.com",
+        "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/filesystem-context/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/design-reference-research",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/design-reference-research/THIRD_PARTY_NOTICES.md"
+      ],
+      "provenance_files": [
+        "skills/design-reference-research/references/sources.json",
+        "skills/design-reference-research/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/LICENSE",
+        "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/README.md",
+        "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/SKILL.md",
+        "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/agents/openai.yaml",
+        "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/demo/PROMPT.md",
+        "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/demo/expected-output.md",
+        "https://github.com/MengTo/Skills/blob/83a47fee32f0b6349bff1fede99257a5ef03dc93/agent-skills/codex/daily-ui-inspiration-capture/demo/input.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/LICENSE",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/README.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/SKILL.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/agents/openai.yaml",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/anti-ai-slop.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/color.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/copywriting.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/craft-details.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/example-workflow.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/icons.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/mcp-tools.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/motion.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/typography.md",
+        "https://github.com/referodesign/refero_skill/blob/a9b54a3e62a6391f5f5ab7a20e4ddb32fb79a27d/skills/refero-design/references/visual-workflow.md",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/LICENSE",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/README.md",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/SKILL.md",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/references/choose.md",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/references/moodboard.md",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/references/sources.md",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/references/widen.md",
+        "https://github.com/scenario-labs/skills/blob/f6f8ab71aa1f1e8322624869a173c1024aa875b8/skills/scenario-inspiration/scripts/wildcard.py"
+      ]
+    },
+    {
+      "package": "skills/develop-web-game",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [
+        "skills/develop-web-game/LICENSE.txt"
+      ],
+      "provenance_files": [],
+      "source_links": []
+    },
+    {
+      "package": "skills/editorial-copy",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/editorial-copy/references/setupkit-MIT-LICENSE.txt",
+        "skills/editorial-copy/references/creative-source-notices.txt"
+      ],
+      "provenance_files": [
+        "skills/editorial-copy/sources.json",
+        "skills/editorial-copy/references/creative-source-notices.txt",
+        "skills/editorial-copy/references/setupkit-source.md"
+      ],
+      "source_links": [
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/pra/alterlab-pra-brand-analyst/SKILL.md",
+        "https://github.com/blader/humanizer/blob/225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8/SKILL.md",
+        "https://github.com/coreyhaines31/marketingskills/blob/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ad-creative/SKILL.md",
+        "https://github.com/coreyhaines31/marketingskills/blob/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/copywriting/SKILL.md",
+        "https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md",
+        "https://github.com/hardikpandya/stop-slop/blob/8da1f030185bdfe8471220585162991eaeb970e9/SKILL.md",
+        "https://github.com/motion-team/creative-strategy-skills/blob/8e467a3547dcd2118e4d08fa58099553677d52ff/LICENSE",
+        "https://github.com/motion-team/creative-strategy-skills/blob/8e467a3547dcd2118e4d08fa58099553677d52ff/creative-mechanics/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/html-slide-decks",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "skills/html-slide-decks/sources.json"
+      ],
+      "source_links": [
+        "https://github.com/zarazhangrui/frontend-slides/blob/9906a34d640d2111f724544cbc50f7f130569ae1/plugins/frontend-slides/skills/frontend-slides/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/independent-reviewer",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/independent-reviewer/THIRD_PARTY_NOTICES.md"
+      ],
+      "provenance_files": [],
+      "source_links": [
+        "https://github.com/DietrichGebert/ponytail/tree/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
+        "https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/interface-craft",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/interface-craft/references/ui-ux-pro-max-LICENSE.txt",
+        "skills/interface-craft/references/creative-source-notices.txt",
+        "skills/interface-craft/scripts/unslop/LICENSE-CC-BY-4.0.txt"
+      ],
+      "provenance_files": [
+        "skills/interface-craft/references/sources.json",
+        "skills/interface-craft/references/offline-resources.md",
+        "skills/interface-craft/references/catalog-provenance.json",
+        "skills/interface-craft/references/creative-source-notices.txt"
+      ],
+      "source_links": [
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/vcd/alterlab-vcd-layout-designer/SKILL.md",
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/vcd/alterlab-vcd-typographer/SKILL.md",
+        "https://github.com/Leonxlnx/taste-skill/blob/18dfc928b135629e0eddfdd445a06400d04ed439/skills/taste-skill/SKILL.md",
+        "https://github.com/anthropics/skills/blob/9d630808e4add0a7146de4af9384155d5dee350a/skills/webapp-testing/SKILL.md",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/d574cc8a576dc24256ad38268b8d03d86724a1b3/skills/better-typography/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/main/skills/better-typography/SKILL.md",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/SKILL.md",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/charts.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/colors.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/landing.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/styles.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/data/typography.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/scripts/core.py",
+        "https://github.com/pbakaus/impeccable/blob/d631a8827f99414d2b6daba4ef08b7f8701751d7/.agents/skills/impeccable/SKILL.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-best-practices/SKILL.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/web-design-guidelines/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/ios-simulator-skill",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/ios-simulator-skill/LICENSE.md"
+      ],
+      "provenance_files": [],
+      "source_links": [
+        "https://github.com/conorluddy/ios-simulator-skill/blob/main/AGENTS.md)**",
+        "https://github.com/conorluddy/ios-simulator-skill/blob/main/README.md)**"
+      ]
+    },
+    {
+      "package": "skills/media-production-control",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/media-production-control/references/setupkit-MIT-LICENSE.txt"
+      ],
+      "provenance_files": [
+        "skills/media-production-control/sources.json",
+        "skills/media-production-control/references/setupkit-source.md"
+      ],
+      "source_links": [
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/governance-delivery/asset-continuity-management/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/governance-delivery/generated-media-qa/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/governance-delivery/reference-media-analysis/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/governance-delivery/asset-continuity-management/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/governance-delivery/generated-media-qa/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/governance-delivery/reference-media-analysis/SKILL.md",
+        "https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/mobile-interface-craft",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/mobile-interface-craft/THIRD_PARTY_NOTICES.md"
+      ],
+      "provenance_files": [
+        "skills/mobile-interface-craft/references/sources.json",
+        "skills/mobile-interface-craft/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/SKILL.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/accessibility-patterns.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/layout-best-practices.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/list-patterns.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/localization.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/modifier-patterns.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/performance-patterns.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/sheet-navigation-patterns.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/soft-deprecation.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/state-management.md",
+        "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/204dba7c67256a8b707ee3fbc5759a824191974f/skills/swiftui-expert-skill/references/text-patterns.md",
+        "https://github.com/callstackincubator/agent-skills",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/plugins/vendored/.agents/skills/agent-device/SKILL.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/plugins/vendored/.agents/skills/react-native-testing/SKILL.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/SKILL.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/bundle-hermes-mmap.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-animations-reanimated.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-lists-flatlist-flashlist.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-measure-fps.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-memory-leaks.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/js-uncontrolled-components.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-native-best-practices/references/native-measure-tti.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-navigation/SKILL.md",
+        "https://github.com/callstackincubator/agent-skills/blob/59e9d17446a248b21d86f078fcd0bd2d36db1ca4/skills/react-navigation/references/safe-areas.md",
+        "https://github.com/conorluddy/ios-simulator-skill",
+        "https://github.com/conorluddy/ios-simulator-skill/blob/e38b3ad5cc2585140c91b9c0f974124c3add31dc/LICENSE.md",
+        "https://github.com/conorluddy/ios-simulator-skill/blob/e38b3ad5cc2585140c91b9c0f974124c3add31dc/README.md",
+        "https://github.com/conorluddy/ios-simulator-skill/blob/e38b3ad5cc2585140c91b9c0f974124c3add31dc/ios-simulator-skill/skills/ios-simulator-skill/SKILL.md",
+        "https://github.com/conorluddy/xc-mcp",
+        "https://github.com/expo/skills",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-animation/SKILL.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-data-fetching/SKILL.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-design-system/SKILL.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-design-system/references/audit.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-design-system/references/native-slop.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-dev-client/SKILL.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-native-ui/SKILL.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-native-ui/references/icons.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-router/SKILL.md",
+        "https://github.com/expo/skills/blob/d4f484024fec15196bfd3c272e953e3f983972cf/plugins/expo/skills/expo-ui/SKILL.md",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/SKILL.md",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/.claude/skills/ui-ux-pro-max/references/pro-rules.md",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/src/ui-ux-pro-max/data/stacks/flutter.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/src/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/src/ui-ux-pro-max/data/stacks/react-native.csv",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/50d8a7de0900119855614541f15a1a616691eb33/src/ui-ux-pro-max/data/stacks/swiftui.csv",
+        "https://github.com/vercel-labs/agent-skills",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/SKILL.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/animation-derived-value.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/animation-gesture-detector-press.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/animation-gpu-properties.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/design-system-compound-components.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/fonts-config-plugin.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/imports-design-system-folder.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/js-hoist-intl.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-callbacks.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-function-references.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-images.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-inline-objects.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-item-expensive.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-item-memo.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-item-types.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/list-performance-virtualize.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/monorepo-native-deps-in-app.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/monorepo-single-dependency-versions.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/navigation-native-navigators.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-compiler-destructure-functions.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-compiler-reanimated-shared-values.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-state-dispatcher.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-state-fallback.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/react-state-minimize.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/rendering-no-falsy-and.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/rendering-text-in-text-component.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/scroll-position-no-state.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/state-ground-truth.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-expo-image.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-image-gallery.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-measure-views.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-menus.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-native-modals.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-pressable.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-safe-area-scroll.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-scrollview-content-inset.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-native-skills/rules/ui-styling.md",
+        "https://github.com/vsouza/awesome-ios#readme"
+      ]
+    },
+    {
+      "package": "skills/motion-storytelling",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/motion-storytelling/references/creative-source-notices.txt"
+      ],
+      "provenance_files": [
+        "skills/motion-storytelling/sources.json",
+        "skills/motion-storytelling/references/offline-resources.md",
+        "skills/motion-storytelling/references/creative-source-notices.txt"
+      ],
+      "source_links": [
+        "https://github.com/0xsline/openchatcut/blob/2e6f4a29b784200cfb32b859b16f2561592bc3e8/src/agent/skills/storyboard-shot-breakdown/SKILL.md",
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/cdm/alterlab-cdm-screenwriter/SKILL.md",
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/LICENSE",
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/post-production/title-kinetic-typography/SKILL.md",
+        "https://github.com/iart-ai/motion-design-skills/blob/3c129f769d90a1328c209c386492333c9ac62312/skills/after-effects/SKILL.md",
+        "https://github.com/iart-ai/motion-design-skills/blob/3c129f769d90a1328c209c386492333c9ac62312/skills/beat-sync-editing/SKILL.md",
+        "https://github.com/iart-ai/motion-design-skills/blob/3c129f769d90a1328c209c386492333c9ac62312/skills/motion-art-direction/SKILL.md",
+        "https://github.com/iart-ai/motion-design-skills/blob/3c129f769d90a1328c209c386492333c9ac62312/skills/shot-composition/SKILL.md",
+        "https://github.com/lottiefiles/motion-design-skill/blob/f9a8a041b85185ee4881b3471d3415e939aac772/skills/motion-design/SKILL.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/LICENSE",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/SKILL.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/continuity-rules.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/metaphor-and-proof.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/narrative-grammar.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/shot-script-rubric.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/cartoon-ad/references/workflow-handoff.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/SKILL.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/brand-film.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/cgi-product-world.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/editorial-try-on.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/proof-test.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/reveal-suspense.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/satisfying-restock.md",
+        "https://github.com/postplusai/postplus-skills/blob/7f28d1494958f69136a7d6fe85fdea3942a300f3/skills/40-creative/commercial-ad/references/surreal-escalation.md"
+      ]
+    },
+    {
+      "package": "skills/openai-docs",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [
+        "skills/openai-docs/LICENSE.txt"
+      ],
+      "provenance_files": [
+        "skills/openai-docs/references/offline-resources.md"
+      ],
+      "source_links": []
+    },
+    {
+      "package": "skills/pdf",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [
+        "skills/pdf/LICENSE.txt"
+      ],
+      "provenance_files": [],
+      "source_links": []
+    },
+    {
+      "package": "skills/production-engineering",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0",
+        "CC-BY-SA-4.0",
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/production-engineering/THIRD_PARTY_NOTICES.md"
+      ],
+      "provenance_files": [
+        "skills/production-engineering/references/interface-sources.md",
+        "skills/production-engineering/references/offline-resources.md",
+        "skills/production-engineering/references/development-sources.json",
+        "skills/production-engineering/references/upstream/production-auditor/PROVENANCE.md"
+      ],
+      "source_links": [
+        "https://github.com/DietrichGebert/ponytail/tree/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
+        "https://github.com/Jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/skills/cpp-pro/SKILL.md",
+        "https://github.com/Jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/skills/cpp-pro/references/concurrency.md",
+        "https://github.com/Jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/skills/python-pro/SKILL.md",
+        "https://github.com/Jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/SKILL.md",
+        "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/scripts/inspect.mjs",
+        "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+        "https://github.com/emilkowalski/skills):",
+        "https://github.com/h4ckf0r0day/obscura-benchmark",
+        "https://github.com/h4ckf0r0day/obscura/blob/v0.2.4/crates/obscura-cli/src/main.rs",
+        "https://github.com/h4ckf0r0day/obscura/tree/v0.2.4",
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/code-review/SKILL.md",
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/codebase-design/SKILL.md",
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/domain-modeling/SKILL.md",
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/retro/SKILL.md",
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/tdd/SKILL.md",
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/engineering/to-tickets/SKILL.md",
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/writing-for-agents/SKILL.md",
+        "https://github.com/pbakaus/impeccable):",
+        "https://github.com/referodesign/refero_skill",
+        "https://github.com/rust-lang/miri",
+        "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/SKILL.md",
+        "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/conn-prepared-statements.md",
+        "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/monitor-explain-analyze.md",
+        "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/security-rls-basics.md",
+        "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/security-rls-performance.md",
+        "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/c-review/skills/c-review/SKILL.md",
+        "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/property-based-testing/skills/property-based-testing/SKILL.md",
+        "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/prompts/clusters/concurrency-locking.md",
+        "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/prompts/clusters/ffi-cross-language.md",
+        "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/prompts/clusters/memory-safety.md",
+        "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/prompts/clusters/unsafe-boundary.md",
+        "https://github.com/trailofbits/skills/blob/fdfe4f41b65d4c75162b902d1458211b90e91113/plugins/rust-review/skills/rust-review/SKILL.md",
+        "https://github.com/vsouza/awesome-ios#readme",
+        "https://github.com/wshobson/agents/blob/46891e7e60da0e52baf1050b7b6391b64e84c6d9/plugins/javascript-typescript/skills/typescript-advanced-types/SKILL.md",
+        "https://github.com/wshobson/agents/blob/46891e7e60da0e52baf1050b7b6391b64e84c6d9/plugins/python-development/skills/python-testing-patterns/SKILL.md",
+        "https://github.com/wshobson/agents/blob/46891e7e60da0e52baf1050b7b6391b64e84c6d9/plugins/systems-programming/skills/rust-async-patterns/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/remotion-video",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "skills/remotion-video/sources.json",
+        "skills/remotion-video/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/remotion-dev/skills/blob/32b241b97f4e0e4ab61fe9a41b05e6e64503f8c5/skills/remotion-best-practices/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/smart-router",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [],
+      "source_links": [
+        "https://github.com/firecrawl/model-picker"
+      ]
+    },
+    {
+      "package": "skills/to-questionnaire",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [],
+      "source_links": [
+        "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/to-questionnaire/SKILL.md"
+      ]
+    },
+    {
+      "package": "skills/visual-diagrams",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "skills/visual-diagrams/sources.json"
+      ],
+      "source_links": [
+        "https://github.com/cathrynlavery/diagram-design/blob/f4547ee95f88e5b28a52517feff6b6c11cc657f9/skills/diagram-design/SKILL.md"
+      ]
+    },
+    {
+      "package": "plugins/product-intelligence/skills/customer-voice",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "plugins/product-intelligence/skills/competitor-recon/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/Jakeschincariol/replica-skill"
+      ],
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+    },
+    {
+      "package": "plugins/product-intelligence/skills/competitor-recon",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "plugins/product-intelligence/skills/competitor-recon/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/Jakeschincariol/replica-skill"
+      ],
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+    },
+    {
+      "package": "plugins/product-intelligence/skills/feature-parity",
+      "status": "no package-level license grant established; source review required",
+      "license_mentions": [],
+      "notice_files": [],
+      "provenance_files": [
+        "plugins/product-intelligence/skills/competitor-recon/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/Jakeschincariol/replica-skill"
+      ],
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+    },
+    {
+      "package": "plugins/general-skills/skills/genjutsu",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "plugins/general-skills/skills/fact-check/references/setupkit-MIT-LICENSE.txt"
+      ],
+      "provenance_files": [
+        "plugins/general-skills/references/interface-sources.md",
+        "plugins/general-skills/references/ui-refinement-sources.md",
+        "plugins/general-skills/skills/threejs/references/offline-resources.md",
+        "plugins/general-skills/skills/gsap/references/offline-resources.md",
+        "plugins/general-skills/skills/fact-check/references/setupkit-source.md",
+        "plugins/general-skills/skills/motion-design/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/AThevon/genjutsu",
+        "https://github.com/CloudAI-X/threejs-skills",
+        "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/scripts/inspect.mjs",
+        "https://github.com/LottieFiles/motion-design-skill",
+        "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+        "https://github.com/emilkowalski/skills):",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/animate/SKILL.md",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/pick-ui-library/SKILL.md",
+        "https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md",
+        "https://github.com/greensock/gsap-skills",
+        "https://github.com/h4ckf0r0day/obscura-benchmark",
+        "https://github.com/h4ckf0r0day/obscura/blob/v0.2.4/crates/obscura-cli/src/main.rs",
+        "https://github.com/h4ckf0r0day/obscura/tree/v0.2.4",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-typography/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-ui/SKILL.md",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/ideation/brainstorming",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/research/verification/fact-check",
+        "https://github.com/magnus919/agent-skills/tree/main/research-methodology",
+        "https://github.com/mishanaer/deslop/blob/c38287513d3d1e4b04be0d349380633c1a9d49f2/sasha/SKILL.md",
+        "https://github.com/pbakaus/impeccable):",
+        "https://github.com/referodesign/refero_skill",
+        "https://github.com/zanwei/design-dna"
+      ],
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+    },
+    {
+      "package": "plugins/general-skills/skills/design-dna",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "plugins/general-skills/skills/fact-check/references/setupkit-MIT-LICENSE.txt"
+      ],
+      "provenance_files": [
+        "plugins/general-skills/references/interface-sources.md",
+        "plugins/general-skills/references/ui-refinement-sources.md",
+        "plugins/general-skills/skills/threejs/references/offline-resources.md",
+        "plugins/general-skills/skills/gsap/references/offline-resources.md",
+        "plugins/general-skills/skills/fact-check/references/setupkit-source.md",
+        "plugins/general-skills/skills/motion-design/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/AThevon/genjutsu",
+        "https://github.com/CloudAI-X/threejs-skills",
+        "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/scripts/inspect.mjs",
+        "https://github.com/LottieFiles/motion-design-skill",
+        "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+        "https://github.com/emilkowalski/skills):",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/animate/SKILL.md",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/pick-ui-library/SKILL.md",
+        "https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md",
+        "https://github.com/greensock/gsap-skills",
+        "https://github.com/h4ckf0r0day/obscura-benchmark",
+        "https://github.com/h4ckf0r0day/obscura/blob/v0.2.4/crates/obscura-cli/src/main.rs",
+        "https://github.com/h4ckf0r0day/obscura/tree/v0.2.4",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-typography/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-ui/SKILL.md",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/ideation/brainstorming",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/research/verification/fact-check",
+        "https://github.com/magnus919/agent-skills/tree/main/research-methodology",
+        "https://github.com/mishanaer/deslop/blob/c38287513d3d1e4b04be0d349380633c1a9d49f2/sasha/SKILL.md",
+        "https://github.com/pbakaus/impeccable):",
+        "https://github.com/referodesign/refero_skill",
+        "https://github.com/zanwei/design-dna"
+      ],
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+    },
+    {
+      "package": "plugins/general-skills/skills/motion-design",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "plugins/general-skills/skills/fact-check/references/setupkit-MIT-LICENSE.txt"
+      ],
+      "provenance_files": [
+        "plugins/general-skills/references/interface-sources.md",
+        "plugins/general-skills/references/ui-refinement-sources.md",
+        "plugins/general-skills/skills/threejs/references/offline-resources.md",
+        "plugins/general-skills/skills/gsap/references/offline-resources.md",
+        "plugins/general-skills/skills/fact-check/references/setupkit-source.md",
+        "plugins/general-skills/skills/motion-design/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/AThevon/genjutsu",
+        "https://github.com/CloudAI-X/threejs-skills",
+        "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/scripts/inspect.mjs",
+        "https://github.com/LottieFiles/motion-design-skill",
+        "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+        "https://github.com/emilkowalski/skills):",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/animate/SKILL.md",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/pick-ui-library/SKILL.md",
+        "https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md",
+        "https://github.com/greensock/gsap-skills",
+        "https://github.com/h4ckf0r0day/obscura-benchmark",
+        "https://github.com/h4ckf0r0day/obscura/blob/v0.2.4/crates/obscura-cli/src/main.rs",
+        "https://github.com/h4ckf0r0day/obscura/tree/v0.2.4",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-typography/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-ui/SKILL.md",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/ideation/brainstorming",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/research/verification/fact-check",
+        "https://github.com/magnus919/agent-skills/tree/main/research-methodology",
+        "https://github.com/mishanaer/deslop/blob/c38287513d3d1e4b04be0d349380633c1a9d49f2/sasha/SKILL.md",
+        "https://github.com/pbakaus/impeccable):",
+        "https://github.com/referodesign/refero_skill",
+        "https://github.com/zanwei/design-dna"
+      ],
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+    },
+    {
+      "package": "plugins/general-skills/skills/fact-check",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "plugins/general-skills/skills/fact-check/references/setupkit-MIT-LICENSE.txt"
+      ],
+      "provenance_files": [
+        "plugins/general-skills/references/interface-sources.md",
+        "plugins/general-skills/references/ui-refinement-sources.md",
+        "plugins/general-skills/skills/threejs/references/offline-resources.md",
+        "plugins/general-skills/skills/gsap/references/offline-resources.md",
+        "plugins/general-skills/skills/fact-check/references/setupkit-source.md",
+        "plugins/general-skills/skills/motion-design/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/AThevon/genjutsu",
+        "https://github.com/CloudAI-X/threejs-skills",
+        "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/scripts/inspect.mjs",
+        "https://github.com/LottieFiles/motion-design-skill",
+        "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+        "https://github.com/emilkowalski/skills):",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/animate/SKILL.md",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/pick-ui-library/SKILL.md",
+        "https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md",
+        "https://github.com/greensock/gsap-skills",
+        "https://github.com/h4ckf0r0day/obscura-benchmark",
+        "https://github.com/h4ckf0r0day/obscura/blob/v0.2.4/crates/obscura-cli/src/main.rs",
+        "https://github.com/h4ckf0r0day/obscura/tree/v0.2.4",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-typography/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-ui/SKILL.md",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/ideation/brainstorming",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/research/verification/fact-check",
+        "https://github.com/magnus919/agent-skills/tree/main/research-methodology",
+        "https://github.com/mishanaer/deslop/blob/c38287513d3d1e4b04be0d349380633c1a9d49f2/sasha/SKILL.md",
+        "https://github.com/pbakaus/impeccable):",
+        "https://github.com/referodesign/refero_skill",
+        "https://github.com/zanwei/design-dna"
+      ],
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+    },
+    {
+      "package": "plugins/general-skills/skills/research-methodology",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "plugins/general-skills/skills/fact-check/references/setupkit-MIT-LICENSE.txt"
+      ],
+      "provenance_files": [
+        "plugins/general-skills/references/interface-sources.md",
+        "plugins/general-skills/references/ui-refinement-sources.md",
+        "plugins/general-skills/skills/threejs/references/offline-resources.md",
+        "plugins/general-skills/skills/gsap/references/offline-resources.md",
+        "plugins/general-skills/skills/fact-check/references/setupkit-source.md",
+        "plugins/general-skills/skills/motion-design/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/AThevon/genjutsu",
+        "https://github.com/CloudAI-X/threejs-skills",
+        "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/scripts/inspect.mjs",
+        "https://github.com/LottieFiles/motion-design-skill",
+        "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+        "https://github.com/emilkowalski/skills):",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/animate/SKILL.md",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/pick-ui-library/SKILL.md",
+        "https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md",
+        "https://github.com/greensock/gsap-skills",
+        "https://github.com/h4ckf0r0day/obscura-benchmark",
+        "https://github.com/h4ckf0r0day/obscura/blob/v0.2.4/crates/obscura-cli/src/main.rs",
+        "https://github.com/h4ckf0r0day/obscura/tree/v0.2.4",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-typography/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-ui/SKILL.md",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/ideation/brainstorming",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/research/verification/fact-check",
+        "https://github.com/magnus919/agent-skills/tree/main/research-methodology",
+        "https://github.com/mishanaer/deslop/blob/c38287513d3d1e4b04be0d349380633c1a9d49f2/sasha/SKILL.md",
+        "https://github.com/pbakaus/impeccable):",
+        "https://github.com/referodesign/refero_skill",
+        "https://github.com/zanwei/design-dna"
+      ],
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+    },
+    {
+      "package": "plugins/general-skills/skills/brainstorming",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "plugins/general-skills/skills/fact-check/references/setupkit-MIT-LICENSE.txt"
+      ],
+      "provenance_files": [
+        "plugins/general-skills/references/interface-sources.md",
+        "plugins/general-skills/references/ui-refinement-sources.md",
+        "plugins/general-skills/skills/threejs/references/offline-resources.md",
+        "plugins/general-skills/skills/gsap/references/offline-resources.md",
+        "plugins/general-skills/skills/fact-check/references/setupkit-source.md",
+        "plugins/general-skills/skills/motion-design/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/AThevon/genjutsu",
+        "https://github.com/CloudAI-X/threejs-skills",
+        "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/scripts/inspect.mjs",
+        "https://github.com/LottieFiles/motion-design-skill",
+        "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+        "https://github.com/emilkowalski/skills):",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/animate/SKILL.md",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/pick-ui-library/SKILL.md",
+        "https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md",
+        "https://github.com/greensock/gsap-skills",
+        "https://github.com/h4ckf0r0day/obscura-benchmark",
+        "https://github.com/h4ckf0r0day/obscura/blob/v0.2.4/crates/obscura-cli/src/main.rs",
+        "https://github.com/h4ckf0r0day/obscura/tree/v0.2.4",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-typography/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-ui/SKILL.md",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/ideation/brainstorming",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/research/verification/fact-check",
+        "https://github.com/magnus919/agent-skills/tree/main/research-methodology",
+        "https://github.com/mishanaer/deslop/blob/c38287513d3d1e4b04be0d349380633c1a9d49f2/sasha/SKILL.md",
+        "https://github.com/pbakaus/impeccable):",
+        "https://github.com/referodesign/refero_skill",
+        "https://github.com/zanwei/design-dna"
+      ],
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+    },
+    {
+      "package": "plugins/general-skills/skills/write-russian-ui",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "plugins/general-skills/skills/fact-check/references/setupkit-MIT-LICENSE.txt"
+      ],
+      "provenance_files": [
+        "plugins/general-skills/references/interface-sources.md",
+        "plugins/general-skills/references/ui-refinement-sources.md",
+        "plugins/general-skills/skills/threejs/references/offline-resources.md",
+        "plugins/general-skills/skills/gsap/references/offline-resources.md",
+        "plugins/general-skills/skills/fact-check/references/setupkit-source.md",
+        "plugins/general-skills/skills/motion-design/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/AThevon/genjutsu",
+        "https://github.com/CloudAI-X/threejs-skills",
+        "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/scripts/inspect.mjs",
+        "https://github.com/LottieFiles/motion-design-skill",
+        "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+        "https://github.com/emilkowalski/skills):",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/animate/SKILL.md",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/pick-ui-library/SKILL.md",
+        "https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md",
+        "https://github.com/greensock/gsap-skills",
+        "https://github.com/h4ckf0r0day/obscura-benchmark",
+        "https://github.com/h4ckf0r0day/obscura/blob/v0.2.4/crates/obscura-cli/src/main.rs",
+        "https://github.com/h4ckf0r0day/obscura/tree/v0.2.4",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-typography/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-ui/SKILL.md",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/ideation/brainstorming",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/research/verification/fact-check",
+        "https://github.com/magnus919/agent-skills/tree/main/research-methodology",
+        "https://github.com/mishanaer/deslop/blob/c38287513d3d1e4b04be0d349380633c1a9d49f2/sasha/SKILL.md",
+        "https://github.com/pbakaus/impeccable):",
+        "https://github.com/referodesign/refero_skill",
+        "https://github.com/zanwei/design-dna"
+      ],
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+    },
+    {
+      "package": "plugins/general-skills/skills/gsap",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "plugins/general-skills/skills/fact-check/references/setupkit-MIT-LICENSE.txt"
+      ],
+      "provenance_files": [
+        "plugins/general-skills/references/interface-sources.md",
+        "plugins/general-skills/references/ui-refinement-sources.md",
+        "plugins/general-skills/skills/threejs/references/offline-resources.md",
+        "plugins/general-skills/skills/gsap/references/offline-resources.md",
+        "plugins/general-skills/skills/fact-check/references/setupkit-source.md",
+        "plugins/general-skills/skills/motion-design/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/AThevon/genjutsu",
+        "https://github.com/CloudAI-X/threejs-skills",
+        "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/scripts/inspect.mjs",
+        "https://github.com/LottieFiles/motion-design-skill",
+        "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+        "https://github.com/emilkowalski/skills):",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/animate/SKILL.md",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/pick-ui-library/SKILL.md",
+        "https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md",
+        "https://github.com/greensock/gsap-skills",
+        "https://github.com/h4ckf0r0day/obscura-benchmark",
+        "https://github.com/h4ckf0r0day/obscura/blob/v0.2.4/crates/obscura-cli/src/main.rs",
+        "https://github.com/h4ckf0r0day/obscura/tree/v0.2.4",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-typography/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-ui/SKILL.md",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/ideation/brainstorming",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/research/verification/fact-check",
+        "https://github.com/magnus919/agent-skills/tree/main/research-methodology",
+        "https://github.com/mishanaer/deslop/blob/c38287513d3d1e4b04be0d349380633c1a9d49f2/sasha/SKILL.md",
+        "https://github.com/pbakaus/impeccable):",
+        "https://github.com/referodesign/refero_skill",
+        "https://github.com/zanwei/design-dna"
+      ],
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+    },
+    {
+      "package": "plugins/general-skills/skills/threejs",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "plugins/general-skills/skills/fact-check/references/setupkit-MIT-LICENSE.txt"
+      ],
+      "provenance_files": [
+        "plugins/general-skills/references/interface-sources.md",
+        "plugins/general-skills/references/ui-refinement-sources.md",
+        "plugins/general-skills/skills/threejs/references/offline-resources.md",
+        "plugins/general-skills/skills/gsap/references/offline-resources.md",
+        "plugins/general-skills/skills/fact-check/references/setupkit-source.md",
+        "plugins/general-skills/skills/motion-design/references/offline-resources.md"
+      ],
+      "source_links": [
+        "https://github.com/AThevon/genjutsu",
+        "https://github.com/CloudAI-X/threejs-skills",
+        "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/scripts/inspect.mjs",
+        "https://github.com/LottieFiles/motion-design-skill",
+        "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+        "https://github.com/emilkowalski/skills):",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/animate/SKILL.md",
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/pick-ui-library/SKILL.md",
+        "https://github.com/etsarkov/setupkit-ai/blob/793be41214f62bf41bf16491fb181b036d84bcc8/skills/setupkit-fact-check/SKILL.md",
+        "https://github.com/greensock/gsap-skills",
+        "https://github.com/h4ckf0r0day/obscura-benchmark",
+        "https://github.com/h4ckf0r0day/obscura/blob/v0.2.4/crates/obscura-cli/src/main.rs",
+        "https://github.com/h4ckf0r0day/obscura/tree/v0.2.4",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-typography/SKILL.md",
+        "https://github.com/jakubkrehel/skills/blob/4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63/skills/better-ui/SKILL.md",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/ideation/brainstorming",
+        "https://github.com/jwynia/agent-skills/tree/main/skills/general/research/verification/fact-check",
+        "https://github.com/magnus919/agent-skills/tree/main/research-methodology",
+        "https://github.com/mishanaer/deslop/blob/c38287513d3d1e4b04be0d349380633c1a9d49f2/sasha/SKILL.md",
+        "https://github.com/pbakaus/impeccable):",
+        "https://github.com/referodesign/refero_skill",
+        "https://github.com/zanwei/design-dna"
+      ],
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+    }
+  ]
+}

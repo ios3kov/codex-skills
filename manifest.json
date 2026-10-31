@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "snapshot_date": "2026-10-31",
-  "scope": "37 personal skills and supporting payloads; metadata, documentation and portable symlink regression updated. Original installed snapshot remains in Git history.",
+  "scope": "Synchronized installed/cloud/Git personal skill payload at the recorded 2026-11-01 verification; root maintenance files are separate.",
   "standalone_count": 25,
   "owned_plugin_skill_count": 12,
   "skills": [
@@ -193,8 +193,8 @@
   ],
   "files": {
     "skills/agent-orchestrator/SKILL.md": {
-      "sha256": "7e42a1aa564b3ce2c317c92526ec5f63b013a0c67c63a92bbdba813884827353",
-      "bytes": 5207,
+      "sha256": "ce1cfa5a35016316bd4ed02c97a65cf8a63bf4b3d99a264765c48c9326346454",
+      "bytes": 5208,
       "executable": false
     },
     "skills/agent-orchestrator/agents/openai.yaml": {
@@ -213,8 +213,8 @@
       "executable": false
     },
     "skills/agentation/SKILL.md": {
-      "sha256": "09f4fee606d9f354b4e16eff5a83b3de1b5c35f89aa430c1e0976f214294f4c7",
-      "bytes": 3769,
+      "sha256": "5343cdb216ec2e8e707bba025e659976aea8b799ef5200dec375ae044e8bb2f5",
+      "bytes": 3770,
       "executable": false
     },
     "skills/apple-design/SKILL.md": {
@@ -383,8 +383,8 @@
       "executable": false
     },
     "skills/context-discipline/SKILL.md": {
-      "sha256": "0b30d28cfa4f7cbd8d28d72eca5c2a79a75ad7ae7375f96f44f7cd0a8cd852ee",
-      "bytes": 8275,
+      "sha256": "2e043b34b4ef5f82e0e4f339964997bed56c427a45cfec1ffb078a3e18a67b68",
+      "bytes": 8276,
       "executable": false
     },
     "skills/context-discipline/agents/openai.yaml": {
@@ -1308,8 +1308,8 @@
       "executable": false
     },
     "skills/production-engineering/SKILL.md": {
-      "sha256": "6a66414a06e861bc21d79ecfe0a9aec4f09af0f956ee7f84c98ddd029f923c05",
-      "bytes": 18300,
+      "sha256": "1b1e28fd5de3db8423c93b3c517765ace894de04a13de167571ec5dce016c911",
+      "bytes": 18301,
       "executable": false
     },
     "skills/production-engineering/THIRD_PARTY_NOTICES.md": {
@@ -1828,23 +1828,23 @@
       "executable": false
     },
     "plugins/general-skills/.codex-plugin/plugin.json": {
-      "sha256": "786312a4e0391b22108d1f5a72533ae7d35bb5d93e356e66dd885013fa4ce261",
+      "sha256": "fa973afe75e123ad95d9cf55bbf5eeb64ec483792fe5c5ff45802230d81dda9e",
       "bytes": 805,
       "executable": false
     },
     "plugins/general-skills/CHANGELOG.md": {
-      "sha256": "e241e9c7e1d56be024643b2255f6717cd12f7b171a084efe91732ee5f9a730b6",
-      "bytes": 5524,
+      "sha256": "f586ff4e49e8b037f27fa7e2ef386e92052b181ed66331b385a6a8f46c28705e",
+      "bytes": 5894,
       "executable": false
     },
     "plugins/general-skills/README.md": {
-      "sha256": "dcc7f10e2579df04712b9d9900641492ad742710a4fc8d37b59ca7a9d0cc9ac6",
+      "sha256": "0d2340aa1081c7999595e3123fde17b3c6f6941e4b41c352bd3db24ca581ba63",
       "bytes": 4891,
       "executable": false
     },
     "plugins/general-skills/plugin.json": {
-      "sha256": "bcd220998865c6352c0b4dedc4b7fbb76fd7353446882d3c219014b995524423",
-      "bytes": 826,
+      "sha256": "e70a3b0396f8eb736ff090444c6aae7409097ad10cb24bf7d74d530c2ab73094",
+      "bytes": 867,
       "executable": false
     },
     "plugins/general-skills/references/interface-practice.md": {
@@ -1973,7 +1973,7 @@
       "executable": false
     },
     "plugins/product-intelligence/.codex-plugin/plugin.json": {
-      "sha256": "77fedb161c08190b80b81e228a6254903c675acd1235b5ea1e119e7f464db361",
+      "sha256": "08d2b5b9594a77eefe1e53de29f63dc20c211f7897461daad7e980cb6364a6d3",
       "bytes": 807,
       "executable": false
     },
@@ -1993,8 +1993,8 @@
       "executable": false
     },
     "plugins/product-intelligence/plugin.json": {
-      "sha256": "79fc3276997980b1124696791466abc69b0441646a231328dedd462b0157f9d5",
-      "bytes": 828,
+      "sha256": "05085f2c738d91101e733b1143dd6f29e9f9715cd866f60f958b7daa49f6246b",
+      "bytes": 869,
       "executable": false
     },
     "plugins/product-intelligence/references/QA_AND_LAUNCH.md": {
@@ -2078,13 +2078,18 @@
       "executable": false
     },
     "skills/agentation/agents/openai.yaml": {
-      "sha256": "54cf06caa8c19e6a5d3f1c82b4ea87e9bdcf9ce3547c2d0f5f469b36cfad5e5c",
-      "bytes": 107,
+      "sha256": "59d7f58e0289ee1c19bef09210bf174751df491382c9cbec230661d317203eef",
+      "bytes": 257,
       "executable": false
     },
     "skills/production-engineering/scripts/tests/test_temp_path_regression.py": {
-      "sha256": "0d44aa825c16ed778ea8fa07e1020f64adae7444c3770488d0e1ff0d73315a6c",
-      "bytes": 2522,
+      "sha256": "f8497e728443ec375c15c1600234b44a2e202cd694a42f54e1274064de0aac9d",
+      "bytes": 2848,
+      "executable": false
+    },
+    "skills/agentation/assets/icon.svg": {
+      "sha256": "72343cc4b66256ae7de8474c7cad14e711ad84a94c473732a44f96a56124c42d",
+      "bytes": 786,
       "executable": false
     }
   },
