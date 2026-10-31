@@ -59,9 +59,9 @@ For the two plugin packages, register this repository as a marketplace with the 
 
 Keep plugin directories intact: their skills share references and scripts outside individual skill folders. Copying only their `SKILL.md` files loses those resources.
 
-Future personal skill changes should be merged into this repository together with any local or cloud edits, and verified by fresh payload hashes. The older `production-engineering` repository remains intact; this repository is the consolidated skill source.
+Future personal skill changes should be merged into this repository together with any local or cloud edits, and verified by fresh payload hashes. The older `production-engineering` repository is retained as a read-only archive. Its full Git history, historical GitHub issues and pull requests remain in that original archive. Full history was not republished into this public repository. This repository is the consolidated skill source.
 
-This synchronization preserves installed content. Existing upstream README links may still point to their original repository. It does not change tool accounts, install dependencies, configure MCP, transfer credentials or deploy anything. Context7 and other services still require the target environment’s own connection and authorization.
+This synchronization preserves installed content. Historical provenance links retain their original repository; active installation links use this repository. It does not change tool accounts, install dependencies, configure MCP, transfer credentials or deploy anything. Context7 and other services still require the target environment’s own connection and authorization.
 
 ## Verification and boundaries
 
@@ -72,3 +72,9 @@ Generated Python bytecode and OS caches are excluded. No authentication files, a
 ## License
 
 This is a collection with multiple upstream licenses, not a relicensing of all content. Preserve the notices and licenses inside each skill/plugin. Provider-managed skills are listed by identity only; reinstall them through the provider.
+
+## Tests and migrated history
+
+Run `python -B -m unittest discover -s skills/production-engineering/scripts/tests -v`, `python -B -m unittest discover -s tests -v`, and `node --test skills/production-engineering/integrations/visual-refinement/tests/story.test.mjs`. Standard tests run in CI. The five specialized browser/REA qualification workflows are retained as manual opt-ins; they may acquire large external tools and are not triggered automatically.
+
+The admitted REA workflow reads the bundled checksum-verified runtime archive, avoiding an expiring artifact in the old repository. Historical SHA/source references are preserved.

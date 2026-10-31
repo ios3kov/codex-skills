@@ -14,5 +14,14 @@
   "cloud_parity": "NOT RUN in this synchronization; Git snapshot is of currently installed local skill bytes",
   "managed_provider_payloads": "NOT COPIED: provider-managed skills/runtimes are recorded with identity/version and require provider installation",
   "remote_readback": "PASS: all 373 skill payload files read from a fresh GitHub fetch and SHA-256 matched",
-  "verified_payload_commit": "20e6eebeaea29343919e498b0e5b3fae4fbf2d8f"
+  "verified_payload_commit": "20e6eebeaea29343919e498b0e5b3fae4fbf2d8f",
+  "migration_updated_on": "2026-11-01",
+  "migration": {
+    "core_python_tests": "PASS: 90 tests",
+    "plugin_tests": "PASS: 35 tests",
+    "visual_node_tests": "PASS: 15 tests including localhost preview",
+    "specialized_browser_and_REA_workflows": "NOT RUN; migrated as explicit manual workflows",
+    "installed_snapshot": "Original 2026-10-31 match retained in verified_payload_commit. Migration updates installation docs/metadata and adds tests, so current full package parity with installed copies is not claimed.",
+    "history": "Preserved in the original production-engineering repository through reversible archive. Full cross-repository history publication was blocked by automatic security review; no bypass attempted."
+  }
 }

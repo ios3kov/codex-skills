@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "snapshot_date": "2026-10-31",
-  "scope": "25 installed standalone skills and 12 skills in two owned plugin packages; managed skills listed separately",
+  "scope": "37 personal skills plus migrated regression fixtures; installation pointers updated for canonical repository. Original installed snapshot preserved in Git history.",
   "standalone_count": 25,
   "owned_plugin_skill_count": 12,
   "skills": [
@@ -1828,8 +1828,8 @@
       "executable": false
     },
     "plugins/general-skills/.codex-plugin/plugin.json": {
-      "sha256": "a8627d27a3334fab60e1eb79959af8ca3c2053379d98627b5efd3095958e3b0d",
-      "bytes": 824,
+      "sha256": "fdf2a702e8e379a138a83f9aab7f85b9fd2864994a4b42526fe6aa48c2215845",
+      "bytes": 814,
       "executable": false
     },
     "plugins/general-skills/CHANGELOG.md": {
@@ -1838,13 +1838,13 @@
       "executable": false
     },
     "plugins/general-skills/README.md": {
-      "sha256": "3cae6e72f62b13115f9ceabb5feb7ca14a40c2ada472aa48e6d15ba1c947e820",
-      "bytes": 4513,
+      "sha256": "b8603d9abbbb80bf0e3039e1985a01e864167393f641c22934ad8464e31386bd",
+      "bytes": 4509,
       "executable": false
     },
     "plugins/general-skills/plugin.json": {
-      "sha256": "63b9d8f7ed0c670f29408a7b3dabc4adb0ee87f12e915ec1c810c73db643d4d8",
-      "bytes": 836,
+      "sha256": "bcd220998865c6352c0b4dedc4b7fbb76fd7353446882d3c219014b995524423",
+      "bytes": 826,
       "executable": false
     },
     "plugins/general-skills/references/interface-practice.md": {
@@ -1973,13 +1973,13 @@
       "executable": false
     },
     "plugins/product-intelligence/.codex-plugin/plugin.json": {
-      "sha256": "b96aefa9475581a9930b5c2be972ad9ddf1001bf5e4f77e2fcd4e6b8b369fb40",
-      "bytes": 826,
+      "sha256": "658ea37cb0db991288c338cec7f0d7c1936333d321cfa24a0674e7d6b94b3161",
+      "bytes": 816,
       "executable": false
     },
     "plugins/product-intelligence/README.md": {
-      "sha256": "18160dbdc0045a18a4355c510c2c9d751c89286785d8064db3bdfbd345e71a57",
-      "bytes": 3730,
+      "sha256": "b6b48889fd42ddce39a6d17c29a45ca16628e55779ec5c667a589804a1780dd0",
+      "bytes": 3716,
       "executable": false
     },
     "plugins/product-intelligence/examples/features.example.csv": {
@@ -1993,8 +1993,8 @@
       "executable": false
     },
     "plugins/product-intelligence/plugin.json": {
-      "sha256": "2fcedc1622010e125348b24f015d6edd94903a0dc8dd0bc8470b37e551020533",
-      "bytes": 838,
+      "sha256": "79fc3276997980b1124696791466abc69b0441646a231328dedd462b0157f9d5",
+      "bytes": 828,
       "executable": false
     },
     "plugins/product-intelligence/references/QA_AND_LAUNCH.md": {
@@ -2056,6 +2056,26 @@
       "sha256": "047908a12f434e7339952c7d7bb09763a2d533d38455b2b909f97017fa18fdac",
       "bytes": 3284,
       "executable": false
+    },
+    "skills/production-engineering/integrations/visual-refinement/README.md": {
+      "sha256": "0572518159e3ae9ebbd2956554a0b88313bc1019410dc803c389351e651eac79",
+      "bytes": 442,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/visual-refinement/tests/capture-probe.mjs": {
+      "sha256": "57237a929bd7ce5eca97e971dd293d20dcdd9a4481ce9f4f3d10577fdb76dd85",
+      "bytes": 3648,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/visual-refinement/tests/story.test.mjs": {
+      "sha256": "993097fbffe4d98a3a64fbd8aad1ce09bf23cbd954bb119dada3215dee4e2c04",
+      "bytes": 8435,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/visual-refinement/tests/fixture.html": {
+      "sha256": "cc85a61ec0b0ed15260b2f4dbf83680e7133800ead8cf62bd463d24396940a44",
+      "bytes": 1113,
+      "executable": false
     }
   },
   "excluded_generated_files": [
@@ -2075,5 +2095,6 @@
     "skills/production-engineering/integrations/browser-qa/__pycache__/collector.cpython-314.pyc",
     "skills/production-engineering/scripts/__pycache__/supply_chain.cpython-314.pyc",
     "skills/production-engineering/scripts/vendor/vibe/__pycache__/audit.cpython-314.pyc"
-  ]
+  ],
+  "updated_on": "2026-11-01"
 }

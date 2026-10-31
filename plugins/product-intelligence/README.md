@@ -23,7 +23,7 @@ Competitor Recon gains optional authorized Refero flow research and explicit no-
 
 ## Install
 
-Use the plugin marketplace at .agents/plugins/marketplace.json in the parent repository (ios3kov/production-engineering). For Codex: codex plugin marketplace add ios3kov/production-engineering; then /plugins > ios3kov Skills > Product Intelligence > Install. Open a fresh session after installation.
+Use the plugin marketplace at .agents/plugins/marketplace.json in the parent repository (ios3kov/codex-skills). For Codex: codex plugin marketplace add ios3kov/codex-skills; then /plugins > ios3kov Codex Skills > Product Intelligence > Install. Open a fresh session after installation.
 
 For ChatGPT Work, import/open the marketplace in supported Plugins UI and install Product Intelligence there. GitHub changes alone do not install or refresh an account's plugin; the user must approve installation. Availability depends on the client/workspace.
 

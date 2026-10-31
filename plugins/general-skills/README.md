@@ -31,11 +31,11 @@ These are **host-neutral original adaptations** informed by the credited upstrea
 ## Install for Codex
 
 ```bash
-codex plugin marketplace add ios3kov/production-engineering
+codex plugin marketplace add ios3kov/codex-skills
 codex
 ```
 
-In Codex, use `/plugins`, select marketplace **ios3kov Skills**, then install **General Skills**. Start a fresh session. The Codex CLI plugin marketplace commands require a version that supports plugin marketplaces.
+In Codex, use `/plugins`, select marketplace **ios3kov Codex Skills**, then install **General Skills**. Start a fresh session. The Codex CLI plugin marketplace commands require a version that supports plugin marketplaces.
 
 ## Install for ChatGPT Work
 
