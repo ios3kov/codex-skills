@@ -1,6 +1,6 @@
 # Codex skills
 
-Canonical Git repository for our personal skill library. This snapshot was copied from the actual installed files on 2026-10-31.
+Canonical Git repository for our personal skill library. It started from an installed-file snapshot on 2026-10-31 and has since received repository maintenance changes. The current HEAD is a maintained library, not an unchanged copy of that installation.
 
 ## Included
 
@@ -8,6 +8,17 @@ Canonical Git repository for our personal skill library. This snapshot was copie
 - **12 skills in two owned plugins** in `plugins/`: General Skills 1.3.4 and Product Intelligence 1.0.2.
 - Full supporting references, scripts, assets and license notices. `manifest.json` records every payload file with its SHA-256.
 - `managed-skills.json` accounts for the other **12 system/provider-managed skills** reported by the local loader. Their provider runtimes are not copied into this public repository. Restore them through Codex and the official plugins.
+
+## Original snapshot and current repository
+
+| Scope | Meaning |
+|---|---|
+| Original installed payload | **373 files**, copied and verified against the local installation on 2026-10-31 at commit `20e6eebeaea29343919e498b0e5b3fae4fbf2d8f`. This is historical evidence for that snapshot only. |
+| Package maintenance | **4 added files**: one visual-refinement README and three test/fixture files. Existing package documentation, metadata and test fixtures have also been updated. |
+| Current payload manifest | **377 entries** in `manifest.json`, covering current files under `skills/` and `plugins/`. Its hashes establish repository payload integrity, not parity with an installation. |
+| Repository maintenance outside the payload | Root documentation, routing, integrity scripts, regression tests, CI and repository records are tracked by Git but are not entries in the payload manifest. |
+
+Full byte parity of the current HEAD with local installed copies or ChatGPT cloud copies has **not been checked and is not claimed**. A successful CI run or Git readback does not establish that parity. See [verification.json](verification.json) for separate historical snapshot evidence and current repository boundaries.
 
 ## Skills
 
@@ -63,13 +74,13 @@ Keep plugin directories intact: their skills share references and scripts outsid
 
 Future personal skill changes should be merged into this repository together with any local or cloud edits, and verified by fresh payload hashes. The older `production-engineering` repository is retained as a read-only archive. Its full Git history, historical GitHub issues and pull requests remain in that original archive. Full history was not republished into this public repository. This repository is the consolidated skill source.
 
-This synchronization preserves installed content. Historical provenance links retain their original repository; active installation links use this repository. It does not change tool accounts, install dependencies, configure MCP, transfer credentials or deploy anything. Context7 and other services still require the target environment’s own connection and authorization.
+Repository maintenance does not automatically update installed local or cloud copies. Historical provenance links retain their original repository; active installation links use this repository. It does not change tool accounts, install dependencies, configure MCP, transfer credentials or deploy anything. Context7 and other services still require the target environment’s own connection and authorization.
 
 ## Verification and boundaries
 
-The copy is checked against source bytes and a fresh remote Git readback. Skill format and local-reference checks are recorded in `verification.json`. Structural checks do not prove that every script, native simulator, external API, visual workflow or application works on another machine.
+The original installed snapshot was checked against its source bytes and a fresh remote Git readback. Later repository checks verify their recorded scope/revision; they do not renew installed-copy parity. Skill format and local-reference checks are recorded in `verification.json`. Structural checks do not prove that every script, native simulator, external API, visual workflow or application works on another machine.
 
-Generated Python bytecode and OS caches are excluded. No authentication files, account configuration, conversation history or memories are part of this snapshot.
+Generated Python bytecode and OS caches are excluded. No authentication files, account configuration, conversation history or memories are part of this library.
 
 ## License
 
