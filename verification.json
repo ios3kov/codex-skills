@@ -22,7 +22,7 @@
   "current_repository": {
     "recorded_on": "2026-11-01",
     "payload_manifest": "manifest.json",
-    "payload_files": 381,
+    "payload_files": 416,
     "additional_payload_files_since_snapshot": [
       "skills/agentation/agents/openai.yaml",
       "skills/agentation/assets/icon.svg",
@@ -31,7 +31,42 @@
       "skills/production-engineering/integrations/visual-refinement/tests/fixture.html",
       "skills/production-engineering/integrations/visual-refinement/tests/story.test.mjs",
       "skills/production-engineering/scripts/tests/test_temp_path_regression.py",
-      "plugins/product-intelligence/CHANGELOG.md"
+      "plugins/product-intelligence/CHANGELOG.md",
+      "plugins/product-intelligence/LICENSE",
+      "plugins/product-intelligence/LICENSE-SCOPE.md",
+      "skills/agent-orchestrator/LICENSE",
+      "skills/agent-orchestrator/LICENSE-SCOPE.md",
+      "skills/agentation/LICENSE",
+      "skills/agentation/LICENSE-SCOPE.md",
+      "skills/agentation/references/licenses/benjitaylor--agentation--LICENSE",
+      "skills/apple-design/LICENSE",
+      "skills/apple-design/LICENSE-SCOPE.md",
+      "skills/apple-design/references/licenses/emilkowalski--skills--LICENSE",
+      "skills/audio-production/LICENSE",
+      "skills/audio-production/LICENSE-SCOPE.md",
+      "skills/audio-production/references/licenses/calesthio--generative-media-skills--LICENSE",
+      "skills/character-continuity/LICENSE",
+      "skills/character-continuity/LICENSE-SCOPE.md",
+      "skills/character-continuity/references/licenses/calesthio--generative-media-skills--LICENSE",
+      "skills/codebase-understanding/LICENSE",
+      "skills/codebase-understanding/LICENSE-SCOPE.md",
+      "skills/codebase-understanding/references/licenses/Egonex-AI--Understand-Anything--LICENSE",
+      "skills/context-discipline/LICENSE",
+      "skills/context-discipline/LICENSE-SCOPE.md",
+      "skills/context-discipline/references/licenses/muratcankoylan--Agent-Skills-for-Context-Engineering--LICENSE",
+      "skills/html-slide-decks/LICENSE",
+      "skills/html-slide-decks/LICENSE-SCOPE.md",
+      "skills/html-slide-decks/references/licenses/creative-source-notices.txt",
+      "skills/html-slide-decks/references/licenses/zarazhangrui--frontend-slides--LICENSE",
+      "skills/remotion-video/LICENSE",
+      "skills/remotion-video/LICENSE-SCOPE.md",
+      "skills/smart-router/LICENSE",
+      "skills/smart-router/LICENSE-SCOPE.md",
+      "skills/to-questionnaire/LICENSE-SCOPE.md",
+      "skills/visual-diagrams/LICENSE",
+      "skills/visual-diagrams/LICENSE-SCOPE.md",
+      "skills/visual-diagrams/references/licenses/cathrynlavery--diagram-design--LICENSE",
+      "skills/visual-diagrams/references/licenses/creative-source-notices.txt"
     ],
     "modified_existing_payload_files_since_snapshot": 15,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
@@ -160,5 +195,17 @@
     "repository_tests": "PASS: 49 locally (42 existing plus 7 license-inventory regressions)",
     "checks": "PASS: complete unique package set, allowed statuses, existing repository-contained notice files, exact NOTICE package/status agreement",
     "ci": "NOT RUN for this change at the time of recording"
+  },
+  "package_licensing_2026_11_01": {
+    "scope": "13 previously unresolved packages; license/attribution files and accounting only. Skill behavior unchanged. Local/cloud installations not refreshed by this Git change.",
+    "mit_package_grants": 12,
+    "restricted_packages": {
+      "skills/agentation": "Upstream PolyForm Shield retained; NOT an open-source package. MIT relicensing blocked by upstream terms."
+    },
+    "root_mit_scope": "UNCHANGED: maintenance contributions only",
+    "source_licenses": "Pinned source SHAs and retained text locations in package LICENSE-SCOPE.md and license-inventory.json",
+    "upstream_remotion": "No root license found at pinned source commit; MIT covers local original synthesis, not upstream sources or Remotion product.",
+    "repository_tests": "PASS: 50 locally",
+    "ci": "NOT RUN for this change at time of recording"
   }
 }

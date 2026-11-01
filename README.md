@@ -14,8 +14,8 @@ Canonical Git repository for our personal skill library. It started from an inst
 | Scope | Meaning |
 |---|---|
 | Original installed payload | **373 files**, copied and verified against the local installation on 2026-10-31 at commit `20e6eebeaea29343919e498b0e5b3fae4fbf2d8f`. This is historical evidence for that snapshot only. |
-| Package maintenance | **8 added files** since the original snapshot; existing documentation, metadata and fixtures were also updated. The exact delta is in `verification.json`. |
-| Current payload manifest | **381 entries** covering current `skills/` and `plugins/` files. |
+| Package maintenance | **43 added files** since the original snapshot; existing documentation, metadata and fixtures were also updated. The exact delta is in `verification.json`. |
+| Current payload manifest | **416 entries** covering current `skills/` and `plugins/` files. |
 | Repository maintenance outside the payload | Root documentation, routing, integrity scripts, regression tests, CI and repository records are tracked by Git but are not entries in the payload manifest. |
 
 Full byte parity of all 37 personal skills was freshly verified across local installation, saved cloud packages and Git payload on 2026-11-01. See `synchronization_2026_11_01` in `verification.json` for the exact scope. Later changes require a fresh comparison; CI or Git readback alone cannot renew parity. See [verification.json](verification.json) for separate historical snapshot evidence and current repository boundaries.
@@ -84,7 +84,7 @@ Generated Python bytecode and OS caches are excluded. No authentication files, a
 
 ## License
 
-Original repository-maintenance contributions use the scoped [MIT license](LICENSE). The [NOTICE](NOTICE) and [license inventory](license-inventory.json) record upstream pointers and unresolved package status. This is a collection with multiple upstream licenses, not a relicensing of all content. Preserve the notices and licenses inside each skill/plugin. Provider-managed skills are listed by identity only; reinstall them through the provider.
+Original repository-maintenance contributions use the scoped [MIT license](LICENSE). Twelve formerly unresolved packages now have package-level MIT grants with retained third-party terms; see each `LICENSE-SCOPE.md`. Agentation retains its upstream PolyForm Shield terms and is not an open-source package. The [NOTICE](NOTICE) and [license inventory](license-inventory.json) record upstream pointers and unresolved package status. This is a collection with multiple upstream licenses, not a relicensing of all content. Preserve the notices and licenses inside each skill/plugin. Provider-managed skills are listed by identity only; reinstall them through the provider.
 
 ## Tests and migrated history
 

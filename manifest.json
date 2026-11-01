@@ -1778,8 +1778,8 @@
       "executable": false
     },
     "skills/to-questionnaire/LICENSE": {
-      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
-      "bytes": 1068,
+      "sha256": "93bc9509d178adccf4ba744f1594380dd1cd37b4a451c61df5e848acc0851851",
+      "bytes": 1146,
       "executable": false
     },
     "skills/to-questionnaire/SKILL.md": {
@@ -2095,6 +2095,181 @@
     "plugins/product-intelligence/CHANGELOG.md": {
       "sha256": "77f7db374859751e27c398abcb106535be6a2ac7dd37b05662e4c56a2c02241d",
       "bytes": 858,
+      "executable": false
+    },
+    "skills/context-discipline/LICENSE": {
+      "sha256": "39985ce889c092fd67da12426150eac412dc733e3038e419f81076f1b2553926",
+      "bytes": 1064,
+      "executable": false
+    },
+    "skills/context-discipline/LICENSE-SCOPE.md": {
+      "sha256": "bb9eac00b46667f08b6bacaa98e4d54d07578e916036ab7ed7eb54479440822f",
+      "bytes": 1056,
+      "executable": false
+    },
+    "skills/html-slide-decks/LICENSE": {
+      "sha256": "39985ce889c092fd67da12426150eac412dc733e3038e419f81076f1b2553926",
+      "bytes": 1064,
+      "executable": false
+    },
+    "skills/html-slide-decks/LICENSE-SCOPE.md": {
+      "sha256": "09ddb3ecc1818857d348e312e183ba174efe2e563e2a480418d70cbdd61b628a",
+      "bytes": 1031,
+      "executable": false
+    },
+    "skills/remotion-video/LICENSE": {
+      "sha256": "39985ce889c092fd67da12426150eac412dc733e3038e419f81076f1b2553926",
+      "bytes": 1064,
+      "executable": false
+    },
+    "skills/remotion-video/LICENSE-SCOPE.md": {
+      "sha256": "cdaa47c4941d487390c13a0e3260d197b31da2106a2198154d134086bd2c7760",
+      "bytes": 878,
+      "executable": false
+    },
+    "skills/audio-production/LICENSE": {
+      "sha256": "39985ce889c092fd67da12426150eac412dc733e3038e419f81076f1b2553926",
+      "bytes": 1064,
+      "executable": false
+    },
+    "skills/audio-production/LICENSE-SCOPE.md": {
+      "sha256": "f6a1f5191a6352349f7df7104456ab2e0a79a0056e3bbecaa2c8948924e241f8",
+      "bytes": 745,
+      "executable": false
+    },
+    "skills/to-questionnaire/LICENSE-SCOPE.md": {
+      "sha256": "4ecf252ee09d4cd92a006dc06388ae7f620b304f59b307ba455dc1712d3761cc",
+      "bytes": 612,
+      "executable": false
+    },
+    "skills/smart-router/LICENSE": {
+      "sha256": "39985ce889c092fd67da12426150eac412dc733e3038e419f81076f1b2553926",
+      "bytes": 1064,
+      "executable": false
+    },
+    "skills/smart-router/LICENSE-SCOPE.md": {
+      "sha256": "009db1b799ba01000397e55c800591119295750106b842596144c18ce13ae0ec",
+      "bytes": 581,
+      "executable": false
+    },
+    "skills/codebase-understanding/LICENSE": {
+      "sha256": "39985ce889c092fd67da12426150eac412dc733e3038e419f81076f1b2553926",
+      "bytes": 1064,
+      "executable": false
+    },
+    "skills/codebase-understanding/LICENSE-SCOPE.md": {
+      "sha256": "26efcbb7b83e7ad9a5ea5b262575773ba9d2b8546551ffe78f1b9af07d994721",
+      "bytes": 733,
+      "executable": false
+    },
+    "skills/apple-design/LICENSE": {
+      "sha256": "f5f0c99e905dc9084b79b44b6dbf2db7f34286693dde1e7db6056b5093b247db",
+      "bytes": 1139,
+      "executable": false
+    },
+    "skills/apple-design/LICENSE-SCOPE.md": {
+      "sha256": "f6cc1abc08acff3442774a7084b78715e55cdddcec59813510414dae023fcf35",
+      "bytes": 805,
+      "executable": false
+    },
+    "skills/character-continuity/LICENSE": {
+      "sha256": "39985ce889c092fd67da12426150eac412dc733e3038e419f81076f1b2553926",
+      "bytes": 1064,
+      "executable": false
+    },
+    "skills/character-continuity/LICENSE-SCOPE.md": {
+      "sha256": "f6a1f5191a6352349f7df7104456ab2e0a79a0056e3bbecaa2c8948924e241f8",
+      "bytes": 745,
+      "executable": false
+    },
+    "skills/visual-diagrams/LICENSE": {
+      "sha256": "39985ce889c092fd67da12426150eac412dc733e3038e419f81076f1b2553926",
+      "bytes": 1064,
+      "executable": false
+    },
+    "skills/visual-diagrams/LICENSE-SCOPE.md": {
+      "sha256": "09f2e677c4c9ec24023130b421fe1ab9bb56790f17bc96fb93dd674f9c11146d",
+      "bytes": 1031,
+      "executable": false
+    },
+    "skills/agent-orchestrator/LICENSE": {
+      "sha256": "39985ce889c092fd67da12426150eac412dc733e3038e419f81076f1b2553926",
+      "bytes": 1064,
+      "executable": false
+    },
+    "skills/agent-orchestrator/LICENSE-SCOPE.md": {
+      "sha256": "009db1b799ba01000397e55c800591119295750106b842596144c18ce13ae0ec",
+      "bytes": 581,
+      "executable": false
+    },
+    "skills/agentation/LICENSE": {
+      "sha256": "29eb64b5c188e2d6f739a8beadf09bcbb3a386bf78ae44e07343975331fd9775",
+      "bytes": 1229,
+      "executable": false
+    },
+    "skills/agentation/LICENSE-SCOPE.md": {
+      "sha256": "5b89a94b29da08a8f47ec0734da7919cba0693a6eb675547ab7decb812dff06a",
+      "bytes": 486,
+      "executable": false
+    },
+    "skills/agentation/references/licenses/benjitaylor--agentation--LICENSE": {
+      "sha256": "29eb64b5c188e2d6f739a8beadf09bcbb3a386bf78ae44e07343975331fd9775",
+      "bytes": 1229,
+      "executable": false
+    },
+    "skills/visual-diagrams/references/licenses/cathrynlavery--diagram-design--LICENSE": {
+      "sha256": "bb7e12e91fecef43024111123ff784cec6c485585561d8b552557c0173b3ed29",
+      "bytes": 1071,
+      "executable": false
+    },
+    "skills/visual-diagrams/references/licenses/creative-source-notices.txt": {
+      "sha256": "5a86e7bc3cb05dfc8028e930cb58e76fd66ce2cf61b6a86cc340d003bda96344",
+      "bytes": 1380,
+      "executable": false
+    },
+    "skills/character-continuity/references/licenses/calesthio--generative-media-skills--LICENSE": {
+      "sha256": "27570f011a5a53e84412bcb6abcce17654c4e2b0e68c3522dca8885de7deaf93",
+      "bytes": 1093,
+      "executable": false
+    },
+    "skills/apple-design/references/licenses/emilkowalski--skills--LICENSE": {
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070,
+      "executable": false
+    },
+    "skills/codebase-understanding/references/licenses/Egonex-AI--Understand-Anything--LICENSE": {
+      "sha256": "24c4b35344840f1abaf3a3a4a44f5e29ee0e73b6bf25e42ef108e0afebd402bc",
+      "bytes": 1111,
+      "executable": false
+    },
+    "skills/audio-production/references/licenses/calesthio--generative-media-skills--LICENSE": {
+      "sha256": "27570f011a5a53e84412bcb6abcce17654c4e2b0e68c3522dca8885de7deaf93",
+      "bytes": 1093,
+      "executable": false
+    },
+    "skills/html-slide-decks/references/licenses/zarazhangrui--frontend-slides--LICENSE": {
+      "sha256": "62928eb197fe4662d1efc3af0735b3ba5df3c0308badd9a2baf2b619009f5366",
+      "bytes": 1067,
+      "executable": false
+    },
+    "skills/html-slide-decks/references/licenses/creative-source-notices.txt": {
+      "sha256": "5a86e7bc3cb05dfc8028e930cb58e76fd66ce2cf61b6a86cc340d003bda96344",
+      "bytes": 1380,
+      "executable": false
+    },
+    "skills/context-discipline/references/licenses/muratcankoylan--Agent-Skills-for-Context-Engineering--LICENSE": {
+      "sha256": "65bc33b0759a48b980962833b12bcb820404da9f5256bff39c00e89471bcf209",
+      "bytes": 1103,
+      "executable": false
+    },
+    "plugins/product-intelligence/LICENSE": {
+      "sha256": "39985ce889c092fd67da12426150eac412dc733e3038e419f81076f1b2553926",
+      "bytes": 1064,
+      "executable": false
+    },
+    "plugins/product-intelligence/LICENSE-SCOPE.md": {
+      "sha256": "289d3ad71fc4ea6df6958a5d997917d1de3ab3542b30176a1ec2d432c33c74f8",
+      "bytes": 692,
       "executable": false
     }
   },

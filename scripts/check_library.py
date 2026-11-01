@@ -22,7 +22,10 @@ def check_release_docs(folder, version):
     return errors
 
 UNRESOLVED = 'no package-level license grant established; source review required'
-LICENSE_STATUSES = {UNRESOLVED, 'upstream notices present; scope varies by file'}
+MIT_PACKAGE = 'package-level MIT grant; retained third-party terms apply'
+RESTRICTED_PACKAGE = 'PolyForm Shield upstream; not an open-source package'
+LICENSE_STATUSES = {UNRESOLVED, 'upstream notices present; scope varies by file',
+                    MIT_PACKAGE, RESTRICTED_PACKAGE}
 
 def check_license_inventory(root):
     root = Path(root).resolve()
@@ -39,6 +42,10 @@ def check_license_inventory(root):
     for row in rows + inventory.get('skills', []):
         if row['status'] not in LICENSE_STATUSES:
             errors.append('Invalid license status: ' + row['package'])
+        if row['status'] in {MIT_PACKAGE, RESTRICTED_PACKAGE}:
+            license_path = row.get('package_license')
+            if not license_path or license_path not in row['notice_files']:
+                errors.append('Package license missing from notice inventory: ' + row['package'])
         for name in row['notice_files']:
             path = Path(name)
             target = root / path

@@ -4,46 +4,124 @@
   "packages": [
     {
       "package": "skills/agent-orchestrator",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
-      "provenance_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/agent-orchestrator/LICENSE",
+        "skills/agent-orchestrator/LICENSE-SCOPE.md"
+      ],
+      "provenance_files": [
+        "skills/agent-orchestrator/LICENSE-SCOPE.md"
+      ],
       "source_links": [
         "https://github.com/firecrawl/model-picker",
         "https://github.com/ruvnet/ruflo/tree/main/plugins/ruflo-swarm"
-      ]
+      ],
+      "package_license": "skills/agent-orchestrator/LICENSE",
+      "license_review": {
+        "reviewed_on": "2026-11-01",
+        "scope_file": "skills/agent-orchestrator/LICENSE-SCOPE.md",
+        "sources": []
+      }
     },
     {
       "package": "skills/agentation",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
-      "provenance_files": [],
-      "source_links": []
+      "status": "PolyForm Shield upstream; not an open-source package",
+      "license_mentions": [
+        "PolyForm-Shield-1.0.0"
+      ],
+      "notice_files": [
+        "skills/agentation/LICENSE",
+        "skills/agentation/LICENSE-SCOPE.md",
+        "skills/agentation/references/licenses/benjitaylor--agentation--LICENSE"
+      ],
+      "provenance_files": [
+        "skills/agentation/LICENSE-SCOPE.md"
+      ],
+      "source_links": [],
+      "package_license": "skills/agentation/LICENSE",
+      "license_review": {
+        "reviewed_on": "2026-11-01",
+        "scope_file": "skills/agentation/LICENSE-SCOPE.md",
+        "sources": [
+          {
+            "repository": "benjitaylor/agentation",
+            "commit": "0e3236eb1a0f5577852ab7bb5121f5dd46d42f1d",
+            "license_url": "https://raw.githubusercontent.com/benjitaylor/agentation/0e3236eb1a0f5577852ab7bb5121f5dd46d42f1d/LICENSE",
+            "license_file": "references/licenses/benjitaylor--agentation--LICENSE",
+            "sha256": "29eb64b5c188e2d6f739a8beadf09bcbb3a386bf78ae44e07343975331fd9775"
+          }
+        ]
+      }
     },
     {
       "package": "skills/apple-design",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
-      "provenance_files": [],
-      "source_links": []
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/apple-design/LICENSE",
+        "skills/apple-design/LICENSE-SCOPE.md",
+        "skills/apple-design/references/licenses/emilkowalski--skills--LICENSE"
+      ],
+      "provenance_files": [
+        "skills/apple-design/LICENSE-SCOPE.md"
+      ],
+      "source_links": [],
+      "package_license": "skills/apple-design/LICENSE",
+      "license_review": {
+        "reviewed_on": "2026-11-01",
+        "scope_file": "skills/apple-design/LICENSE-SCOPE.md",
+        "sources": [
+          {
+            "repository": "emilkowalski/skills",
+            "commit": "a81dbca07f2217b7103e510c0f13f8d5b017afc9",
+            "license_url": "https://raw.githubusercontent.com/emilkowalski/skills/a81dbca07f2217b7103e510c0f13f8d5b017afc9/LICENSE",
+            "license_file": "references/licenses/emilkowalski--skills--LICENSE",
+            "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+          }
+        ]
+      }
     },
     {
       "package": "skills/audio-production",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/audio-production/LICENSE",
+        "skills/audio-production/LICENSE-SCOPE.md",
+        "skills/audio-production/references/licenses/calesthio--generative-media-skills--LICENSE"
+      ],
       "provenance_files": [
-        "skills/audio-production/sources.json",
-        "skills/audio-production/references/offline-resources.md"
+        "skills/audio-production/LICENSE-SCOPE.md",
+        "skills/audio-production/references/offline-resources.md",
+        "skills/audio-production/sources.json"
       ],
       "source_links": [
         "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/audio-craft/audio-mixing-mastering/SKILL.md",
         "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/audio-craft/sound-design-foley/SKILL.md",
         "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/audio-craft/audio-mixing-mastering/SKILL.md",
         "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/audio-craft/sound-design-foley/SKILL.md"
-      ]
+      ],
+      "package_license": "skills/audio-production/LICENSE",
+      "license_review": {
+        "reviewed_on": "2026-11-01",
+        "scope_file": "skills/audio-production/LICENSE-SCOPE.md",
+        "sources": [
+          {
+            "repository": "calesthio/generative-media-skills",
+            "commit": "8c85352d5d75d4dcbe58480bd138e37b9742bab1",
+            "license_url": "https://raw.githubusercontent.com/calesthio/generative-media-skills/8c85352d5d75d4dcbe58480bd138e37b9742bab1/LICENSE",
+            "license_file": "references/licenses/calesthio--generative-media-skills--LICENSE",
+            "sha256": "27570f011a5a53e84412bcb6abcce17654c4e2b0e68c3522dca8885de7deaf93"
+          }
+        ]
+      }
     },
     {
       "package": "skills/brand-system",
@@ -71,38 +149,87 @@
     },
     {
       "package": "skills/character-continuity",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/character-continuity/LICENSE",
+        "skills/character-continuity/LICENSE-SCOPE.md",
+        "skills/character-continuity/references/licenses/calesthio--generative-media-skills--LICENSE"
+      ],
       "provenance_files": [
+        "skills/character-continuity/LICENSE-SCOPE.md",
         "skills/character-continuity/sources.json"
       ],
       "source_links": [
         "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/creative-direction/character-design-continuity/SKILL.md",
         "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/creative-direction/character-design-continuity/SKILL.md"
-      ]
+      ],
+      "package_license": "skills/character-continuity/LICENSE",
+      "license_review": {
+        "reviewed_on": "2026-11-01",
+        "scope_file": "skills/character-continuity/LICENSE-SCOPE.md",
+        "sources": [
+          {
+            "repository": "calesthio/generative-media-skills",
+            "commit": "8c85352d5d75d4dcbe58480bd138e37b9742bab1",
+            "license_url": "https://raw.githubusercontent.com/calesthio/generative-media-skills/8c85352d5d75d4dcbe58480bd138e37b9742bab1/LICENSE",
+            "license_file": "references/licenses/calesthio--generative-media-skills--LICENSE",
+            "sha256": "27570f011a5a53e84412bcb6abcce17654c4e2b0e68c3522dca8885de7deaf93"
+          }
+        ]
+      }
     },
     {
       "package": "skills/codebase-understanding",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/codebase-understanding/LICENSE",
+        "skills/codebase-understanding/LICENSE-SCOPE.md",
+        "skills/codebase-understanding/references/licenses/Egonex-AI--Understand-Anything--LICENSE"
+      ],
       "provenance_files": [
+        "skills/codebase-understanding/LICENSE-SCOPE.md",
         "skills/codebase-understanding/sources.json"
       ],
       "source_links": [
         "https://github.com/Egonex-AI/Understand-Anything/blob/ffa2f0a84a85525623e9f94f7a6b560e39ae43ce/understand-anything-plugin/skills/understand/SKILL.md",
         "https://github.com/Graphify-Labs/graphify/tree/b90b9df7949bd04a15b40a1624af85d0a9cfdf04"
-      ]
+      ],
+      "package_license": "skills/codebase-understanding/LICENSE",
+      "license_review": {
+        "reviewed_on": "2026-11-01",
+        "scope_file": "skills/codebase-understanding/LICENSE-SCOPE.md",
+        "sources": [
+          {
+            "repository": "Egonex-AI/Understand-Anything",
+            "commit": "ffa2f0a84a85525623e9f94f7a6b560e39ae43ce",
+            "license_url": "https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/ffa2f0a84a85525623e9f94f7a6b560e39ae43ce/LICENSE",
+            "license_file": "references/licenses/Egonex-AI--Understand-Anything--LICENSE",
+            "sha256": "24c4b35344840f1abaf3a3a4a44f5e29ee0e73b6bf25e42ef108e0afebd402bc"
+          }
+        ]
+      }
     },
     {
       "package": "skills/context-discipline",
-      "status": "no package-level license grant established; source review required",
+      "status": "package-level MIT grant; retained third-party terms apply",
       "license_mentions": [
-        "Apache-2.0"
+        "Apache-2.0",
+        "MIT"
       ],
-      "notice_files": [],
+      "notice_files": [
+        "skills/context-discipline/LICENSE",
+        "skills/context-discipline/LICENSE-SCOPE.md",
+        "skills/context-discipline/references/licenses/muratcankoylan--Agent-Skills-for-Context-Engineering--LICENSE",
+        "skills/context-discipline/references/upstream/harness2/LICENSE"
+      ],
       "provenance_files": [
+        "skills/context-discipline/LICENSE-SCOPE.md",
         "skills/context-discipline/sources.json"
       ],
       "source_links": [
@@ -116,7 +243,27 @@
         "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-degradation/SKILL.md",
         "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-optimization/SKILL.md?utm_source=chatgpt.com",
         "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/filesystem-context/SKILL.md"
-      ]
+      ],
+      "package_license": "skills/context-discipline/LICENSE",
+      "license_review": {
+        "reviewed_on": "2026-11-01",
+        "scope_file": "skills/context-discipline/LICENSE-SCOPE.md",
+        "sources": [
+          {
+            "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+            "commit": "58b55a8921758d13453b440704fb1b5b208c0b0e",
+            "license_url": "https://raw.githubusercontent.com/muratcankoylan/Agent-Skills-for-Context-Engineering/58b55a8921758d13453b440704fb1b5b208c0b0e/LICENSE",
+            "license_file": "references/licenses/muratcankoylan--Agent-Skills-for-Context-Engineering--LICENSE",
+            "sha256": "65bc33b0759a48b980962833b12bcb820404da9f5256bff39c00e89471bcf209"
+          },
+          {
+            "repository": "google-research/harness2",
+            "commit": "1cfe254e8d25b15f37048c3730134686abe60335",
+            "license_file": "references/upstream/harness2/LICENSE",
+            "scope": "Independently worded adaptations recorded in sources.json; retain Apache-2.0 attribution and license."
+          }
+        ]
+      }
     },
     {
       "package": "skills/design-reference-research",
@@ -204,15 +351,43 @@
     },
     {
       "package": "skills/html-slide-decks",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/html-slide-decks/LICENSE",
+        "skills/html-slide-decks/LICENSE-SCOPE.md",
+        "skills/html-slide-decks/references/licenses/creative-source-notices.txt",
+        "skills/html-slide-decks/references/licenses/zarazhangrui--frontend-slides--LICENSE"
+      ],
       "provenance_files": [
+        "skills/html-slide-decks/LICENSE-SCOPE.md",
         "skills/html-slide-decks/sources.json"
       ],
       "source_links": [
         "https://github.com/zarazhangrui/frontend-slides/blob/9906a34d640d2111f724544cbc50f7f130569ae1/plugins/frontend-slides/skills/frontend-slides/SKILL.md"
-      ]
+      ],
+      "package_license": "skills/html-slide-decks/LICENSE",
+      "license_review": {
+        "reviewed_on": "2026-11-01",
+        "scope_file": "skills/html-slide-decks/LICENSE-SCOPE.md",
+        "sources": [
+          {
+            "repository": "zarazhangrui/frontend-slides",
+            "commit": "9906a34d640d2111f724544cbc50f7f130569ae1",
+            "license_url": "https://raw.githubusercontent.com/zarazhangrui/frontend-slides/9906a34d640d2111f724544cbc50f7f130569ae1/LICENSE",
+            "license_file": "references/licenses/zarazhangrui--frontend-slides--LICENSE",
+            "sha256": "62928eb197fe4662d1efc3af0735b3ba5df3c0308badd9a2baf2b619009f5366"
+          },
+          {
+            "repository": "AlterLab-IEU/AlterLab-FC-Skills",
+            "commit": "9559c97a6b6fc90c0fbe5a20b7718716f7aee677",
+            "license_file": "references/licenses/creative-source-notices.txt",
+            "scope": "Retained attribution for shared independently worded typography/layout guidance; shared files remain byte-identical."
+          }
+        ]
+      }
     },
     {
       "package": "skills/independent-reviewer",
@@ -535,60 +710,159 @@
     },
     {
       "package": "skills/remotion-video",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/remotion-video/LICENSE",
+        "skills/remotion-video/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [
-        "skills/remotion-video/sources.json",
-        "skills/remotion-video/references/offline-resources.md"
+        "skills/remotion-video/LICENSE-SCOPE.md",
+        "skills/remotion-video/references/offline-resources.md",
+        "skills/remotion-video/sources.json"
       ],
       "source_links": [
         "https://github.com/remotion-dev/skills/blob/32b241b97f4e0e4ab61fe9a41b05e6e64503f8c5/skills/remotion-best-practices/SKILL.md"
-      ]
+      ],
+      "package_license": "skills/remotion-video/LICENSE",
+      "license_review": {
+        "reviewed_on": "2026-11-01",
+        "scope_file": "skills/remotion-video/LICENSE-SCOPE.md",
+        "sources": [
+          {
+            "repository": "remotion-dev/skills",
+            "commit": "32b241b97f4e0e4ab61fe9a41b05e6e64503f8c5",
+            "scope": "Reference only. No root LICENSE, LICENSE.md or LICENSE.txt found at this commit. The local package is the independently worded synthesis recorded in sources.json, not a copy of the upstream skill or runtime. No permission for upstream works or the Remotion product is granted here."
+          }
+        ]
+      }
     },
     {
       "package": "skills/smart-router",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
-      "provenance_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/smart-router/LICENSE",
+        "skills/smart-router/LICENSE-SCOPE.md"
+      ],
+      "provenance_files": [
+        "skills/smart-router/LICENSE-SCOPE.md"
+      ],
       "source_links": [
         "https://github.com/firecrawl/model-picker"
-      ]
+      ],
+      "package_license": "skills/smart-router/LICENSE",
+      "license_review": {
+        "reviewed_on": "2026-11-01",
+        "scope_file": "skills/smart-router/LICENSE-SCOPE.md",
+        "sources": []
+      }
     },
     {
       "package": "skills/to-questionnaire",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
-      "provenance_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/to-questionnaire/LICENSE",
+        "skills/to-questionnaire/LICENSE-SCOPE.md"
+      ],
+      "provenance_files": [
+        "skills/to-questionnaire/LICENSE-SCOPE.md"
+      ],
       "source_links": [
         "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/to-questionnaire/SKILL.md"
-      ]
+      ],
+      "package_license": "skills/to-questionnaire/LICENSE",
+      "license_review": {
+        "reviewed_on": "2026-11-01",
+        "scope_file": "skills/to-questionnaire/LICENSE-SCOPE.md",
+        "sources": [
+          {
+            "repository": "mattpocock/skills",
+            "commit": "49dd158d1076134a641b33efb035946536778336",
+            "license_file": "LICENSE",
+            "scope": "Existing Matt Pocock MIT notice retained; original modifications also MIT."
+          }
+        ]
+      }
     },
     {
       "package": "skills/visual-diagrams",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/visual-diagrams/LICENSE",
+        "skills/visual-diagrams/LICENSE-SCOPE.md",
+        "skills/visual-diagrams/references/licenses/cathrynlavery--diagram-design--LICENSE",
+        "skills/visual-diagrams/references/licenses/creative-source-notices.txt"
+      ],
       "provenance_files": [
+        "skills/visual-diagrams/LICENSE-SCOPE.md",
         "skills/visual-diagrams/sources.json"
       ],
       "source_links": [
         "https://github.com/cathrynlavery/diagram-design/blob/f4547ee95f88e5b28a52517feff6b6c11cc657f9/skills/diagram-design/SKILL.md"
-      ]
+      ],
+      "package_license": "skills/visual-diagrams/LICENSE",
+      "license_review": {
+        "reviewed_on": "2026-11-01",
+        "scope_file": "skills/visual-diagrams/LICENSE-SCOPE.md",
+        "sources": [
+          {
+            "repository": "cathrynlavery/diagram-design",
+            "commit": "f4547ee95f88e5b28a52517feff6b6c11cc657f9",
+            "license_url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/f4547ee95f88e5b28a52517feff6b6c11cc657f9/LICENSE",
+            "license_file": "references/licenses/cathrynlavery--diagram-design--LICENSE",
+            "sha256": "bb7e12e91fecef43024111123ff784cec6c485585561d8b552557c0173b3ed29"
+          },
+          {
+            "repository": "AlterLab-IEU/AlterLab-FC-Skills",
+            "commit": "9559c97a6b6fc90c0fbe5a20b7718716f7aee677",
+            "license_file": "references/licenses/creative-source-notices.txt",
+            "scope": "Retained attribution for shared independently worded typography/layout guidance; shared files remain byte-identical."
+          }
+        ]
+      }
     },
     {
       "package": "plugins/product-intelligence",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "plugins/product-intelligence/LICENSE",
+        "plugins/product-intelligence/LICENSE-SCOPE.md",
+        "plugins/product-intelligence/references/replica-skill-LICENSE"
+      ],
       "provenance_files": [
+        "plugins/product-intelligence/LICENSE-SCOPE.md",
         "plugins/product-intelligence/skills/competitor-recon/references/offline-resources.md"
       ],
       "source_links": [
         "https://github.com/Jakeschincariol/replica-skill"
-      ]
+      ],
+      "package_license": "plugins/product-intelligence/LICENSE",
+      "license_review": {
+        "reviewed_on": "2026-11-01",
+        "scope_file": "plugins/product-intelligence/LICENSE-SCOPE.md",
+        "sources": [
+          {
+            "repository": "Jakeschincariol/replica-skill",
+            "commit": "77c9436fb3d18c3d58169efb8caf4fe906b0dc51",
+            "license_file": "references/replica-skill-LICENSE",
+            "scope": "Adapted offline tools and research guidance; original author Jake Schincariol; MIT retained."
+          }
+        ]
+      }
     },
     {
       "package": "plugins/general-skills",
@@ -636,36 +910,59 @@
   "skills": [
     {
       "package": "skills/agent-orchestrator",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/agent-orchestrator/LICENSE",
+        "skills/agent-orchestrator/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [],
       "source_links": [
         "https://github.com/firecrawl/model-picker",
         "https://github.com/ruvnet/ruflo/tree/main/plugins/ruflo-swarm"
-      ]
+      ],
+      "package_license": "skills/agent-orchestrator/LICENSE"
     },
     {
       "package": "skills/agentation",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "PolyForm Shield upstream; not an open-source package",
+      "license_mentions": [
+        "PolyForm-Shield-1.0.0"
+      ],
+      "notice_files": [
+        "skills/agentation/LICENSE",
+        "skills/agentation/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [],
-      "source_links": []
+      "source_links": [],
+      "package_license": "skills/agentation/LICENSE"
     },
     {
       "package": "skills/apple-design",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/apple-design/LICENSE",
+        "skills/apple-design/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [],
-      "source_links": []
+      "source_links": [],
+      "package_license": "skills/apple-design/LICENSE"
     },
     {
       "package": "skills/audio-production",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/audio-production/LICENSE",
+        "skills/audio-production/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [
         "skills/audio-production/sources.json",
         "skills/audio-production/references/offline-resources.md"
@@ -675,7 +972,8 @@
         "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/audio-craft/sound-design-foley/SKILL.md",
         "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/audio-craft/audio-mixing-mastering/SKILL.md",
         "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/audio-craft/sound-design-foley/SKILL.md"
-      ]
+      ],
+      "package_license": "skills/audio-production/LICENSE"
     },
     {
       "package": "skills/brand-system",
@@ -703,37 +1001,53 @@
     },
     {
       "package": "skills/character-continuity",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/character-continuity/LICENSE",
+        "skills/character-continuity/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [
         "skills/character-continuity/sources.json"
       ],
       "source_links": [
         "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/creative-direction/character-design-continuity/SKILL.md",
         "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/creative-direction/character-design-continuity/SKILL.md"
-      ]
+      ],
+      "package_license": "skills/character-continuity/LICENSE"
     },
     {
       "package": "skills/codebase-understanding",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/codebase-understanding/LICENSE",
+        "skills/codebase-understanding/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [
         "skills/codebase-understanding/sources.json"
       ],
       "source_links": [
         "https://github.com/Egonex-AI/Understand-Anything/blob/ffa2f0a84a85525623e9f94f7a6b560e39ae43ce/understand-anything-plugin/skills/understand/SKILL.md",
         "https://github.com/Graphify-Labs/graphify/tree/b90b9df7949bd04a15b40a1624af85d0a9cfdf04"
-      ]
+      ],
+      "package_license": "skills/codebase-understanding/LICENSE"
     },
     {
       "package": "skills/context-discipline",
-      "status": "no package-level license grant established; source review required",
+      "status": "package-level MIT grant; retained third-party terms apply",
       "license_mentions": [
-        "Apache-2.0"
+        "Apache-2.0",
+        "MIT"
       ],
-      "notice_files": [],
+      "notice_files": [
+        "skills/context-discipline/LICENSE",
+        "skills/context-discipline/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [
         "skills/context-discipline/sources.json"
       ],
@@ -748,7 +1062,8 @@
         "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-degradation/SKILL.md",
         "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-optimization/SKILL.md?utm_source=chatgpt.com",
         "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/filesystem-context/SKILL.md"
-      ]
+      ],
+      "package_license": "skills/context-discipline/LICENSE"
     },
     {
       "package": "skills/design-reference-research",
@@ -836,15 +1151,21 @@
     },
     {
       "package": "skills/html-slide-decks",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/html-slide-decks/LICENSE",
+        "skills/html-slide-decks/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [
         "skills/html-slide-decks/sources.json"
       ],
       "source_links": [
         "https://github.com/zarazhangrui/frontend-slides/blob/9906a34d640d2111f724544cbc50f7f130569ae1/plugins/frontend-slides/skills/frontend-slides/SKILL.md"
-      ]
+      ],
+      "package_license": "skills/html-slide-decks/LICENSE"
     },
     {
       "package": "skills/independent-reviewer",
@@ -1167,87 +1488,129 @@
     },
     {
       "package": "skills/remotion-video",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/remotion-video/LICENSE",
+        "skills/remotion-video/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [
         "skills/remotion-video/sources.json",
         "skills/remotion-video/references/offline-resources.md"
       ],
       "source_links": [
         "https://github.com/remotion-dev/skills/blob/32b241b97f4e0e4ab61fe9a41b05e6e64503f8c5/skills/remotion-best-practices/SKILL.md"
-      ]
+      ],
+      "package_license": "skills/remotion-video/LICENSE"
     },
     {
       "package": "skills/smart-router",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/smart-router/LICENSE",
+        "skills/smart-router/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [],
       "source_links": [
         "https://github.com/firecrawl/model-picker"
-      ]
+      ],
+      "package_license": "skills/smart-router/LICENSE"
     },
     {
       "package": "skills/to-questionnaire",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/to-questionnaire/LICENSE",
+        "skills/to-questionnaire/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [],
       "source_links": [
         "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/to-questionnaire/SKILL.md"
-      ]
+      ],
+      "package_license": "skills/to-questionnaire/LICENSE"
     },
     {
       "package": "skills/visual-diagrams",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/visual-diagrams/LICENSE",
+        "skills/visual-diagrams/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [
         "skills/visual-diagrams/sources.json"
       ],
       "source_links": [
         "https://github.com/cathrynlavery/diagram-design/blob/f4547ee95f88e5b28a52517feff6b6c11cc657f9/skills/diagram-design/SKILL.md"
-      ]
+      ],
+      "package_license": "skills/visual-diagrams/LICENSE"
     },
     {
       "package": "plugins/product-intelligence/skills/customer-voice",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "plugins/product-intelligence/LICENSE",
+        "plugins/product-intelligence/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [
         "plugins/product-intelligence/skills/competitor-recon/references/offline-resources.md"
       ],
       "source_links": [
         "https://github.com/Jakeschincariol/replica-skill"
       ],
-      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply",
+      "package_license": "plugins/product-intelligence/LICENSE"
     },
     {
       "package": "plugins/product-intelligence/skills/competitor-recon",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "plugins/product-intelligence/LICENSE",
+        "plugins/product-intelligence/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [
         "plugins/product-intelligence/skills/competitor-recon/references/offline-resources.md"
       ],
       "source_links": [
         "https://github.com/Jakeschincariol/replica-skill"
       ],
-      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply",
+      "package_license": "plugins/product-intelligence/LICENSE"
     },
     {
       "package": "plugins/product-intelligence/skills/feature-parity",
-      "status": "no package-level license grant established; source review required",
-      "license_mentions": [],
-      "notice_files": [],
+      "status": "package-level MIT grant; retained third-party terms apply",
+      "license_mentions": [
+        "MIT"
+      ],
+      "notice_files": [
+        "plugins/product-intelligence/LICENSE",
+        "plugins/product-intelligence/LICENSE-SCOPE.md"
+      ],
       "provenance_files": [
         "plugins/product-intelligence/skills/competitor-recon/references/offline-resources.md"
       ],
       "source_links": [
         "https://github.com/Jakeschincariol/replica-skill"
       ],
-      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+      "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply",
+      "package_license": "plugins/product-intelligence/LICENSE"
     },
     {
       "package": "plugins/general-skills/skills/genjutsu",

@@ -6,7 +6,7 @@ import tempfile
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from check_library import check_license_inventory, UNRESOLVED
+from check_library import check_license_inventory, UNRESOLVED, MIT_PACKAGE, RESTRICTED_PACKAGE
 
 class LicenseInventory(unittest.TestCase):
     def setUp(self):
@@ -60,3 +60,15 @@ class LicenseInventory(unittest.TestCase):
                                 'notice_files': ['absent']}]
         self.save()
         self.assertTrue(any('unsafe license notice' in e for e in check_license_inventory(self.root)))
+
+    def test_package_grants_require_retained_license(self):
+        for status in (MIT_PACKAGE, RESTRICTED_PACKAGE):
+            with self.subTest(status=status):
+                self.data['packages'][0]['status'] = status
+                self.save()
+                (self.root / 'NOTICE').write_text(f'| `skills/demo` | {status} | None |\n')
+                self.assertTrue(any('Package license missing' in e for e in check_license_inventory(self.root)))
+                self.data['packages'][0]['package_license'] = 'skills/demo/NOTICE'
+                self.save()
+                self.assertEqual(check_license_inventory(self.root), [])
+                self.data['packages'][0].pop('package_license')

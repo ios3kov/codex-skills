@@ -6,18 +6,18 @@ The root MIT license applies only to original repository-maintenance contributio
 
 | Package | Recorded status | License mentions |
 |---|---|---|
-| `skills/agent-orchestrator` | no package-level license grant established; source review required | Not established |
-| `skills/agentation` | no package-level license grant established; source review required | Not established |
-| `skills/apple-design` | no package-level license grant established; source review required | Not established |
-| `skills/audio-production` | no package-level license grant established; source review required | Not established |
+| `skills/agent-orchestrator` | package-level MIT grant; retained third-party terms apply | MIT |
+| `skills/agentation` | PolyForm Shield upstream; not an open-source package | PolyForm-Shield-1.0.0 |
+| `skills/apple-design` | package-level MIT grant; retained third-party terms apply | MIT |
+| `skills/audio-production` | package-level MIT grant; retained third-party terms apply | MIT |
 | `skills/brand-system` | upstream notices present; scope varies by file | MIT |
-| `skills/character-continuity` | no package-level license grant established; source review required | Not established |
-| `skills/codebase-understanding` | no package-level license grant established; source review required | Not established |
-| `skills/context-discipline` | no package-level license grant established; source review required | Apache-2.0 |
+| `skills/character-continuity` | package-level MIT grant; retained third-party terms apply | MIT |
+| `skills/codebase-understanding` | package-level MIT grant; retained third-party terms apply | MIT |
+| `skills/context-discipline` | package-level MIT grant; retained third-party terms apply | Apache-2.0, MIT |
 | `skills/design-reference-research` | upstream notices present; scope varies by file | MIT |
 | `skills/develop-web-game` | upstream notices present; scope varies by file | Apache-2.0 |
 | `skills/editorial-copy` | upstream notices present; scope varies by file | MIT |
-| `skills/html-slide-decks` | no package-level license grant established; source review required | Not established |
+| `skills/html-slide-decks` | package-level MIT grant; retained third-party terms apply | MIT |
 | `skills/independent-reviewer` | upstream notices present; scope varies by file | MIT |
 | `skills/interface-craft` | upstream notices present; scope varies by file | MIT |
 | `skills/ios-simulator-skill` | upstream notices present; scope varies by file | MIT |
@@ -27,11 +27,15 @@ The root MIT license applies only to original repository-maintenance contributio
 | `skills/openai-docs` | upstream notices present; scope varies by file | Apache-2.0 |
 | `skills/pdf` | upstream notices present; scope varies by file | Apache-2.0 |
 | `skills/production-engineering` | upstream notices present; scope varies by file | Apache-2.0, CC-BY-SA-4.0, MIT |
-| `skills/remotion-video` | no package-level license grant established; source review required | Not established |
-| `skills/smart-router` | no package-level license grant established; source review required | Not established |
-| `skills/to-questionnaire` | no package-level license grant established; source review required | Not established |
-| `skills/visual-diagrams` | no package-level license grant established; source review required | Not established |
-| `plugins/product-intelligence` | no package-level license grant established; source review required | Not established |
+| `skills/remotion-video` | package-level MIT grant; retained third-party terms apply | MIT |
+| `skills/smart-router` | package-level MIT grant; retained third-party terms apply | MIT |
+| `skills/to-questionnaire` | package-level MIT grant; retained third-party terms apply | MIT |
+| `skills/visual-diagrams` | package-level MIT grant; retained third-party terms apply | MIT |
+| `plugins/product-intelligence` | package-level MIT grant; retained third-party terms apply | MIT |
 | `plugins/general-skills` | upstream notices present; scope varies by file | MIT |
 
 Machine-readable source/notice pointers: [license-inventory.json](license-inventory.json). These records identify unresolved packages instead of claiming the entire library is MIT. Review original source and rights before relicensing any unresolved skill.
+
+## Package grants added 2026-11-01
+
+Twelve previously unresolved packages now include package-level MIT grants with retained upstream notices and LICENSE-SCOPE.md boundaries. Agentation retains PolyForm Shield: it is not open source and cannot be relicensed by this repository. The root MIT scope is unchanged. The other packages retain their existing file-level records; this is not blanket legal clearance of the library.
