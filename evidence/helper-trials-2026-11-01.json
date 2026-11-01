@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "scope": "Eight owned offline helper CLI checks; no agents, models, simulator or media generation ran",
+  "helper_sha256": {
+    "skills/codebase-understanding/scripts/project_map.py": "8447cf1a8be624dbebb85e6b7faec1f81d9ee205fd5adb33bed658260feae12c",
+    "skills/agent-orchestrator/scripts/validate_plan.py": "03365d60cad126df6f9ea542b6f3913c0e7e422ec2b494f07cbeab76bb3b0d48"
+  },
+  "checks": [
+    {
+      "case": "build preserves reciprocal call candidates with source evidence",
+      "status": "PASS"
+    },
+    {
+      "case": "unsupported format is reported, not silently treated as complete",
+      "status": "PASS"
+    },
+    {
+      "case": "unsupported source can be found through literal fallback",
+      "status": "PASS"
+    },
+    {
+      "case": "frontmatter-only change makes the saved map stale",
+      "status": "PASS"
+    },
+    {
+      "case": "stale query uses bounded source fallback",
+      "status": "PASS"
+    },
+    {
+      "case": "rebuild removes deleted file definitions",
+      "status": "PASS"
+    },
+    {
+      "case": "unordered read/write conflict is rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "explicit dependency permits the ordered plan",
+      "status": "PASS"
+    }
+  ],
+  "executions": [
+    {
+      "helper": "skills/codebase-understanding/scripts/project_map.py",
+      "args": [
+        "build",
+        "<fixture>/project",
+        "--map",
+        "<fixture>/map.json",
+        "--max-bytes",
+        "16384"
+      ],
+      "exit": 0,
+      "stdout": "{\"map\": \"<fixture>/map.json\", \"candidate_only\": false, \"files\": 4, \"nodes\": 9, \"edges\": 9, \"stable_snapshot\": true, \"coverage_complete\": false, \"coverage\": {\"gaps\": [{\"path\": \"SKILL.md\", \"sha256\": \"5abe4c183c81e992cfad5a6d662eeb9106b52b90398d40c7e6409a369b8091c1\", \"bytes\": 43, \"status\": \"partial\", \"reason\": \"headings-and-inline-local-links-only\"}, {\"path\": \"game.gd\", \"sha256\": \"14b4d36282b2601f6ecc9c74e7a0cfeada1a1b6f269f00244dca6e7f6e7b9977\", \"bytes\": 36, \"status\": \"unsupported\", \"reason\": \"no-structural-parser\"}], \"skipped\": []}, \"limitations\": [\"Static navigation only; no absence-of-dependencies proof.\", \"Python calls/import resolution are candidates, not runtime observations.\", \"Markdown and JS parsers are lexical and incomplete; GDScript unsupported.\"], \"output_truncated\": false}\n",
+      "stderr": ""
+    },
+    {
+      "helper": "skills/codebase-understanding/scripts/project_map.py",
+      "args": [
+        "search",
+        "<fixture>/project",
+        "--map",
+        "<fixture>/map.json",
+        "--query",
+        "unsupported_marker",
+        "--max-bytes",
+        "2048"
+      ],
+      "exit": 0,
+      "stdout": "{\"schema\": \"local-project-map/1\", \"fresh\": true, \"changes\": {\"added\": [], \"deleted\": [], \"changed\": []}, \"mode\": \"search\", \"coverage\": {\"gaps\": [{\"path\": \"SKILL.md\", \"status\": \"partial\", \"reason\": \"headings-and-inline-local-links-only\", \"unresolved_calls\": []}, {\"path\": \"game.gd\", \"status\": \"unsupported\", \"reason\": \"no-structural-parser\", \"unresolved_calls\": []}], \"skipped\": [], \"complete_dependency_analysis\": false}, \"nodes\": [], \"edges\": [], \"selection_truncated\": false, \"source_search_truncated\": false, \"fallback\": {\"required\": true, \"performed\": \"literal-source-search\", \"matches\": [{\"path\": \"game.gd\", \"line\": 1}], \"next\": \"Inspect source evidence and use rg for wider/deeper search; graph absence proves nothing.\"}, \"output_truncated\": false}\n",
+      "stderr": ""
+    },
+    {
+      "helper": "skills/codebase-understanding/scripts/project_map.py",
+      "args": [
+        "status",
+        "<fixture>/project",
+        "--map",
+        "<fixture>/map.json",
+        "--max-bytes",
+        "16384"
+      ],
+      "exit": 2,
+      "stdout": "{\"fresh\": false, \"changes\": {\"added\": [], \"deleted\": [], \"changed\": [\"SKILL.md\"]}, \"coverage\": {\"files\": {\"SKILL.md\": {\"sha256\": \"88ba0a4449516712c0d5f6da9f065298a3144e87820c86f6eaf97eeebdefc3ab\", \"bytes\": 43, \"status\": \"file-only\"}, \"alpha.py\": {\"sha256\": \"437f367b6a9858d56c0871d1494c97161bc4fccd08b42f37b19694b7da70b3b9\", \"bytes\": 53, \"status\": \"file-only\"}, \"beta.py\": {\"sha256\": \"7dfaa088c82d96543314366a452a323cbb09f328a478f802738b22528f7f59c1\", \"bytes\": 55, \"status\": \"file-only\"}, \"game.gd\": {\"sha256\": \"14b4d36282b2601f6ecc9c74e7a0cfeada1a1b6f269f00244dca6e7f6e7b9977\", \"bytes\": 36, \"status\": \"unsupported\", \"reason\": \"no-structural-parser\"}}, \"skipped\": []}, \"output_truncated\": false}\n",
+      "stderr": ""
+    },
+    {
+      "helper": "skills/codebase-understanding/scripts/project_map.py",
+      "args": [
+        "search",
+        "<fixture>/project",
+        "--map",
+        "<fixture>/map.json",
+        "--query",
+        "alpha",
+        "--max-bytes",
+        "2048"
+      ],
+      "exit": 2,
+      "stdout": "{\"schema\": \"local-project-map/1\", \"fresh\": false, \"changes\": {\"added\": [], \"deleted\": [], \"changed\": [\"SKILL.md\"]}, \"mode\": \"search\", \"coverage\": {\"gaps\": [{\"path\": \"SKILL.md\", \"status\": \"file-only\", \"reason\": \"\", \"unresolved_calls\": []}, {\"path\": \"alpha.py\", \"status\": \"file-only\", \"reason\": \"\", \"unresolved_calls\": []}, {\"path\": \"beta.py\", \"status\": \"file-only\", \"reason\": \"\", \"unresolved_calls\": []}, {\"path\": \"game.gd\", \"status\": \"unsupported\", \"reason\": \"no-structural-parser\", \"unresolved_calls\": []}], \"skipped\": [], \"complete_dependency_analysis\": false}, \"nodes\": [], \"edges\": [], \"selection_truncated\": false, \"source_search_truncated\": false, \"fallback\": {\"required\": true, \"performed\": \"literal-source-search\", \"matches\": [{\"path\": \"alpha.py\", \"line\": 2}, {\"path\": \"beta.py\", \"line\": 1}, {\"path\": \"beta.py\", \"line\": 3}], \"next\": \"Inspect source evidence and use rg for wider/deeper search; graph absence proves nothing.\"}, \"output_truncated\": false}\n",
+      "stderr": ""
+    },
+    {
+      "helper": "skills/codebase-understanding/scripts/project_map.py",
+      "args": [
+        "build",
+        "<fixture>/project",
+        "--map",
+        "<fixture>/map.json",
+        "--max-bytes",
+        "16384"
+      ],
+      "exit": 0,
+      "stdout": "{\"map\": \"<fixture>/map.json\", \"candidate_only\": false, \"files\": 3, \"nodes\": 6, \"edges\": 3, \"stable_snapshot\": true, \"coverage_complete\": false, \"coverage\": {\"gaps\": [{\"path\": \"SKILL.md\", \"sha256\": \"88ba0a4449516712c0d5f6da9f065298a3144e87820c86f6eaf97eeebdefc3ab\", \"bytes\": 43, \"status\": \"partial\", \"reason\": \"headings-and-inline-local-links-only\"}, {\"path\": \"alpha.py\", \"sha256\": \"437f367b6a9858d56c0871d1494c97161bc4fccd08b42f37b19694b7da70b3b9\", \"bytes\": 53, \"status\": \"parsed\", \"unresolved_calls\": [3]}, {\"path\": \"game.gd\", \"sha256\": \"14b4d36282b2601f6ecc9c74e7a0cfeada1a1b6f269f00244dca6e7f6e7b9977\", \"bytes\": 36, \"status\": \"unsupported\", \"reason\": \"no-structural-parser\"}], \"skipped\": []}, \"limitations\": [\"Static navigation only; no absence-of-dependencies proof.\", \"Python calls/import resolution are candidates, not runtime observations.\", \"Markdown and JS parsers are lexical and incomplete; GDScript unsupported.\"], \"output_truncated\": false}\n",
+      "stderr": ""
+    },
+    {
+      "helper": "skills/agent-orchestrator/scripts/validate_plan.py",
+      "args": [
+        "<fixture>/plan.json"
+      ],
+      "exit": 2,
+      "stdout": "{\"valid\": false, \"errors\": [\"unordered resource conflict: inspect 'src' / repair 'src/main.py'\"], \"scope\": \"declared file paths and dependency graph only\"}\n",
+      "stderr": ""
+    },
+    {
+      "helper": "skills/agent-orchestrator/scripts/validate_plan.py",
+      "args": [
+        "<fixture>/plan.json"
+      ],
+      "exit": 0,
+      "stdout": "{\"valid\": true, \"errors\": [], \"scope\": \"declared file paths and dependency graph only\"}\n",
+      "stderr": ""
+    }
+  ],
+  "character_continuity_generation": "NOT RUN"
+}

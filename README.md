@@ -105,3 +105,20 @@ The portable symlink-parent regression runs in the normal Ubuntu Python matrix: 
 Recorded scoped smoke: [REA admitted runtime qualification](https://github.com/ios3kov/codex-skills/actions/runs/41253159365) passed at `6e8f8edf7931bec037ef08033244631df0ff4f3f`. It verified the exact bundled Linux runtime and one owned JavaScript fixture with execution networking disabled. It does not certify application correctness or the other specialized workflows; see the commit-bound receipt in `verification.json`.
 
 Design QA [run 41253687766](https://github.com/ios3kov/codex-skills/actions/runs/41253687766) passed at `ff0eabf1d339aadd6e8dffbea06f9744112c5fd2`. Both the owned browser-fixture lane and isolated Obscura pilot completed; this does not admit Obscura for general use or establish application quality.
+
+## Refreshing bookkeeping
+
+After a payload edit, run `python3 -B scripts/update_library.py --write`, then `python3 -B scripts/update_library.py --check` and the applicable tests. Without `--write`, the command only reports drift. Exit codes are 0 for current/refreshed, 1 for stale, and 2 for an error; errors report completed writes. No hooks are installed.
+
+The updater refreshes file hashes, sizes, executable flags, snapshot counts and the README count rows. Skill identities and license decisions remain curated. Payload changes invalidate current local/cloud parity pointers; historical evidence remains unchanged. The command does not create test results or installation evidence. CI checks for drift on every normal run.
+
+## Portability and scoped trials
+
+| Capability | Requirement |
+| --- | --- |
+| Instructions and offline Python helpers | A host that loads the package; Python 3.11+ for these helpers |
+| Model selection, agents and persistent state | Matching host tools and permissions; instructions alone do not provide them |
+| iOS Simulator workflows | macOS, compatible Xcode and the tools required by the selected workflow |
+| Context7, media and other connected services | Your own supported connection and authorization |
+
+Run `python3 -B scripts/trial_helpers.py` for eight reproducible checks on owned temporary fixtures. They exercise project-map build/search, reciprocal candidate calls, unsupported-format fallback, frontmatter edits, stale output limits, deleted files, and task-plan conflict/dependency validation. The [recorded receipt](evidence/helper-trials-2026-11-01.json) binds results to helper hashes. These are helper CLI checks, not proof of model judgment or whole-skill effectiveness. No agents, simulator or media generation run. Character Continuity generation remains **NOT RUN**; it needs real reference assets, generated output and visual review.
