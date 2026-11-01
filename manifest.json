@@ -193,8 +193,8 @@
   ],
   "files": {
     "skills/agent-orchestrator/SKILL.md": {
-      "sha256": "3f451a414e797958f1ea87fdda3aeb8fa8ef7c9b9056c710653776c2e224f0a9",
-      "bytes": 5209,
+      "sha256": "bf0429ad5bdde2df5f7a1f6867b5a8e8536c719e9672df7161de6d074015ce38",
+      "bytes": 3658,
       "executable": false
     },
     "skills/agent-orchestrator/agents/openai.yaml": {
@@ -383,8 +383,8 @@
       "executable": false
     },
     "skills/context-discipline/SKILL.md": {
-      "sha256": "48d04768e6d169ea3d85dd23c37038a63b844daa805a6256c4d1b2331fc11606",
-      "bytes": 8277,
+      "sha256": "badefb36cffac416243a2d0897a60aaa86cac06ffac0341e77cd45b988436fa6",
+      "bytes": 5738,
       "executable": false
     },
     "skills/context-discipline/agents/openai.yaml": {
@@ -793,8 +793,8 @@
       "executable": false
     },
     "skills/ios-simulator-skill/SKILL.md": {
-      "sha256": "c5a2170d3101b2b37bd8299bdefb938ab53268b2251d71ac05db08f79ec7ce77",
-      "bytes": 24102,
+      "sha256": "5913a4d1a06f1ca0089c03221577817557aec9e8948ace79aa340e0ff37db40b",
+      "bytes": 4254,
       "executable": false
     },
     "skills/ios-simulator-skill/agents/openai.yaml": {
@@ -1308,8 +1308,8 @@
       "executable": false
     },
     "skills/production-engineering/SKILL.md": {
-      "sha256": "1b1e28fd5de3db8423c93b3c517765ace894de04a13de167571ec5dce016c911",
-      "bytes": 18301,
+      "sha256": "caa2eef956431da1f87abf62eec4a5119b1c98e8e157e7b230b7246cda2ed218",
+      "bytes": 17277,
       "executable": false
     },
     "skills/production-engineering/THIRD_PARTY_NOTICES.md": {
@@ -1763,8 +1763,8 @@
       "executable": false
     },
     "skills/smart-router/SKILL.md": {
-      "sha256": "2156467745d4076d1ba69cf3f8463f66bd5a02a71be3d5fdaddddc1da97aa754",
-      "bytes": 5248,
+      "sha256": "5ef6259ea291212b27bf4bd06a9291063e1a16a4793d95ab93b391c7a26691e4",
+      "bytes": 3629,
       "executable": false
     },
     "skills/smart-router/agents/openai.yaml": {
@@ -2275,6 +2275,21 @@
     "skills/to-questionnaire/LICENSE-ORIGINAL-CONTRIBUTIONS.txt": {
       "sha256": "39985ce889c092fd67da12426150eac412dc733e3038e419f81076f1b2553926",
       "bytes": 1064,
+      "executable": false
+    },
+    "skills/agent-orchestrator/references/plan-validation.md": {
+      "sha256": "3c34b768aafd0b80ab28fcc713be9b516bd6ad533e59c596068b510b3e6db828",
+      "bytes": 803,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/references/command-reference.md": {
+      "sha256": "ad408ec16ffc09239458a2510808d3b40ee1b3fe6edab3412e7ec02969c54613",
+      "bytes": 19236,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/references/troubleshooting.md": {
+      "sha256": "2952342859778f7772e13ec1891e35cd5ba574570a1011c1f7edf0b7435d0527",
+      "bytes": 2053,
       "executable": false
     }
   },

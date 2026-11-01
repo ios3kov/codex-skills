@@ -2,6 +2,8 @@
 
 Canonical Git repository for our personal skill library. It started from an installed-file snapshot on 2026-10-31 and has since received repository maintenance changes. The current HEAD is a maintained library, not an unchanged copy of that installation.
 
+This review branch contains five instruction-density candidates. They are not installed locally or saved to cloud skills; see `skill_density_candidate_2026_11_01` in `verification.json`. Previous synchronization records describe their own earlier revisions.
+
 ## Included
 
 - **25 standalone skills** in `skills/`.
@@ -14,8 +16,8 @@ Canonical Git repository for our personal skill library. It started from an inst
 | Scope | Meaning |
 |---|---|
 | Original installed payload | **373 files**, copied and verified against the local installation on 2026-10-31 at commit `20e6eebeaea29343919e498b0e5b3fae4fbf2d8f`. This is historical evidence for that snapshot only. |
-| Package maintenance | **44 added files** since the original snapshot; existing documentation, metadata and fixtures were also updated. The exact delta is in `verification.json`. |
-| Current payload manifest | **417 entries** covering current `skills/` and `plugins/` files. |
+| Package maintenance | **47 added files** since the original snapshot; existing documentation, metadata and fixtures were also updated. The exact delta is in `verification.json`. |
+| Current payload manifest | **420 entries** covering current `skills/` and `plugins/` files. |
 | Repository maintenance outside the payload | Root documentation, routing, integrity scripts, regression tests, CI and repository records are tracked by Git but are not entries in the payload manifest. |
 
 Full byte parity of all 37 personal skills was freshly verified across local installation, saved cloud packages and Git payload on 2026-11-01. See `synchronization_2026_11_01` in `verification.json` for the exact scope. The later license synchronization re-exported the 12 changed standalone skills and Product Intelligence 1.0.5, and compared all 417 personal payload files with the local installation; see `license_sync_2026_11_01`. Other cloud packages were not re-exported in that pass. Later changes require a fresh comparison; CI or Git readback alone cannot renew parity. See [verification.json](verification.json) for separate historical snapshot evidence and current repository boundaries.

@@ -22,7 +22,7 @@
   "current_repository": {
     "recorded_on": "2026-11-01",
     "payload_manifest": "manifest.json",
-    "payload_files": 417,
+    "payload_files": 420,
     "additional_payload_files_since_snapshot": [
       "skills/agentation/agents/openai.yaml",
       "skills/agentation/assets/icon.svg",
@@ -67,12 +67,15 @@
       "skills/visual-diagrams/LICENSE-SCOPE.md",
       "skills/visual-diagrams/references/licenses/cathrynlavery--diagram-design--LICENSE",
       "skills/visual-diagrams/references/licenses/creative-source-notices.txt",
-      "skills/to-questionnaire/LICENSE-ORIGINAL-CONTRIBUTIONS.txt"
+      "skills/to-questionnaire/LICENSE-ORIGINAL-CONTRIBUTIONS.txt",
+      "skills/agent-orchestrator/references/plan-validation.md",
+      "skills/ios-simulator-skill/references/command-reference.md",
+      "skills/ios-simulator-skill/references/troubleshooting.md"
     ],
-    "modified_existing_payload_files_since_snapshot": 27,
+    "modified_existing_payload_files_since_snapshot": 28,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
-    "local_installed_parity": "See license_sync_2026_11_01: PASS for all 417 current personal payload files",
-    "cloud_parity": "See license_sync_2026_11_01 for fresh changed-package readback; synchronization_2026_11_01 records the earlier full-library comparison",
+    "local_installed_parity": "NOT SYNCED: five skill-density candidates on this review branch; installed copies remain at the prior saved release",
+    "cloud_parity": "NOT SYNCED: cloud update blocked pending explicit user approval; five fresh pre-change exports match the saved baselines",
     "integrity_boundary": "Manifest hashes and Git readback validate recorded repository files, not installed or cloud copies."
   },
   "migration_updated_on": "2026-11-01",
@@ -252,5 +255,56 @@
     "legal_clearance": "NOT ASSESSED: text/hash checks do not establish ownership or license enforceability",
     "ci": "NOT RUN for this change at time of recording",
     "agentation_sync": "PASS: saved cloud export, local installation and Git candidate compared byte-for-byte; editor-generated whitespace and icon changes preserved"
+  },
+  "skill_density_candidate_2026_11_01": {
+    "state": "PREPARED FOR REVIEW, NOT INSTALLED",
+    "skills": [
+      "smart-router",
+      "agent-orchestrator",
+      "context-discipline",
+      "production-engineering",
+      "ios-simulator-skill"
+    ],
+    "scope": "Consolidate repeated instructions; move simulator command/configuration and diagnostic detail to conditional references; preserve skill selection metadata, licenses and executable files",
+    "format_validation": "PASS: official skill-creator checker on all five, temporary PyYAML 6.0.3 environment",
+    "source_checks": "PASS: baseline frontmatter, executable bytes, iOS script names and CLI flags retained",
+    "manual_review": "Editing agent reviewed twelve scenarios; not independent, blinded or a model execution",
+    "model_behavior_comparison": "NOT RUN",
+    "performance_or_token_savings": "NOT MEASURED",
+    "cloud_save": "BLOCKED: automatic approval review requires explicit authorization for substantive cloud package edits",
+    "local_install": "NOT RUN pending cloud synchronization authorization",
+    "repository_tests": "PASS: 63 locally",
+    "entrypoint_words": {
+      "smart-router": {
+        "before_words": 716,
+        "after_words": 475,
+        "before_lines": 32,
+        "after_lines": 30
+      },
+      "agent-orchestrator": {
+        "before_words": 681,
+        "after_words": 448,
+        "before_lines": 34,
+        "after_lines": 28
+      },
+      "context-discipline": {
+        "before_words": 1119,
+        "after_words": 707,
+        "before_lines": 68,
+        "after_lines": 48
+      },
+      "production-engineering": {
+        "before_words": 2362,
+        "after_words": 2209,
+        "before_lines": 130,
+        "after_lines": 126
+      },
+      "ios-simulator-skill": {
+        "before_words": 3090,
+        "after_words": 517,
+        "before_lines": 420,
+        "after_lines": 53
+      }
+    }
   }
 }

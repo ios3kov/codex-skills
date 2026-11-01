@@ -3,66 +3,46 @@ name: context-discipline
 description: Keep substantive multi-step work efficient and resumable through selective reading, reuse of evidence, durable task checkpoints, and preservation of exact requirements. Apply during research, design, engineering, and long tasks; trivial self-contained replies do not need a checkpoint.
 ---
 
-
-
 # Context discipline
 
-Apply these agreed working defaults without adding a permission gate. Optimize the cost of completing the whole task, including rereading, coordination, and rework, while preserving the user's requirements and the checks needed to finish.
+Keep substantive work resumable through selective reading, reusable evidence and one task checkpoint. Preserve the user's full requirements and required checks; small self-contained replies need no checkpoint or added permission gate.
 
-## Select before reading
+## Read and reuse selectively
 
-- Start with the task question and likely files or source sections. Search paths, headings, identifiers, or relevant terms; read the smallest useful range with enough surrounding context to avoid misinterpretation.
-- Load a skill or supporting reference when it changes the current decision. Keep bulk sources, logs, and extracted material in task-local files with searchable names; bring their relevant findings and source pointers into active context.
-- Expand a read when dependencies, ambiguity, or verification require it. Selective reading must not silently reduce an explicitly requested full audit, complete text, or source scope.
-- Preserve original evidence before replacing a large output with a summary. Retain actionable errors and diagnostic details until their issue is resolved.
+Start from the task question, likely paths and relevant headings/identifiers. Read the smallest useful range with enough context to interpret it; expand for dependencies, ambiguity or verification. An explicitly requested full audit or complete source scope still requires full coverage.
 
-## Reuse without becoming stale
+Load skills/references when they affect the current decision. Keep bulk sources, logs and extracts in searchable task-local files, with findings and source pointers in active context. Preserve originals and actionable diagnostics before summarizing output.
 
-- Reuse earlier searches, reads, and verified conclusions when their source and relevant state still match. Avoid repeating the same query or printing large technical results merely to restate progress.
-- For reusable execution evidence, record the relevant input and skill/source identity, execution settings/environment, and an explicit completion result. An output file alone does not establish that a run completed or passed. Refresh affected evidence when these change; keep still-valid evidence for unchanged scope. Use content hashes where practical for files with uncommitted changes; do not hash unrelated workspace contents or treat a completion marker as proof of correctness.
-- Refresh only the affected material when files, versions, requirements, external facts, or assumptions change, or when prior evidence is incomplete. Record what changed so a later continuation can reuse it safely.
-- Keep one authoritative task brief and link to detailed evidence rather than reproducing it across notes. Give parallel workers distinct file ownership when needed to prevent conflicting edits.
+Reuse searches and conclusions while their source and relevant state match. Execution evidence needs input and skill/source identity, settings/environment and completion status; a file or completion marker alone does not establish correctness. Refresh affected evidence after changes to files, versions, requirements, external facts or assumptions, retaining valid checks for unchanged scope. Use content hashes for relevant uncommitted files where practical, rather than hashing unrelated workspace data.
 
-For an optional shared project map, use `codebase-understanding`'s actual installed helper only when navigation justifies it. Its `status`/search freshness uses full-file hashes (including YAML frontmatter), inventory changes and helper identity, not HEAD/mtime alone. Keep the task's bounded `--limit` and `--max-bytes`, inspect truncation/coverage flags and expand only when the decision needs it. If the map is stale or insufficient, use its literal source fallback plus ordinary search and originals; never reuse stale edges or treat no matches as no dependencies. Save the map path, root, scope and gaps in the existing task checkpoint, not a second memory system. Missing helper access is a reason to use normal source search, not to install it globally.
+For a project map, use `codebase-understanding`'s installed helper only when navigation justifies it. Freshness covers full-file hashes including YAML frontmatter, inventory changes and helper identity, not HEAD/mtime alone. Bound output with `--limit` and `--max-bytes`; inspect truncation and coverage before relying on a result. Use literal-source fallback and ordinary search when the map is stale, incomplete or unavailable. No matches do not establish absence of dependencies. Record map path, root, scope and gaps in the existing checkpoint; no global installation or second memory system is needed.
 
-## Share context with parallel workers
+## Keep one durable task record
 
-When agents are actually used, the existing task checkpoint is the shared brief; coordination and resource ownership remain with `agent-orchestrator`. Keep one coordinator as its writer. Send each worker only the relevant requirements, approved decisions, source/artifact pointers, input revision, dependencies and acceptance checks. Confirm that the receiving environment can access those sources; supply a permitted snapshot or essential excerpts when it cannot.
+For longer work, phase transitions, an approaching context refresh, or resumption across sessions/clients, read [durable task state](references/durable-state.md). Use the established task-local destination, such as `work/task-state.md`, and update material facts and explicit supersessions. Keep these fields sufficient for resumption:
 
-After a material worker result or changed requirement/interface, reconcile the evidence and decisions into the checkpoint, mark superseded inputs, and notify affected workers before their dependent work continues. Record outstanding conflicts instead of silently choosing a worker summary. Agents do not automatically share conversation state; a saved checkpoint helps only when it is explicitly read or passed. Small direct tasks do not need a team record.
+- **Brief:** objective, acceptance requirements, constraints, user steering and authorization boundaries.
+- **Protected anchors:** exact wording or its verbatim source pointer, approved decisions/rationale, brand and visual/media specifications, character identity, and required checks.
+- **Sources/artifacts:** reachable paths, identifiers, versions/revisions, and what was inspected, created or changed; add a detailed index only when useful.
+- **State:** completed work, open questions, attributed failures and verification tied to its candidate/environment, distinguishing PASS, FAIL, BLOCKED and NOT RUN.
+- **Decisions/conflicts:** what applies, why, what it supersedes and which conflicts remain.
+- **Next steps:** remaining work, dependencies and genuinely required user input.
 
-## Maintain a durable checkpoint
+Retain exact copy and structured specifications verbatim where precision matters, alongside reachable originals. Task checkpointing does not authorize platform memory or unrelated instruction changes.
 
-Read [durable task state](references/durable-state.md) when saving or resuming a longer task across sessions or clients, especially when storage access or permanent-memory scope is uncertain.
+When agents are used, `agent-orchestrator` owns coordination/resource boundaries and one coordinator writes this record. Pass each worker relevant requirements, decisions, source/artifact pointers, revision, dependencies and checks; confirm access or provide an authorized snapshot/excerpt. Reconcile material results and conflicts, mark superseded inputs and notify affected workers before dependent work. Context becomes shared only when explicitly passed or read; small direct tasks need no team record.
 
-For long work, phase transitions, or an approaching context refresh, maintain a small task-local checkpoint, such as `work/task-state.md`, adapted to the project's established convention. Update it with new facts and explicit supersessions instead of repeatedly rewriting older summaries from memory.
+## Recover and finish
 
-Keep these fields sufficient to resume the actual task:
+After context refresh, before major implementation decisions and before completion:
 
-- **Brief and scope:** objective, acceptance requirements, constraints, user steering, and authorization boundaries.
-- **Protected anchors:** exact wording or a precise pointer to its verbatim source; approved decisions and rationale; brand rules; frame dimensions, aspect ratio, fps, and duration; character identity and appearance; required checks.
-- **Sources and artifacts:** exact paths, identifiers, versions or revisions where relevant, and which material was read, created, or changed. Keep a detailed artifact index only when the task needs it.
-- **Current state:** completed work, open questions, attributed failures, and verification results with the candidate or environment they establish. Distinguish PASS, FAIL, BLOCKED, and NOT RUN when reporting checks.
-- **Decisions and conflicts:** what applies now, why, and which earlier instruction or assumption it replaces. Preserve unresolved conflicts explicitly.
-- **Next steps:** remaining work and dependencies, including any genuinely required user input.
+1. Restore the current brief and protected anchors; confirm artifact existence and relevant state.
+2. Reconcile original requirements with later steering, retaining obligations unless explicitly replaced or incompatible.
+3. Resolve conflicts through instruction priority, user choices, applicable versions and verified sources; label uncertainty and supersession. Ask only for a material unresolved conflict while continuing independent authorized work.
+4. Check that exact texts, decisions, specifications, evidence, required checks and the next action remain recoverable. Repair gaps from originals rather than inventing details.
 
-Store exact copy and structured specifications verbatim when precision matters; a vague paraphrase is not a replacement. Retain reachable originals alongside summaries. Do not write cross-session memory or alter unrelated instructions as a side effect of checkpointing.
+If work repeats, blends projects or carries corrected assumptions forward, inspect the affected checkpoint and original evidence before rereading everything.
 
-## Check that requirements survived
+Judge efficiency over completed tasks, including recovery and rework. Use task-level measurements when available; otherwise describe the method qualitatively rather than asserting token-saving percentages, cache benefits or universal context thresholds.
 
-After a context refresh, before a major implementation decision, and before declaring completion:
-
-1. Restore the current brief and relevant anchors; verify that referenced artifacts still exist and that material state has not changed.
-2. Reconcile original requirements with subsequent user steering. A new message normally refines the active task; preserve earlier obligations unless they were explicitly replaced or are incompatible.
-3. Resolve conflicts through the instruction hierarchy, user choices, applicable versions, and verified sources. Label uncertain or superseded claims so they cannot silently become facts. Ask only when a material conflict cannot be resolved, and continue independent authorized work.
-4. Confirm that exact texts, approved decisions, visual specifications, evidence pointers, necessary checks, and the next action can be recovered accurately. Repair omissions from the originals before proceeding; never fill gaps with invented details.
-
-If work starts repeating, ignores available constraints, blends projects, or carries corrected assumptions forward, inspect the affected checkpoint and original evidence. Recover the missing or conflicting information locally rather than loading every source again.
-
-## Evaluate efficiency honestly
-
-Judge efficiency over the whole task. Repeated recovery reads and avoidable rework can outweigh a shorter initial response. Use measured task-level data when available; otherwise describe the method qualitatively. Do not claim token-saving percentages, fixed compression targets, cache benefits, or universal context thresholds without measurement in the actual environment.
-
-Provenance: [sources.json](sources.json), adapted from Filesystem Context, Context Optimization, Context Compression and Context Degradation.
-
-Execution-evidence identity guidance adapted in original wording from [Harness² run records](https://github.com/google-research/harness2/blob/1cfe254e8d25b15f37048c3730134686abe60335/harness2/core/runmark.py), reviewed 2026-10-19; [Apache-2.0 notice](references/upstream/harness2/LICENSE).
+Provenance: [sources.json](sources.json), adapted from Filesystem Context, Context Optimization, Context Compression and Context Degradation. Execution-evidence identity guidance adapted in original wording from [Harness² run records](https://github.com/google-research/harness2/blob/1cfe254e8d25b15f37048c3730134686abe60335/harness2/core/runmark.py), reviewed 2026-10-19; [Apache-2.0 notice](references/upstream/harness2/LICENSE).

@@ -22,23 +22,19 @@ Choose the smallest complete workflow:
 - Authorized fixes: audit → fix → focused regression → re-audit changed scope → reconcile documentation. Do not repeatedly ask for permission already provided.
 - Agent instructions or engineering rules: inspect the owning documents → apply the agent-document reference below → check the affected instructions and links.
 - Requested session retrospective: inspect actual session evidence → use the retrospective reference below → propose scoped improvements and implement only authorized changes.
-- Release: use the release gates below. Audit permission alone is not deployment permission.
+- Release: use the release gates below; merge and deployment require their own authorization.
 
 For instruction-only or retrospective-only work, validate the affected documents and controls. Application runtime gates apply only when application behavior is in scope.
 
-Apply Grill/Grilling, To Spec, Domain Modeling, To Tickets, Implement, Code Review and Handoff as engineering practices. Do not claim named external skills are installed. Avoid mandatory questionnaires, prototypes or architecture rewrites for clear small tasks.
+Use planning, modeling and review practices proportional to the task; clear small fixes need no mandatory questionnaire, prototype or architecture rewrite.
 
 Read [workflow.md](references/workflow.md) for the specification, task and evidence contracts. Use the preserved [Spec Kit templates](references/upstream/spec-kit/spec-template.md), [plan](references/upstream/spec-kit/plan-template.md) and [tasks](references/upstream/spec-kit/tasks-template.md) when starting a feature; adapt them to the existing project. Reuse .specify/memory/constitution.md and specs/ when present. For existing OpenSpec projects or an explicitly selected OpenSpec workflow, read [OpenSpec compatibility](references/openspec.md); reuse canonical artifacts and the change-history contract in workflow.md without duplicating planning documents. Do not replace an existing Spec Kit installation or assume slash commands are installed by this skill.
 
 ## Choose and verify execution
 
-After inspecting scope and before implementation, choose direct work or a bounded team. For a small clear fix, work directly with focused verification. For nontrivial work, load `smart-router` by name from the current skill catalog and record the execution choice in the existing plan. If independent outcomes justify a team and host policy permits delegation, load `agent-orchestrator` before dispatch; run ready, compatible tasks in parallel. Keep uncertain architecture, security and cross-module decisions with a sufficiently capable owner; do not prohibit that owner from writing code.
+Use direct work with focused checks for a small clear fix. For nontrivial work, load `smart-router` by name and record the choice in the existing plan. If independent outcomes justify a team and host policy permits it, load `agent-orchestrator`; dispatch ready compatible work in parallel and keep a sufficiently capable owner for architecture, security and cross-module decisions. That owner may implement code.
 
-For a team, keep the shared brief and decisions in the existing task record using `context-discipline`; let `agent-orchestrator` own task boundaries, dependencies and integration. The coordinator verifies the combined result against the original acceptance criteria. Use the same plan sequentially when delegation is unavailable or unjustified.
-
-Honor explicit user model choices, branch constraints and host controls. If a companion skill or execution control is unavailable, perform useful work with available capabilities and record the limitation. Do not claim a model switch, team or independent review without actual runtime evidence.
-
-Before handoff, reconcile the execution entry with actual agent IDs/model metadata where exposed, affected acceptance checks and integration results. State a material routing limitation or unperformed check briefly; keep routine internal routing out of the final answer. Store no fabricated cost savings. Preserve the same acceptance requirements across direct, delegated and fallback execution.
+For teams, use `context-discipline` for the shared task brief and `agent-orchestrator` for boundaries, dependencies and integration. If delegation, companions or execution controls are unavailable, continue useful work with available capabilities. Preserve user model choices, branch constraints and the same acceptance requirements across fallback paths. Before handoff, reconcile the plan with actual agent/model metadata where exposed, acceptance checks and integration results; report material limitations or unperformed checks briefly and keep routine routing internal.
 
 ## Select specialist detail only when applicable
 
@@ -57,11 +53,11 @@ These supplements refine decisions within the existing specification, review, ev
 
 ## Use Code Mode when useful
 
-For current and future development tasks using this skill, combine tool calls in a small executable script when this simplifies the work. Pass intermediate results between tools inside the script to reduce unnecessary model round trips and intermediate output. Run independent reads and checks in parallel only when they do not interfere; keep dependent steps, mutations, required approvals and potentially conflicting operations sequential.
+Combine tool calls in a small executable script when it simplifies development work, passing intermediate results inside the script. Run independent reads and checks in parallel only when they do not interfere; keep dependent steps, mutations, required approvals and potentially conflicting operations sequential.
 
 Filter and summarize data in code. Return what the next decision needs while preserving source references, per-operation completion status, errors and partial results. Inspect every operation's result, including each parallel result; do not let an overall script success conceal an individual failure. Before retrying a mutation, check its actual effects and follow [bounded recovery](references/bounded-recovery.md).
 
-Use only available, authorized tools and execution environments. Prefer ordinary calls when a single call is simpler or code execution is unavailable. Batching does not expand permissions or bypass approvals; pause the dependent sequence at an approval boundary. No separate skill, plugin or Cloudflare installation is required.
+Use available authorized tools; prefer ordinary calls when simpler or code execution is unavailable. Pause dependent work at required approval boundaries; batching grants no additional access and needs no separate installation.
 
 ## Check version-specific APIs when needed
 
@@ -117,13 +113,13 @@ For a whole-product production audit, read [production-2.md](references/producti
 
 Read [quality-gates.md](references/quality-gates.md). Run applicable project tests, lint, types and build; inspect their scripts before execution. For UI changes use the real app, mobile and target browsers. Verify loading/empty/error/offline states, navigation, keyboard access and all affected buttons. Run security and operational gates according to risk, not a generic score.
 
-Use the evidence table from workflow.md. For every applicable gate record command or procedure, revision/build, timestamp, environment, result and artifact. `PASS`, `FAIL`, `BLOCKED`, `NOT_RUN`, and justified `NOT_APPLICABLE` are distinct. Partial evidence cannot become PASS. A tool exit 0 is evidence for that tool only.
+Use the evidence table from workflow.md. For every applicable gate record command or procedure, revision/build, timestamp, environment, result and artifact. `PASS`, `FAIL`, `BLOCKED`, `NOT_RUN`, and justified `NOT_APPLICABLE` describe the actual scope checked; partial checks and a tool exit 0 do not establish whole-product readiness.
 
 Perform a separate review against the spec, looking for correctness, unsafe assumptions, missing permission checks, races, unnecessary complexity and regressions. Fix discovered defects and rerun relevant checks. Stop when acceptance criteria and applicable gates are verified with no unresolved blockers; stop expanding optional tests absent a concrete remaining risk. If blocked externally, report partial completion truthfully.
 
 ## Finish and hand off
 
-Update tasks/spec and a short handoff with revision, changed files, decisions, checks and exact next step. Give the user a concise result: what changed, what was verified, remaining blockers. Say “ready for release” only when the release gate passes. Never infer permission to merge or deploy from audit success.
+Update tasks/spec and a short handoff with revision, changed files, decisions, checks and exact next step. Give the user a concise result: what changed, what was verified, remaining blockers. Say “ready for release” only when the release gate passes.
 
 For maintenance, read [upstream-review.md](references/upstream-review.md) and [provenance](references/upstream.json). Keep original MIT notices. Re-test vendor updates; do not automatically trust newer source or stale legal summaries.
 
