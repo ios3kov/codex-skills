@@ -72,12 +72,12 @@
       "skills/visual-diagrams/references/licenses/cathrynlavery--diagram-design--LICENSE",
       "skills/visual-diagrams/references/licenses/creative-source-notices.txt"
     ],
-    "modified_existing_payload_files_since_snapshot": 31,
+    "modified_existing_payload_files_since_snapshot": 33,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
-    "local_installed_parity": "PASS: fresh comparison of all 420 personal payload files; see synchronization_recheck_2026_11_01",
-    "cloud_parity": "PASS: fresh 25 saved standalone exports and two complete plugin reads; see synchronization_recheck_2026_11_01",
+    "local_installed_parity": "PASS: all 420 files; see stageshow_adoption_2026_11_02",
+    "cloud_parity": "NOT VERIFIED for refreshed payload 6b606016abf4c384daba4ac3310affd296529bc99337c5e23934e75b1606e3c7; historical records retain their original scope",
     "integrity_boundary": "Manifest hashes and Git readback validate recorded repository files, not installed or cloud copies.",
-    "payload_fingerprint": "a211b094997b2669a6bee1fe4b3b9d3b5d22a3f498cf447255454bc538ee6ff4",
+    "payload_fingerprint": "6b606016abf4c384daba4ac3310affd296529bc99337c5e23934e75b1606e3c7",
     "removed_payload_files_since_snapshot": []
   },
   "migration_updated_on": "2026-11-01",
@@ -382,5 +382,19 @@
     "evidence_workspace": "outputs/sync-confirmation-20261101/",
     "loader": "49 enabled, zero errors checked before icon-only reconciliation; no entrypoint changes",
     "boundary": "Personal packages only; provider-managed and system skills are outside this synchronization"
+  },
+  "stageshow_adoption_2026_11_02": {
+    "source_commit": "802057409787133703c56001080169e347305572",
+    "scope": [
+      "skills/interface-craft/references/design-workflows.md",
+      "skills/motion-storytelling/references/product-storytelling.md"
+    ],
+    "method": "Independently worded guidance only; no upstream code, artwork, kit or executable installed",
+    "local_parity": "PASS: all 420 personal payload files compared",
+    "cloud_save": "BLOCKED: two browser connection attempts returned ERR_CONNECTION_RESET; no cloud edits made",
+    "repository_tests": "PASS: 72 tests",
+    "integrity_and_shared_references": "PASS",
+    "behavioral_visual_trial": "NOT RUN: no demonstration artifact requested or produced",
+    "backup": "outputs/stageshow-adoption-20261102/before/"
   }
 }

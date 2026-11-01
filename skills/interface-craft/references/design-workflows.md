@@ -50,3 +50,17 @@ Reviewed 2026-10-30. Selected mechanisms are independently worded here. No upstr
 - shadcn/ui: https://github.com/shadcn-ui/ui/tree/main/skills/shadcn — project-aware composition; no imported allowed-tools, dynamic command execution or forced latest CLI.
 - Interface Design: https://github.com/Dammyjay93/interface-design — durable project decisions; no Claude-only hooks or automatic loading claim.
 - Better Typography and component-state workflows: https://github.com/jakubkrehel/skills — role-based typography (existing typography reference) and isolated state previews; numeric heuristics are not universal acceptance rules.
+
+## Staged product illustrations
+
+Use only for a requested marketing illustration, feature-card preview or authored product demonstration. A drawn control or scripted cursor is not a working app interaction or a functional test. Keep genuine implementation and browser acceptance checks in their existing workflows.
+
+Choose the product element and outcome the viewer must understand. Preserve the product's identifying structure, tokens and approved claims; simplify secondary text and decoration instead of reducing the scene to anonymous boxes. Use actual or clearly illustrative records consistently. Detail and placeholder density depend on the scene, not a fixed word budget.
+
+Compose for the final visible slot. Crop secondary material intentionally while keeping the focal action, meaningful labels and opened surfaces readable. Do not impose edge bleed, a minimum object percentage or one window treatment on every brief. For a narrow placement, rearrange the scene when scaling would make its meaning unreadable. Inspect the scene inside its page at both relevant widths.
+
+Treat a bento group as one composition: choose a leading idea, vary supporting pictures, diagrams, statements and verified figures, and balance neighboring density. Reuse outer alignment and spacing without repeating the same miniature window in every tile. These are composition choices, not mandatory tile ratios or a requirement to use bento.
+
+Scene pacing, cursor behavior and frame-by-frame review belong to the existing product-storytelling/motion workflow. No Stageshow kit, launcher, example collection or browser scripts are installed by these instructions.
+
+Provenance: original wording informed by Benji Taylor's [Stageshow at pinned commit 802057409787133703c56001080169e347305572](https://github.com/benjitaylor/skills/tree/802057409787133703c56001080169e347305572/stageshow). Reviewed SKILL.md, references/bento.md and references/choreography.md. Upstream code is MIT; no upstream code or artwork copied. Brand and app artwork keep their owners' separate terms. The guidance above is bundled for offline use; the link records provenance.

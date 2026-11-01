@@ -688,8 +688,8 @@
       "executable": false
     },
     "skills/interface-craft/references/design-workflows.md": {
-      "sha256": "fe1a09c72a339217c0abbdcffc1695522e1d99d0f8ab86d24d05e89614fa1696",
-      "bytes": 7867,
+      "sha256": "bb69de22ae47008713d8d17f863e18eb4c79325d2ccd10cf611a89da9470883d",
+      "bytes": 10001,
       "executable": false
     },
     "skills/interface-craft/references/editorial-layout.md": {
@@ -1188,8 +1188,8 @@
       "executable": false
     },
     "skills/motion-storytelling/references/product-storytelling.md": {
-      "sha256": "639a2d1a2257879eaf772442ad2e0e37cabfe361c2d0fc9e171a21d9645c83c3",
-      "bytes": 3482,
+      "sha256": "3b6c8245b37c6dd9262350087590b6c66b78d10d5d8a34c63fb6029394a60156",
+      "bytes": 6188,
       "executable": false
     },
     "skills/motion-storytelling/references/scene-dramaturgy.md": {
