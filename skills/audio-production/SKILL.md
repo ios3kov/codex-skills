@@ -3,6 +3,7 @@ name: audio-production
 description: Plan sound design and Foley for video, balance voice, music and effects, prepare aligned stems, and verify a delivered mix. Use for spotting lists, sound briefs, mix repair or audio mastering; choose current delivery targets from the actual platform or client specification.
 ---
 
+
 # Audio production
 
 For offline use and external-reference handling, read [local resources](references/offline-resources.md).

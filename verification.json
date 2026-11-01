@@ -22,7 +22,7 @@
   "current_repository": {
     "recorded_on": "2026-11-01",
     "payload_manifest": "manifest.json",
-    "payload_files": 416,
+    "payload_files": 417,
     "additional_payload_files_since_snapshot": [
       "skills/agentation/agents/openai.yaml",
       "skills/agentation/assets/icon.svg",
@@ -66,12 +66,13 @@
       "skills/visual-diagrams/LICENSE",
       "skills/visual-diagrams/LICENSE-SCOPE.md",
       "skills/visual-diagrams/references/licenses/cathrynlavery--diagram-design--LICENSE",
-      "skills/visual-diagrams/references/licenses/creative-source-notices.txt"
+      "skills/visual-diagrams/references/licenses/creative-source-notices.txt",
+      "skills/to-questionnaire/LICENSE-ORIGINAL-CONTRIBUTIONS.txt"
     ],
-    "modified_existing_payload_files_since_snapshot": 15,
+    "modified_existing_payload_files_since_snapshot": 27,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
-    "local_installed_parity": "See synchronization_2026_11_01: PASS for its exact measured payload",
-    "cloud_parity": "See synchronization_2026_11_01: PASS for its exact measured payload",
+    "local_installed_parity": "See license_sync_2026_11_01: PASS for all 417 current personal payload files",
+    "cloud_parity": "See license_sync_2026_11_01 for fresh changed-package readback; synchronization_2026_11_01 records the earlier full-library comparison",
     "integrity_boundary": "Manifest hashes and Git readback validate recorded repository files, not installed or cloud copies."
   },
   "migration_updated_on": "2026-11-01",
@@ -207,5 +208,31 @@
     "upstream_remotion": "No root license found at pinned source commit; MIT covers local original synthesis, not upstream sources or Remotion product.",
     "repository_tests": "PASS: 50 locally",
     "ci": "NOT RUN for this change at time of recording"
+  },
+  "license_sync_2026_11_01": {
+    "scope": "12 updated standalone skills plus Product Intelligence (3 skills); all 37 personal skills compared locally to Git",
+    "local_cloud_git_updated_packages": "PASS: 12 complete saved cloud ZIP exports (97 files) plus 20 Product Intelligence source files",
+    "local_git_all_personal_files": {
+      "status": "PASS",
+      "files": 417
+    },
+    "product_version": "1.0.5",
+    "product_release": "pluginrel_6ae682486b0c8191b326d6696791ee74",
+    "loader": {
+      "status": "PASS",
+      "enabled": 49,
+      "errors": []
+    },
+    "license_boundary": "12 MIT packages; Agentation remains PolyForm Shield, not open source",
+    "backups": "local-before, cloud-before, product-cloud-before.json and local-marketplace-before under this evidence folder",
+    "unmodified_cloud_packages": "Not re-exported this turn; previous recorded cloud parity is historical",
+    "cloud_normalization": "Whitespace-only SKILL.md serialization and generated icons adopted; instructions retain identical whitespace-normalized content",
+    "ci": "NOT RUN at time of this record",
+    "tests": {
+      "repository": "PASS: 50 locally",
+      "production_engineering": "PASS: 92 locally with loopback HTTP fixture permitted",
+      "integrity": "PASS",
+      "shared_references": "PASS"
+    }
   }
 }

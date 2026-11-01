@@ -4,6 +4,7 @@ description: Plan and coordinate authorized multi-agent work with explicit depen
 ---
 
 
+
 # Agent Orchestrator
 
 Use `production-engineering` for requirements and final acceptance, and load `smart-router` before selecting worker models or effort. Resolve these skills by name in the current catalog. Keep one coordinator responsible for integration; worker completion never replaces combined-result verification.

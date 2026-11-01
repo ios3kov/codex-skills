@@ -3,6 +3,7 @@ name: smart-router
 description: Choose a model and reasoning effort for a task or delegated step using available host capabilities, task requirements and cost limits. Use before delegating nontrivial engineering work, for cost/quality tradeoffs, explicit model routing, or escalation after a reasoning failure. Small clear tasks stay on the current model without a separate routing ceremony.
 ---
 
+
 # Smart Router
 
 ## Select execution by task

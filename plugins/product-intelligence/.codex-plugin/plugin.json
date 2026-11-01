@@ -10,7 +10,7 @@
     "defaultPrompt": null
   },
   "name": "product-intelligence",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Optional cross-project competitor research, evidence-linked customer feedback and feature-gap analysis with four offline Python helpers.",
   "author": {
     "name": "ios3kov"

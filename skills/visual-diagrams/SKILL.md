@@ -3,6 +3,7 @@ name: visual-diagrams
 description: Design readable architecture, process, state, dependency, data and comparison diagrams, including faithful conversion from Mermaid, drawio or Excalidraw to branded HTML or SVG. Use when relationships benefit from a diagram; use standard plotting for scientific figures.
 ---
 
+
 # Visual diagrams
 
 Choose the visual from the relationship being explained. A table is often better for attribute comparisons; a sentence is enough for one simple fact.

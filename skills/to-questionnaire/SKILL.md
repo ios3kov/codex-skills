@@ -3,6 +3,7 @@ name: to-questionnaire
 description: Draft focused discovery questionnaires and briefs for clients, contractors, or subject-matter experts whose answers resolve missing facts or decisions. Use for client briefs, pre-estimate questions, contractor questions, or asynchronous interviews. Exclude knowledge quizzes and routine clarification during another task.
 ---
 
+
 # Targeted Questionnaire
 
 Produce questions the respondent can answer and the user can act on.

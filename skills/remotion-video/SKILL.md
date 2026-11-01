@@ -3,6 +3,7 @@ name: remotion-video
 description: Create, edit, preview, or export deterministic React videos in Remotion, including frame timing, media, audio, captions, and rendered-output verification. Use for Remotion projects; use motion-storytelling for shot planning and art direction.
 ---
 
+
 # Remotion Video
 
 For offline use and external-reference handling, read [local resources](references/offline-resources.md).

@@ -193,8 +193,8 @@
   ],
   "files": {
     "skills/agent-orchestrator/SKILL.md": {
-      "sha256": "ce1cfa5a35016316bd4ed02c97a65cf8a63bf4b3d99a264765c48c9326346454",
-      "bytes": 5208,
+      "sha256": "3f451a414e797958f1ea87fdda3aeb8fa8ef7c9b9056c710653776c2e224f0a9",
+      "bytes": 5209,
       "executable": false
     },
     "skills/agent-orchestrator/agents/openai.yaml": {
@@ -213,13 +213,13 @@
       "executable": false
     },
     "skills/agentation/SKILL.md": {
-      "sha256": "5343cdb216ec2e8e707bba025e659976aea8b799ef5200dec375ae044e8bb2f5",
-      "bytes": 3770,
+      "sha256": "768a37058de858de60d04f4db0eb619b34cdf8587ab488d342f5affde38ce31e",
+      "bytes": 3771,
       "executable": false
     },
     "skills/apple-design/SKILL.md": {
-      "sha256": "77bb63b7043bb93aca2ff4ab040c249484eef35682bb6ff7163433c31d30adc7",
-      "bytes": 23036,
+      "sha256": "4cc8cc3a1071450313efc484cb654d7ada405618148f8432a107c2cadf6331b0",
+      "bytes": 23037,
       "executable": false
     },
     "skills/apple-design/agents/openai.yaml": {
@@ -233,8 +233,8 @@
       "executable": false
     },
     "skills/audio-production/SKILL.md": {
-      "sha256": "4a3699a898cdf2306a6732e7ad5d87c8df2f017a6b1b0c31d292ffdc5551f4f7",
-      "bytes": 2421,
+      "sha256": "58fdd4acda9321c1a2de4b15c72e490b00f218598d2a8ab1fe0addc1c807190e",
+      "bytes": 2422,
       "executable": false
     },
     "skills/audio-production/agents/openai.yaml": {
@@ -243,8 +243,8 @@
       "executable": false
     },
     "skills/audio-production/assets/icon.svg": {
-      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
-      "bytes": 1210,
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "bytes": 420,
       "executable": false
     },
     "skills/audio-production/references/mix-and-delivery.md": {
@@ -318,8 +318,8 @@
       "executable": false
     },
     "skills/character-continuity/SKILL.md": {
-      "sha256": "ad3daabff3207877cd9279f470f0b5e7dae89312a82f3245e0f160e6820bb382",
-      "bytes": 2269,
+      "sha256": "e91d8bc64304e7712fa079882591a76f65492c8d2339438f206b607f4a51374d",
+      "bytes": 2270,
       "executable": false
     },
     "skills/character-continuity/agents/openai.yaml": {
@@ -343,8 +343,8 @@
       "executable": false
     },
     "skills/codebase-understanding/SKILL.md": {
-      "sha256": "e0d2955733fbe1eb3166bf5971a0d46f47c140e130bd44ee9bb07181b18734ba",
-      "bytes": 2363,
+      "sha256": "3c5b12f338d2a53d91fd4409b91484905e55e8d643452de6728fe1b558e01406",
+      "bytes": 2364,
       "executable": false
     },
     "skills/codebase-understanding/agents/openai.yaml": {
@@ -383,8 +383,8 @@
       "executable": false
     },
     "skills/context-discipline/SKILL.md": {
-      "sha256": "2e043b34b4ef5f82e0e4f339964997bed56c427a45cfec1ffb078a3e18a67b68",
-      "bytes": 8276,
+      "sha256": "48d04768e6d169ea3d85dd23c37038a63b844daa805a6256c4d1b2331fc11606",
+      "bytes": 8277,
       "executable": false
     },
     "skills/context-discipline/agents/openai.yaml": {
@@ -568,8 +568,8 @@
       "executable": false
     },
     "skills/html-slide-decks/SKILL.md": {
-      "sha256": "52d54a7ef2b7cb08a91d4bb9c4b69d96363f39cc2cb9a1018ee61036b14c88c6",
-      "bytes": 2656,
+      "sha256": "3fb0696cbfe7066ba958f58d2f81c8506961ff5b2259c886c7eaff31c59c9539",
+      "bytes": 2657,
       "executable": false
     },
     "skills/html-slide-decks/agents/openai.yaml": {
@@ -578,8 +578,8 @@
       "executable": false
     },
     "skills/html-slide-decks/assets/icon.svg": {
-      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
-      "bytes": 420,
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "bytes": 1210,
       "executable": false
     },
     "skills/html-slide-decks/references/shared/interface-craft/references/editorial-layout.md": {
@@ -1728,8 +1728,8 @@
       "executable": false
     },
     "skills/remotion-video/SKILL.md": {
-      "sha256": "c1797019210291da4edacfab87d979225c5ff11749d78da33f117a5bde17cf25",
-      "bytes": 3662,
+      "sha256": "72cda95d79d3f1b431e1421477df18f66b43e45907bbf92a89bad4cb4e7c6901",
+      "bytes": 3663,
       "executable": false
     },
     "skills/remotion-video/agents/openai.yaml": {
@@ -1763,8 +1763,8 @@
       "executable": false
     },
     "skills/smart-router/SKILL.md": {
-      "sha256": "12bc56b5923292bcb1f15292cb1c1fa10470b24ec766e46f538542fb16da260d",
-      "bytes": 5247,
+      "sha256": "2156467745d4076d1ba69cf3f8463f66bd5a02a71be3d5fdaddddc1da97aa754",
+      "bytes": 5248,
       "executable": false
     },
     "skills/smart-router/agents/openai.yaml": {
@@ -1778,13 +1778,13 @@
       "executable": false
     },
     "skills/to-questionnaire/LICENSE": {
-      "sha256": "93bc9509d178adccf4ba744f1594380dd1cd37b4a451c61df5e848acc0851851",
-      "bytes": 1146,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "bytes": 1068,
       "executable": false
     },
     "skills/to-questionnaire/SKILL.md": {
-      "sha256": "0c57cdf95ff0d7e39381c553f1664fd0429b74b6e2c435a9a5a82d65b6b99b23",
-      "bytes": 3735,
+      "sha256": "d93f909ca063fad97f9d87b3affc7d5fd1b35563c0279a8192ac9f5cf7c64636",
+      "bytes": 3736,
       "executable": false
     },
     "skills/to-questionnaire/agents/openai.yaml": {
@@ -1793,13 +1793,13 @@
       "executable": false
     },
     "skills/to-questionnaire/assets/icon.svg": {
-      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
-      "bytes": 1210,
+      "sha256": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+      "bytes": 2094,
       "executable": false
     },
     "skills/visual-diagrams/SKILL.md": {
-      "sha256": "b6564ba28d40994aed7de94813ed676d451d01174c7fb9e97ad5ac42d0e5eac2",
-      "bytes": 2918,
+      "sha256": "37dd1506bbccca4b60e18a9e6e56a9c21f9607480b8b793effb11b709fa6d6ac",
+      "bytes": 2919,
       "executable": false
     },
     "skills/visual-diagrams/agents/openai.yaml": {
@@ -1973,12 +1973,12 @@
       "executable": false
     },
     "plugins/product-intelligence/.codex-plugin/plugin.json": {
-      "sha256": "08d2b5b9594a77eefe1e53de29f63dc20c211f7897461daad7e980cb6364a6d3",
+      "sha256": "e894db4db5b8c7938335b763bdda9fcb2163cbfeefd6f0ebbecfef4317dbafb7",
       "bytes": 807,
       "executable": false
     },
     "plugins/product-intelligence/README.md": {
-      "sha256": "ab75ebc2673e7b80fc6a6f809cc0451566e27a242625328282472a6840c77071",
+      "sha256": "6f05d98638ab7afc4d3b6a70049c932f18b4e1749560b9336177807d91b79b85",
       "bytes": 3913,
       "executable": false
     },
@@ -1993,7 +1993,7 @@
       "executable": false
     },
     "plugins/product-intelligence/plugin.json": {
-      "sha256": "05085f2c738d91101e733b1143dd6f29e9f9715cd866f60f958b7daa49f6246b",
+      "sha256": "41ac9050e14bb7cc302835f4a395fbd3376b86b439d3ea5dc9a5491643cce1b4",
       "bytes": 869,
       "executable": false
     },
@@ -2088,13 +2088,13 @@
       "executable": false
     },
     "skills/agentation/assets/icon.svg": {
-      "sha256": "72343cc4b66256ae7de8474c7cad14e711ad84a94c473732a44f96a56124c42d",
-      "bytes": 786,
+      "sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
+      "bytes": 2922,
       "executable": false
     },
     "plugins/product-intelligence/CHANGELOG.md": {
-      "sha256": "77f7db374859751e27c398abcb106535be6a2ac7dd37b05662e4c56a2c02241d",
-      "bytes": 858,
+      "sha256": "3a2cd8be4cbb106a43c76aa984ad01e45b0e1f905bdc65de253a7edbf5668f28",
+      "bytes": 1127,
       "executable": false
     },
     "skills/context-discipline/LICENSE": {
@@ -2138,8 +2138,8 @@
       "executable": false
     },
     "skills/to-questionnaire/LICENSE-SCOPE.md": {
-      "sha256": "4ecf252ee09d4cd92a006dc06388ae7f620b304f59b307ba455dc1712d3761cc",
-      "bytes": 612,
+      "sha256": "b0f6070f4a33de9a3e6b1f4e5aab3bd5a07f266811f37dc344bc41f16cff1965",
+      "bytes": 746,
       "executable": false
     },
     "skills/smart-router/LICENSE": {
@@ -2270,6 +2270,11 @@
     "plugins/product-intelligence/LICENSE-SCOPE.md": {
       "sha256": "289d3ad71fc4ea6df6958a5d997917d1de3ab3542b30176a1ec2d432c33c74f8",
       "bytes": 692,
+      "executable": false
+    },
+    "skills/to-questionnaire/LICENSE-ORIGINAL-CONTRIBUTIONS.txt": {
+      "sha256": "39985ce889c092fd67da12426150eac412dc733e3038e419f81076f1b2553926",
+      "bytes": 1064,
       "executable": false
     }
   },

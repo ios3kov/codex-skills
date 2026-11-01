@@ -3,6 +3,7 @@ name: html-slide-decks
 description: Create, edit or convert browser-based slide decks as portable HTML with consistent stage geometry and preserved content. Use for HTML presentations; use the presentations skill for a PowerPoint or Google Slides deliverable.
 ---
 
+
 # HTML slide decks
 
 Use for a deck the user wants to read or present in a browser, including an explicitly requested PPTX-to-HTML conversion. Do not turn an ordinary presentation request into HTML without resolving its output format.

@@ -3,6 +3,7 @@ name: codebase-understanding
 description: Map an unfamiliar repository into source-linked components, symbols, dependencies and an onboarding tour, or update an existing architecture map after changes. Use for understanding code structure; runtime validation and implementation belong to their own workflows.
 ---
 
+
 # Codebase understanding
 
 Adapt the useful source-analysis workflow without assuming the Understand Anything plugin, its agents or scripts are installed.

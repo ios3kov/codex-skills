@@ -17,7 +17,7 @@ Local, offline Python 3.11+ helpers (no network/API keys/third-party dependencie
 
 Templates: examples/reviews.example.csv and examples/features.example.csv. Include source links in actual research; sample placeholders are not evidence.
 
-## Current version: 1.0.4
+## Current version: 1.0.5
 
 The current package version is recorded in `plugin.json` and `.codex-plugin/plugin.json`. See the [changelog](CHANGELOG.md) for current and historical changes.
 

@@ -4,6 +4,7 @@ description: Keep substantive multi-step work efficient and resumable through se
 ---
 
 
+
 # Context discipline
 
 Apply these agreed working defaults without adding a permission gate. Optimize the cost of completing the whole task, including rereading, coordination, and rework, while preserving the user's requirements and the checks needed to finish.

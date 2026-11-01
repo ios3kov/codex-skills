@@ -1,5 +1,9 @@
 # Product Intelligence changelog
 
+## 1.0.5 — 2026-11-01
+
+Add a package-level MIT grant for original contributions and retain Jake Schincariol’s upstream MIT notice. Synchronize current README/changelog documentation with the saved cloud release. Skill instructions and offline tools are unchanged.
+
 ## 1.0.4 — 2026-11-01
 
 Declare the publisher in the portable manifest and synchronize canonical repository links and package metadata. Skill instructions and offline helpers are preserved. The README now identifies the current version separately from historical changes.

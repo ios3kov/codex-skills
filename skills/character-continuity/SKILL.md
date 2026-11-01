@@ -3,6 +3,7 @@ name: character-continuity
 description: Preserve a recurring character's identity across generated images, character cards, storyboards and video shots. Use to define or apply an approved character sheet, plan controlled variations, compare identity drift or repair a specific continuity defect.
 ---
 
+
 # Character continuity
 
 Turn the approved character into a reusable production specification. Keep identity, scene variation and visual style as separate decisions.
