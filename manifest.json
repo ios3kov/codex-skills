@@ -793,8 +793,8 @@
       "executable": false
     },
     "skills/ios-simulator-skill/SKILL.md": {
-      "sha256": "5913a4d1a06f1ca0089c03221577817557aec9e8948ace79aa340e0ff37db40b",
-      "bytes": 4254,
+      "sha256": "2466dc552ce4054d51ef8d29408f6d9cb1c85c9ae8ec7c97dfbf2f67abf665cc",
+      "bytes": 4225,
       "executable": false
     },
     "skills/ios-simulator-skill/agents/openai.yaml": {
@@ -1308,8 +1308,8 @@
       "executable": false
     },
     "skills/production-engineering/SKILL.md": {
-      "sha256": "caa2eef956431da1f87abf62eec4a5119b1c98e8e157e7b230b7246cda2ed218",
-      "bytes": 17277,
+      "sha256": "43bda694e47ca1230d10594b602f742dfce135dc502e20c7d88c41f67db7c4e0",
+      "bytes": 17274,
       "executable": false
     },
     "skills/production-engineering/THIRD_PARTY_NOTICES.md": {
@@ -1773,8 +1773,8 @@
       "executable": false
     },
     "skills/smart-router/assets/icon.svg": {
-      "sha256": "72343cc4b66256ae7de8474c7cad14e711ad84a94c473732a44f96a56124c42d",
-      "bytes": 786,
+      "sha256": "51a6923974188748638a424aa59b42b6afad2d910f910a1d43bb13ee10f3ce26",
+      "bytes": 2182,
       "executable": false
     },
     "skills/to-questionnaire/LICENSE": {

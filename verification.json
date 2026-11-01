@@ -72,10 +72,10 @@
       "skills/ios-simulator-skill/references/command-reference.md",
       "skills/ios-simulator-skill/references/troubleshooting.md"
     ],
-    "modified_existing_payload_files_since_snapshot": 28,
+    "modified_existing_payload_files_since_snapshot": 29,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
-    "local_installed_parity": "NOT SYNCED: five skill-density candidates on this review branch; installed copies remain at the prior saved release",
-    "cloud_parity": "NOT SYNCED: cloud update blocked pending explicit user approval; five fresh pre-change exports match the saved baselines",
+    "local_installed_parity": "See skill_density_sync_2026_11_01: PASS for all 420 current personal payload files",
+    "cloud_parity": "See skill_density_sync_2026_11_01 for five fresh saved exports; earlier records retain their own unchanged-package scope",
     "integrity_boundary": "Manifest hashes and Git readback validate recorded repository files, not installed or cloud copies."
   },
   "migration_updated_on": "2026-11-01",
@@ -257,7 +257,7 @@
     "agentation_sync": "PASS: saved cloud export, local installation and Git candidate compared byte-for-byte; editor-generated whitespace and icon changes preserved"
   },
   "skill_density_candidate_2026_11_01": {
-    "state": "PREPARED FOR REVIEW, NOT INSTALLED",
+    "state": "APPLIED after explicit approval; see skill_density_sync_2026_11_01",
     "skills": [
       "smart-router",
       "agent-orchestrator",
@@ -267,12 +267,12 @@
     ],
     "scope": "Consolidate repeated instructions; move simulator command/configuration and diagnostic detail to conditional references; preserve skill selection metadata, licenses and executable files",
     "format_validation": "PASS: official skill-creator checker on all five, temporary PyYAML 6.0.3 environment",
-    "source_checks": "PASS: baseline frontmatter, executable bytes, iOS script names and CLI flags retained",
+    "source_checks": "PASS for original candidate; cloud metadata normalization is recorded in skill_density_sync_2026_11_01",
     "manual_review": "Editing agent reviewed twelve scenarios; not independent, blinded or a model execution",
     "model_behavior_comparison": "NOT RUN",
     "performance_or_token_savings": "NOT MEASURED",
-    "cloud_save": "BLOCKED: automatic approval review requires explicit authorization for substantive cloud package edits",
-    "local_install": "NOT RUN pending cloud synchronization authorization",
+    "cloud_save": "PASS after explicit approval: five complete packages compared, with the documented iOS version-field normalization",
+    "local_install": "PASS: five updated skill packages",
     "repository_tests": "PASS: 63 locally",
     "entrypoint_words": {
       "smart-router": {
@@ -306,5 +306,68 @@
         "after_lines": 53
       }
     }
+  },
+  "skill_density_sync_2026_11_01": {
+    "state": "APPLIED: saved cloud and local copies verified; Git revision and CI identified separately",
+    "approved_commit": "26ef7f554618bff5c72a4e021e417b89f284040d",
+    "authorization": "User explicitly approved cloud updates to all five skills, local synchronization and merge to main",
+    "scope": "Five standalone skills; plugin versions and executable files unchanged",
+    "updated_cloud_local_git": {
+      "status": "PASS",
+      "packages": 5,
+      "files": 165,
+      "evidence": "Five complete saved ZIP exports in cloud-after-approved/"
+    },
+    "local_git_all_personal_files": {
+      "status": "PASS",
+      "files": 420
+    },
+    "loader": {
+      "status": "PASS",
+      "enabled": 49,
+      "errors": []
+    },
+    "entrypoint_counts": {
+      "smart-router": {
+        "before_lines": 32,
+        "after_lines": 30,
+        "before_words": 716,
+        "after_words": 475
+      },
+      "agent-orchestrator": {
+        "before_lines": 34,
+        "after_lines": 28,
+        "before_words": 681,
+        "after_words": 448
+      },
+      "context-discipline": {
+        "before_lines": 68,
+        "after_lines": 48,
+        "before_words": 1119,
+        "after_words": 707
+      },
+      "production-engineering": {
+        "before_lines": 130,
+        "after_lines": 123,
+        "before_words": 2362,
+        "after_words": 2209
+      },
+      "ios-simulator-skill": {
+        "before_lines": 420,
+        "after_lines": 51,
+        "before_words": 3090,
+        "after_words": 514
+      }
+    },
+    "normalization": {
+      "ios-simulator-skill": "Cloud editor omits metadata.version. Upstream version 1.6.0 remains in references/command-reference.md; name, description, instructions, scripts and license content verified.",
+      "other": "Accepted editor-generated whitespace and Smart Router icon; all other files compared byte-for-byte"
+    },
+    "review": "Editing-agent manual source walkthrough of 12 scenarios; not independent, blinded or executed model evaluation",
+    "model_behavior_comparison": "NOT RUN",
+    "performance_or_token_savings": "NOT MEASURED",
+    "repository_tests": "PASS: 63 locally",
+    "ci": "NOT RUN for this final saved payload at time of recording",
+    "backups": "baseline/ and cloud-before-approved/; no user changes detected before local copy"
   }
 }

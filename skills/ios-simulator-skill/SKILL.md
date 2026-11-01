@@ -1,7 +1,5 @@
 ---
 name: ios-simulator-skill
-metadata:
-  version: "1.6.0"
 description: Build and test Xcode projects; launch and inspect iOS Simulator apps, navigate by accessibility labels, capture screenshots and logs, and diagnose simulator issues. Use for authorized simulator lifecycle and UI testing on macOS. Requires Xcode, Python 3.12+ and idb for interaction; availability must be checked.
 ---
 
