@@ -803,8 +803,8 @@
       "executable": false
     },
     "skills/ios-simulator-skill/assets/icon.svg": {
-      "sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
-      "bytes": 2922,
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738,
       "executable": false
     },
     "skills/ios-simulator-skill/scripts/accessibility_audit.py": {
@@ -1323,8 +1323,8 @@
       "executable": false
     },
     "skills/production-engineering/assets/icon.svg": {
-      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
-      "bytes": 1738,
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "bytes": 420,
       "executable": false
     },
     "skills/production-engineering/assets/passport.example.json": {
