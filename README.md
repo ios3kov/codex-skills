@@ -84,7 +84,7 @@ Generated Python bytecode and OS caches are excluded. No authentication files, a
 
 ## License
 
-Original repository-maintenance contributions use the scoped [MIT license](LICENSE). Twelve formerly unresolved packages now have package-level MIT grants with retained third-party terms; see each `LICENSE-SCOPE.md`. Agentation retains its upstream PolyForm Shield terms and is not an open-source package. The [NOTICE](NOTICE) and [license inventory](license-inventory.json) record upstream pointers and unresolved package status. This is a collection with multiple upstream licenses, not a relicensing of all content. Preserve the notices and licenses inside each skill/plugin. Provider-managed skills are listed by identity only; reinstall them through the provider.
+Original repository-maintenance contributions use the scoped [MIT license](LICENSE). Twelve formerly unresolved packages now have package-level MIT grants with retained third-party terms; see each `LICENSE-SCOPE.md`. Agentation retains an upstream self-labeled, abridged PolyForm Shield variant, not the canonical 1.0.0 text, and is not an open-source package. The [NOTICE](NOTICE) and [license inventory](license-inventory.json) record upstream pointers and unresolved package status. The 14 packages still marked file-level have no package-wide reuse grant established by these records. This is a collection with multiple upstream licenses, not a relicensing of all content. Preserve the notices and licenses inside each skill/plugin. Provider-managed skills are listed by identity only; reinstall them through the provider.
 
 ## Tests and migrated history
 
@@ -94,7 +94,7 @@ The admitted REA workflow reads the bundled checksum-verified runtime archive, a
 
 ## Library maintenance checks
 
-Run `python3 scripts/check_library.py` and `python3 scripts/sync_references.py --check` from the repository root. CI checks the payload manifest, local Markdown targets, declared shared-reference copies, current package versions and active installation pointers. License checks cover package inventory completeness, duplicate entries, allowed statuses, safe existing notice paths and exact package/status agreement with `NOTICE`; they do not establish legal clearance. The routing guide is a repository selection/installation guide; installed skill instructions are unchanged by this documentation maintenance.
+Run `python3 scripts/check_library.py` and `python3 scripts/sync_references.py --check` from the repository root. CI checks the payload manifest, local Markdown targets, declared shared-reference copies, current package versions and active installation pointers. License checks cover package and skill inventory completeness, duplicate entries, allowed statuses, safe existing notice paths, pinned source-license hashes, standard MIT grant/disclaimer text for packages claiming MIT, and exact package/status agreement with `NOTICE`. The frozen `snapshot-baseline.json` records the original 373 payload entries from commit `20e6eebeaea29343919e498b0e5b3fae4fbf2d8f`; offline checks compare current additions, removals and modified-file counts against it. These checks establish content/accounting consistency, not rights ownership, license enforceability or source authenticity. The routing guide is a repository selection/installation guide; installed skill instructions are unchanged by this documentation maintenance.
 
 ## Commit-bound CI evidence
 

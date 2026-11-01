@@ -28,9 +28,9 @@
     },
     {
       "package": "skills/agentation",
-      "status": "PolyForm Shield upstream; not an open-source package",
+      "status": "upstream self-labeled PolyForm Shield abridged variant; not canonical or open source",
       "license_mentions": [
-        "PolyForm-Shield-1.0.0"
+        "LicenseRef-Agentation-Upstream-Abridged"
       ],
       "notice_files": [
         "skills/agentation/LICENSE",
@@ -260,7 +260,8 @@
             "repository": "google-research/harness2",
             "commit": "1cfe254e8d25b15f37048c3730134686abe60335",
             "license_file": "references/upstream/harness2/LICENSE",
-            "scope": "Independently worded adaptations recorded in sources.json; retain Apache-2.0 attribution and license."
+            "scope": "Independently worded adaptations recorded in sources.json; retain Apache-2.0 attribution and license.",
+            "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
           }
         ]
       }
@@ -384,7 +385,8 @@
             "repository": "AlterLab-IEU/AlterLab-FC-Skills",
             "commit": "9559c97a6b6fc90c0fbe5a20b7718716f7aee677",
             "license_file": "references/licenses/creative-source-notices.txt",
-            "scope": "Retained attribution for shared independently worded typography/layout guidance; shared files remain byte-identical."
+            "scope": "Retained attribution for shared independently worded typography/layout guidance; shared files remain byte-identical.",
+            "sha256": "5a86e7bc3cb05dfc8028e930cb58e76fd66ce2cf61b6a86cc340d003bda96344"
           }
         ]
       }
@@ -788,7 +790,8 @@
             "repository": "mattpocock/skills",
             "commit": "49dd158d1076134a641b33efb035946536778336",
             "license_file": "LICENSE",
-            "scope": "Existing Matt Pocock MIT notice retained; original modifications also MIT."
+            "scope": "Existing Matt Pocock MIT notice retained; original modifications also MIT.",
+            "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
           }
         ]
       }
@@ -828,7 +831,8 @@
             "repository": "AlterLab-IEU/AlterLab-FC-Skills",
             "commit": "9559c97a6b6fc90c0fbe5a20b7718716f7aee677",
             "license_file": "references/licenses/creative-source-notices.txt",
-            "scope": "Retained attribution for shared independently worded typography/layout guidance; shared files remain byte-identical."
+            "scope": "Retained attribution for shared independently worded typography/layout guidance; shared files remain byte-identical.",
+            "sha256": "5a86e7bc3cb05dfc8028e930cb58e76fd66ce2cf61b6a86cc340d003bda96344"
           }
         ]
       }
@@ -860,7 +864,8 @@
             "repository": "Jakeschincariol/replica-skill",
             "commit": "77c9436fb3d18c3d58169efb8caf4fe906b0dc51",
             "license_file": "references/replica-skill-LICENSE",
-            "scope": "Adapted offline tools and research guidance; original author Jake Schincariol; MIT retained."
+            "scope": "Adapted offline tools and research guidance; original author Jake Schincariol; MIT retained.",
+            "sha256": "857c8d5276809c8196b3cd7cb3300324768bfc562b2b6281b06d6865058e186c"
           }
         ]
       }
@@ -928,9 +933,9 @@
     },
     {
       "package": "skills/agentation",
-      "status": "PolyForm Shield upstream; not an open-source package",
+      "status": "upstream self-labeled PolyForm Shield abridged variant; not canonical or open source",
       "license_mentions": [
-        "PolyForm-Shield-1.0.0"
+        "LicenseRef-Agentation-Upstream-Abridged"
       ],
       "notice_files": [
         "skills/agentation/LICENSE",

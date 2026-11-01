@@ -7,7 +7,7 @@ The root MIT license applies only to original repository-maintenance contributio
 | Package | Recorded status | License mentions |
 |---|---|---|
 | `skills/agent-orchestrator` | package-level MIT grant; retained third-party terms apply | MIT |
-| `skills/agentation` | PolyForm Shield upstream; not an open-source package | PolyForm-Shield-1.0.0 |
+| `skills/agentation` | upstream self-labeled PolyForm Shield abridged variant; not canonical or open source | LicenseRef-Agentation-Upstream-Abridged |
 | `skills/apple-design` | package-level MIT grant; retained third-party terms apply | MIT |
 | `skills/audio-production` | package-level MIT grant; retained third-party terms apply | MIT |
 | `skills/brand-system` | upstream notices present; scope varies by file | MIT |
@@ -39,3 +39,5 @@ Machine-readable source/notice pointers: [license-inventory.json](license-invent
 ## Package grants added 2026-11-01
 
 Twelve previously unresolved packages now include package-level MIT grants with retained upstream notices and LICENSE-SCOPE.md boundaries. Agentation retains PolyForm Shield: it is not open source and cannot be relicensed by this repository. The root MIT scope is unchanged. The other packages retain their existing file-level records; this is not blanket legal clearance of the library.
+
+Agentation’s upstream file calls itself PolyForm Shield 1.0.0, but is an abridged variant, not the canonical text. The retained file does not contain the canonical Patent License, New Products, Definitions or 32-day Violations cure clauses; those terms must not be inferred from its label. Its upstream bytes are preserved, not replaced with the canonical license.

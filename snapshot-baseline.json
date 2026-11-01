@@ -1,0 +1,1870 @@
+{
+  "snapshot_payload_commit": "20e6eebeaea29343919e498b0e5b3fae4fbf2d8f",
+  "files": {
+    "skills/agent-orchestrator/SKILL.md": {
+      "sha256": "7e42a1aa564b3ce2c317c92526ec5f63b013a0c67c63a92bbdba813884827353",
+      "bytes": 5207,
+      "executable": false
+    },
+    "skills/agent-orchestrator/agents/openai.yaml": {
+      "sha256": "5b38b54dd7e6b119bacf2fceca761a9676e95924c4e42645c5347f8892d05b65",
+      "bytes": 420,
+      "executable": false
+    },
+    "skills/agent-orchestrator/assets/icon.svg": {
+      "sha256": "51a6923974188748638a424aa59b42b6afad2d910f910a1d43bb13ee10f3ce26",
+      "bytes": 2182,
+      "executable": false
+    },
+    "skills/agent-orchestrator/scripts/validate_plan.py": {
+      "sha256": "03365d60cad126df6f9ea542b6f3913c0e7e422ec2b494f07cbeab76bb3b0d48",
+      "bytes": 4096,
+      "executable": false
+    },
+    "skills/agentation/SKILL.md": {
+      "sha256": "09f4fee606d9f354b4e16eff5a83b3de1b5c35f89aa430c1e0976f214294f4c7",
+      "bytes": 3769,
+      "executable": false
+    },
+    "skills/apple-design/SKILL.md": {
+      "sha256": "77bb63b7043bb93aca2ff4ab040c249484eef35682bb6ff7163433c31d30adc7",
+      "bytes": 23036,
+      "executable": false
+    },
+    "skills/apple-design/agents/openai.yaml": {
+      "sha256": "bc6273454d10cf21cde01a2edc730ef10508d2c60c42e5c640492d6f052a13e1",
+      "bytes": 661,
+      "executable": false
+    },
+    "skills/apple-design/assets/icon.svg": {
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738,
+      "executable": false
+    },
+    "skills/audio-production/SKILL.md": {
+      "sha256": "4a3699a898cdf2306a6732e7ad5d87c8df2f017a6b1b0c31d292ffdc5551f4f7",
+      "bytes": 2421,
+      "executable": false
+    },
+    "skills/audio-production/agents/openai.yaml": {
+      "sha256": "c32aff7edfc28c1ff916d09143a5b1387e9ad3142faf6085e1aa65bd7acc0c26",
+      "bytes": 305,
+      "executable": false
+    },
+    "skills/audio-production/assets/icon.svg": {
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "bytes": 1210,
+      "executable": false
+    },
+    "skills/audio-production/references/mix-and-delivery.md": {
+      "sha256": "8f7b81f94216f73bdd313ac7e26eac77170397b98296b2138047c3f1fed65b7b",
+      "bytes": 3703,
+      "executable": false
+    },
+    "skills/audio-production/references/offline-resources.md": {
+      "sha256": "ade72ff76d36d68ecdda6dc43ba4a260674485f057f9078ef85a3050e02455e4",
+      "bytes": 1154,
+      "executable": false
+    },
+    "skills/audio-production/references/sound-spotting.md": {
+      "sha256": "a0f580023742134cb1a74171ed5a7a45e19fc1f05852f039495f504352914ef1",
+      "bytes": 2032,
+      "executable": false
+    },
+    "skills/audio-production/sources.json": {
+      "sha256": "251492fedc76ec83afd25217ef6198ba3ec83ba59c58cad8d983e4a0ca0d691e",
+      "bytes": 1594,
+      "executable": false
+    },
+    "skills/brand-system/SKILL.md": {
+      "sha256": "ab76ca9bf369522f674eccac6140ccc69c65c69748cb8626ed0def7a9ea3d6ef",
+      "bytes": 3504,
+      "executable": false
+    },
+    "skills/brand-system/agents/openai.yaml": {
+      "sha256": "b94081141a520126a232097a9c8e3b83e0a7bd027a43182c574bdaa6fc8c5470",
+      "bytes": 311,
+      "executable": false
+    },
+    "skills/brand-system/assets/icon.svg": {
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "bytes": 1210,
+      "executable": false
+    },
+    "skills/brand-system/references/identity-application.md": {
+      "sha256": "513b52299a6deb7eeb6d997f18a192fdd84fe2c4edecbaafacfbb4b74b2f6946",
+      "bytes": 1811,
+      "executable": false
+    },
+    "skills/brand-system/references/logo-3d-motion.md": {
+      "sha256": "f50ca76b46c130f13f0ee69875c3b13f2e2b5bc5919ab56039702009669a64f2",
+      "bytes": 4846,
+      "executable": false
+    },
+    "skills/brand-system/references/logo-design.md": {
+      "sha256": "c22915bf80ef879b00913b42cd1ebce7898fb0f1a71753b3dd9ba69e77b03400",
+      "bytes": 4933,
+      "executable": false
+    },
+    "skills/brand-system/references/shared/editorial-copy/references/brand-positioning.md": {
+      "sha256": "152ff4527f268b536b990e6d99c9b6a6b38e3bda4f0a9c8e2a76da54e76f5fdd",
+      "bytes": 3043,
+      "executable": false
+    },
+    "skills/brand-system/references/shared/interface-craft/references/typography.md": {
+      "sha256": "5435baf26c67863cb90769beada83eeb077176eb889633f741415cedcb9fb259",
+      "bytes": 8893,
+      "executable": false
+    },
+    "skills/brand-system/references/source-notices.txt": {
+      "sha256": "84f5c16f4ba4bc77a419eeda50a26751d05591c16bc55cf9013d665aca35b9fc",
+      "bytes": 3398,
+      "executable": false
+    },
+    "skills/brand-system/references/sources.json": {
+      "sha256": "7c3c6bff1ee1b72248be07c9596bdafc8115c3ae4ce7603e8908226c1aa8a36f",
+      "bytes": 5333,
+      "executable": false
+    },
+    "skills/character-continuity/SKILL.md": {
+      "sha256": "ad3daabff3207877cd9279f470f0b5e7dae89312a82f3245e0f160e6820bb382",
+      "bytes": 2269,
+      "executable": false
+    },
+    "skills/character-continuity/agents/openai.yaml": {
+      "sha256": "a3df3038e7a87577d3f098776533de021f2d5b41966233043c734311cbd1abae",
+      "bytes": 317,
+      "executable": false
+    },
+    "skills/character-continuity/assets/icon.svg": {
+      "sha256": "9be88f8dd4c5e658961515c71389eafd45142ffa68bcae58e8dcff57d178ed91",
+      "bytes": 667,
+      "executable": false
+    },
+    "skills/character-continuity/references/identity-and-shot-state.md": {
+      "sha256": "14edbdadac423cadc3773398beac91f850e150c7fb4136ad501bfc5353eeb8a9",
+      "bytes": 3380,
+      "executable": false
+    },
+    "skills/character-continuity/sources.json": {
+      "sha256": "323f7a5178414fb24e51be5fbd9b8faccd7a206e26f62db1249b57f90d75b3d5",
+      "bytes": 913,
+      "executable": false
+    },
+    "skills/codebase-understanding/SKILL.md": {
+      "sha256": "e0d2955733fbe1eb3166bf5971a0d46f47c140e130bd44ee9bb07181b18734ba",
+      "bytes": 2363,
+      "executable": false
+    },
+    "skills/codebase-understanding/agents/openai.yaml": {
+      "sha256": "f11a8e7ec628db9dad1cb6d025ecbf23292b738a669b4a0330de67dfe6f5f3fa",
+      "bytes": 304,
+      "executable": false
+    },
+    "skills/codebase-understanding/assets/icon.svg": {
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "bytes": 420,
+      "executable": false
+    },
+    "skills/codebase-understanding/references/graph-analysis.md": {
+      "sha256": "1bde803ef84bfa05c0ca31c330341bcfa1add0a60e294ffb8dd8891d257443e5",
+      "bytes": 2844,
+      "executable": false
+    },
+    "skills/codebase-understanding/references/project-map-helper.md": {
+      "sha256": "b540689b4459ebda0dfb47903329c5d2f944393f89d82ec0b0d1633a3c11643e",
+      "bytes": 6849,
+      "executable": false
+    },
+    "skills/codebase-understanding/scripts/project_map.py": {
+      "sha256": "8447cf1a8be624dbebb85e6b7faec1f81d9ee205fd5adb33bed658260feae12c",
+      "bytes": 23584,
+      "executable": false
+    },
+    "skills/codebase-understanding/scripts/tests/test_project_map.py": {
+      "sha256": "7bab2041a015d2147096fef6390078811e5c6cc20b4cb7d05b0dc8e931a5ca7a",
+      "bytes": 10627,
+      "executable": false
+    },
+    "skills/codebase-understanding/sources.json": {
+      "sha256": "69bad425e6b6506d41cdd6fa1c3093296eeb2d65bf7c78070b49b85fc31f23ff",
+      "bytes": 1252,
+      "executable": false
+    },
+    "skills/context-discipline/SKILL.md": {
+      "sha256": "0b30d28cfa4f7cbd8d28d72eca5c2a79a75ad7ae7375f96f44f7cd0a8cd852ee",
+      "bytes": 8275,
+      "executable": false
+    },
+    "skills/context-discipline/agents/openai.yaml": {
+      "sha256": "863d0356c9c369d416cbb50fe72f193ff998f75b26934d1b0fde2729f1f411fe",
+      "bytes": 304,
+      "executable": false
+    },
+    "skills/context-discipline/assets/icon.svg": {
+      "sha256": "51a6923974188748638a424aa59b42b6afad2d910f910a1d43bb13ee10f3ce26",
+      "bytes": 2182,
+      "executable": false
+    },
+    "skills/context-discipline/references/durable-state.md": {
+      "sha256": "3a562068e41375961655141a280c7f6070c565e029cecb93b0a994a88456abee",
+      "bytes": 1827,
+      "executable": false
+    },
+    "skills/context-discipline/references/upstream/harness2/LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "executable": false
+    },
+    "skills/context-discipline/sources.json": {
+      "sha256": "286d5ce8f6bc50d136f2df795185afbb1d50c8141c6f66f864b4e27d26145c9c",
+      "bytes": 3999,
+      "executable": false
+    },
+    "skills/design-reference-research/SKILL.md": {
+      "sha256": "a87611380605317e41117b88ddb45169260f3de2761e295552229c8282c8af84",
+      "bytes": 6162,
+      "executable": false
+    },
+    "skills/design-reference-research/THIRD_PARTY_NOTICES.md": {
+      "sha256": "6f980f69c10b90d192a49564518da8a9d4e7a1d611dcd0c8388c410bad4e2ee6",
+      "bytes": 3649,
+      "executable": false
+    },
+    "skills/design-reference-research/agents/openai.yaml": {
+      "sha256": "c1acd77a012d5c46c402f1ee19d4d7a842ada9e2066c04b2c04dba280fc0676b",
+      "bytes": 433,
+      "executable": false
+    },
+    "skills/design-reference-research/assets/icon.svg": {
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "bytes": 420,
+      "executable": false
+    },
+    "skills/design-reference-research/references/capture.md": {
+      "sha256": "6d960e5c79cfde49ac446fc83571a7aa780957444d541a09339ee649a91765dc",
+      "bytes": 5516,
+      "executable": false
+    },
+    "skills/design-reference-research/references/offline-resources.md": {
+      "sha256": "a33091b260baead57e92b661cc873243e43433d1f64364a81206a59855955f5b",
+      "bytes": 1225,
+      "executable": false
+    },
+    "skills/design-reference-research/references/providers.md": {
+      "sha256": "3ddaba1b8fa9ca6169781e0c08e37e1c7d0d9f1cb17c74ede58d8a7353225c8c",
+      "bytes": 4256,
+      "executable": false
+    },
+    "skills/design-reference-research/references/research.md": {
+      "sha256": "252b1e957134d037ea5c1ce172deb5bae0faa929b5d8c4430f86237b0c346fc1",
+      "bytes": 7571,
+      "executable": false
+    },
+    "skills/design-reference-research/references/sources.json": {
+      "sha256": "b4557bf94a7f66fba3e54f9d08edb2cf8a1323fa0185de86ec6e614885424e6a",
+      "bytes": 10189,
+      "executable": false
+    },
+    "skills/design-reference-research/scripts/check_duplicates.py": {
+      "sha256": "83b370e0cbf18c4a2091d3de9a5df01081e79e2a9465489949b16318ce0c1bf6",
+      "bytes": 5251,
+      "executable": false
+    },
+    "skills/develop-web-game/LICENSE.txt": {
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "bytes": 10776,
+      "executable": false
+    },
+    "skills/develop-web-game/SKILL.md": {
+      "sha256": "34599c7440b1e44b2e3d59c9000a9a6679ae8aee1b2191bf33b909c766e37b0f",
+      "bytes": 9232,
+      "executable": false
+    },
+    "skills/develop-web-game/agents/openai.yaml": {
+      "sha256": "55018f0285d23256222cc83d0302d131d5fd7e32d2dda9d088a33a2f686e02da",
+      "bytes": 377,
+      "executable": false
+    },
+    "skills/develop-web-game/assets/game-small.svg": {
+      "sha256": "c384984085a0d12baadc39ee05c4b3ecf22c8f04fe0a5d8227b00675742c249e",
+      "bytes": 2706,
+      "executable": false
+    },
+    "skills/develop-web-game/assets/game.png": {
+      "sha256": "08382df5010120e47f06e6c32e7e990bb8f3bc473c07f7191b7c11484272635d",
+      "bytes": 2234,
+      "executable": false
+    },
+    "skills/develop-web-game/assets/icon.svg": {
+      "sha256": "72343cc4b66256ae7de8474c7cad14e711ad84a94c473732a44f96a56124c42d",
+      "bytes": 786,
+      "executable": false
+    },
+    "skills/develop-web-game/references/action_payloads.json": {
+      "sha256": "7c6915472781be9cc704bb12952577bd66ae4c073d294459d564a8d45f98671c",
+      "bytes": 141,
+      "executable": false
+    },
+    "skills/develop-web-game/scripts/web_game_playwright_client.js": {
+      "sha256": "e95c3bcbdc0d15eb08fd3a6021283ec32f715b51f1e5847d3db20df526be5996",
+      "bytes": 9963,
+      "executable": false
+    },
+    "skills/editorial-copy/SKILL.md": {
+      "sha256": "30a20f667f96f0239b51509a8c63fc4fc9823788b0edf44e3f2987c25c7acb55",
+      "bytes": 3337,
+      "executable": false
+    },
+    "skills/editorial-copy/agents/openai.yaml": {
+      "sha256": "267a7b15cde081aa4bdab370a308fd163667ef3a4f964df3cddc4b0ac6d265ea",
+      "bytes": 312,
+      "executable": false
+    },
+    "skills/editorial-copy/assets/icon.svg": {
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "bytes": 1210,
+      "executable": false
+    },
+    "skills/editorial-copy/references/ad-creative.md": {
+      "sha256": "271d9b92b915d2fa7d950322d8a617e867f73b1870fd5a00b5eafadb877cf2e9",
+      "bytes": 1830,
+      "executable": false
+    },
+    "skills/editorial-copy/references/brand-positioning.md": {
+      "sha256": "152ff4527f268b536b990e6d99c9b6a6b38e3bda4f0a9c8e2a76da54e76f5fdd",
+      "bytes": 3043,
+      "executable": false
+    },
+    "skills/editorial-copy/references/creative-mechanics.md": {
+      "sha256": "2c41c7345aefa84261c624ffea11f5205736abb890e373dfa68830efef697900",
+      "bytes": 3334,
+      "executable": false
+    },
+    "skills/editorial-copy/references/creative-source-notices.txt": {
+      "sha256": "244280c370c99bcebc74f884481e5babd650bd6521ff933f66a64e30a26923d9",
+      "bytes": 2615,
+      "executable": false
+    },
+    "skills/editorial-copy/references/final-factual-wording.md": {
+      "sha256": "f897167a874038e9895759888655e2a63d48b465ef89a7bb312c514a429df01d",
+      "bytes": 837,
+      "executable": false
+    },
+    "skills/editorial-copy/references/page-copy.md": {
+      "sha256": "f5002e17504073c48ef6b60bf38151afd8fc57a4b130d219d2abad9e5c230bab",
+      "bytes": 1554,
+      "executable": false
+    },
+    "skills/editorial-copy/references/prose-editing.md": {
+      "sha256": "44d7ee7fa502b5353db843e941ef879ac86981cd1da78703113559ebe4a53f9e",
+      "bytes": 1236,
+      "executable": false
+    },
+    "skills/editorial-copy/references/setupkit-MIT-LICENSE.txt": {
+      "sha256": "0b8a64ca9c2d333cb580f1f64c80cb120ac82d308b031718b71c8855cee900b7",
+      "bytes": 1071,
+      "executable": false
+    },
+    "skills/editorial-copy/references/setupkit-source.md": {
+      "sha256": "dfcbb488ec04bb48ffa6a9c5b6ad0ffad7e520e2d18431e7441799097c31bd1e",
+      "bytes": 262,
+      "executable": false
+    },
+    "skills/editorial-copy/sources.json": {
+      "sha256": "3db4c29fa94912377ba5196ea6b2d0f6fa82e755b0827d0027a53f9c77f4b297",
+      "bytes": 5534,
+      "executable": false
+    },
+    "skills/html-slide-decks/SKILL.md": {
+      "sha256": "52d54a7ef2b7cb08a91d4bb9c4b69d96363f39cc2cb9a1018ee61036b14c88c6",
+      "bytes": 2656,
+      "executable": false
+    },
+    "skills/html-slide-decks/agents/openai.yaml": {
+      "sha256": "f58e048e2cd0eb79edd267cca75c228ebbc38a29019f268bcc923d1aa9006070",
+      "bytes": 292,
+      "executable": false
+    },
+    "skills/html-slide-decks/assets/icon.svg": {
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "bytes": 420,
+      "executable": false
+    },
+    "skills/html-slide-decks/references/shared/interface-craft/references/editorial-layout.md": {
+      "sha256": "f5ae42a4318e5aa8d5657a05ceb574b50543eab3f71264cade480509dff68b97",
+      "bytes": 3224,
+      "executable": false
+    },
+    "skills/html-slide-decks/references/shared/interface-craft/references/typography.md": {
+      "sha256": "5435baf26c67863cb90769beada83eeb077176eb889633f741415cedcb9fb259",
+      "bytes": 8893,
+      "executable": false
+    },
+    "skills/html-slide-decks/references/stage-verification.md": {
+      "sha256": "a6f54ffd14aa11e2bbf58083f03c669eb1be1b48ef92c3fee18e38d28a9196cd",
+      "bytes": 2711,
+      "executable": false
+    },
+    "skills/html-slide-decks/sources.json": {
+      "sha256": "d79c2c8559e32f19ae82895f857482f4ed580b528f7eb5fa774af0f317111779",
+      "bytes": 771,
+      "executable": false
+    },
+    "skills/independent-reviewer/SKILL.md": {
+      "sha256": "ac58d450e44e528f872f48349fec7021c9029ae548bca54813886d71b01569b1",
+      "bytes": 4212,
+      "executable": false
+    },
+    "skills/independent-reviewer/THIRD_PARTY_NOTICES.md": {
+      "sha256": "7981522672b5e1237aa359fd77e1fd856a9e4fd8a7cdd8eb5e04f8313217ff89",
+      "bytes": 1651,
+      "executable": false
+    },
+    "skills/independent-reviewer/agents/openai.yaml": {
+      "sha256": "1ae549aa7b1aa5703b3a820dafca557e60bce5b7afa15e53b81bd3327338331c",
+      "bytes": 370,
+      "executable": false
+    },
+    "skills/independent-reviewer/assets/icon.svg": {
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738,
+      "executable": false
+    },
+    "skills/interface-craft/SKILL.md": {
+      "sha256": "b82ff7d55bc40171490707bec5c4a9d784079d5b78396c6cf3f55e4a21265d24",
+      "bytes": 5529,
+      "executable": false
+    },
+    "skills/interface-craft/agents/openai.yaml": {
+      "sha256": "1e1a05bce7171eae37b19ef79578c3bd6a48f1813e2bdabc30ffb38efc64fb2a",
+      "bytes": 302,
+      "executable": false
+    },
+    "skills/interface-craft/assets/icon.svg": {
+      "sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
+      "bytes": 2922,
+      "executable": false
+    },
+    "skills/interface-craft/data/charts.csv": {
+      "sha256": "4115cf1120680f2cedef0676cb648f30c7ef4699e2a947535d4113e71ed3b12a",
+      "bytes": 23365,
+      "executable": false
+    },
+    "skills/interface-craft/data/colors.csv": {
+      "sha256": "8162429222bce22df62b564085946a30d07cc9722c58d0a3a494bd0d1d00841c",
+      "bytes": 37940,
+      "executable": false
+    },
+    "skills/interface-craft/data/landing.csv": {
+      "sha256": "9a2edd3bb676c2a58f00ade7a062e285222d4297bfd847c8d5b056f0dbbf52d0",
+      "bytes": 25449,
+      "executable": false
+    },
+    "skills/interface-craft/data/styles.csv": {
+      "sha256": "a93a4d9d7025856575d7b7583bda020be9043013432c5af7c58af9dbdfb206b7",
+      "bytes": 149478,
+      "executable": false
+    },
+    "skills/interface-craft/data/typography.csv": {
+      "sha256": "79eb92d0dfd01c5b4ec899e7a8177dea2b685b8315b14c430ff707b17f8ef460",
+      "bytes": 49545,
+      "executable": false
+    },
+    "skills/interface-craft/references/browser-verification.md": {
+      "sha256": "1fc46777def352cfe459b93613e25d8301cb614b7a6dca1164812076d67f2409",
+      "bytes": 4032,
+      "executable": false
+    },
+    "skills/interface-craft/references/catalog-provenance.json": {
+      "sha256": "d8ab52f7fc1cc3489d8c295f54183856598c5238524aa94eb50f952f230a4255",
+      "bytes": 3388,
+      "executable": false
+    },
+    "skills/interface-craft/references/creative-source-notices.txt": {
+      "sha256": "5a86e7bc3cb05dfc8028e930cb58e76fd66ce2cf61b6a86cc340d003bda96344",
+      "bytes": 1380,
+      "executable": false
+    },
+    "skills/interface-craft/references/design-catalog.md": {
+      "sha256": "689e5ffff696641c8b8a989c83a651f68551c8b933b72f39008fd973d99feeb1",
+      "bytes": 3061,
+      "executable": false
+    },
+    "skills/interface-craft/references/design-system-reuse.md": {
+      "sha256": "eacfd77b81fe9706e0b40200a5ce5fdbb9adfed54f170658c33eba55fdff69b2",
+      "bytes": 2180,
+      "executable": false
+    },
+    "skills/interface-craft/references/design-workflows.md": {
+      "sha256": "fe1a09c72a339217c0abbdcffc1695522e1d99d0f8ab86d24d05e89614fa1696",
+      "bytes": 7867,
+      "executable": false
+    },
+    "skills/interface-craft/references/editorial-layout.md": {
+      "sha256": "f5ae42a4318e5aa8d5657a05ceb574b50543eab3f71264cade480509dff68b97",
+      "bytes": 3224,
+      "executable": false
+    },
+    "skills/interface-craft/references/implementation.md": {
+      "sha256": "d45b94656579e28e232906af3604ac124743426989eec5c8d0fb93be208b4e5a",
+      "bytes": 6206,
+      "executable": false
+    },
+    "skills/interface-craft/references/offline-resources.md": {
+      "sha256": "7738eb11a61bf87bea988b35931f5028f14f012137e87aebcbf3a3d0e5efe38e",
+      "bytes": 2542,
+      "executable": false
+    },
+    "skills/interface-craft/references/product-ux-review.md": {
+      "sha256": "d27c2905ed2c23629200730102cc744e4beb6c70ad681426e67216fbb5529188",
+      "bytes": 2835,
+      "executable": false
+    },
+    "skills/interface-craft/references/sources.json": {
+      "sha256": "4e03edafc7c3a6592a8ef7cc89239ed9b08f11bfaaae2bc46c8938e3161c3b70",
+      "bytes": 12482,
+      "executable": false
+    },
+    "skills/interface-craft/references/story-tool.md": {
+      "sha256": "dfe779550431f638441068554a0a0f373392338605d79d0d26a42e461ccd301c",
+      "bytes": 3407,
+      "executable": false
+    },
+    "skills/interface-craft/references/typography.md": {
+      "sha256": "5435baf26c67863cb90769beada83eeb077176eb889633f741415cedcb9fb259",
+      "bytes": 8893,
+      "executable": false
+    },
+    "skills/interface-craft/references/ui-ux-pro-max-LICENSE.txt": {
+      "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
+      "bytes": 1075,
+      "executable": false
+    },
+    "skills/interface-craft/references/visual-direction.md": {
+      "sha256": "b843c9a50894c1da9769f375aaa72e3594d9ffa6e149337fb0aafa5904c64e2a",
+      "bytes": 5392,
+      "executable": false
+    },
+    "skills/interface-craft/references/visual-refinement.md": {
+      "sha256": "24f4c4bc9e0a4a64c2c1c115ed3bed9b434587f9dce8c4ae1b8dda5bd0f5b4f9",
+      "bytes": 4659,
+      "executable": false
+    },
+    "skills/interface-craft/scripts/catalog_core.py": {
+      "sha256": "fe494cb9dea3e544559def933f3f4ad91045ba01ad4f938c75f5fe486ec4e024",
+      "bytes": 41244,
+      "executable": false
+    },
+    "skills/interface-craft/scripts/search_catalog.py": {
+      "sha256": "118680ec41280b113cd9c220ef8fb60c54b68c9b16af6f9db4c92766cf693133",
+      "bytes": 4360,
+      "executable": false
+    },
+    "skills/interface-craft/scripts/unslop/LICENSE-CC-BY-4.0.txt": {
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "bytes": 18657,
+      "executable": false
+    },
+    "skills/interface-craft/scripts/unslop/capture-core.mjs": {
+      "sha256": "aedafe3151f3cc4b891da25bcf098bc27e7e402620b657dc822bf5490633b106",
+      "bytes": 6382,
+      "executable": false
+    },
+    "skills/interface-craft/scripts/unslop/snapshot.mjs": {
+      "sha256": "e0223838cf0f358d593f86f0bf38646b65746cab5fa1bc66b500ce732b2862fa",
+      "bytes": 3390,
+      "executable": false
+    },
+    "skills/interface-craft/scripts/unslop/story-runtime.mjs": {
+      "sha256": "2c6071feae5581b7293143fd130893eb9cd02061931722949ee37c9d9600a439",
+      "bytes": 12321,
+      "executable": false
+    },
+    "skills/interface-craft/scripts/unslop/story-stage.mjs": {
+      "sha256": "de1efcbce54b62a2ed60736752c0ad7efb139b0d06cb609e9cae5c8ba1f1b2fd",
+      "bytes": 3295,
+      "executable": false
+    },
+    "skills/interface-craft/scripts/unslop/story-support.mjs": {
+      "sha256": "1191f5d419902bbbfc4e8d6e94ccfa29748595aa41ad959256a27f2ffccdcf46",
+      "bytes": 6318,
+      "executable": false
+    },
+    "skills/interface-craft/scripts/unslop/story.mjs": {
+      "sha256": "356cde56db37ba45a4b9818f76c25ed0241bdf6cf07520665cf3cd345ca0d447",
+      "bytes": 10610,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/LICENSE.md": {
+      "sha256": "c85c6f44a27a6c05102eacbb1f81fdb4a59a4253e594a93cf7fe1e11960464ea",
+      "bytes": 1068,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/SKILL.md": {
+      "sha256": "c5a2170d3101b2b37bd8299bdefb938ab53268b2251d71ac05db08f79ec7ce77",
+      "bytes": 24102,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/agents/openai.yaml": {
+      "sha256": "d2d63ba137c25566e7f35f21b3a75e4829347e993d78f3101d669c55830fe62c",
+      "bytes": 338,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/assets/icon.svg": {
+      "sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
+      "bytes": 2922,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/accessibility_audit.py": {
+      "sha256": "23ea6ed52689fb5b7b109227d9c5b653e972e812a01eb17c13cd7a59bff12ee3",
+      "bytes": 10561,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/app_launcher.py": {
+      "sha256": "f96163167bea4f71fae42905f1cfa7fe62e54a0213092328c86ae2189b757b23",
+      "bytes": 12161,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/app_state_capture.py": {
+      "sha256": "aae5671fee3d7ecce5d77f8901f47c4449c5cde06f524480b47158437b1aaeab",
+      "bytes": 13485,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/appearance.py": {
+      "sha256": "97db9296f957501b0c3780d739c45986ba9c68783329e76cb915688e2bebf139",
+      "bytes": 11591,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/build_and_test.py": {
+      "sha256": "7a45061ea000626f1eaa4a4447c57b63b3e4b63a8411d760339b41048fd13c37",
+      "bytes": 12235,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/clipboard.py": {
+      "sha256": "a322b34e833c4e54e464129a128703f554f2a82a880a8f3f91bc44abec4a92ce",
+      "bytes": 2669,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/common/__init__.py": {
+      "sha256": "09c29251a3a4593d697f1652e2d0054f67805e9ef1da23e2227d6706e5c3b1d0",
+      "bytes": 1868,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/common/cache_utils.py": {
+      "sha256": "b01ef1fd4d7661ca23693524b73f286e811f12f759d12a3c0fdfbcc0c3a2821e",
+      "bytes": 9517,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/common/device_utils.py": {
+      "sha256": "34c0b784c9727e50c9f866742f17097b92fe2d5c9d01804fac6af4d1de151734",
+      "bytes": 14937,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/common/env_config.py": {
+      "sha256": "c23f742c74ae65781c893cc74c00ed7e6ffab08b26fb6ac5e5b16dc1cf0ee79a",
+      "bytes": 1132,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/common/hang_pipeline.py": {
+      "sha256": "1d049974996d29ab822087b5eb5c1eb05e8cdb595d46b90e35bf279a77949dc6",
+      "bytes": 30351,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/common/hang_sessions.py": {
+      "sha256": "82edd8aced216eef0220f92c03125d241a353ed6ea92e566ed14758ecdc66190",
+      "bytes": 18360,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/common/idb_utils.py": {
+      "sha256": "4013678acb3164df9f406853c523b861ed18574b148f3ba9eef695bf82d2bbcb",
+      "bytes": 5915,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/common/screenshot_utils.py": {
+      "sha256": "4a89e0b54acfbe4802ad3797b05ad6e28cdff52f3e97534de8957b639a39c44f",
+      "bytes": 10229,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/container.py": {
+      "sha256": "7bbe505a9067150a0c0d96282db729cffec2440c5c9c976740356d5ced7bfbe7",
+      "bytes": 23230,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/gesture.py": {
+      "sha256": "6b7edb18cb7ee389aebd9d60c31bfb8e7c660f5eb1d318d22c801a0836ff9d44",
+      "bytes": 13206,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/hang_watcher.py": {
+      "sha256": "725717dccbe66814d713748151e4c456de20f1cd6e90c8ac005228b9d5e2358c",
+      "bytes": 57890,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/keyboard.py": {
+      "sha256": "4c199b67bdd48eabd8f395fe6def278672eda58644dbe806fa33b63dfe1bf914",
+      "bytes": 10367,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/localization_audit.py": {
+      "sha256": "75652120935beb74589c749740f557a83554c1366e97503973aeab04a02d2393",
+      "bytes": 16618,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/location.py": {
+      "sha256": "c0d1d1dec98c50547a4d19036e12d002be6d84ad6dbf6e1a6ce27061f9616211",
+      "bytes": 15783,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/log_monitor.py": {
+      "sha256": "ab4a060758f54e6384ab93d5a8a3c94aabfaa151046688ddf2388681a2184795",
+      "bytes": 15157,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/model_inspector.py": {
+      "sha256": "4c9338e6f95abfdae825f7354f49b7593238b948dbeaddd8ce462211082774f4",
+      "bytes": 22215,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/navigator.py": {
+      "sha256": "eda452d7f374de0a1af1d8eaeffbe93b47bb5d19cf4271dd0118555233090150",
+      "bytes": 15595,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/privacy_manager.py": {
+      "sha256": "13cc005a993a44967412933a300e491377237fd42718dbb7277468f30357961c",
+      "bytes": 7818,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/push_notification.py": {
+      "sha256": "b20b0ea3d2acce4c2d8fd0cb0bac07f8ae7ac6ef04d7b5efcfc757fb7f6e7c46",
+      "bytes": 6640,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/screen_mapper.py": {
+      "sha256": "e62b144a4537c2afaa4fb8487e7802a69c884a9485c42a93fc421b376f24c4c3",
+      "bytes": 10948,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/sim_health_check.sh": {
+      "sha256": "d97e3a78c01fd1fe745d9fed6d0c638aca467c0cb10c4470eea5d813bcaa71e9",
+      "bytes": 14339,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/sim_list.py": {
+      "sha256": "9040bd3c2fcd015f1b00c808152fca979076d9213e001485b6300fdb65760628",
+      "bytes": 9100,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/simctl_boot.py": {
+      "sha256": "b15f3c0efa5163ed349979b5c6a1a4729812a0af4be8d766398040fe0ab8bf3f",
+      "bytes": 9361,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/simctl_create.py": {
+      "sha256": "e6f21b0250852290a15acdaddeea0eeb63aa9993f71a628e3a82282dc02e91d0",
+      "bytes": 9120,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/simctl_delete.py": {
+      "sha256": "60c2851b7c36a1f705ba79b7d39a18794af033d21535e0281b4ca95f85a6eb85",
+      "bytes": 10536,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/simctl_erase.py": {
+      "sha256": "16edd10418793a0a3b4c0becb9341b1e9c728c261ad777d17a8f2f4240220ecb",
+      "bytes": 10404,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/simctl_shutdown.py": {
+      "sha256": "f8ccf5fd80f92fd538d2eb1daa21361fecd5771a5eed5aeddd8ff8804a8c9c29",
+      "bytes": 8621,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/simulator_selector.py": {
+      "sha256": "29d807ccc7ae5f4c87d6cb4f464b7fe92413776845b97e46afea7740cae01ec5",
+      "bytes": 10965,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/status_bar.py": {
+      "sha256": "326bb1c36bab3ab53cf69270a69481bbc342f812429027a4a96065be336d22df",
+      "bytes": 6789,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/test_recorder.py": {
+      "sha256": "e87c9fdb60f728f9f3800e9aa7c4091e58f3b624f06c55cbef8d379edde6f326",
+      "bytes": 10852,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/visual_diff.py": {
+      "sha256": "667a64ef1d1e88dc95682350160b9ec730a9764e8dfe87ea0a19d2fd18022dee",
+      "bytes": 7787,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/xcode/__init__.py": {
+      "sha256": "81d54fdf0b25f0d0587e211c39912dc64977b08d07b21f658b4eb7419163708f",
+      "bytes": 378,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/xcode/builder.py": {
+      "sha256": "8531e60f3339e8fa55a487530f44ae928184babe45b3bca49c7aff6ded3ce6c3",
+      "bytes": 14328,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/xcode/cache.py": {
+      "sha256": "9fb32b5581743f623ce70edea3a8469af8c33e9a0e65e4b21c9f0b5ba49d34d5",
+      "bytes": 5609,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/xcode/config.py": {
+      "sha256": "9d26bf0db01be44475d981021e038e7afa2b321ca5b162da7d5323b82684b1f7",
+      "bytes": 5534,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/xcode/reporter.py": {
+      "sha256": "ad2943f8ef12e24593659cc660141e1bebdfe81794da9d165ba04f0ce6eb8b31",
+      "bytes": 10941,
+      "executable": false
+    },
+    "skills/ios-simulator-skill/scripts/xcode/xcresult.py": {
+      "sha256": "efb0898470e0164cdf4fa6727cfa93a433fe6151fad1ebef6b41fe09d60e54e2",
+      "bytes": 16927,
+      "executable": false
+    },
+    "skills/media-production-control/SKILL.md": {
+      "sha256": "eafd1aef2aec99a3543d0219a88cb046b46bb0b3203897f2241d30c0259e29cd",
+      "bytes": 2349,
+      "executable": false
+    },
+    "skills/media-production-control/agents/openai.yaml": {
+      "sha256": "c9fb1472227aae990989a99bb4cac5e21479b33dadd17e308eec89b08ab549c7",
+      "bytes": 310,
+      "executable": false
+    },
+    "skills/media-production-control/assets/icon.svg": {
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "bytes": 420,
+      "executable": false
+    },
+    "skills/media-production-control/references/asset-ledger.md": {
+      "sha256": "55875d22df1b82c4839bad070bf0551d1dc944feabc4ef4621b89032f52f1434",
+      "bytes": 4149,
+      "executable": false
+    },
+    "skills/media-production-control/references/generated-media-qa.md": {
+      "sha256": "223455ae3193fdd18441dd67049ea3404e39a3addc648c2080b78eca0c0d14c9",
+      "bytes": 3405,
+      "executable": false
+    },
+    "skills/media-production-control/references/reference-analysis.md": {
+      "sha256": "fa10932858bdade5ecf4bdd1df34d813b770461e4c43c38de1ca0badbf87b6a4",
+      "bytes": 2592,
+      "executable": false
+    },
+    "skills/media-production-control/references/setupkit-MIT-LICENSE.txt": {
+      "sha256": "0b8a64ca9c2d333cb580f1f64c80cb120ac82d308b031718b71c8855cee900b7",
+      "bytes": 1071,
+      "executable": false
+    },
+    "skills/media-production-control/references/setupkit-source.md": {
+      "sha256": "dfcbb488ec04bb48ffa6a9c5b6ad0ffad7e520e2d18431e7441799097c31bd1e",
+      "bytes": 262,
+      "executable": false
+    },
+    "skills/media-production-control/sources.json": {
+      "sha256": "677731d117eb0499d02f990304c220e12de273ba41d044b5bca82b3074972c36",
+      "bytes": 2432,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/SKILL.md": {
+      "sha256": "cc4184e5580d8dbd1f2cfb9f4e8b95c9e779cc3b04896689df9b5dcd9c7cf0b4",
+      "bytes": 6133,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/THIRD_PARTY_NOTICES.md": {
+      "sha256": "f9476840df9010266b5c7086952c24b257e44d958c2a6506ab906a564cbcf232",
+      "bytes": 3011,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/agents/openai.yaml": {
+      "sha256": "3da3f055ea1715d1f45fc624c789fc7854e42c49ef5ac9debbdf7c82d487efe3",
+      "bytes": 417,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/assets/icon.svg": {
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "bytes": 1210,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/references/expo.md": {
+      "sha256": "37d307a22a21ca3d75b747e0e5c045c26b31cbbdabe08f8e88a103458d4830de",
+      "bytes": 4112,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/references/flutter-compose.md": {
+      "sha256": "6fba7f2175a930ab5fb729b4c8d93fe74c368508cfbb922027884a732522e2f7",
+      "bytes": 3133,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/references/foldable-ios.md": {
+      "sha256": "c4a5d069013bd13472f779d6a4146c33192f6e5be822fc24cdb1cb7377abbb4b",
+      "bytes": 13976,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/references/ios-verification-tools.md": {
+      "sha256": "b06857cffcfd93bade31238179d0226302e93be4b8a39ee33ff771834e835901",
+      "bytes": 6807,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/references/mobile-experience.md": {
+      "sha256": "bfca64b730993da0885eccfa4083b9c2172656a6e6de2efe1a6c22cfc69dc28b",
+      "bytes": 5758,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/references/mobile-references.md": {
+      "sha256": "42ff42c6dd84931405ffb045438ac6d67d9cab0190ab31dd2627daf47c2f51f4",
+      "bytes": 2285,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/references/offline-resources.md": {
+      "sha256": "81ecfc95bb5c5d44394d695feed7001c32a4b5c05f2cff9b67111e2f0fb473f1",
+      "bytes": 2773,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/references/react-native.md": {
+      "sha256": "915d076242eee6f2f225bdd8c74124e0fc04780f59ce7df05879b29ec55ee640",
+      "bytes": 5254,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/references/sources.json": {
+      "sha256": "b47b4841adb438f17e94b67a4665e23f799bf8aa305eec40b87218720e6d6343",
+      "bytes": 43960,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/references/swiftui.md": {
+      "sha256": "16edd96bc852731f03ae50a8d93e4f87ffd78a0f2e7c5890c80dd3e3aff4932c",
+      "bytes": 5304,
+      "executable": false
+    },
+    "skills/mobile-interface-craft/references/verification.md": {
+      "sha256": "5fca57302459cae4158e914b7206b1c4c5cfc9cadcd59d653f48d537484c2464",
+      "bytes": 4662,
+      "executable": false
+    },
+    "skills/motion-storytelling/SKILL.md": {
+      "sha256": "e9113bf12c4f8613c3d8874ee74d876b64cc698682b2253aab505b98ac6a48e2",
+      "bytes": 4631,
+      "executable": false
+    },
+    "skills/motion-storytelling/agents/openai.yaml": {
+      "sha256": "515cae0fa0fc7bb76239dabb8a2d477571bc28734e7d5cab367254583d479472",
+      "bytes": 292,
+      "executable": false
+    },
+    "skills/motion-storytelling/assets/icon.svg": {
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "bytes": 1210,
+      "executable": false
+    },
+    "skills/motion-storytelling/references/after-effects.md": {
+      "sha256": "36f7143ad74770eeca74659c4ffb3c77c58177e1472ae479d0463f4a6816a097",
+      "bytes": 4497,
+      "executable": false
+    },
+    "skills/motion-storytelling/references/creative-source-notices.txt": {
+      "sha256": "91c68803a5d52840c62c3522fda4b151f5f5427b39e7a1e6405535bc58b3200e",
+      "bytes": 2616,
+      "executable": false
+    },
+    "skills/motion-storytelling/references/direction-and-editing.md": {
+      "sha256": "ba65967bcd3b122e60ea3785165325277c4438d06be8d0a6aa1dbea3283a5fc6",
+      "bytes": 3309,
+      "executable": false
+    },
+    "skills/motion-storytelling/references/kinetic-typography.md": {
+      "sha256": "d1621366d3388bf6ab3739910201083fa20b6aed71bf8f4c00c11082ce00944f",
+      "bytes": 4112,
+      "executable": false
+    },
+    "skills/motion-storytelling/references/lottie-motion.md": {
+      "sha256": "1d78eb006b2eacb87d7520152ccdb76c490eb5e48d67ee0392be007c4fd00b93",
+      "bytes": 2266,
+      "executable": false
+    },
+    "skills/motion-storytelling/references/offline-resources.md": {
+      "sha256": "b25cbe332ff461597a9a1318e4ced1704e8971a581e9ebbfdcc5cd65bb96d2c8",
+      "bytes": 1323,
+      "executable": false
+    },
+    "skills/motion-storytelling/references/product-storytelling.md": {
+      "sha256": "639a2d1a2257879eaf772442ad2e0e37cabfe361c2d0fc9e171a21d9645c83c3",
+      "bytes": 3482,
+      "executable": false
+    },
+    "skills/motion-storytelling/references/scene-dramaturgy.md": {
+      "sha256": "9dc94fd5cf1a784f139e10babde1f2d8876dde9875c994e271b23251e322b3ce",
+      "bytes": 3005,
+      "executable": false
+    },
+    "skills/motion-storytelling/references/shared/brand-system/references/logo-3d-motion.md": {
+      "sha256": "f50ca76b46c130f13f0ee69875c3b13f2e2b5bc5919ab56039702009669a64f2",
+      "bytes": 4846,
+      "executable": false
+    },
+    "skills/motion-storytelling/references/shared/interface-craft/references/typography.md": {
+      "sha256": "5435baf26c67863cb90769beada83eeb077176eb889633f741415cedcb9fb259",
+      "bytes": 8893,
+      "executable": false
+    },
+    "skills/motion-storytelling/references/shots-and-composition.md": {
+      "sha256": "f176b98f8bea3a299855ee5e8b7f24183526ae7aa9d6b619b99916a5d3887d70",
+      "bytes": 3120,
+      "executable": false
+    },
+    "skills/motion-storytelling/sources.json": {
+      "sha256": "db34d7891845cb178b9a68f092c5ac69846d30c3c46dc1e7e626cc39b1855813",
+      "bytes": 14013,
+      "executable": false
+    },
+    "skills/openai-docs/LICENSE.txt": {
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "bytes": 10776,
+      "executable": false
+    },
+    "skills/openai-docs/SKILL.md": {
+      "sha256": "d1d65b7e457170c04dbad83f8eec7ae91327e974c33d49d8df7d8dd45b67ee31",
+      "bytes": 3233,
+      "executable": false
+    },
+    "skills/openai-docs/agents/openai.yaml": {
+      "sha256": "1b033f411dcd1e20338aa97b7a90f48a0e4004b967b5630b64830fbae059049e",
+      "bytes": 396,
+      "executable": false
+    },
+    "skills/openai-docs/assets/icon.svg": {
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "bytes": 420,
+      "executable": false
+    },
+    "skills/openai-docs/assets/openai-small.svg": {
+      "sha256": "45be1f0757eb18889eefb1e7db79668ef46a275dc4e0e78e8df5ebd7f6cdeadc",
+      "bytes": 1091,
+      "executable": false
+    },
+    "skills/openai-docs/assets/openai.png": {
+      "sha256": "156cc84d7332bfe95b310350bd470b690d22aa33d65340cc6c2e06022946194c",
+      "bytes": 1429,
+      "executable": false
+    },
+    "skills/openai-docs/references/offline-resources.md": {
+      "sha256": "63253a87ad2e503e976dabb26740b873cbba94059393595bf5c0b34382d8ca77",
+      "bytes": 1686,
+      "executable": false
+    },
+    "skills/pdf/LICENSE.txt": {
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "bytes": 10776,
+      "executable": false
+    },
+    "skills/pdf/SKILL.md": {
+      "sha256": "d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2",
+      "bytes": 2517,
+      "executable": false
+    },
+    "skills/pdf/agents/openai.yaml": {
+      "sha256": "f356a00ab8696138954fb61501362ed5e25baf07d85cd60fa043591476186913",
+      "bytes": 338,
+      "executable": false
+    },
+    "skills/pdf/assets/icon.svg": {
+      "sha256": "c1e7bf8c39dfc2d52062a42da6679f958f0e125496b162e7d68ac2a65ecc96d6",
+      "bytes": 1017,
+      "executable": false
+    },
+    "skills/pdf/assets/pdf.png": {
+      "sha256": "17da356d195d4e3fa24f9becbee6b8d9e60e13005762b5ab0809c520c76da6ee",
+      "bytes": 1312,
+      "executable": false
+    },
+    "skills/production-engineering/.github/workflows/tests.yml": {
+      "sha256": "09f139926dcfbcd2070532b3bdc656cf9e8f21a43b06c790dcf3cf08e2af2e02",
+      "bytes": 621,
+      "executable": false
+    },
+    "skills/production-engineering/.gitignore": {
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+      "bytes": 19,
+      "executable": false
+    },
+    "skills/production-engineering/CHANGELOG.md": {
+      "sha256": "3fd0de6588c844c71835316241eb14f1b4d6098d189be36d1ca44dbac04380c9",
+      "bytes": 1778,
+      "executable": false
+    },
+    "skills/production-engineering/LICENSE": {
+      "sha256": "cccd95bc297ccefa3f6d8840e5c9b441f5ed1697a25c30510026fe6d3ebeda80",
+      "bytes": 1092,
+      "executable": false
+    },
+    "skills/production-engineering/NOTICE": {
+      "sha256": "e5de2f46318141eb3f402cb9a5918252ef13dda41ae08e0b4762088f4d5ced25",
+      "bytes": 910,
+      "executable": false
+    },
+    "skills/production-engineering/README.md": {
+      "sha256": "7747d4c7fb633d3019b883cd7ba6b2cd70672de21a8633bf95ad579e2121e413",
+      "bytes": 8005,
+      "executable": false
+    },
+    "skills/production-engineering/SKILL.md": {
+      "sha256": "6a66414a06e861bc21d79ecfe0a9aec4f09af0f956ee7f84c98ddd029f923c05",
+      "bytes": 18300,
+      "executable": false
+    },
+    "skills/production-engineering/THIRD_PARTY_NOTICES.md": {
+      "sha256": "7981522672b5e1237aa359fd77e1fd856a9e4fd8a7cdd8eb5e04f8313217ff89",
+      "bytes": 1651,
+      "executable": false
+    },
+    "skills/production-engineering/agents/openai.yaml": {
+      "sha256": "42cedd0e8e0dffa3bd7b9ba9151bb2addd907772f14b167dd58c4980bc1da462",
+      "bytes": 623,
+      "executable": false
+    },
+    "skills/production-engineering/assets/icon.svg": {
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738,
+      "executable": false
+    },
+    "skills/production-engineering/assets/passport.example.json": {
+      "sha256": "83010f712196173cdccb4e43a2f3ba045baa888b0d4220aaaa8f9db636949c1b",
+      "bytes": 3332,
+      "executable": false
+    },
+    "skills/production-engineering/docs/DESIGN_ADOPTION_2026-10-17.md": {
+      "sha256": "f3abdc4a7f0183234a4ad4324b6236e075701b1b0b2730a26d99a80d82fb9dfe",
+      "bytes": 5917,
+      "executable": false
+    },
+    "skills/production-engineering/docs/GENERAL_SKILLS.md": {
+      "sha256": "82b8e89f406297d94a91335ef1bb471c6ed633e2c47e3f46540a2693f672dc89",
+      "bytes": 2711,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/browser-qa/README.md": {
+      "sha256": "f2e1af328e88f70511f362ba93d3bc8573f30837dc99305f42cdaaa6879a1983",
+      "bytes": 6161,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/browser-qa/collector.py": {
+      "sha256": "e0916a527a7eef2634f05dcb24239cb2ed8fd463fb644a2f607db6eadcf06953",
+      "bytes": 1355,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/browser-qa/fixture.html": {
+      "sha256": "d998c8e3e0d14d34de54979c06a7a55d1b25775b67707f86772e6cc498d5bd7f",
+      "bytes": 3900,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/browser-qa/measure.js": {
+      "sha256": "6e0358c7f8d0ddf7bfa3162afb80ee6c99966efce90f025745651c53690a1096",
+      "bytes": 3974,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/browser-qa/obscura_pilot.py": {
+      "sha256": "6e868909b0da7142031a84a329ae806e3479cfdae829154540b860a445e3fd69",
+      "bytes": 6455,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/browser-qa/requirements.txt": {
+      "sha256": "7d2d3e2c96594ff9e96c87cb1ddc6b61a128db443b7653384febfeb605ff4525",
+      "bytes": 151,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/browser-qa/test_browser.py": {
+      "sha256": "53d9f90adf12e2a17b8589a3e924c6b5182044c72b8cc6399752fadf98334053",
+      "bytes": 7152,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/rea/README.md": {
+      "sha256": "efacd12bab4e5ed04e8696eac2933215248b33316f0cfd13e13cc9e0eb964e3b",
+      "bytes": 10641,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/rea/adapter.py": {
+      "sha256": "7ef8476e033833d5325edda910020ea943ec74999c61c1f1f39500d781d83389",
+      "bytes": 9965,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/rea/profile.json": {
+      "sha256": "255634e3ed337a5ccab260ae150eca13d19e1418c08a4f62cd728f43fd358498",
+      "bytes": 2864,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/rea/qualified.py": {
+      "sha256": "790b6b88042997cecc9aeb99a9816b1610683f2845338990caa3457de3044f04",
+      "bytes": 8830,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/rea/qualify-bindings.mjs": {
+      "sha256": "74b8bae42cd1c9f85b4a0f5145c569d13c9198e1fadfed11b5c3929e500f4cb4",
+      "bytes": 10811,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/rea/qualify-native.mjs": {
+      "sha256": "9d6f326e2777658c561c3be2c7e9c46d5aa229daceacdf0cf8841acae93473de",
+      "bytes": 4964,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/rea/resources/rea-qualified-runtime.zip": {
+      "sha256": "e4afb2184db2ac481b012ff51d4cc9c713393c9bd230f397a3a4ef9a3178c24a",
+      "bytes": 23285541,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/rea/resources/reproduction/rea-corrected-qualification.yml": {
+      "sha256": "5e8d35ffc21fdaf09ce7ba15b135e7014aeffbdd67e494da29df9d56ef6ad791",
+      "bytes": 6341,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/rea/resources/reproduction/rea-native-qualification.yml": {
+      "sha256": "4b9a1769bb6344fc9b7f3e85ada4538e0ed334592080df728a6609ff97839570",
+      "bytes": 6688,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/rea/resources/reproduction/rea-reference-smoke.yml": {
+      "sha256": "33e6850d6adcb3e22077fe9d25730110bf2cbda1d4b3118a7a54a8b1f4605e27",
+      "bytes": 3751,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/rea/resources/reproduction/rea-runner-qualification.yml": {
+      "sha256": "c26615f01d7eef0c9bc71268a180cca5972b44401a997cd9eda0164a8091627b",
+      "bytes": 4897,
+      "executable": false
+    },
+    "skills/production-engineering/integrations/rea/smoke.mjs": {
+      "sha256": "0d731a594aaadba8137ca89a06e9381d71fdc97449e7ae190f2cfff99a5a2646",
+      "bytes": 3988,
+      "executable": false
+    },
+    "skills/production-engineering/references/INTEGRATION_SPEC.md": {
+      "sha256": "1c41474e8e357806bfdaf67471dae155b8da0daec7e972186b8f6ebf71ed1c45",
+      "bytes": 3233,
+      "executable": false
+    },
+    "skills/production-engineering/references/SPEC.md": {
+      "sha256": "ae2b6a5a557864c3a09ebf6838018ebf4ddff982128cc108a1cb495f9fe75a56",
+      "bytes": 3695,
+      "executable": false
+    },
+    "skills/production-engineering/references/VERIFICATION.md": {
+      "sha256": "e332e6cb11058ace3ab3ece73006b3c807b4caf78bbb79252805b70b6b189786",
+      "bytes": 3567,
+      "executable": false
+    },
+    "skills/production-engineering/references/agent-documents.md": {
+      "sha256": "9e49f9a779b3a26f5006d21b03def5500754dbf234664c0edee17e4b858d73f4",
+      "bytes": 3245,
+      "executable": false
+    },
+    "skills/production-engineering/references/architecture-design.md": {
+      "sha256": "956df3bdb13583010363abeefc660f8e3b83ad5a680f94394f91f2fbc2a42876",
+      "bytes": 4367,
+      "executable": false
+    },
+    "skills/production-engineering/references/behavior-testing.md": {
+      "sha256": "53008163c5b608b7e5b6d9d1c6a7dbce5c7e1708b629b359142fe8b606978633",
+      "bytes": 3439,
+      "executable": false
+    },
+    "skills/production-engineering/references/bounded-recovery.md": {
+      "sha256": "051e2e8be6a13bc1c59647acb73a284fac9967e86b5d66f89ef33174a64fc1ca",
+      "bytes": 2166,
+      "executable": false
+    },
+    "skills/production-engineering/references/deep-audit.md": {
+      "sha256": "d02034a6c44f903a17b2301d56c437277abfacb555d499b878487086db65e5d6",
+      "bytes": 7345,
+      "executable": false
+    },
+    "skills/production-engineering/references/development-sources.json": {
+      "sha256": "10360907702054fd8271cffa5a684543adfbb2adcabd021a6f988a8a417b08fc",
+      "bytes": 21012,
+      "executable": false
+    },
+    "skills/production-engineering/references/interface-practice.md": {
+      "sha256": "146a73a527f82c613e99fddfdcc651754642adda40e4ac5480d207aa7ab206bc",
+      "bytes": 6752,
+      "executable": false
+    },
+    "skills/production-engineering/references/interface-sources.md": {
+      "sha256": "cbff9fc0ec258d6dc069b10f412629cb5c9c1ab0e8da51471d64b8251fd8ab0e",
+      "bytes": 4477,
+      "executable": false
+    },
+    "skills/production-engineering/references/language-patterns.md": {
+      "sha256": "1fe65cb7804ac9dc633c259b9a39f57b903ad85905d9e39697444c759856e7a9",
+      "bytes": 4929,
+      "executable": false
+    },
+    "skills/production-engineering/references/native-code-review.md": {
+      "sha256": "d6e8aa95b03380a3c9bf89ca01897d9b89b4b7700e46644604562a5c880634d1",
+      "bytes": 7168,
+      "executable": false
+    },
+    "skills/production-engineering/references/offline-resources.md": {
+      "sha256": "854c618a899bc223ba933084156c4dc50489f127528f40c72c09ba5b00a8beef",
+      "bytes": 2092,
+      "executable": false
+    },
+    "skills/production-engineering/references/openspec.md": {
+      "sha256": "e140c600175d4cf4e5b4cb23272e5e963911c9e6eea39b5ae6923fb64ce7f7b5",
+      "bytes": 3556,
+      "executable": false
+    },
+    "skills/production-engineering/references/postgres-review.md": {
+      "sha256": "30e262089b81579f461a4adab7845ff8e61fe263c5627efb4d89f62cd3e8276a",
+      "bytes": 4436,
+      "executable": false
+    },
+    "skills/production-engineering/references/production-2.md": {
+      "sha256": "38e9502885296d0642220ee2ab4cb584fdc8b4cd2ad0fe7a961c550f75b3727d",
+      "bytes": 6545,
+      "executable": false
+    },
+    "skills/production-engineering/references/quality-gates.md": {
+      "sha256": "34186e66cc12673cbd43cbb91ff603c3fab7a242fb4beda1880af054fb6daa01",
+      "bytes": 5558,
+      "executable": false
+    },
+    "skills/production-engineering/references/scanner.md": {
+      "sha256": "f3009d5b09edcbe98ed950dc5fed20e9acbcb224380cf5f2a55902949ec8ecf6",
+      "bytes": 4990,
+      "executable": false
+    },
+    "skills/production-engineering/references/session-retrospective.md": {
+      "sha256": "2a3c31064838d080f1aa3d922b366ceb463b94a7e1e63c25b81d1ec9e8075104",
+      "bytes": 3889,
+      "executable": false
+    },
+    "skills/production-engineering/references/skill-comparison.md": {
+      "sha256": "ba64e278fff3ff18fb261fb18e81e0f6015fe135baa4f47042823f80653edb67",
+      "bytes": 4001,
+      "executable": false
+    },
+    "skills/production-engineering/references/upstream/harness2/LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "executable": false
+    },
+    "skills/production-engineering/references/upstream/mattpocock/LICENSE": {
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "bytes": 1068,
+      "executable": false
+    },
+    "skills/production-engineering/references/upstream/production-auditor/LICENSE": {
+      "sha256": "ccf47899dcb382b7c13794952c4f014ab6ffa3ecf3ff6a6fd061a1653d0e4703",
+      "bytes": 1088,
+      "executable": false
+    },
+    "skills/production-engineering/references/upstream/production-auditor/PROVENANCE.md": {
+      "sha256": "058f482062a6236d66a3141bba0b4d91094d5c0de9676d0d4bdfa61158f20d0e",
+      "bytes": 403,
+      "executable": false
+    },
+    "skills/production-engineering/references/upstream/spec-kit/LICENSE": {
+      "sha256": "2510b446bc1f0cf9702453075d20cd88631e20e5642658edb7325d9c1eb534f7",
+      "bytes": 1060,
+      "executable": false
+    },
+    "skills/production-engineering/references/upstream/spec-kit/plan-template.md": {
+      "sha256": "dfba43da2b2a207ff8c177a0fba03af074fd45e261696b4b64172041fad2e992",
+      "bytes": 3770,
+      "executable": false
+    },
+    "skills/production-engineering/references/upstream/spec-kit/spec-template.md": {
+      "sha256": "3945437fc35cd30a5b2bf7beea680337c3516826d3efa5a6b92c4a7eca1ba28e",
+      "bytes": 4556,
+      "executable": false
+    },
+    "skills/production-engineering/references/upstream/spec-kit/tasks-template.md": {
+      "sha256": "1e448e9153462e8c5b5a55231a54c756d870a82950d4dd9425a2bf5b7008a0d9",
+      "bytes": 9182,
+      "executable": false
+    },
+    "skills/production-engineering/references/upstream/vibe-audit/LICENSE": {
+      "sha256": "37ac9b5a406bbe97ea8755b84ddad1e7882bc4e8e27d865df713585df0a6a099",
+      "bytes": 1069,
+      "executable": false
+    },
+    "skills/production-engineering/references/upstream/web-audit/LICENSE": {
+      "sha256": "68378a4843cbc88877a63a763a8618c961e616b259cbbb2887ae761e9d4b80b9",
+      "bytes": 1202,
+      "executable": false
+    },
+    "skills/production-engineering/references/upstream-review.md": {
+      "sha256": "b55cfab9b3d5e3693b4bca9b2d3730bfc6a3afcdca85a65df6363a78e9b4cd26",
+      "bytes": 4987,
+      "executable": false
+    },
+    "skills/production-engineering/references/upstream.json": {
+      "sha256": "2423af0d2d40645206c50c5ba6114884df416bc427008878ac14998706e11da0",
+      "bytes": 422,
+      "executable": false
+    },
+    "skills/production-engineering/references/workflow.md": {
+      "sha256": "7d85d68fff522a5507fc3dd2b71985c241a503ee210ba6c54b310f9abb5be147",
+      "bytes": 11777,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/audit.py": {
+      "sha256": "f387ed95e1fe6be246ffeae2e7a1f24c2d90bfb15f0b438e42c6d520f6986907",
+      "bytes": 22069,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/deep_audit.py": {
+      "sha256": "27f4f4e49056c1bfabedd4e1fd1718bb67b3c1b70e2448e5da20fb0ea13b6826",
+      "bytes": 8418,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/external_reports.py": {
+      "sha256": "0c362f050f94b3fed63d50cf13f63d91bb1e65a6c732955c664d3e976648cae9",
+      "bytes": 10592,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/history.py": {
+      "sha256": "cb2cbb1b7bb8507924e142a56f69c94baeac70e4d4db2a2fc35cb662dbb74c65",
+      "bytes": 3612,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/live_http.py": {
+      "sha256": "7bd3184976bc92bd79c8041fb1c9dd9cf4f51185aa738783d815b96baa11cfdc",
+      "bytes": 7185,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/page_parser.py": {
+      "sha256": "c2e3da62e0a829d183a7835a5f08f51446b9f40b42e981e4963ea7009419f66e",
+      "bytes": 2623,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/readiness.py": {
+      "sha256": "f9ed8c29b8ba64fa18cc8848bff393f86005f7b3d6dae94bbe1b8657c2ba088b",
+      "bytes": 7015,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/release_gate.py": {
+      "sha256": "1ce738b85015c57c7a2c66fa0079f2b7c860274e427c36dc7d5636cbc53e1811",
+      "bytes": 2124,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/supply_chain.py": {
+      "sha256": "d44f4b4f18f567a2fd5f97f0078fead1fc3196ba272257d1d0a9a66a17df72f9",
+      "bytes": 3630,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/tests/test_audit.py": {
+      "sha256": "18124937532f1608fad4598ab7bf0e7a6cc61cf26db5d9f82beb280337e9baa7",
+      "bytes": 11408,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/tests/test_deep.py": {
+      "sha256": "3cb8984bd96000c03b8abbe439ab7365b3f6affc9e5632f4f56903f889d6713c",
+      "bytes": 10409,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/tests/test_rea_adapter.py": {
+      "sha256": "8a5986c1f648b24308d8c5aeb03caf709c99c09702e5d266497c1426a92ee109",
+      "bytes": 6561,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/tests/test_rea_qualified.py": {
+      "sha256": "a2276407b4b3af9b29f679bbfb7d2ef793f9372873e68f164fbf92b599960bbe",
+      "bytes": 4072,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/tests/test_readiness.py": {
+      "sha256": "279f80cbcf54734e9ca885e252edbe7d120d672439e05154c7ebb1883b5aba2d",
+      "bytes": 4069,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/tests/test_workflow_counterexample.py": {
+      "sha256": "df404a1ca3bfb8ae7fee8643fa98b487a778462bdeac636ada83203e8053287f",
+      "bytes": 2046,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/vendor/vibe/audit.py": {
+      "sha256": "b6c1ad40210d6c835580749cb1adf07a87230e9b706ee4457b514337f68db0b6",
+      "bytes": 14232,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/vendor/web/_common.py": {
+      "sha256": "84442a276a0e3eddf501efab5d0318039354cb4d88deef4ae6351cacc01c7923",
+      "bytes": 7502,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/vendor/web/check_a11y.py": {
+      "sha256": "83468a216a0e950bac5f22b87b93e633c7d2d5704d6a76e90d1c468177cd9e34",
+      "bytes": 8392,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/vendor/web/check_consent.py": {
+      "sha256": "c06fd71260e90bb4e60fa4ccbd74f9bd4bff55ce259ce1ab716c6916b5db9c74",
+      "bytes": 15070,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/vendor/web/check_headers.py": {
+      "sha256": "75ee11ad09f0dd8d12eddc71a71317a8a4628096f25a690b376d44dee5804717",
+      "bytes": 9914,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/vendor/web/check_seo.py": {
+      "sha256": "93821ce46b2ce4786ded521e22306a4b0dca1a8a81c9f7c94df2886007e195fd",
+      "bytes": 13928,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/vendor/web/find_pages.py": {
+      "sha256": "4c78ca387f8109b92f33316f41dcc3d7ac6f4554946b297e9838663f43a42d90",
+      "bytes": 10551,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/vendor/web/static_a11y.py": {
+      "sha256": "06ea508105cb8315b00fc12ec6dd46252d6f5e68f65a71ff4add3b58c0fb0eb5",
+      "bytes": 1883,
+      "executable": false
+    },
+    "skills/production-engineering/scripts/vibe_adapter.py": {
+      "sha256": "a8b71d2bbd2875a681715ba19ae507c162629c3b981ca57ba7f4062988dce768",
+      "bytes": 977,
+      "executable": false
+    },
+    "skills/remotion-video/SKILL.md": {
+      "sha256": "c1797019210291da4edacfab87d979225c5ff11749d78da33f117a5bde17cf25",
+      "bytes": 3662,
+      "executable": false
+    },
+    "skills/remotion-video/agents/openai.yaml": {
+      "sha256": "b48e3d84f42bbb7dd0a10ebaa818fe263166a0a71bf572b98338d557aa63b9ee",
+      "bytes": 300,
+      "executable": false
+    },
+    "skills/remotion-video/assets/icon.svg": {
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738,
+      "executable": false
+    },
+    "skills/remotion-video/references/offline-resources.md": {
+      "sha256": "3885adabb0732b1de2a4f283d987c83cf9196bb97237a08fee83aa1fe9b0adfe",
+      "bytes": 1859,
+      "executable": false
+    },
+    "skills/remotion-video/references/render-and-verify.md": {
+      "sha256": "73e0f47711b6f1ff63080a22ea468b4acdf239c6482693fafa8adfaf3b316de5",
+      "bytes": 2420,
+      "executable": false
+    },
+    "skills/remotion-video/references/timeline-and-assets.md": {
+      "sha256": "13c8dd8f8fca17020a99d6c51f3b33b1d67b293f04368291b50db2afac40bc6f",
+      "bytes": 3617,
+      "executable": false
+    },
+    "skills/remotion-video/sources.json": {
+      "sha256": "852479e72701674fdcbbd032d84c94aea6f1f14559e8588e937b95a0f1de6aed",
+      "bytes": 1469,
+      "executable": false
+    },
+    "skills/smart-router/SKILL.md": {
+      "sha256": "12bc56b5923292bcb1f15292cb1c1fa10470b24ec766e46f538542fb16da260d",
+      "bytes": 5247,
+      "executable": false
+    },
+    "skills/smart-router/agents/openai.yaml": {
+      "sha256": "564f655703c2d1178835b78f91592019d6ad635a340a0b544e2bb1bbe19ea083",
+      "bytes": 396,
+      "executable": false
+    },
+    "skills/smart-router/assets/icon.svg": {
+      "sha256": "72343cc4b66256ae7de8474c7cad14e711ad84a94c473732a44f96a56124c42d",
+      "bytes": 786,
+      "executable": false
+    },
+    "skills/to-questionnaire/LICENSE": {
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "bytes": 1068,
+      "executable": false
+    },
+    "skills/to-questionnaire/SKILL.md": {
+      "sha256": "0c57cdf95ff0d7e39381c553f1664fd0429b74b6e2c435a9a5a82d65b6b99b23",
+      "bytes": 3735,
+      "executable": false
+    },
+    "skills/to-questionnaire/agents/openai.yaml": {
+      "sha256": "b73a4399e43d03d44fb4547ee8f3055ed3250a5b4e7e03a8c8381ea6d010d74a",
+      "bytes": 427,
+      "executable": false
+    },
+    "skills/to-questionnaire/assets/icon.svg": {
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "bytes": 1210,
+      "executable": false
+    },
+    "skills/visual-diagrams/SKILL.md": {
+      "sha256": "b6564ba28d40994aed7de94813ed676d451d01174c7fb9e97ad5ac42d0e5eac2",
+      "bytes": 2918,
+      "executable": false
+    },
+    "skills/visual-diagrams/agents/openai.yaml": {
+      "sha256": "e5d6c714e0d8c25dd20328944fb3d24a9e2f4d692eba8be602b73052db9a434b",
+      "bytes": 305,
+      "executable": false
+    },
+    "skills/visual-diagrams/assets/icon.svg": {
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "bytes": 420,
+      "executable": false
+    },
+    "skills/visual-diagrams/references/diagram-grammar.md": {
+      "sha256": "0ddc7e91b84f1dae8a07c1c9fb4b834cf70dbf43b1c7eafa45b83d87a287363d",
+      "bytes": 3844,
+      "executable": false
+    },
+    "skills/visual-diagrams/references/shared/interface-craft/references/typography.md": {
+      "sha256": "5435baf26c67863cb90769beada83eeb077176eb889633f741415cedcb9fb259",
+      "bytes": 8893,
+      "executable": false
+    },
+    "skills/visual-diagrams/sources.json": {
+      "sha256": "f0f5aa81669dd257e7c1b92392afdf9fa15c31315ecae5396ba196222a536a9a",
+      "bytes": 720,
+      "executable": false
+    },
+    "plugins/general-skills/.codex-plugin/plugin.json": {
+      "sha256": "a8627d27a3334fab60e1eb79959af8ca3c2053379d98627b5efd3095958e3b0d",
+      "bytes": 824,
+      "executable": false
+    },
+    "plugins/general-skills/CHANGELOG.md": {
+      "sha256": "62d4663235ac38204a3ddc3d62338a95cbe0fb45bda8e965a662683d74e2e389",
+      "bytes": 5063,
+      "executable": false
+    },
+    "plugins/general-skills/README.md": {
+      "sha256": "3cae6e72f62b13115f9ceabb5feb7ca14a40c2ada472aa48e6d15ba1c947e820",
+      "bytes": 4513,
+      "executable": false
+    },
+    "plugins/general-skills/plugin.json": {
+      "sha256": "63b9d8f7ed0c670f29408a7b3dabc4adb0ee87f12e915ec1c810c73db643d4d8",
+      "bytes": 836,
+      "executable": false
+    },
+    "plugins/general-skills/references/interface-practice.md": {
+      "sha256": "146a73a527f82c613e99fddfdcc651754642adda40e4ac5480d207aa7ab206bc",
+      "bytes": 6752,
+      "executable": false
+    },
+    "plugins/general-skills/references/interface-sources.md": {
+      "sha256": "cbff9fc0ec258d6dc069b10f412629cb5c9c1ab0e8da51471d64b8251fd8ab0e",
+      "bytes": 4477,
+      "executable": false
+    },
+    "plugins/general-skills/references/ui-refinement-sources.md": {
+      "sha256": "9029d282683d54a63a83302140f2fc542a496bb89665a6183ae9c23d8d3dbc95",
+      "bytes": 3870,
+      "executable": false
+    },
+    "plugins/general-skills/references/ui-typography-and-polish.md": {
+      "sha256": "7c91d1ff98ee5e18cfade513f03f73a70f3ea5a2c26a55958a4fb0c4258726f2",
+      "bytes": 5651,
+      "executable": false
+    },
+    "plugins/general-skills/skills/brainstorming/SKILL.md": {
+      "sha256": "e4662ab0867989e716d06f6f8f733cfe1f1841a45225227fa6dc0cae1150cca7",
+      "bytes": 2701,
+      "executable": false
+    },
+    "plugins/general-skills/skills/brainstorming/references/visual-mechanisms.md": {
+      "sha256": "10f358114cfaa21564847cdf6d825270159c73659bb50be0f2966acc5df8f360",
+      "bytes": 1599,
+      "executable": false
+    },
+    "plugins/general-skills/skills/design-dna/SKILL.md": {
+      "sha256": "c6f081189aad687e8359ff48cb112167f57cd695ba12bf54755e1aac7f3f89e1",
+      "bytes": 3427,
+      "executable": false
+    },
+    "plugins/general-skills/skills/fact-check/SKILL.md": {
+      "sha256": "8057185920c0501304a2e8c8154d7412db2b39d6e1d07c1fee5199409776159a",
+      "bytes": 1924,
+      "executable": false
+    },
+    "plugins/general-skills/skills/fact-check/references/publication-checks.md": {
+      "sha256": "0b5a18f71d8d3931c0375cdb3b129b6c48eacc95aa2f7fcdf3ff6848d14c7dae",
+      "bytes": 1597,
+      "executable": false
+    },
+    "plugins/general-skills/skills/fact-check/references/setupkit-MIT-LICENSE.txt": {
+      "sha256": "0b8a64ca9c2d333cb580f1f64c80cb120ac82d308b031718b71c8855cee900b7",
+      "bytes": 1071,
+      "executable": false
+    },
+    "plugins/general-skills/skills/fact-check/references/setupkit-source.md": {
+      "sha256": "dfcbb488ec04bb48ffa6a9c5b6ad0ffad7e520e2d18431e7441799097c31bd1e",
+      "bytes": 262,
+      "executable": false
+    },
+    "plugins/general-skills/skills/genjutsu/SKILL.md": {
+      "sha256": "084387a784fb23d32021239177a7ee83052fa0701e114e6fcfbccd782035822f",
+      "bytes": 5593,
+      "executable": false
+    },
+    "plugins/general-skills/skills/genjutsu/references/unslop-CC-BY-4.0.txt": {
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "bytes": 18657,
+      "executable": false
+    },
+    "plugins/general-skills/skills/genjutsu/references/visual-production.md": {
+      "sha256": "7b9f89949f078a1bcedc12ce1f454c54a4ce345c9645355563ea859c886a1192",
+      "bytes": 6330,
+      "executable": false
+    },
+    "plugins/general-skills/skills/gsap/SKILL.md": {
+      "sha256": "d9c119425bfcc11a1d3686a54a0cf5f8a6d9c20947f36aa5e23acdf448afba5d",
+      "bytes": 2179,
+      "executable": false
+    },
+    "plugins/general-skills/skills/gsap/references/offline-resources.md": {
+      "sha256": "d12a95b3773c4c5a96ca391791d3bd2a592d73ade645884804c6acd7f305fe90",
+      "bytes": 823,
+      "executable": false
+    },
+    "plugins/general-skills/skills/motion-design/SKILL.md": {
+      "sha256": "1276bf05cd347889c0ddccd6c6bc3ba2e2741878d3d1d37c548039a0037a1ec7",
+      "bytes": 3485,
+      "executable": false
+    },
+    "plugins/general-skills/skills/motion-design/references/offline-resources.md": {
+      "sha256": "0b617ee1c8294358e759262479bb6d9a9d2337b02e0e91e1b7839c852fcc6422",
+      "bytes": 590,
+      "executable": false
+    },
+    "plugins/general-skills/skills/motion-design/references/ui-motion-recipes.md": {
+      "sha256": "2431e950683100f95d4b183dbd4e8a4ecd3de236cea1783f8f3be03e61abeaff",
+      "bytes": 3523,
+      "executable": false
+    },
+    "plugins/general-skills/skills/research-methodology/SKILL.md": {
+      "sha256": "5eec654978b0c55b1f9000a5e74c5791af3e6bb69c63a90744f3185eb6f8c07d",
+      "bytes": 2173,
+      "executable": false
+    },
+    "plugins/general-skills/skills/threejs/SKILL.md": {
+      "sha256": "4c274f66bf184cbca8a3d757e9cbc1333a2a0e60c0f7df1ffecfacf4600f764f",
+      "bytes": 2164,
+      "executable": false
+    },
+    "plugins/general-skills/skills/threejs/references/offline-resources.md": {
+      "sha256": "2cb615e27cc24742abf0e4f6a308486aebdfe09777e21a32e608fb6e1d9d10ae",
+      "bytes": 879,
+      "executable": false
+    },
+    "plugins/general-skills/skills/write-russian-ui/SKILL.md": {
+      "sha256": "27e5c0fc63af47447d8682ba5e9195834e140039f76e96d76b7ee96ba77aa03f",
+      "bytes": 5039,
+      "executable": false
+    },
+    "plugins/general-skills/skills/write-russian-ui/agents/openai.yaml": {
+      "sha256": "ddb161eff72a590c9f1cce3a6f0c1b61b1847a22fecff41dc0e617352275b038",
+      "bytes": 321,
+      "executable": false
+    },
+    "plugins/general-skills/skills/write-russian-ui/references/state-examples.md": {
+      "sha256": "e859ab1ebe8153adf9d36c5bf8b1002dfb0948aeb120efb11a04597cd993ab5a",
+      "bytes": 2807,
+      "executable": false
+    },
+    "plugins/product-intelligence/.codex-plugin/plugin.json": {
+      "sha256": "b96aefa9475581a9930b5c2be972ad9ddf1001bf5e4f77e2fcd4e6b8b369fb40",
+      "bytes": 826,
+      "executable": false
+    },
+    "plugins/product-intelligence/README.md": {
+      "sha256": "18160dbdc0045a18a4355c510c2c9d751c89286785d8064db3bdfbd345e71a57",
+      "bytes": 3730,
+      "executable": false
+    },
+    "plugins/product-intelligence/examples/features.example.csv": {
+      "sha256": "c873a2b8acaa85bffcfed76badb57ceb3b8f3bbf1b9342e83b4d21b0985c6910",
+      "bytes": 153,
+      "executable": false
+    },
+    "plugins/product-intelligence/examples/reviews.example.csv": {
+      "sha256": "26c29999bc60f262bcaa9611ea3efab9f4a9bc7001b698c178678f3390026099",
+      "bytes": 250,
+      "executable": false
+    },
+    "plugins/product-intelligence/plugin.json": {
+      "sha256": "2fcedc1622010e125348b24f015d6edd94903a0dc8dd0bc8470b37e551020533",
+      "bytes": 838,
+      "executable": false
+    },
+    "plugins/product-intelligence/references/QA_AND_LAUNCH.md": {
+      "sha256": "c9f58d100a997473d3d24d7840841d183675a0819f09d7d58f47bcb660c2b322",
+      "bytes": 1799,
+      "executable": false
+    },
+    "plugins/product-intelligence/references/UPSTREAM.md": {
+      "sha256": "7e3626fae8d60e131108a316408c0b4bc4bd285837acc5c8ce9eb8b87fb5ca1f",
+      "bytes": 901,
+      "executable": false
+    },
+    "plugins/product-intelligence/references/replica-skill-LICENSE": {
+      "sha256": "857c8d5276809c8196b3cd7cb3300324768bfc562b2b6281b06d6865058e186c",
+      "bytes": 1073,
+      "executable": false
+    },
+    "plugins/product-intelligence/scripts/listing.py": {
+      "sha256": "215e339b3f228aff8a9eb2cee0cfa252da36478b3dc2c4d37e85ee91aeebb19b",
+      "bytes": 10180,
+      "executable": false
+    },
+    "plugins/product-intelligence/scripts/parity.py": {
+      "sha256": "0adcbce6054cb1d02ef7c2df9b0a71429a98939b683cb4bd789501f2fa4f6614",
+      "bytes": 13199,
+      "executable": false
+    },
+    "plugins/product-intelligence/scripts/reviews.py": {
+      "sha256": "ef6ce4721f5dba2728c892bba7ff982c28ef2e5f6048447cdb7c8e1ede2cdb62",
+      "bytes": 14315,
+      "executable": false
+    },
+    "plugins/product-intelligence/scripts/sweep.py": {
+      "sha256": "c7354e4d15aa697fdde2985bcbf265fa20b6e7e829043b48f0303db16627a58c",
+      "bytes": 8922,
+      "executable": false
+    },
+    "plugins/product-intelligence/scripts/themes.json": {
+      "sha256": "008d337c9dd3c33adb1aad24bb4c35feed776c5370b6b295cd67f306aaa3d754",
+      "bytes": 4944,
+      "executable": false
+    },
+    "plugins/product-intelligence/skills/competitor-recon/SKILL.md": {
+      "sha256": "3fead2ba4ef3b73ecc5aaa0df3324f6226a6a9ce633007e59cb4eb97e7c64db2",
+      "bytes": 3507,
+      "executable": false
+    },
+    "plugins/product-intelligence/skills/competitor-recon/references/offline-resources.md": {
+      "sha256": "fd7c206f38315aadddb1be3d85065bcaab08fe75bc846a39aa01d62a2826674c",
+      "bytes": 1114,
+      "executable": false
+    },
+    "plugins/product-intelligence/skills/customer-voice/SKILL.md": {
+      "sha256": "a0d4b1c92a5d559819c641b5ad262d4b069dbab5a0302511c9a47c9b0bd5cc08",
+      "bytes": 2969,
+      "executable": false
+    },
+    "plugins/product-intelligence/skills/feature-parity/SKILL.md": {
+      "sha256": "047908a12f434e7339952c7d7bb09763a2d533d38455b2b909f97017fa18fdac",
+      "bytes": 3284,
+      "executable": false
+    }
+  }
+}

@@ -138,6 +138,15 @@
         "conclusion": "success",
         "observed_on": "2026-11-01",
         "scope": "Owned Chromium/Firefox/WebKit fixture lane and isolated Obscura pilot; not application readiness or candidate admission."
+      },
+      {
+        "tested_commit": "b1ed8a01da4a82da23b1e6ade4df9ca946288237",
+        "run_id": 41255003242,
+        "run_url": "https://github.com/ios3kov/codex-skills/actions/runs/41255003242",
+        "workflow": "tests.yml",
+        "conclusion": "success",
+        "observed_on": "2026-11-01",
+        "scope": "Completed Python matrix and visual-tools jobs for the package licensing commit only; not evidence for newer commits or cloud parity."
       }
     ]
   },
@@ -234,5 +243,14 @@
       "integrity": "PASS",
       "shared_references": "PASS"
     }
+  },
+  "license_gate_hardening_2026_11_01": {
+    "scope": "Inventory/content regressions and Agentation attribution clarification. Retained upstream license bytes unchanged.",
+    "repository_tests": "PASS: 63 locally",
+    "snapshot_baseline": "373 original payload entries pinned to snapshot_payload_commit; checked without Git history/network",
+    "agentation_identity": "LicenseRef-Agentation-Upstream-Abridged; upstream self-label is not canonical PolyForm Shield 1.0.0",
+    "legal_clearance": "NOT ASSESSED: text/hash checks do not establish ownership or license enforceability",
+    "ci": "NOT RUN for this change at time of recording",
+    "agentation_sync": "PASS: saved cloud export, local installation and Git candidate compared byte-for-byte; editor-generated whitespace and icon changes preserved"
   }
 }

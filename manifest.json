@@ -213,8 +213,8 @@
       "executable": false
     },
     "skills/agentation/SKILL.md": {
-      "sha256": "768a37058de858de60d04f4db0eb619b34cdf8587ab488d342f5affde38ce31e",
-      "bytes": 3771,
+      "sha256": "41fb2016739192f9dff9288249005560492dd8cb3ef0f0c7a3a6d72062fa4365",
+      "bytes": 3772,
       "executable": false
     },
     "skills/apple-design/SKILL.md": {
@@ -2088,8 +2088,8 @@
       "executable": false
     },
     "skills/agentation/assets/icon.svg": {
-      "sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
-      "bytes": 2922,
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738,
       "executable": false
     },
     "plugins/product-intelligence/CHANGELOG.md": {
@@ -2208,8 +2208,8 @@
       "executable": false
     },
     "skills/agentation/LICENSE-SCOPE.md": {
-      "sha256": "5b89a94b29da08a8f47ec0734da7919cba0693a6eb675547ab7decb812dff06a",
-      "bytes": 486,
+      "sha256": "67d35461917384e3807c3a85d06487dc7c27fa2d189bbd102b3c99f6347220e9",
+      "bytes": 802,
       "executable": false
     },
     "skills/agentation/references/licenses/benjitaylor--agentation--LICENSE": {

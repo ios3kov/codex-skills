@@ -5,6 +5,7 @@ description: Add Agentation visual feedback toolbar to a Next.js project
 
 
 
+
 # Agentation Setup
 
 Set up the toolbar and, when requested, connect it to the user's coding agent.

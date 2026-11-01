@@ -23,9 +23,49 @@ def check_release_docs(folder, version):
 
 UNRESOLVED = 'no package-level license grant established; source review required'
 MIT_PACKAGE = 'package-level MIT grant; retained third-party terms apply'
-RESTRICTED_PACKAGE = 'PolyForm Shield upstream; not an open-source package'
+RESTRICTED_PACKAGE = 'upstream self-labeled PolyForm Shield abridged variant; not canonical or open source'
 LICENSE_STATUSES = {UNRESOLVED, 'upstream notices present; scope varies by file',
                     MIT_PACKAGE, RESTRICTED_PACKAGE}
+
+def retained_file(root, name):
+    path = Path(name)
+    target = root / path
+    if path.is_absolute() or '..' in path.parts or not target.resolve().is_relative_to(root) or not target.is_file():
+        return None
+    return target
+
+def is_mit_text(text):
+    # Exact standard grant/disclaimer after whitespace normalization; no extra restrictions.
+    marker = 'Permission is hereby granted'
+    if marker not in text:
+        return False
+    header, body = text.split(marker, 1)
+    lines = [line.strip() for line in header.splitlines() if line.strip()]
+    if not lines or lines[0] != 'MIT License' or len(lines) < 2:
+        return False
+    if not all(line.startswith('Copyright ') for line in lines[1:]):
+        return False
+    canonical = (ROOT / 'scripts/license-texts/MIT.txt').read_text().split(marker, 1)[1]
+    return body.split() == canonical.split()
+
+def check_snapshot_delta(root, manifest, verification):
+    baseline = json.loads((root / 'snapshot-baseline.json').read_text())
+    errors = []
+    if baseline['snapshot_payload_commit'] != verification['original_installed_snapshot']['snapshot_payload_commit']:
+        errors.append('Snapshot baseline commit mismatch')
+    old, new = baseline['files'], manifest['files']
+    if len(old) != verification['original_installed_snapshot']['payload_files']:
+        errors.append('Snapshot baseline file count mismatch')
+    current = verification['current_repository']
+    changed = sum(old[name] != new[name] for name in old.keys() & new.keys())
+    if current['modified_existing_payload_files_since_snapshot'] != changed:
+        errors.append('Modified snapshot payload count mismatch')
+    for field, actual in [('additional_payload_files_since_snapshot', new.keys() - old.keys()),
+                          ('removed_payload_files_since_snapshot', old.keys() - new.keys())]:
+        recorded = current.get(field, [])
+        if len(recorded) != len(set(recorded)) or set(recorded) != actual:
+            errors.append('Snapshot file delta mismatch: ' + field)
+    return errors
 
 def check_license_inventory(root):
     root = Path(root).resolve()
@@ -39,18 +79,42 @@ def check_license_inventory(root):
         errors.append('Duplicate license inventory package')
     for name in sorted(expected ^ set(names)):
         errors.append('License inventory package mismatch: ' + name)
-    for row in rows + inventory.get('skills', []):
+    skill_rows = inventory.get('skills', [])
+    expected_skills = {str(p.parent.relative_to(root)) for p in payload(root).values() if p.name == 'SKILL.md'}
+    skill_names = [row['package'] for row in skill_rows]
+    if len(skill_names) != len(set(skill_names)):
+        errors.append('Duplicate license inventory skill')
+    for name in sorted(expected_skills ^ set(skill_names)):
+        errors.append('License inventory skill mismatch: ' + name)
+    for row in rows + skill_rows:
         if row['status'] not in LICENSE_STATUSES:
             errors.append('Invalid license status: ' + row['package'])
         if row['status'] in {MIT_PACKAGE, RESTRICTED_PACKAGE}:
             license_path = row.get('package_license')
             if not license_path or license_path not in row['notice_files']:
                 errors.append('Package license missing from notice inventory: ' + row['package'])
+            elif row['status'] == MIT_PACKAGE:
+                license_file = retained_file(root, license_path)
+                if license_file and not is_mit_text(license_file.read_text()):
+                    errors.append('Package MIT text mismatch: ' + row['package'])
         for name in row['notice_files']:
-            path = Path(name)
-            target = root / path
-            if path.is_absolute() or '..' in path.parts or not target.resolve().is_relative_to(root) or not target.is_file():
+            if retained_file(root, name) is None:
                 errors.append('Missing or unsafe license notice: ' + name)
+    for row in rows + skill_rows:
+        for source in row.get('license_review', {}).get('sources', []):
+            name, digest = source.get('license_file'), source.get('sha256')
+            if name is None and digest is None:
+                continue  # Explicit reference-only sources have no bundled license text.
+            if not isinstance(name, str) or not isinstance(digest, str) or not re.fullmatch(r'[0-9a-f]{64}', digest):
+                errors.append('Invalid or missing source license hash: ' + row['package'])
+                continue
+            # Source paths are package-relative; reject traversal before joining.
+            relative = Path(name)
+            target = None if relative.is_absolute() or '..' in relative.parts else retained_file(root, str(Path(row['package']) / relative))
+            if target is None or not target.resolve().is_relative_to((root / row['package']).resolve()):
+                errors.append('Missing or unsafe source license: ' + row['package'] + '/' + name)
+            elif hashlib.sha256(target.read_bytes()).hexdigest() != digest:
+                errors.append('Source license SHA-256 mismatch: ' + row['package'] + '/' + name)
     notice_rows = re.findall(r'^\| `([^`]+)` \| ([^|]+) \|', (root / 'NOTICE').read_text(), re.MULTILINE)
     if len(notice_rows) != len({name for name, _ in notice_rows}):
         errors.append('Duplicate NOTICE package')
@@ -105,6 +169,7 @@ def check(root):
     snapshot = verification['original_installed_snapshot']
     if not re.fullmatch(r'[0-9a-f]{40}', snapshot['snapshot_payload_commit']):
         errors.append('Invalid historical snapshot commit')
+    errors.extend(check_snapshot_delta(root, manifest, verification))
     current = verification['current_repository']
     if current['payload_files'] != len(expected):
         errors.append('Current verification payload count mismatch')
