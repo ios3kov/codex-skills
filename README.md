@@ -94,7 +94,7 @@ The admitted REA workflow reads the bundled checksum-verified runtime archive, a
 
 ## Library maintenance checks
 
-Run `python3 scripts/check_library.py` and `python3 scripts/sync_references.py --check` from the repository root. CI checks the payload manifest, local Markdown targets, declared shared-reference copies, current package versions and active installation pointers. The routing guide is a repository selection/installation guide; installed skill instructions are unchanged by this documentation maintenance.
+Run `python3 scripts/check_library.py` and `python3 scripts/sync_references.py --check` from the repository root. CI checks the payload manifest, local Markdown targets, declared shared-reference copies, current package versions and active installation pointers. License checks cover package inventory completeness, duplicate entries, allowed statuses, safe existing notice paths and exact package/status agreement with `NOTICE`; they do not establish legal clearance. The routing guide is a repository selection/installation guide; installed skill instructions are unchanged by this documentation maintenance.
 
 ## Commit-bound CI evidence
 

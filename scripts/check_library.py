@@ -21,9 +21,40 @@ def check_release_docs(folder, version):
         errors.append('Current changelog entry missing: ' + folder.name)
     return errors
 
+UNRESOLVED = 'no package-level license grant established; source review required'
+LICENSE_STATUSES = {UNRESOLVED, 'upstream notices present; scope varies by file'}
+
+def check_license_inventory(root):
+    root = Path(root).resolve()
+    inventory = json.loads((root / 'license-inventory.json').read_text())
+    errors = []
+    expected = {str(p.relative_to(root)) for base in ('skills', 'plugins')
+                for p in (root / base).iterdir() if p.is_dir() and not p.name.startswith('.')}
+    rows = inventory['packages']
+    names = [row['package'] for row in rows]
+    if len(names) != len(set(names)):
+        errors.append('Duplicate license inventory package')
+    for name in sorted(expected ^ set(names)):
+        errors.append('License inventory package mismatch: ' + name)
+    for row in rows + inventory.get('skills', []):
+        if row['status'] not in LICENSE_STATUSES:
+            errors.append('Invalid license status: ' + row['package'])
+        for name in row['notice_files']:
+            path = Path(name)
+            target = root / path
+            if path.is_absolute() or '..' in path.parts or not target.resolve().is_relative_to(root) or not target.is_file():
+                errors.append('Missing or unsafe license notice: ' + name)
+    notice_rows = re.findall(r'^\| `([^`]+)` \| ([^|]+) \|', (root / 'NOTICE').read_text(), re.MULTILINE)
+    if len(notice_rows) != len({name for name, _ in notice_rows}):
+        errors.append('Duplicate NOTICE package')
+    recorded = {name: status.strip() for name, status in notice_rows}
+    if recorded != {row['package']: row['status'] for row in rows}:
+        errors.append('NOTICE package/status inventory mismatch (including unresolved packages)')
+    return errors
+
 def check(root):
     root = Path(root)
-    errors = []
+    errors = check_license_inventory(root)
     manifest = json.loads((root / 'manifest.json').read_text())
     actual = payload(root)
     expected = manifest['files']

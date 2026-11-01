@@ -153,5 +153,12 @@
     "repository_tests": "PASS: 42 locally",
     "version_drift_counterchecks": "PASS: both plugins reject stale current-version headings and missing changelogs",
     "integrity": "PASS: 381 payload entries"
+  },
+  "license_inventory_checks_2026_11_01": {
+    "scope": "Repository accounting integrity only, not legal clearance; no skill or installed/cloud payload changes",
+    "packages": 27,
+    "repository_tests": "PASS: 49 locally (42 existing plus 7 license-inventory regressions)",
+    "checks": "PASS: complete unique package set, allowed statuses, existing repository-contained notice files, exact NOTICE package/status agreement",
+    "ci": "NOT RUN for this change at the time of recording"
   }
 }
