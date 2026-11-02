@@ -1,6 +1,6 @@
 # Tone reference
 
-Seven tones. Each changes scripting energy, pacing, typography personality, and transition style.
+Seven optional expression references. Choose the story through the concept-selection step first. These examples do not prescribe scene counts, a hook/reveal/features/outro order, typography, or transition choices. Freeform direction can replace them.
 
 ---
 
@@ -12,7 +12,7 @@ Seven tones. Each changes scripting energy, pacing, typography personality, and 
 
 **Typography:** Mixed case. Comfortable weight. Let words breathe.
 
-**Pacing:** 4-5 scenes. Each scene 3-5 seconds. Comfortable rhythm.
+**Pacing:** Set from the selected story and reading time, not the preset.
 
 **Hook style:** A simple question or observation that sets up the reveal.
 ```
@@ -45,7 +45,7 @@ Find your perfect stablemate.
 
 **Typography:** Mixed case. Light-to-medium weight. Generous letter-spacing. Nothing aggressive.
 
-**Pacing:** 3-4 scenes. Each scene 4-6 seconds. Confidence through slow reveals.
+**Pacing:** Set from the selected story and reading time, not the preset.
 
 **Hook style:** A single strong image or the product name at full scale.
 
@@ -71,7 +71,7 @@ upon completion.
 
 **Typography:** Sentence case. Heavy weight or medium weight. Courier-adjacent for data points. No decoration.
 
-**Pacing:** 4-5 scenes. Structured. Each scene makes one claim.
+**Pacing:** Set from the selected story and reading time, not the preset.
 
 **Hook style:** The problem, stated completely seriously.
 ```
@@ -106,7 +106,7 @@ taxifortaxis.com
 
 **Typography:** ALL CAPS. Heavy weight. Slightly oversized. Some words tilted. Some words larger than expected.
 
-**Pacing:** 6-8 scenes. Some scenes under 2 seconds. Never more than 4 seconds per scene.
+**Pacing:** Set from the selected story and reading time, not the preset.
 
 **Hook style:** Something that shouldn't exist, stated at full volume.
 ```
@@ -140,7 +140,7 @@ On-demand chaos, now with routing.
 
 **Typography:** Mixed case. Large. Sparse. Lots of empty space. One thought at a time.
 
-**Pacing:** 3-4 scenes. Long holds. 4-7 seconds per scene. The pace is the joke.
+**Pacing:** Set from the selected story and reading time, not the preset.
 
 **Hook style:** A quiet observation. No setup. No punchline yet.
 ```
@@ -171,7 +171,7 @@ Fish Flight School.
 
 **Typography:** ALL CAPS or heavy mixed case. Full-bleed scenes. Large type. Significant scale.
 
-**Pacing:** 4-5 scenes. 3-5 seconds each. Dramatic reveals, not quick cuts.
+**Pacing:** Set from the selected story and reading time, not the preset.
 
 **Hook style:** A sweeping statement about the world, stated seriously.
 ```
@@ -206,7 +206,7 @@ The sky was never the limit.
 
 **Typography:** Title case. Medium weight. Clean, readable. No aggression.
 
-**Pacing:** 4-6 scenes. Each scene: product name or feature name, then 1-2 supporting details.
+**Pacing:** Set from the selected story and reading time, not the preset.
 
 **Hook style:** Product name + tagline, clean.
 ```

@@ -55,7 +55,7 @@ single-provider.
 
 Tone can be a preset (`default`, `polished`, `yc-parody`, `chaotic`, `deadpan`, `cinematic`, `app-store`) or a creative direction such as "fake Series A launch from 2016", "museum exhibit", or "overproduced mobile game ad".
 
-When the user gives freeform tone direction, map it to the nearest preset for pacing and structure, but preserve the user's direction in the plan and composition brief.
+Freeform direction takes priority. Use a tone preset only when useful for expression; do not map the story, scene count, or structure to a preset.
 
 ## Narration guidance
 
@@ -101,11 +101,11 @@ Scan the project directory and extract the information needed to plan the brag v
 
 **Read:** [references/step-2-plan.md](references/step-2-plan.md)
 
-Write `<output-dir>/brag-plan.md` (where `<output-dir>` is `brag-output/` or the timestamped variant chosen above). Answer the planning rubric. Commit to a creative angle. Write the beat-by-beat storyboard including scenes, text, timing, transitions, and SFX cues.
+Write `<output-dir>/brag-plan.md` (where `<output-dir>` is `brag-output/` or the timestamped variant chosen above). Follow the three-concept selection in `references/step-2-plan.md`, choose the strongest approach, then write its storyboard with scenes, text, timing, transitions, and SFX cues. For small revisions or an approved storyboard, keep the agreed concept instead of restarting exploration.
 
 When music is selected, include a compact `Music cue guidance` section: read the bundled track's cue preset from `<skill-dir>/assets/music/cues/` if present, otherwise note cues will be detected at composition time (any track now supports beat sync — see `references/audio.md`). Cue metadata is optional timing guidance only: story, readability, pacing, and product clarity stay primary.
 
-**Gate:** `<output-dir>/brag-plan.md` exists with a full storyboard. Scene durations sum to 15–25 seconds.
+**Gate:** `<output-dir>/brag-plan.md` exists with a full storyboard. Scene durations sum to the requested duration, or 15–25 seconds when none was specified.
 
 ---
 
@@ -157,7 +157,7 @@ Always allow a freeform creative direction to refine or override the preset.
 
 These apply to every brag video regardless of tone.
 
-**Short.** 15–25 seconds. Not one second more without a reason. This holds whether or not narration is on; narration does not extend the window.
+**Short.** Follow the requested duration; otherwise aim for 15–25 seconds. Narration must fit the chosen duration.
 
 **Readable.** Keep the pace high through motion and cuts, never by flashing text. Every line a viewer must read holds long enough to read it (short label ~0.8s settled; a sentence ~0.3s per word). Fast-in, then hold — never fast-in, then gone.
 
@@ -171,9 +171,4 @@ These apply to every brag video regardless of tone.
 
 **Funny earns its place.** Humor should come from the project's absurdity, not from trying to be funny.
 
-**Pattern:**
-```
-Hook (2-3s) → Reveal (2-4s) → 2-3 sharp highlights (5-12s) → Punchline/outro (2-4s)
-```
-
-Adapt this. Not every project needs exactly 3 highlights. The pattern is a starting shape, not a template.
+**Story before format.** Let the chosen concept determine the order and number of scenes. A hook, feature sequence, tagline, typing effect, cursor, or logo ending is useful only when it serves that story; none is a mandatory sequence. Judge distinctness by how the video communicates the product, not by its palette or transitions.

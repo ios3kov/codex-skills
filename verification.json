@@ -603,10 +603,10 @@
     ],
     "modified_existing_payload_files_since_snapshot": 39,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
-    "local_installed_parity": "PASS: all 949 payload files; see hyperframes_dependencies_2026_11_02",
-    "cloud_parity": "PASS for all four new dependency packages via fresh saved exports; unchanged packages retain prior synchronization evidence",
+    "local_installed_parity": "Brag: PASS all 293 files; see brag_concepts_2026_11_02. Other packages unchanged in this update.",
+    "cloud_parity": "Brag: PASS fresh saved cloud export, all 293 files; see brag_concepts_2026_11_02. Other packages unchanged in this update.",
     "integrity_boundary": "Manifest hashes and Git readback validate recorded repository files, not installed or cloud copies.",
-    "payload_fingerprint": "a8600aacf5ab5c6a83ac3aa13ee18b8f6ef5d92697f7dc8fe32d52053d6fbc37",
+    "payload_fingerprint": "9c335e93eb09c6aaa6d8a0b836290235fb2ac0a09cdc8c8e1cc8dc192c2a4d0d",
     "removed_payload_files_since_snapshot": []
   },
   "migration_updated_on": "2026-11-01",
@@ -1019,5 +1019,21 @@
     "external_provider_or_keyloom_generation": "NOT RUN: no login, paid generation or user project render",
     "tests": "PASS: 72 library tests, integrity, shared references and whitespace checks",
     "evidence_workspace": "outputs/hyperframes-install-20261102/"
+  },
+  "brag_concepts_2026_11_02": {
+    "scope": "Brag creative instructions only; runtime scripts, assets, dependencies and delivery procedure unchanged",
+    "changes": "Three evidence-grounded concepts with different story mechanisms, autonomous selection, approved-concept retention, optional presets and audio-reactive treatment; full and slim routes aligned",
+    "cloud_local_repository_parity": "PASS: fresh saved cloud export and installed copy match all 293 Brag files byte for byte",
+    "evidence": "outputs/brag-concepts-20261102/{review,local-parity,cloud-parity}.json in working workspace",
+    "checks": {
+      "skill_validator": "PASS with temporary PyYAML 6.0.3 dependency; system Python unchanged",
+      "repository_tests": "PASS: 72",
+      "production_engineering_tests": "PASS: 92 with local test-server permission",
+      "visual_tool_tests": "PASS: 15 with local preview-server permission",
+      "offline_helper_checks": "PASS: 8",
+      "library_and_reference_checks": "PASS",
+      "codex_loader": "PASS: 54 enabled, no loader errors"
+    },
+    "creative_video_trial": "NOT RUN: no product video generated; creative quality is not established by instruction and structural checks"
   }
 }

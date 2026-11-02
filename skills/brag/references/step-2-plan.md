@@ -4,6 +4,16 @@ Write `<output-dir>/brag-plan.md`. One focused page. This is the creative north 
 
 The plan should specify what the video must communicate and what project material must be used. It should not prescribe low-level Hyperframes implementation details. Hyperframes will decide the concrete composition structure, animation mechanics, and render workflow from the brief in Step 3.
 
+## Choose the concept before the storyboard
+
+For a new video concept, develop three short candidates grounded in the inspected product. Each must use a different way of communicating its value, not merely a different colour, font, tone preset, or transition. For each, note the viewer takeaway, story mechanism, real product evidence, and why it suits the audience and available duration.
+
+Possible mechanisms include an uninterrupted cause-and-effect demonstration, a contrast between an existing problem and its resolution, or a visual explanation of the product's underlying idea. These are examples, not three required templates: choose mechanisms that fit this product. Metaphors may frame real behaviour but must not imply unverified capabilities.
+
+Compare the candidates for product specificity, clarity to a new viewer, strength of available evidence, and feasibility with the available assets. Choose the strongest yourself. Keep the comparison and a brief reason for selection in `brag-plan.md`; present options to the user only when requested or when their decision is necessary. If one missing fact truly blocks progress, ask the main question; otherwise work from known material without inventing facts.
+
+For small corrections or an approved concept, keep the established direction. User dissatisfaction alone does not require a new concept. When previous outputs are available, check that the new concept does not merely repeat their narrative with different styling; do not claim a comparison when none was inspected.
+
 ## Create the output directory
 
 ```bash
@@ -12,11 +22,17 @@ mkdir -p <output-dir>
 
 ## Structure of brag-plan.md
 
+Use this as a record of decisions, not a required scene order. Adapt or omit hook, middle, and ending fields to fit the selected concept.
+
 ```markdown
 # Brag Plan: [App Name]
 
 ## What is this app?
 [One sentence. What it does, what makes it funny or impressive.]
+
+## Concept comparison and selection
+[Three distinct mechanisms, their product evidence, and the reason for choosing one.
+For a small revision or approved concept, record that the existing direction is retained.]
 
 ## The angle
 [The creative premise. The joke, the hook, the claim.
@@ -26,18 +42,17 @@ What makes this video specific to this project and not generic.]
 [The opening moment. This is the most important decision.
 What word, image, or motion earns the next 20 seconds?]
 
-## Key moments (the middle)
-[2-3 sharp highlights from the product.
+## Product evidence and story moments
+[The concrete product moments needed by the selected concept.
 Bullet points. Specific. "The altitude meter counting up." 
 Not "feature callouts."]
 
-## Outro / punchline
-[How does it land? The final line. The beat before the logo.]
+## Ending
+[How does the chosen story resolve? A slogan or logo ending is optional.]
 
 ## User flow worth showing
 [The 2–3 beats of *using* the product (entry → key action → result), pulled from
-Step 1 question 9. This is the strongest material the video has — the centerpiece
-scenes should show the flow, not just landing-page sections. If the project is
+Step 1 question 9. Use this evidence where it serves the chosen concept; it does not impose a scene sequence. If the project is
 landing-page-only, write "none — landing-page only" and rely on Key moments instead.]
 
 ## Tone
@@ -94,30 +109,13 @@ Transition mood: [mood] → Scene 3
 
 ## Planning the scenes
 
-The default pattern is:
-```
-Hook → Reveal → 2-3 highlights → Punchline/outro
-```
+Build the scene order from the chosen concept. A continuous demonstration may need one evolving shot; another idea may need a contrast or a reveal. Use only the scenes needed to communicate the intended takeaway. Do not fill a fixed feature quota or add a slogan ending by default.
 
-But adapt it. These are the right scene counts for each tone:
-
-| Tone | Scenes | Pacing |
-|---|---|---|
-| `default` | 4-5 | Comfortable. Room for each moment to breathe. |
-| `polished` | 3-4 | Fewer scenes, longer holds. Confidence through restraint. |
-| `yc-parody` | 4-5 | Structured. The joke is how seriously it's delivered. |
-| `chaotic` | 6-8 | Rapid. Some scenes under 2 seconds. |
-| `deadpan` | 3-4 | Long holds. Big empty space. One word at a time. |
-| `cinematic` | 4-5 | Wide shots. Big type. Dramatic reveals. |
-| `app-store` | 4-6 | Feature cards. Clean reveals. No mess. |
+Tone shapes delivery, not story structure. The tone reference offers optional expression choices, not required scene counts or transition recipes.
 
 ## Duration guidance
 
-Scene durations must sum to 15-25 seconds. Count them.
-
-- Under 15 seconds: too thin, add a scene or lengthen holds.
-- Over 25 seconds: cut a scene or tighten timing.
-- 18-22 seconds is the sweet spot for most brag videos.
+Scene durations must sum to the user's target. Without a specified target, aim for 15–25 seconds. Reduce the amount of information to fit; do not add scenes just to reach a default length.
 
 ## Reading time (keep the pace, not at text's expense)
 
@@ -146,7 +144,7 @@ Never fill scenes with abstract patterns, color washes, or generic motion graphi
 
 ## Bias the storyboard toward the user flow
 
-If Step 1 question 9 identified a real user flow, the **centerpiece scenes must show that flow** — not just landing-page recreations.
+If Step 1 question 9 identified a real user flow, prefer showing its actual behaviour over marketing claims. Fit that evidence into the selected story rather than requiring the full flow as a fixed middle section.
 
 Good (working-app scenes):
 - "Upload screen — cursor drops a video file. Filename appears. Progress bar fills 0→100% in 1.2s."
@@ -165,10 +163,10 @@ If the project has no app (landing-page-only static site), skip this section and
 
 Before writing the storyboard, ask: **does this product have things that can appear one by one, or actions that can be simulated?**
 
-These are among the most effective moments in a brag video — they make the product feel alive and real, not like a slide deck. Look for:
+Use these only when they help the selected story. Neither typing nor a simulated cursor is a default opening. Consider:
 
-- **Sequential reveals** — feature cards, stats, list items, match results, profile cards, menu options, or anything the product shows as a set. Design these to appear one by one so sound and motion reinforce each arrival. This is a storyboard decision, not an audio afterthought.
-- **Simulated interaction** — if the product involves swiping, clicking, typing, selecting, or toggling, show it. A cursor clicking a button, a swipe gesture on a card, or text being typed into a field turns a static mockup into a demonstration. Sound matches the action automatically when the gesture is in the storyboard.
+- **Sequential reveals** — use them when order or accumulation communicates something. A set of cards does not need staggered entrances merely because it can have them.
+- **Simulated interaction** — show a swipe, click, typed input, selection, or toggle when the action helps explain the product. A cursor clicking a button, a swipe gesture on a card, or text being typed into a field turns a static mockup into a demonstration. Sound matches the action automatically when the gesture is in the storyboard.
 
 If a scene has either of these, commit to it explicitly in the scene description:
 - Good: "3 horse profiles slide in one by one, each with a card sound"
@@ -218,17 +216,6 @@ If SFX are enabled, note likely sound opportunities but leave exact filenames to
 - Avoid: "Use this exact HTML structure."
 - Avoid: "Load this specific runtime URL."
 
-## Transition vocabulary
+## Transitions
 
-Match transitions to tone:
-
-| Tone | Preferred transitions |
-|---|---|
-| `default` | Crossfade, clean wipe |
-| `polished` | Soft crossfade, slide |
-| `yc-parody` | Hard cut, minimal |
-| `chaotic` | Hard cut, flash, zoom |
-| `deadpan` | Slow crossfade, long hold |
-| `cinematic` | Dramatic wipe, crossfade |
-| `app-store` | Slide, smooth wipe |
-
+Choose transitions for continuity, contrast, and readability in the selected story. Use `tones.md` only as optional expression guidance, not a fixed recipe.

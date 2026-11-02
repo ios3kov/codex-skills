@@ -1,6 +1,6 @@
 ---
 name: brag-slim
-description: Turn a project directory or a website URL into a short, shareable launch video with music, motion, and share copy. One file, no bundled assets — built entirely by the model with the tools already on the machine. Use when someone says "/brag-slim", "let's /brag about this", "brag about a website", "make a launch video", or wants to show off what they built. If the /brag skill is also installed, let /brag handle those phrases; it hands off here on Opus 5.5.
+description: Turn a project directory or a website URL into a short, shareable launch video with music, motion, and share copy. Shares Brag concept-selection guidance, no bundled assets — built entirely by the model with the tools already on the machine. Use when someone says "/brag-slim", "let's /brag about this", "brag about a website", "make a launch video", or wants to show off what they built. If the /brag skill is also installed, let /brag handle those phrases; it hands off here on Opus 5.5.
 ---
 
 # /brag-slim
@@ -56,27 +56,27 @@ Everything gathered here can end up in a public video. Never carry secrets, API 
 
 ## 2. Plan
 
-Write `brag-plan.md`: the angle, the hook, 2–3 highlights, the punchline, tone, visual identity, and a scene-by-scene storyboard with durations that sum to the target, with the music's tempo chosen now and every cut on a beat.
+For a new concept, follow the three-concept selection in `references/step-2-plan.md`; this is shared creative guidance, not a handoff to the full rendering workflow. Choose the strongest approach yourself and record the comparison and reason in `brag-plan.md`, followed by its storyboard, tone, visual identity, audio direction, and target duration. Keep approved concepts for small revisions. Music timing must support readability rather than force every cut onto a beat.
 
 If the user points at one part — a new version, a new feature, one angle — make this the focus of the video.
 
-**Shape:** Hook (2–3s) → Reveal (2–4s) → 2–3 sharp highlights → Punchline/outro (2–4s). A starting shape, not a template.
+Let the selected concept set the scene order and count. A feature sequence, typing opening, cursor, tagline, or logo ending is optional, not a default recipe.
 
 ## Creative laws
 
-- **Short.** 15–25 seconds; 18–22 is the sweet spot.
+- **Short.** Use the requested duration; otherwise aim for 15–25 seconds.
 - **Clear to a stranger.** After one viewing, someone who's never heard of it knows what it does, who it's for, and how to get it. Lead with that, not with how it's built.
 - **The hook is everything.** The first 2 seconds decide whether anyone keeps watching. Plan it first.
 - **Show the thing.** Reuse the real thing from the source — its UI, components, copy, images, videos and animations — rather than re-creating it. Rebuild only what you can't reuse. Prefer the working app doing its job over a landing page describing it. Small illustrative UI text is fine when showing the product in use (a filename, an "Exported" toast); invented claims, numbers, or testimonials are not. Never abstract filler.
 - **Specific.** It must feel made for this exact project. Use its own copy and claims; no generic SaaS language ("streamline your workflow" is banned).
 - **Readable.** Pace comes from motion and cuts, not from pulling text away early. Any line the viewer is meant to read stays fully visible and settled long enough to read it (roughly 0.3s per word), counted from when the whole line is on screen. Text that's only texture doesn't need to be read.
-- **Make it alive.** Things that appear one by one, simulated clicks, swipes, and typing beat static slides.
+- **Purposeful motion.** Use interactions, sequential entrances, or a still hold when they communicate the chosen idea; none is required for its own sake.
 - **Funny earns its place.** Humor comes from the project's own absurdity, not from trying.
 - **Every frame postable.** Any frozen frame should be worth sharing.
 
 ## Tones
 
-Presets are defaults; freeform direction ("fake Series A launch from 2016") refines or overrides them.
+The table is optional expression guidance, not scene-count or transition requirements. Presets do not select the story; freeform direction ("fake Series A launch from 2016") refines or overrides them.
 
 | Tone | Feel | Pacing / transitions |
 |---|---|---|

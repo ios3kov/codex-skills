@@ -14,7 +14,7 @@ Create a short launch-style brag video for [App Name].
 - Composition directory: `<output-dir>/composition/`
 - Rendered video: `<output-dir>/brag.mp4`
 - Format: [landscape / vertical / square] — [width]x[height]
-- Duration: [15-25 seconds]
+- Duration: [requested duration; otherwise 15-25 seconds]
 
 ## Source Material
 - Project root: [path]
@@ -30,9 +30,10 @@ Create a short launch-style brag video for [App Name].
 - Tone preset: [default / polished / yc-parody / chaotic / deadpan / cinematic / app-store]
 - Creative direction: [freeform phrase, inferred or user-provided]
 - Interpretation: [how tone affects pacing, writing, visual energy, and restraint]
+- Selected concept and reason: [from brag-plan.md; preserve its story mechanism]
 - Angle: [one paragraph from brag-plan.md]
 - Hook: [first 2-3 seconds]
-- Outro / punchline: [final line]
+- Ending: [how the chosen story resolves; no mandatory slogan or logo]
 - Avoid:
   - Generic SaaS language
   - Abstract filler visuals
@@ -75,7 +76,7 @@ Load the composition-building Hyperframes skills — `hyperframes` (composition 
 Requirements:
 - Show at least one real UI, copy, or visual element from the source project.
 - Keep all text readable in the final render.
-- Keep the video within 15-25 seconds.
+- Keep the video within the selected target duration.
 - Include the planned music/SFX layer unless audio was explicitly disabled or documented as intentionally silent.
 - Treat `/brag` audio notes as guidance, not a fixed cue sheet. Choose SFX after the visual animation exists.
 - Treat music cue metadata as optional timing hints. Hyperframes decides exact animation timing and should ignore cues that hurt readability, scene pacing, or the product story.
@@ -136,7 +137,7 @@ Wire it into the composition on its own track. Music ducks to 0.12–0.15 for th
 <audio id="vo" data-start="0" data-track-index="3" data-volume="1" src="assets/voiceover.wav"></audio>
 ```
 
-The 15-25 second window holds whether or not narration is on. Write the narration script to fit that window. Within the window, scene durations flex to match the generated audio rather than being fixed in advance: check the WAV duration after generation and adjust `data-duration` values accordingly. If the rendered narration overruns the window, cut the script and regenerate; do not stretch the video past 25 seconds to fit it.
+The selected duration holds whether or not narration is on. Write the narration script to fit that window. Within the window, scene durations flex to match the generated audio rather than being fixed in advance: check the WAV duration after generation and adjust `data-duration` values accordingly. If the rendered narration overruns the window, cut the script and regenerate; do not extend the selected duration to fit it.
 
 ---
 
@@ -144,7 +145,7 @@ The 15-25 second window holds whether or not narration is on. Write the narratio
 
 When music is present and the treatment is not `none`, the composition can react to per-frame audio data. **Delegate the extraction to the Hyperframes audio-reactive workflow** — `/brag` does not ship an extraction script and must not hardcode a path to one.
 
-In the composition step, follow the audio-reactive guidance owned by the `media-use` skill (`audio/references/captions/motion.md`; let that skill locate its own files). That file is written for captions: use its build-time audio modulation pattern on brand elements (glow, halo, card presence), not on caption groups. It owns the data format, the extraction helper (`audio/scripts/extract-audio-data.py`, which ships with that skill, not with `/brag`, so resolve it through the skill's own directory), and the per-frame sampling pattern. Ask Hyperframes to extract the audio data and wire at least one visual element to it.
+In the composition step, follow the audio-reactive guidance owned by the `media-use` skill (`audio/references/captions/motion.md`; let that skill locate its own files). That file is written for captions: use its build-time audio modulation pattern on brand elements (glow, halo, card presence), not on caption groups. It owns the data format, the extraction helper (`audio/scripts/extract-audio-data.py`, which ships with that skill, not with `/brag`, so resolve it through the skill's own directory), and the per-frame sampling pattern. Use extraction and modulation only if the selected concept benefits from them; music alone does not require a pulsing or reactive element.
 
 If extraction is unavailable (no helper, or ffmpeg missing), note it in the brief and skip audio-reactive — do not block the render.
 
@@ -204,7 +205,8 @@ Before moving to delivery, verify:
 - [ ] The brief clearly identifies the exact product moments to show.
 - [ ] The composition uses the current Hyperframes workflow, not a hardcoded `/brag` template.
 - [ ] Music file is copied into `<output-dir>/composition/assets/music/`.
-- [ ] At least one visual element subtly reacts to the music (audio-reactive treatment present), or extraction failure is documented.
+- [ ] Audio-reactive treatment follows the brief; `none` is valid without an extraction failure.
+- [ ] The scene order and motion serve the selected concept rather than a reused feature-card formula.
 - [ ] At least 1 major tween is beat-locked to a strong cue (a `strongCue`, or the highest-`strength` beat from `hyperframes beats`) within ±0.15s, marked `// beat-locked` (or natural timing was chosen for readability).
 - [ ] Sequential events (cards, stats, list items) snap to consecutive `beats[]` timestamps (±0.10s), marked `// beat-grid` (or natural timing was chosen for readability).
 - [ ] The composition shows at least one real UI, copy, or visual element from the project.

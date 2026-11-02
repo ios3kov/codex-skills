@@ -8,7 +8,7 @@ Bias toward a smooth, professional result: one tasteful music bed plus a small n
 
 ## Audio-reactive visuals
 
-When music is present, prefer a subtle audio-reactive treatment unless the tone asks for stillness or deadpan restraint. This does not mean beat detection. It means Hyperframes can pre-extract per-frame audio data and use RMS/frequency-band energy to modulate existing visual elements.
+Choose audio-reactive treatment only when it supports the selected concept; music does not require reactive visuals. This does not mean beat detection. It means Hyperframes can pre-extract per-frame audio data and use RMS/frequency-band energy to modulate existing visual elements.
 
 Good uses:
 - Hero glow or sky warmth breathes slightly with RMS

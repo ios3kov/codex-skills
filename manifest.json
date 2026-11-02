@@ -2328,8 +2328,8 @@
       "executable": false
     },
     "skills/brag/SKILL.md": {
-      "sha256": "db8e65608a61a28ac051eec42d4c23ef2a01bae92112d0735f1b08cd45569711",
-      "bytes": 9440,
+      "sha256": "ae7a3c2f83c3e9afff5b10656ae2619db17b6f3a43f0fb67cd8df2cd4559ba1d",
+      "bytes": 9687,
       "executable": false
     },
     "skills/brag/assets/music/README.md": {
@@ -3723,8 +3723,8 @@
       "executable": false
     },
     "skills/brag/references/audio.md": {
-      "sha256": "e30a7cedce8d85e3a773387a454dbba8e7927451452c85b4be5c4343a8846ee2",
-      "bytes": 18734,
+      "sha256": "0329efea5d948bed546b9a96f929716fa510b10762d352b1a2c218804d7dd0ff",
+      "bytes": 18730,
       "executable": false
     },
     "skills/brag/references/step-1-inspect.md": {
@@ -3733,13 +3733,13 @@
       "executable": false
     },
     "skills/brag/references/step-2-plan.md": {
-      "sha256": "2caec3b2f21626174683804961dc7f2b1c4bf439827cca9b1423f7ebd805e7db",
-      "bytes": 13151,
+      "sha256": "801f80fe07aa4e10642dfaa9ea9eb22f4a9daf4c711a420d4a97208441a34853",
+      "bytes": 14521,
       "executable": false
     },
     "skills/brag/references/step-3-compose.md": {
-      "sha256": "4e3277cc3d1242d05f77e35170a0f7fb747ad9fcabd2b48f03a8ca582b772829",
-      "bytes": 15600,
+      "sha256": "682d402e435fd990e4df8a432fcf996401ddf8da11caed3d751c7a9a599e3c19",
+      "bytes": 15875,
       "executable": false
     },
     "skills/brag/references/step-4-deliver.md": {
@@ -3748,8 +3748,8 @@
       "executable": false
     },
     "skills/brag/references/tones.md": {
-      "sha256": "e6ea8c6d3061a8734194cdad2c176b371f3ec41cb85c89306ac549baeebaa59e",
-      "bytes": 6677,
+      "sha256": "3a1ce7de040660f47196f85af8220b135496d728cadf53045cb62ab107675fd6",
+      "bytes": 6793,
       "executable": false
     },
     "skills/brag/scripts/analyze_music_cues.py": {
@@ -3768,8 +3768,8 @@
       "executable": false
     },
     "skills/brag/slim.md": {
-      "sha256": "42f58aa8a2e0c0c1aa5b072ae77fd2674ccca699f8ecb01e97713e1eb56749af",
-      "bytes": 9142,
+      "sha256": "61fba5ad23405bbabbc9a98870ec275f60fa13f749dd2aa80aa1db6c8d6a349f",
+      "bytes": 9602,
       "executable": false
     },
     "skills/brag/agents/openai.yaml": {
