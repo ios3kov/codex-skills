@@ -623,8 +623,8 @@
       "executable": false
     },
     "skills/interface-craft/SKILL.md": {
-      "sha256": "f5140112d7b75ddd6a608b98785243e1f0ce4adbe6bdb1070ea2b1e0fc6bfb4f",
-      "bytes": 5530,
+      "sha256": "b118c6d28201f3c63f0cc8f5e217c926fc3c1ea7dd72c97da57a8159d9e8ebfc",
+      "bytes": 5531,
       "executable": false
     },
     "skills/interface-craft/agents/openai.yaml": {
@@ -633,8 +633,8 @@
       "executable": false
     },
     "skills/interface-craft/assets/icon.svg": {
-      "sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
-      "bytes": 2922,
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "bytes": 1210,
       "executable": false
     },
     "skills/interface-craft/data/charts.csv": {
@@ -663,8 +663,8 @@
       "executable": false
     },
     "skills/interface-craft/references/browser-verification.md": {
-      "sha256": "1fc46777def352cfe459b93613e25d8301cb614b7a6dca1164812076d67f2409",
-      "bytes": 4032,
+      "sha256": "9ae0e645d683d1775867827a7605d2017a78b00e7bed0fcf5777940cef8803be",
+      "bytes": 5410,
       "executable": false
     },
     "skills/interface-craft/references/catalog-provenance.json": {
@@ -698,8 +698,8 @@
       "executable": false
     },
     "skills/interface-craft/references/implementation.md": {
-      "sha256": "d45b94656579e28e232906af3604ac124743426989eec5c8d0fb93be208b4e5a",
-      "bytes": 6206,
+      "sha256": "cb11b1e4559426fcfb17e44985b4be5d591a608fdd575f8389e97cfa561dbda0",
+      "bytes": 8787,
       "executable": false
     },
     "skills/interface-craft/references/offline-resources.md": {

@@ -20,7 +20,7 @@
     "snapshot_remote_readback": "PASS: all 373 skill payload files read from a fresh GitHub fetch and SHA-256 matched"
   },
   "current_repository": {
-    "recorded_on": "2026-11-01",
+    "recorded_on": "2026-11-02",
     "payload_manifest": "manifest.json",
     "payload_files": 420,
     "additional_payload_files_since_snapshot": [
@@ -72,12 +72,12 @@
       "skills/visual-diagrams/references/licenses/cathrynlavery--diagram-design--LICENSE",
       "skills/visual-diagrams/references/licenses/creative-source-notices.txt"
     ],
-    "modified_existing_payload_files_since_snapshot": 36,
+    "modified_existing_payload_files_since_snapshot": 39,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
-    "local_installed_parity": "PASS: fresh comparison of all 420 personal payload files; see stageshow_adoption_2026_11_02",
-    "cloud_parity": "PASS for both changed packages (48 files) via fresh saved exports; unchanged packages retain synchronization_recheck_2026_11_01 scope",
+    "local_installed_parity": "PASS: all 420 files; see video_design_adoption_2026_11_02",
+    "cloud_parity": "PASS for changed Interface Craft package via fresh full export; unchanged packages retain prior verification scope",
     "integrity_boundary": "Manifest hashes and Git readback validate recorded repository files, not installed or cloud copies.",
-    "payload_fingerprint": "81c13cd7d7d83afc4929118304edb8246c9c3bb404e176fd3fa59e47203fa6ae",
+    "payload_fingerprint": "f78ad06aea903a48293d4166c950c5b6b16d703d68c39630849e2da56b66f374",
     "removed_payload_files_since_snapshot": []
   },
   "migration_updated_on": "2026-11-01",
@@ -398,5 +398,15 @@
     "backup": "outputs/stageshow-adoption-20261102/before/",
     "saved_readback": "outputs/stageshow-adoption-20261102/saved-readback.json",
     "normalization": "Accepted cloud editor whitespace in two entrypoints/two references and regenerated Motion Storytelling SVG icon; words verified unchanged, previous bytes backed up"
+  },
+  "video_design_adoption_2026_11_02": {
+    "scope": "Interface Craft: two existing implementation/browser verification references; no duplicate skill, package or MCP installation",
+    "source_revision": "emilkowalski/skills a81dbca07f2217b7103e510c0f13f8d5b017afc9",
+    "source_method": "Independent wording; no upstream code, course assets or substantial verbatim text copied",
+    "cloud_saved_readback": "PASS: complete saved package, all 33 files compared byte-for-byte after editor whitespace/icon reconciliation",
+    "local_parity": "PASS: all 420 payload files match installed personal copies",
+    "tests": "PASS: 72 repository tests; integrity and shared-reference checks",
+    "behavioral_validation": "NOT RUN: no application behavior or model-effectiveness trial claimed",
+    "evidence_workspace": "outputs/video-adoption-20261102/"
   }
 }
