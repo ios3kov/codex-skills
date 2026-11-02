@@ -3,6 +3,7 @@ name: interface-craft
 description: Design, implement, critique, and polish web interfaces with a coherent visual direction, precise typography, reusable design systems, scenario-based UX review, accessible interaction, focused React performance improvements, and browser verification. Use for pages, components, dashboards, portfolios, and redesigns; complement existing engineering workflows rather than initiating a release or whole-product audit.
 ---
 
+
 # Interface Craft
 
 For offline use and external-reference handling, read [local resources](references/offline-resources.md).

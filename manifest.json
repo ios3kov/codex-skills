@@ -623,8 +623,8 @@
       "executable": false
     },
     "skills/interface-craft/SKILL.md": {
-      "sha256": "b82ff7d55bc40171490707bec5c4a9d784079d5b78396c6cf3f55e4a21265d24",
-      "bytes": 5529,
+      "sha256": "f5140112d7b75ddd6a608b98785243e1f0ce4adbe6bdb1070ea2b1e0fc6bfb4f",
+      "bytes": 5530,
       "executable": false
     },
     "skills/interface-craft/agents/openai.yaml": {
@@ -688,8 +688,8 @@
       "executable": false
     },
     "skills/interface-craft/references/design-workflows.md": {
-      "sha256": "bb69de22ae47008713d8d17f863e18eb4c79325d2ccd10cf611a89da9470883d",
-      "bytes": 10001,
+      "sha256": "0d27a55b693738c240e545d93feaf61cef8494a833d2def12c432854a0198485",
+      "bytes": 9994,
       "executable": false
     },
     "skills/interface-craft/references/editorial-layout.md": {
@@ -1143,8 +1143,8 @@
       "executable": false
     },
     "skills/motion-storytelling/SKILL.md": {
-      "sha256": "e9113bf12c4f8613c3d8874ee74d876b64cc698682b2253aab505b98ac6a48e2",
-      "bytes": 4631,
+      "sha256": "d037761c48590848ee6dbcae44dea7dfa3dccd95b0ca82f9e3ca7ab63f43a8f4",
+      "bytes": 4632,
       "executable": false
     },
     "skills/motion-storytelling/agents/openai.yaml": {
@@ -1153,8 +1153,8 @@
       "executable": false
     },
     "skills/motion-storytelling/assets/icon.svg": {
-      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
-      "bytes": 1210,
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "bytes": 420,
       "executable": false
     },
     "skills/motion-storytelling/references/after-effects.md": {
@@ -1188,8 +1188,8 @@
       "executable": false
     },
     "skills/motion-storytelling/references/product-storytelling.md": {
-      "sha256": "3b6c8245b37c6dd9262350087590b6c66b78d10d5d8a34c63fb6029394a60156",
-      "bytes": 6188,
+      "sha256": "ff99d5e103d50c67b6ccf67fd2076c1d1357fc3938c0aae8f1ecb09fa9af9ea9",
+      "bytes": 6180,
       "executable": false
     },
     "skills/motion-storytelling/references/scene-dramaturgy.md": {

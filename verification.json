@@ -72,12 +72,12 @@
       "skills/visual-diagrams/references/licenses/cathrynlavery--diagram-design--LICENSE",
       "skills/visual-diagrams/references/licenses/creative-source-notices.txt"
     ],
-    "modified_existing_payload_files_since_snapshot": 33,
+    "modified_existing_payload_files_since_snapshot": 36,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
-    "local_installed_parity": "PASS: all 420 files; see stageshow_adoption_2026_11_02",
-    "cloud_parity": "NOT VERIFIED for refreshed payload 6b606016abf4c384daba4ac3310affd296529bc99337c5e23934e75b1606e3c7; historical records retain their original scope",
+    "local_installed_parity": "PASS: fresh comparison of all 420 personal payload files; see stageshow_adoption_2026_11_02",
+    "cloud_parity": "PASS for both changed packages (48 files) via fresh saved exports; unchanged packages retain synchronization_recheck_2026_11_01 scope",
     "integrity_boundary": "Manifest hashes and Git readback validate recorded repository files, not installed or cloud copies.",
-    "payload_fingerprint": "6b606016abf4c384daba4ac3310affd296529bc99337c5e23934e75b1606e3c7",
+    "payload_fingerprint": "81c13cd7d7d83afc4929118304edb8246c9c3bb404e176fd3fa59e47203fa6ae",
     "removed_payload_files_since_snapshot": []
   },
   "migration_updated_on": "2026-11-01",
@@ -391,10 +391,12 @@
     ],
     "method": "Independently worded guidance only; no upstream code, artwork, kit or executable installed",
     "local_parity": "PASS: all 420 personal payload files compared",
-    "cloud_save": "BLOCKED: two browser connection attempts returned ERR_CONNECTION_RESET; no cloud edits made",
+    "cloud_save": "PASS: both saved complete packages exported after save, 48 files compared byte-for-byte",
     "repository_tests": "PASS: 72 tests",
     "integrity_and_shared_references": "PASS",
     "behavioral_visual_trial": "NOT RUN: no demonstration artifact requested or produced",
-    "backup": "outputs/stageshow-adoption-20261102/before/"
+    "backup": "outputs/stageshow-adoption-20261102/before/",
+    "saved_readback": "outputs/stageshow-adoption-20261102/saved-readback.json",
+    "normalization": "Accepted cloud editor whitespace in two entrypoints/two references and regenerated Motion Storytelling SVG icon; words verified unchanged, previous bytes backed up"
   }
 }

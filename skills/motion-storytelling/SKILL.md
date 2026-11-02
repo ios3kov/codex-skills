@@ -3,6 +3,7 @@ name: motion-storytelling
 description: Plan, write, analyze or refine video and motion graphics through scene dramaturgy, product storytelling, shot composition, kinetic typography, editing, After Effects or Lottie assets. Use for scripts and visual storytelling; use apple-design for physical web gestures and interface transitions.
 ---
 
+
 # Motion Storytelling
 
 For offline use and external-reference handling, read [local resources](references/offline-resources.md).
