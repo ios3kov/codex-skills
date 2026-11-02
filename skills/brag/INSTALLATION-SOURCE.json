@@ -1,0 +1,8 @@
+{
+  "repository": "latent-spaces/brag",
+  "commit": "669ab9286aa28b6c3ee30e75f181ee74319d012a",
+  "installed_package": "skills/brag",
+  "upstream_files": 289,
+  "license": "Root LICENSE retained; assets/music/README.md specifies CC BY 4.0 tracks; remaining upstream credits unchanged",
+  "dependencies": "Hyperframes skills/CLI are required by upstream for full rendering; not installed or executed by this installation"
+}

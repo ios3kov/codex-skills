@@ -6,6 +6,7 @@ The root MIT license applies only to original repository-maintenance contributio
 
 | Package | Recorded status | License mentions |
 |---|---|---|
+| `skills/brag` | upstream notices present; scope varies by file | CC-BY-4.0, MIT |
 | `skills/agent-orchestrator` | package-level MIT grant; retained third-party terms apply | MIT |
 | `skills/agentation` | upstream self-labeled PolyForm Shield abridged variant; not canonical or open source | LicenseRef-Agentation-Upstream-Abridged |
 | `skills/apple-design` | package-level MIT grant; retained third-party terms apply | MIT |

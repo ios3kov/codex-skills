@@ -911,6 +911,24 @@
         "https://github.com/referodesign/refero_skill",
         "https://github.com/zanwei/design-dna"
       ]
+    },
+    {
+      "package": "skills/brag",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "CC-BY-4.0",
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/brag/LICENSE",
+        "skills/brag/assets/music/README.md"
+      ],
+      "provenance_files": [
+        "skills/brag/INSTALLATION-SOURCE.json"
+      ],
+      "source_links": [
+        "https://github.com/latent-spaces/brag/tree/669ab9286aa28b6c3ee30e75f181ee74319d012a/skills/brag"
+      ]
     }
   ],
   "skills": [
@@ -2005,6 +2023,24 @@
         "https://github.com/zanwei/design-dna"
       ],
       "notice_scope": "Inherited plugin-level evidence pointers; per-file terms still apply"
+    },
+    {
+      "package": "skills/brag",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "CC-BY-4.0",
+        "MIT"
+      ],
+      "notice_files": [
+        "skills/brag/LICENSE",
+        "skills/brag/assets/music/README.md"
+      ],
+      "provenance_files": [
+        "skills/brag/INSTALLATION-SOURCE.json"
+      ],
+      "source_links": [
+        "https://github.com/latent-spaces/brag/tree/669ab9286aa28b6c3ee30e75f181ee74319d012a/skills/brag"
+      ]
     }
   ]
 }
