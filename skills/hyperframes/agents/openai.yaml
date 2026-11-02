@@ -1,0 +1,15 @@
+interface:
+  display_name: hyperframes
+  short_description: Read first to make, edit, animate or render any video with HyperFrames
+    (HTML rendered to video), including launch films, explainers, music videos, charts,
+    maps, vertical clips, title cards, captions and overlays. Holds the render contract,
+    the work loop and what each kind of video needs.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

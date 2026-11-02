@@ -4,7 +4,7 @@ Canonical Git repository for our personal skill library. It started from an inst
 
 ## Included
 
-- **26 standalone skills** in `skills/`.
+- **30 standalone skills** in `skills/`.
 - **12 skills in two owned plugins** in `plugins/`: General Skills 1.3.6 and Product Intelligence 1.0.5.
 - Full supporting references, scripts, assets and license notices. `manifest.json` records every payload file with its SHA-256.
 - `managed-skills.json` accounts for the other **12 system/provider-managed skills** reported by the local loader. Their provider runtimes are not copied into this public repository. Restore them through Codex and the official plugins.
@@ -14,8 +14,8 @@ Canonical Git repository for our personal skill library. It started from an inst
 | Scope | Meaning |
 |---|---|
 | Original installed payload | **373 files**, copied and verified against the local installation on 2026-10-31 at commit `20e6eebeaea29343919e498b0e5b3fae4fbf2d8f`. This is historical evidence for that snapshot only. |
-| Package maintenance | **340 added files** since the original snapshot; existing documentation, metadata and fixtures were also updated. The exact delta is in `verification.json`. |
-| Current payload manifest | **713 entries** covering current `skills/` and `plugins/` files. |
+| Package maintenance | **576 added files** since the original snapshot; existing documentation, metadata and fixtures were also updated. The exact delta is in `verification.json`. |
+| Current payload manifest | **949 entries** covering current `skills/` and `plugins/` files. |
 | Repository maintenance outside the payload | Root documentation, routing, integrity scripts, regression tests, CI and repository records are tracked by Git but are not entries in the payload manifest. |
 
 Full byte parity of all 37 personal skills was freshly verified across local installation, saved cloud packages and Git payload on 2026-11-01. See `synchronization_2026_11_01` in `verification.json` for the exact scope. The later license synchronization re-exported the 12 changed standalone skills and Product Intelligence 1.0.5, and compared all 417 personal payload files with the local installation; see `license_sync_2026_11_01`. Other cloud packages were not re-exported in that pass. The approved instruction-density update subsequently re-exported its five changed standalone packages and compared all 420 current payload files with the local installation; see `skill_density_sync_2026_11_01` for exact scope and the cloud editor’s iOS version-field limitation. Later changes require a fresh comparison; CI or Git readback alone cannot renew parity. See [verification.json](verification.json) for separate historical snapshot evidence and current repository boundaries.
@@ -24,6 +24,10 @@ Full byte parity of all 37 personal skills was freshly verified across local ins
 
 | Skill | Location |
 |---|---|
+| `hyperframes` | [skills/hyperframes/SKILL.md](skills/hyperframes/SKILL.md) |
+| `hyperframes-cli` | [skills/hyperframes-cli/SKILL.md](skills/hyperframes-cli/SKILL.md) |
+| `hyperframes-registry` | [skills/hyperframes-registry/SKILL.md](skills/hyperframes-registry/SKILL.md) |
+| `media-use` | [skills/media-use/SKILL.md](skills/media-use/SKILL.md) |
 | `brag` | [skills/brag/SKILL.md](skills/brag/SKILL.md) |
 | `agent-orchestrator` | [skills/agent-orchestrator/SKILL.md](skills/agent-orchestrator/SKILL.md) |
 | `agentation` | [skills/agentation/SKILL.md](skills/agentation/SKILL.md) |
@@ -85,7 +89,7 @@ Generated Python bytecode and OS caches are excluded. No authentication files, a
 
 ## License
 
-Original repository-maintenance contributions use the scoped [MIT license](LICENSE). Twelve formerly unresolved packages now have package-level MIT grants with retained third-party terms; see each `LICENSE-SCOPE.md`. Agentation retains an upstream self-labeled, abridged PolyForm Shield variant, not the canonical 1.0.0 text, and is not an open-source package. The [NOTICE](NOTICE) and [license inventory](license-inventory.json) record upstream pointers and unresolved package status. The 14 packages still marked file-level have no package-wide reuse grant established by these records. This is a collection with multiple upstream licenses, not a relicensing of all content. Preserve the notices and licenses inside each skill/plugin. Provider-managed skills are listed by identity only; reinstall them through the provider.
+Original repository-maintenance contributions use the scoped [MIT license](LICENSE). Twelve formerly unresolved packages now have package-level MIT grants with retained third-party terms; see each `LICENSE-SCOPE.md`. Agentation retains an upstream self-labeled, abridged PolyForm Shield variant, not the canonical 1.0.0 text, and is not an open-source package. The [NOTICE](NOTICE) and [license inventory](license-inventory.json) record upstream pointers and unresolved package status. The packages still marked file-level have no package-wide reuse grant established by these records. This is a collection with multiple upstream licenses, not a relicensing of all content. Preserve the notices and licenses inside each skill/plugin. Provider-managed skills are listed by identity only; reinstall them through the provider.
 
 ## Tests and migrated history
 
@@ -126,4 +130,4 @@ Run `python3 -B scripts/trial_helpers.py` for eight reproducible checks on owned
 
 ## Brag launch-video skill
 
-`brag` is installed as a separate skill from latent-spaces/brag at `669ab9286aa28b6c3ee30e75f181ee74319d012a`, with its complete bundled assets and retained notices. Its full workflow requires Hyperframes CLI and companion skills; those dependencies were not installed or exercised by this package installation. Video rendering is NOT RUN. Bundled music keeps the CC BY 4.0 attribution in `skills/brag/assets/music/README.md`. OpenCode reads the same local repository skill directory.
+`brag` is installed as a separate skill from latent-spaces/brag at `669ab9286aa28b6c3ee30e75f181ee74319d012a`, with its complete bundled assets and retained notices. Its full workflow uses the four separately installed core dependency skills (`hyperframes`, `hyperframes-cli`, `hyperframes-registry`, `media-use`) and CLI 0.8.230. A local owned render and media-use audio-helper check passed on this Mac; this does not certify a particular product video or cloud-account tools. See `hyperframes_dependencies_2026_11_02` in verification.json. Bundled music keeps the CC BY 4.0 attribution in `skills/brag/assets/music/README.md`. OpenCode reads the same local repository skill directory.

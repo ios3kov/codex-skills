@@ -1,0 +1,6 @@
+{
+  "repository": "heygen-com/hyperframes",
+  "commit": "7c5c1ce849a6b479f957b69de8dcac8db7eab127",
+  "cli": "0.8.230",
+  "adaptation": "Local execution/cost/privacy boundary added; upstream source and references retained; optional external tools not installed"
+}

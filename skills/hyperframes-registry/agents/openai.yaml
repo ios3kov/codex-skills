@@ -1,0 +1,15 @@
+interface:
+  display_name: hyperframes registry
+  short_description: About 450 ready-made HyperFrames blocks and components installed
+    as editable source - transitions, overlays, titles, kinetic type, captions, charts,
+    map overlays, 3D, camera moves. Use it before hand-building any named visual (CRT
+    scanlines, glitch, film grain, a chart); also for hyperframes add and catalog.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

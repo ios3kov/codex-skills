@@ -6,6 +6,10 @@ The root MIT license applies only to original repository-maintenance contributio
 
 | Package | Recorded status | License mentions |
 |---|---|---|
+| `skills/hyperframes` | upstream notices present; scope varies by file | Apache-2.0 |
+| `skills/hyperframes-cli` | upstream notices present; scope varies by file | Apache-2.0 |
+| `skills/hyperframes-registry` | upstream notices present; scope varies by file | Apache-2.0 |
+| `skills/media-use` | upstream notices present; scope varies by file | Apache-2.0 |
 | `skills/brag` | upstream notices present; scope varies by file | CC-BY-4.0, MIT |
 | `skills/agent-orchestrator` | package-level MIT grant; retained third-party terms apply | MIT |
 | `skills/agentation` | upstream self-labeled PolyForm Shield abridged variant; not canonical or open source | LicenseRef-Agentation-Upstream-Abridged |

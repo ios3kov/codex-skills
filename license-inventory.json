@@ -929,6 +929,70 @@
       "source_links": [
         "https://github.com/latent-spaces/brag/tree/669ab9286aa28b6c3ee30e75f181ee74319d012a/skills/brag"
       ]
+    },
+    {
+      "package": "skills/hyperframes",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [
+        "skills/hyperframes/LICENSE"
+      ],
+      "provenance_files": [
+        "skills/hyperframes/INSTALLATION-SOURCE.json"
+      ],
+      "source_links": [
+        "https://github.com/heygen-com/hyperframes/tree/7c5c1ce849a6b479f957b69de8dcac8db7eab127/skills/hyperframes"
+      ]
+    },
+    {
+      "package": "skills/hyperframes-cli",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [
+        "skills/hyperframes-cli/LICENSE"
+      ],
+      "provenance_files": [
+        "skills/hyperframes-cli/INSTALLATION-SOURCE.json"
+      ],
+      "source_links": [
+        "https://github.com/heygen-com/hyperframes/tree/7c5c1ce849a6b479f957b69de8dcac8db7eab127/skills/hyperframes-cli"
+      ]
+    },
+    {
+      "package": "skills/hyperframes-registry",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [
+        "skills/hyperframes-registry/LICENSE"
+      ],
+      "provenance_files": [
+        "skills/hyperframes-registry/INSTALLATION-SOURCE.json"
+      ],
+      "source_links": [
+        "https://github.com/heygen-com/hyperframes/tree/7c5c1ce849a6b479f957b69de8dcac8db7eab127/skills/hyperframes-registry"
+      ]
+    },
+    {
+      "package": "skills/media-use",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [
+        "skills/media-use/LICENSE"
+      ],
+      "provenance_files": [
+        "skills/media-use/INSTALLATION-SOURCE.json"
+      ],
+      "source_links": [
+        "https://github.com/heygen-com/hyperframes/tree/7c5c1ce849a6b479f957b69de8dcac8db7eab127/skills/media-use"
+      ]
     }
   ],
   "skills": [
@@ -2040,6 +2104,70 @@
       ],
       "source_links": [
         "https://github.com/latent-spaces/brag/tree/669ab9286aa28b6c3ee30e75f181ee74319d012a/skills/brag"
+      ]
+    },
+    {
+      "package": "skills/hyperframes",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [
+        "skills/hyperframes/LICENSE"
+      ],
+      "provenance_files": [
+        "skills/hyperframes/INSTALLATION-SOURCE.json"
+      ],
+      "source_links": [
+        "https://github.com/heygen-com/hyperframes/tree/7c5c1ce849a6b479f957b69de8dcac8db7eab127/skills/hyperframes"
+      ]
+    },
+    {
+      "package": "skills/hyperframes-cli",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [
+        "skills/hyperframes-cli/LICENSE"
+      ],
+      "provenance_files": [
+        "skills/hyperframes-cli/INSTALLATION-SOURCE.json"
+      ],
+      "source_links": [
+        "https://github.com/heygen-com/hyperframes/tree/7c5c1ce849a6b479f957b69de8dcac8db7eab127/skills/hyperframes-cli"
+      ]
+    },
+    {
+      "package": "skills/hyperframes-registry",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [
+        "skills/hyperframes-registry/LICENSE"
+      ],
+      "provenance_files": [
+        "skills/hyperframes-registry/INSTALLATION-SOURCE.json"
+      ],
+      "source_links": [
+        "https://github.com/heygen-com/hyperframes/tree/7c5c1ce849a6b479f957b69de8dcac8db7eab127/skills/hyperframes-registry"
+      ]
+    },
+    {
+      "package": "skills/media-use",
+      "status": "upstream notices present; scope varies by file",
+      "license_mentions": [
+        "Apache-2.0"
+      ],
+      "notice_files": [
+        "skills/media-use/LICENSE"
+      ],
+      "provenance_files": [
+        "skills/media-use/INSTALLATION-SOURCE.json"
+      ],
+      "source_links": [
+        "https://github.com/heygen-com/hyperframes/tree/7c5c1ce849a6b479f957b69de8dcac8db7eab127/skills/media-use"
       ]
     }
   ]
