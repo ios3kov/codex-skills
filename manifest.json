@@ -1333,8 +1333,8 @@
       "executable": false
     },
     "skills/production-engineering/SKILL.md": {
-      "sha256": "43bda694e47ca1230d10594b602f742dfce135dc502e20c7d88c41f67db7c4e0",
-      "bytes": 17274,
+      "sha256": "1a64a4d0782c176e0f5a9ce90ffec266dfbe83a167c54947694b0c77501ea2f3",
+      "bytes": 17373,
       "executable": false
     },
     "skills/production-engineering/THIRD_PARTY_NOTICES.md": {
@@ -1348,8 +1348,8 @@
       "executable": false
     },
     "skills/production-engineering/assets/icon.svg": {
-      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
-      "bytes": 420,
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "bytes": 1738,
       "executable": false
     },
     "skills/production-engineering/assets/passport.example.json": {

@@ -20,7 +20,7 @@
     "snapshot_remote_readback": "PASS: all 373 skill payload files read from a fresh GitHub fetch and SHA-256 matched"
   },
   "current_repository": {
-    "recorded_on": "2026-11-02",
+    "recorded_on": "2026-11-03",
     "payload_manifest": "manifest.json",
     "payload_files": 949,
     "additional_payload_files_since_snapshot": [
@@ -601,12 +601,12 @@
       "skills/visual-diagrams/references/licenses/cathrynlavery--diagram-design--LICENSE",
       "skills/visual-diagrams/references/licenses/creative-source-notices.txt"
     ],
-    "modified_existing_payload_files_since_snapshot": 39,
+    "modified_existing_payload_files_since_snapshot": 38,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
-    "local_installed_parity": "Brag: PASS all 293 files; see brag_concepts_2026_11_02. Other packages unchanged in this update.",
-    "cloud_parity": "Brag: PASS fresh saved cloud export, all 293 files; see brag_concepts_2026_11_02. Other packages unchanged in this update.",
+    "local_installed_parity": "Production Engineering: PASS all 95 files; see focused_change_recheck_2026_11_03. Other packages unchanged in this update.",
+    "cloud_parity": "Production Engineering: PASS fresh saved cloud export, all 95 files; see focused_change_recheck_2026_11_03. Other packages unchanged in this update.",
     "integrity_boundary": "Manifest hashes and Git readback validate recorded repository files, not installed or cloud copies.",
-    "payload_fingerprint": "9c335e93eb09c6aaa6d8a0b836290235fb2ac0a09cdc8c8e1cc8dc192c2a4d0d",
+    "payload_fingerprint": "72d0334f86c40fb37d51d95d38015bfe0ea2f090b621f69254f6a54b2478d482",
     "removed_payload_files_since_snapshot": []
   },
   "migration_updated_on": "2026-11-01",
@@ -1035,5 +1035,21 @@
       "codex_loader": "PASS: 54 enabled, no loader errors"
     },
     "creative_video_trial": "NOT RUN: no product video generated; creative quality is not established by instruction and structural checks"
+  },
+  "focused_change_recheck_2026_11_03": {
+    "source_repository": "multica-ai/andrej-karpathy-skills",
+    "source_commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+    "decision": "The four requested mechanisms already exist in workflow.md and SKILL.md. Updated entrypoint navigation only; no duplicate rule set or upstream text copied. Cloud-generated static icon adopted for exact parity.",
+    "cloud_local_repository_parity": "PASS: all 95 package files match fresh saved cloud export and installed copy",
+    "checks": {
+      "skill_validation": "PASS",
+      "library_integrity": "PASS",
+      "shared_references": "PASS",
+      "repository_tests": "PASS: 72",
+      "workflow_counterexample_tests": "PASS: 3",
+      "loader": "PASS: 54 enabled, no errors",
+      "model_behavior_trial": "NOT RUN: navigation-only instruction update; no effectiveness claim"
+    },
+    "workspace_evidence": "outputs/focused-change-sync-20261103/{review,local-parity,cloud-parity}.json"
   }
 }
