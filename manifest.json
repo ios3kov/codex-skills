@@ -218,8 +218,8 @@
   ],
   "files": {
     "skills/agent-orchestrator/SKILL.md": {
-      "sha256": "bf0429ad5bdde2df5f7a1f6867b5a8e8536c719e9672df7161de6d074015ce38",
-      "bytes": 3658,
+      "sha256": "db93e301bc078b522f1b17c7c30690c9a8f0462bcbad17137f63daf5736d305a",
+      "bytes": 4652,
       "executable": false
     },
     "skills/agent-orchestrator/agents/openai.yaml": {
@@ -628,8 +628,8 @@
       "executable": false
     },
     "skills/independent-reviewer/SKILL.md": {
-      "sha256": "ac58d450e44e528f872f48349fec7021c9029ae548bca54813886d71b01569b1",
-      "bytes": 4212,
+      "sha256": "ce82081ad234d97430628a403f499a0c483d39dbbf93616ec27827b47292a7d3",
+      "bytes": 4826,
       "executable": false
     },
     "skills/independent-reviewer/THIRD_PARTY_NOTICES.md": {

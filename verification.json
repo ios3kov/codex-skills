@@ -20,7 +20,7 @@
     "snapshot_remote_readback": "PASS: all 373 skill payload files read from a fresh GitHub fetch and SHA-256 matched"
   },
   "current_repository": {
-    "recorded_on": "2026-11-03",
+    "recorded_on": "2026-11-04",
     "payload_manifest": "manifest.json",
     "payload_files": 949,
     "additional_payload_files_since_snapshot": [
@@ -601,12 +601,12 @@
       "skills/visual-diagrams/references/licenses/cathrynlavery--diagram-design--LICENSE",
       "skills/visual-diagrams/references/licenses/creative-source-notices.txt"
     ],
-    "modified_existing_payload_files_since_snapshot": 38,
+    "modified_existing_payload_files_since_snapshot": 39,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
-    "local_installed_parity": "Production Engineering: PASS all 95 files; see focused_change_recheck_2026_11_03. Other packages unchanged in this update.",
-    "cloud_parity": "Production Engineering: PASS fresh saved cloud export, all 95 files; see focused_change_recheck_2026_11_03. Other packages unchanged in this update.",
+    "local_installed_parity": "NOT VERIFIED for refreshed payload 1e59789d8dbc4185ff427fb9d17c09477d7cb0b90447b02874092912d506eb9f; historical records retain their original scope",
+    "cloud_parity": "NOT VERIFIED for refreshed payload 1e59789d8dbc4185ff427fb9d17c09477d7cb0b90447b02874092912d506eb9f; historical records retain their original scope",
     "integrity_boundary": "Manifest hashes and Git readback validate recorded repository files, not installed or cloud copies.",
-    "payload_fingerprint": "72d0334f86c40fb37d51d95d38015bfe0ea2f090b621f69254f6a54b2478d482",
+    "payload_fingerprint": "1e59789d8dbc4185ff427fb9d17c09477d7cb0b90447b02874092912d506eb9f",
     "removed_payload_files_since_snapshot": []
   },
   "migration_updated_on": "2026-11-01",
@@ -1051,5 +1051,14 @@
       "model_behavior_trial": "NOT RUN: navigation-only instruction update; no effectiveness claim"
     },
     "workspace_evidence": "outputs/focused-change-sync-20261103/{review,local-parity,cloud-parity}.json"
+  },
+  "scope_skills_sync_2026_11_04": {
+    "packages": [
+      "agent-orchestrator",
+      "independent-reviewer"
+    ],
+    "verified_files": 11,
+    "result": "PASS: fresh cloud exports, local installed files and repository files match byte for byte",
+    "model_behavior_trial": "NOT RUN"
   }
 }
