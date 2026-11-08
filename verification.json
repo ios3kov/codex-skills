@@ -20,7 +20,7 @@
     "snapshot_remote_readback": "PASS: all 373 skill payload files read from a fresh GitHub fetch and SHA-256 matched"
   },
   "current_repository": {
-    "recorded_on": "2026-11-04",
+    "recorded_on": "2026-11-08",
     "payload_manifest": "manifest.json",
     "payload_files": 949,
     "additional_payload_files_since_snapshot": [
@@ -601,12 +601,12 @@
       "skills/visual-diagrams/references/licenses/cathrynlavery--diagram-design--LICENSE",
       "skills/visual-diagrams/references/licenses/creative-source-notices.txt"
     ],
-    "modified_existing_payload_files_since_snapshot": 39,
+    "modified_existing_payload_files_since_snapshot": 41,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
-    "local_installed_parity": "NOT VERIFIED for refreshed payload 1e59789d8dbc4185ff427fb9d17c09477d7cb0b90447b02874092912d506eb9f; historical records retain their original scope",
-    "cloud_parity": "NOT VERIFIED for refreshed payload 1e59789d8dbc4185ff427fb9d17c09477d7cb0b90447b02874092912d506eb9f; historical records retain their original scope",
+    "local_installed_parity": "NOT VERIFIED for refreshed payload b8249c84f84c5923d6afda4e1e18d67a9c9e8cf30f7a11b536511468dd2958fc; historical records retain their original scope",
+    "cloud_parity": "NOT VERIFIED for refreshed payload b8249c84f84c5923d6afda4e1e18d67a9c9e8cf30f7a11b536511468dd2958fc; historical records retain their original scope",
     "integrity_boundary": "Manifest hashes and Git readback validate recorded repository files, not installed or cloud copies.",
-    "payload_fingerprint": "1e59789d8dbc4185ff427fb9d17c09477d7cb0b90447b02874092912d506eb9f",
+    "payload_fingerprint": "b8249c84f84c5923d6afda4e1e18d67a9c9e8cf30f7a11b536511468dd2958fc",
     "removed_payload_files_since_snapshot": []
   },
   "migration_updated_on": "2026-11-01",
@@ -1060,5 +1060,11 @@
     "verified_files": 11,
     "result": "PASS: fresh cloud exports, local installed files and repository files match byte for byte",
     "model_behavior_trial": "NOT RUN"
+  },
+  "performance_rules_sync_2026_11_08": {
+    "result": "PASS: all 95 Production Engineering files match fresh cloud export and installed local package",
+    "scope": "Performance audit rules, cloud-normalized whitespace and cloud-generated static icon",
+    "checks": "PASS: library integrity, shared references, 72 repository tests",
+    "runtime_performance_measurements": "NOT RUN: this change updates audit instructions only"
   }
 }

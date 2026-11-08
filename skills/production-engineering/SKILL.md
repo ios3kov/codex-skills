@@ -3,6 +3,7 @@ name: production-engineering
 description: Develop and improve software with Spec Kit planning and web-audit/vibe-audit checks. Use for features, bugs, technical and UX audits, production readiness, continuing projects, engineering agent instructions, and requested session retrospectives. Default entry point for software implementation and repair, including execution routing for nontrivial work. Covers planning, review, evidence, security, accessibility, performance, and handoff; distinguishes incomplete checks from success.
 ---
 
+
 # Production Engineering
 
 For offline use and external-reference handling, read [local resources](references/offline-resources.md).

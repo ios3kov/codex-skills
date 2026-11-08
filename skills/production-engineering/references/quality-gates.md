@@ -16,12 +16,31 @@ Scope every gate to the application and change. Required-but-unavailable means B
 | Browser | Primary flows in target browsers, including WebKit/iOS if supported; real buttons | Broken required flow or dead controls |
 | Accessibility | Automated axe where available + keyboard, focus, semantics, zoom, contrast and screen-reader spot-check | Inaccessible essential flow |
 | UI/UX | Mobile viewport, touch targets, overflow, errors, disabled/loading states, back navigation | Essential flow unusable on a supported device |
-| Performance | Representative hardware/data/network; agreed p95 and bundle budgets; compare baseline | Measured budget breach, crash or resource exhaustion |
+| Performance | Follow the Performance section below for scenarios, baseline, diagnosis and matched repeat measurements | Measured budget breach, crash or resource exhaustion; required scenario unverified |
 | Reliability | Retry, duplicate request, offline/reconnect, concurrency, worker failure, idempotency | Lost/corrupted data or unsafe repeated action |
 | Persistence | Migration forward/backward strategy and safe test data | Destructive or unverified migration |
 | Operations | Health/readiness, sanitized observability, restore backup into disposable environment, rollback | Recovery unverified where required |
 | Privacy/legal | Data inventory, retention/deletion, consent network behavior, regional applicability | Applicable requirement unresolved |
 | Supply chain | Inspect CI permissions, secrets, dependency scripts and artifact provenance | Untrusted execution with privileged credentials |
+
+## Performance
+
+For a web-application audit, check first load, search and the primary user action on a low-end phone and a slow network. If search is absent, record it as not applicable with the reason. Record the device/browser, build, network latency and bandwidth, dataset, concurrency, cache state, measurement method and repeat count. Label simulated device/network conditions and state any required physical-device check that remains unavailable. Use the existing evidence ledger and PASS, FAIL, BLOCKED or NOT RUN statuses.
+
+Capture baseline measurements before proposing fixes. Use available real-user metrics with their collection period, sample size and relevant device/network segments. Supplement missing scenario coverage with controlled measurements. Use the project's agreed latency and bundle budgets, including p95 where the sample supports it. After a fix, repeat the affected scenarios with the same method and conditions, recording any unavoidable differences and checking the original symptom and adjacent behavior.
+
+Select diagnosis from the observed symptom and trace the bottleneck before recommending a change.
+
+| Symptom | Checks |
+|---|---|
+| Heavy first load | Transferred and decoded image sizes, font files and JavaScript size/execution; compression, cold/warm caching and third-party scripts |
+| Slow search or long lists | Requests per interaction, duplicate requests and response timing; API pagination, returned item count and rendering cost; whether list virtualization addresses a measured rendering bottleneck |
+| Slow API | Database query time and count, unnecessary fields, execution plan, index use and connection-pool waits/utilization; inspect plans through an authorized method that accounts for execution side effects |
+| Long operations | End-to-end duration and whether background execution can preserve progress, cancellation, retries and result delivery; for AI responses measure both time to first visible text and time to the complete response |
+| Slow interface response | Interaction latency, unnecessary renders and main-thread blocking tasks; use a trace to locate the work delaying input or display |
+| Delays under load | CPU, memory, I/O and connection/queue saturation; application-to-database latency and throughput at the evidenced load; assess additional replicas only after identifying the limiting resource |
+
+For each problem record the user scenario, baseline measurement and evidence, confirmed cause or explicitly labeled hypothesis, and the smallest sufficient correction. State what observation would confirm an untested cause. Recommend infrastructure changes only when measurements establish their necessity and explain how the proposed change addresses the bottleneck. Keep any requested implementation and its matched post-fix measurements in the existing authorized repair workflow.
 
 ## Browser execution
 
