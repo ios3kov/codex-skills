@@ -23,11 +23,23 @@ Scope every gate to the application and change. Required-but-unavailable means B
 | Privacy/legal | Data inventory, retention/deletion, consent network behavior, regional applicability | Applicable requirement unresolved |
 | Supply chain | Inspect CI permissions, secrets, dependency scripts and artifact provenance | Untrusted execution with privileged credentials |
 
+## Validate a changed gate
+
+Run the actual enforcing command with a clean control, a known violation and a failed or incomplete run. For a threshold, also test a non-blocking finding. Require distinct outcomes for a pass, a violation and unavailable evidence.
+
+## Reliability and operations
+
+For retried payments, sends or jobs, verify that one logical operation keeps its key across attempts. Scope the key to the actor and operation. Check that concurrent duplicates cannot both apply the effect and that reuse with different inputs is rejected. Cover late redelivery within the documented retention window. Treat a timeout as an unknown outcome and reconcile it before replay.
+
+When changing diagnostics across services or queues, first name what operators need to determine. Carry a correlation ID across boundaries and record the entry point when it affects diagnosis. Keep sensitive payloads out of logs and per-request IDs out of metric labels. In an authorized test environment, induce one representative failure and trace it through actual recorded events.
+
 ## Performance
 
 For a web-application audit, check first load, search and the primary user action on a low-end phone and a slow network. If search is absent, record it as not applicable with the reason. Record the device/browser, build, network latency and bandwidth, dataset, concurrency, cache state, measurement method and repeat count. Label simulated device/network conditions and state any required physical-device check that remains unavailable. Use the existing evidence ledger and PASS, FAIL, BLOCKED or NOT RUN statuses.
 
 Capture baseline measurements before proposing fixes. Use available real-user metrics with their collection period, sample size and relevant device/network segments. Supplement missing scenario coverage with controlled measurements. Use the project's agreed latency and bundle budgets, including p95 where the sample supports it. After a fix, repeat the affected scenarios with the same method and conditions, recording any unavoidable differences and checking the original symptom and adjacent behavior.
+
+Compare the change with normal variation across repeated measurements. Record inconclusive or unsuccessful optimizations in the existing evidence log.
 
 Select diagnosis from the observed symptom and trace the bottleneck before recommending a change.
 

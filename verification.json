@@ -20,7 +20,7 @@
     "snapshot_remote_readback": "PASS: all 373 skill payload files read from a fresh GitHub fetch and SHA-256 matched"
   },
   "current_repository": {
-    "recorded_on": "2026-11-08",
+    "recorded_on": "2026-11-10",
     "payload_manifest": "manifest.json",
     "payload_files": 949,
     "additional_payload_files_since_snapshot": [
@@ -601,12 +601,12 @@
       "skills/visual-diagrams/references/licenses/cathrynlavery--diagram-design--LICENSE",
       "skills/visual-diagrams/references/licenses/creative-source-notices.txt"
     ],
-    "modified_existing_payload_files_since_snapshot": 41,
+    "modified_existing_payload_files_since_snapshot": 43,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
-    "local_installed_parity": "NOT VERIFIED for refreshed payload b8249c84f84c5923d6afda4e1e18d67a9c9e8cf30f7a11b536511468dd2958fc; historical records retain their original scope",
-    "cloud_parity": "NOT VERIFIED for refreshed payload b8249c84f84c5923d6afda4e1e18d67a9c9e8cf30f7a11b536511468dd2958fc; historical records retain their original scope",
+    "local_installed_parity": "NOT VERIFIED for refreshed payload 33c95f0bb13fa2398db444278c81acc8c9c401d1ff5f8375ab8b5df419a562a4; historical records retain their original scope",
+    "cloud_parity": "NOT VERIFIED for refreshed payload 33c95f0bb13fa2398db444278c81acc8c9c401d1ff5f8375ab8b5df419a562a4; historical records retain their original scope",
     "integrity_boundary": "Manifest hashes and Git readback validate recorded repository files, not installed or cloud copies.",
-    "payload_fingerprint": "b8249c84f84c5923d6afda4e1e18d67a9c9e8cf30f7a11b536511468dd2958fc",
+    "payload_fingerprint": "33c95f0bb13fa2398db444278c81acc8c9c401d1ff5f8375ab8b5df419a562a4",
     "removed_payload_files_since_snapshot": []
   },
   "migration_updated_on": "2026-11-01",

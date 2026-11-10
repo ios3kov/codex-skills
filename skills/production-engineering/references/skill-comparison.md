@@ -10,6 +10,8 @@ Choose realistic cases with independently defined acceptance criteria before ins
 
 Use isolated workspaces for runs with side effects. Compare under the same relevant tools, model/settings and case inputs, recording differences that cannot be controlled. Set a proportional limit on cases, repeated runs, time and cost. Extra paid services, delegation or live actions still need their applicable authorization. A source review or manual walkthrough is useful but is not a model execution.
 
+When changing skill descriptions or selection rules, include realistic prompts in the user's language, including similar prompts owned by another skill. Measure actual selection separately from task quality. For reviewer changes, include a clean candidate and a pre-existing defect that should not be counted as a regression. Record interrupted or incomplete executions separately from scored cases.
+
 ## Compare outputs and behavior
 
 When practical, present outputs under neutral, shuffled labels and judge against the request and source before revealing their versions. Include the baseline and accept it as a possible winner. The reviewer should inspect the actual artifact, including rendered output when presentation matters; a confident explanation is not evidence of correctness. State when the author also reviewed the outputs instead of calling that review independent.
