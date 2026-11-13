@@ -1,5 +1,10 @@
 # General Skills changelog
 
+## 1.3.8 — 2026-11-13
+
+- Add native-feeling inertia, velocity continuity, role-appropriate weight and restrained spring settling to UI motion guidance.
+- Keep existing platform behavior, accessibility, immediate response and optional dependency boundaries.
+
 ## 1.3.7 — 2026-11-13
 
 - Extend motion recipes with content replacement, navigation depth and continuous object expansion.

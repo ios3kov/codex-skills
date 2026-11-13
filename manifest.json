@@ -1853,22 +1853,22 @@
       "executable": false
     },
     "plugins/general-skills/.codex-plugin/plugin.json": {
-      "sha256": "93047f21181351d09770dd39d25e7c1286508cee488fe9d0f89eb79abbbb868e",
+      "sha256": "e5842c92e18ac5a69d4341ce3f6a0c5b577d96714beb8114b99e2603e08f53a2",
       "bytes": 805,
       "executable": false
     },
     "plugins/general-skills/CHANGELOG.md": {
-      "sha256": "7e8c1a851fbb1a0102a3206dabbda1499ccf1dc7436f63e2753d2a43d40fe754",
-      "bytes": 6138,
+      "sha256": "2bb261b6b072c449a20e204fa23c0d094403d5a28a5b95834b8a33a37c25d876",
+      "bytes": 6398,
       "executable": false
     },
     "plugins/general-skills/README.md": {
-      "sha256": "81936484b2e82eac05e3fc6e87ffc99debf560624cc5dd9d7ba31cdb5a2e7495",
+      "sha256": "b30ec3194af16f826c93f9b0f19bc3d5e5974f37e5b66c3053866c892b34e2c3",
       "bytes": 4891,
       "executable": false
     },
     "plugins/general-skills/plugin.json": {
-      "sha256": "11f30ad946805aef42935faa65ec5e256689ba503ec0f749f98612cfd45b078c",
+      "sha256": "9d8fe7945124abb2b5445167a275ece903e2dcfad85f4429d28b7e874f893e03",
       "bytes": 867,
       "executable": false
     },
@@ -1953,8 +1953,8 @@
       "executable": false
     },
     "plugins/general-skills/skills/motion-design/SKILL.md": {
-      "sha256": "34142a9c7b0f8cb990e4f131da71d246006a0c77370cb175ac3677a2904b1525",
-      "bytes": 3525,
+      "sha256": "1e472306f62b54a22cd060826b480e7340e9820e2e255e4a687b4289c0cb5b55",
+      "bytes": 3580,
       "executable": false
     },
     "plugins/general-skills/skills/motion-design/references/offline-resources.md": {
@@ -1963,8 +1963,8 @@
       "executable": false
     },
     "plugins/general-skills/skills/motion-design/references/ui-motion-recipes.md": {
-      "sha256": "df61e0287d9d99d065cb44d3f59a1b7f78697f3197b538f988a5a579e803f66d",
-      "bytes": 5169,
+      "sha256": "c7d8a84fae2035e7fcdfe5b13335d75215dc777f1e7a323770f423130ee9f208",
+      "bytes": 6551,
       "executable": false
     },
     "plugins/general-skills/skills/research-methodology/SKILL.md": {

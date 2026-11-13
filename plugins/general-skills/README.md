@@ -2,7 +2,7 @@
 
 An optional, cross-project set of nine **independent** Agent Skills. No changes to the existing `production-engineering` skill or the AE/AS project rules are required.
 
-## Current version: 1.3.7
+## Current version: 1.3.8
 
 The package manifest and current release are **1.3.6**. This README includes historical release summaries below; see the [changelog](CHANGELOG.md) for recorded changes. The November 2026 library maintenance corrects documentation/routing guidance and adds repository checks without changing skill instructions or executable plugin behavior.
 

@@ -23,6 +23,16 @@ Depth and object continuity may coexist in one transition. A detail screen can o
 | A selected tab, segment or related element changes | If a moving indicator clarifies continuity, derive its destination from the selected element's current geometry. Keep stable identity and preserve the selected state independently of the transition. | Change selection again mid-transition; try longer labels, resized layout and the relevant input methods. |
 | A sheet or panel follows a drag | Track the visible position during the gesture, then settle or dismiss according to the product's actual gesture contract. Consider release velocity and distance together where the platform supports it. | Slow drag, fast release, cancelled gesture, interrupted settling and the equivalent non-drag action. |
 
+## Native-feeling dynamics
+
+For application UI, aim for the responsive, continuous feel of native macOS controls without copying every platform effect.
+
+- Carry the release velocity into settling motion when inertia fits the interaction. On retargeting, preserve current visible position and velocity rather than restarting from rest. Respect the control's bounds and existing gesture contract.
+- Tune the perceived weight to the element's role, travel and scale. A broad panel usually settles more calmly than a small control; apparent weight must not add input latency.
+- Use restrained spring overshoot only when it clarifies momentum or settling. Keep it small and quickly damped; repeated wobbling, routine bouncing labels and bouncing every control are not the goal. A well-damped spring can feel natural without visible bounce.
+- Prefer the platform's existing motion or an already installed velocity-aware spring where appropriate. Do not replace native scrolling or impose one mass, duration, damping value or animation library everywhere.
+- Review at normal speed: slow drag, fast release, mid-flight reversal and repeated use. Look for abrupt stops, speed jumps, excessive oscillation and delayed response, alongside the existing interruption and reduced-motion checks. Under reduced motion, remove inertia and overshoot where needed while keeping state feedback clear.
+
 ## Implement the smallest sufficient transition
 
 - Use an existing capability first: a simple web state transition may need only CSS; a gesture or coordinated layout transition may justify the library already in the project. Do not add Motion, GSAP or another package merely because a recipe contains animation.
