@@ -1,5 +1,10 @@
 # General Skills changelog
 
+## 1.3.7 — 2026-11-13
+
+- Extend motion recipes with content replacement, navigation depth and continuous object expansion.
+- Clarify combined relationships, return targets and direct-entry fallback without requiring new animation libraries.
+
 ## 1.3.6 — 2026-11-01
 
 Declare the publisher in the portable root manifest so generated Codex metadata retains the requested author during cloud synchronization.

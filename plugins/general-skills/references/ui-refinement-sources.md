@@ -19,3 +19,7 @@ Reviewed 2026-10-18 against the five skills shown in the supplied video. Links b
 - Do not adopt a welcome-only response, mandatory remote rereading or an unverified performance claim. Read only the local supplement needed for the current task; consult current primary technical documentation when implementing a version-sensitive API.
 
 All added guidance and examples are independently written. No upstream skill files, code, scripts, fonts or media are bundled. No reuse license for the original Sasha material is asserted.
+
+## Relationship-based transitions — 2026-11-13
+
+Original wording informed by visible examples in the user-supplied web.balash video `Video_by_web_balash [DfqJXLOIALx].mp4` (41 seconds): content changes around 02–12s, navigation depth around 14–23s, object continuity around 24–36s. Frame sequences and captions were inspected; speech was not transcribed. No video, artwork or code is bundled. The categories are explanatory aids, not an exhaustive standard. Return fallbacks, direct entry and platform integration are our implementation guidance, not claims about the video's narration.

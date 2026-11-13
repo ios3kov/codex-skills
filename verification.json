@@ -20,7 +20,7 @@
     "snapshot_remote_readback": "PASS: all 373 skill payload files read from a fresh GitHub fetch and SHA-256 matched"
   },
   "current_repository": {
-    "recorded_on": "2026-11-10",
+    "recorded_on": "2026-11-13",
     "payload_manifest": "manifest.json",
     "payload_files": 949,
     "additional_payload_files_since_snapshot": [
@@ -601,12 +601,12 @@
       "skills/visual-diagrams/references/licenses/cathrynlavery--diagram-design--LICENSE",
       "skills/visual-diagrams/references/licenses/creative-source-notices.txt"
     ],
-    "modified_existing_payload_files_since_snapshot": 43,
+    "modified_existing_payload_files_since_snapshot": 49,
     "outside_payload_manifest": "Root documentation, routing, repository scripts/tests, CI and repository records are tracked by Git separately.",
-    "local_installed_parity": "NOT VERIFIED for refreshed payload 33c95f0bb13fa2398db444278c81acc8c9c401d1ff5f8375ab8b5df419a562a4; historical records retain their original scope",
-    "cloud_parity": "NOT VERIFIED for refreshed payload 33c95f0bb13fa2398db444278c81acc8c9c401d1ff5f8375ab8b5df419a562a4; historical records retain their original scope",
+    "local_installed_parity": "NOT VERIFIED for refreshed payload 4d8092a9aae31221186026c13ba605640e4478dab2e0a0a140c0390d22b06c29; historical records retain their original scope",
+    "cloud_parity": "NOT VERIFIED for refreshed payload 4d8092a9aae31221186026c13ba605640e4478dab2e0a0a140c0390d22b06c29; historical records retain their original scope",
     "integrity_boundary": "Manifest hashes and Git readback validate recorded repository files, not installed or cloud copies.",
-    "payload_fingerprint": "33c95f0bb13fa2398db444278c81acc8c9c401d1ff5f8375ab8b5df419a562a4",
+    "payload_fingerprint": "4d8092a9aae31221186026c13ba605640e4478dab2e0a0a140c0390d22b06c29",
     "removed_payload_files_since_snapshot": []
   },
   "migration_updated_on": "2026-11-01",
@@ -1066,5 +1066,20 @@
     "scope": "Performance audit rules, cloud-normalized whitespace and cloud-generated static icon",
     "checks": "PASS: library integrity, shared references, 72 repository tests",
     "runtime_performance_measurements": "NOT RUN: this change updates audit instructions only"
+  },
+  "ui_transition_sync_2026_11_13": {
+    "status": "PASS",
+    "scope": [
+      "interface-craft",
+      "mobile-interface-craft",
+      "general-skills 1.3.7"
+    ],
+    "cloud_readback": "Fresh standalone ZIP exports and all 29 General Skills files read through Plugin Creator; compared byte-for-byte with repository and installed local files.",
+    "compared_files": 77,
+    "general_skills_release": "pluginrel_6af6ffbfcfe48191bc7cd802b41de031",
+    "loader": "PASS: forceReload skills/list discovered all three updated skills enabled; zero errors.",
+    "checks": "PASS: 72 library tests, check_library, sync_references --check, update_library --check, git diff --check.",
+    "behavioral_ui_trial": "NOT RUN: instruction-only update; no application implementation requested.",
+    "preserved_cloud_changes": "Cloud save regenerated mobile-interface-craft static SVG and added a blank line to both standalone entrypoints; retained for exact parity."
   }
 }

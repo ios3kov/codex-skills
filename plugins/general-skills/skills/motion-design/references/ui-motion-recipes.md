@@ -2,6 +2,18 @@
 
 Choose a recipe only when it helps explain a state change in the requested interface. Reuse the project's motion tokens and the target platform's tools. These are optional implementation prompts, not a second design workflow. Sources and exclusions are in [the source register](../../../references/ui-refinement-sources.md).
 
+## Choose by the state relationship
+
+Before choosing effects, identify what changes and what remains recognizable. These relationships can overlap; they are not mandatory animation categories.
+
+| Relationship | Use and intent | Check |
+|---|---|---|
+| Content changes in place | For peer tabs or filters, preserve the shared shell and stable controls while changing the relevant content. Do not imply deeper navigation merely because content changed. | The selected destination and changed region remain clear; unrelated controls do not replay their entrance. |
+| Navigation moves deeper | For list-to-item or feed-to-publication, communicate the parent/detail relationship and a clear return. Use the platform's navigation conventions. | Returning restores the relevant list position and selection when appropriate; back is distinct from dismiss or completing a task. |
+| The same object expands or transforms | For thumbnail-to-photo, compact-to-full player or product-card-to-details, preserve a recognizable visual anchor across states. | The source and destination refer to the same object; reverse motion reconnects to its current visible source. |
+
+Depth and object continuity may coexist in one transition. A detail screen can open from its card while remaining a navigation step. If the source moved, disappeared or is offscreen, use a coherent simpler return instead of animating to stale coordinates. A direct entry without a source still needs a usable destination. These checks complement the existing interruption and reduced-motion rules; they do not require custom motion where native behavior already explains the relationship.
+
 ## Match motion to the interaction
 
 | Situation | Design and implementation prompt | Verify |

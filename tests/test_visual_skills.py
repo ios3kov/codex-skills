@@ -78,7 +78,7 @@ class VisualSkillsTests(unittest.TestCase):
 
     def test_version_docs_and_no_new_executable_resources(self):
         manifest = json.loads(read(PLUGIN / "plugin.json"))
-        self.assertEqual(manifest["version"], "1.3.6")
+        self.assertEqual(manifest["version"], "1.3.7")
         self.assertIn("1.3.0", read(PLUGIN / "README.md"))
         changelog = read(PLUGIN / "CHANGELOG.md")
         self.assertIn("structural/content regression tests", changelog)

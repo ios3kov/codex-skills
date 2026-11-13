@@ -648,8 +648,8 @@
       "executable": false
     },
     "skills/interface-craft/SKILL.md": {
-      "sha256": "b118c6d28201f3c63f0cc8f5e217c926fc3c1ea7dd72c97da57a8159d9e8ebfc",
-      "bytes": 5531,
+      "sha256": "fdce9da449c50dbc211b37dcaff568ab262436ba01c730367639d7925e9506d9",
+      "bytes": 5532,
       "executable": false
     },
     "skills/interface-craft/agents/openai.yaml": {
@@ -723,8 +723,8 @@
       "executable": false
     },
     "skills/interface-craft/references/implementation.md": {
-      "sha256": "cb11b1e4559426fcfb17e44985b4be5d591a608fdd575f8389e97cfa561dbda0",
-      "bytes": 8787,
+      "sha256": "4693d29d3d64adb8b92aae94e75748175facf8f2349858e2d62b2f5da4430522",
+      "bytes": 9404,
       "executable": false
     },
     "skills/interface-craft/references/offline-resources.md": {
@@ -1093,8 +1093,8 @@
       "executable": false
     },
     "skills/mobile-interface-craft/SKILL.md": {
-      "sha256": "cc4184e5580d8dbd1f2cfb9f4e8b95c9e779cc3b04896689df9b5dcd9c7cf0b4",
-      "bytes": 6133,
+      "sha256": "7af59683560fa222267ff1181f8d5115637245e9a4d899448acbd3c403ffd89f",
+      "bytes": 6134,
       "executable": false
     },
     "skills/mobile-interface-craft/THIRD_PARTY_NOTICES.md": {
@@ -1108,8 +1108,8 @@
       "executable": false
     },
     "skills/mobile-interface-craft/assets/icon.svg": {
-      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
-      "bytes": 1210,
+      "sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
+      "bytes": 2922,
       "executable": false
     },
     "skills/mobile-interface-craft/references/expo.md": {
@@ -1133,8 +1133,8 @@
       "executable": false
     },
     "skills/mobile-interface-craft/references/mobile-experience.md": {
-      "sha256": "bfca64b730993da0885eccfa4083b9c2172656a6e6de2efe1a6c22cfc69dc28b",
-      "bytes": 5758,
+      "sha256": "7c06e0500eeceb3cbd716ce8a8031264520d52bad4c131ba79d2ef30737bda35",
+      "bytes": 6180,
       "executable": false
     },
     "skills/mobile-interface-craft/references/mobile-references.md": {
@@ -1853,22 +1853,22 @@
       "executable": false
     },
     "plugins/general-skills/.codex-plugin/plugin.json": {
-      "sha256": "fa973afe75e123ad95d9cf55bbf5eeb64ec483792fe5c5ff45802230d81dda9e",
+      "sha256": "93047f21181351d09770dd39d25e7c1286508cee488fe9d0f89eb79abbbb868e",
       "bytes": 805,
       "executable": false
     },
     "plugins/general-skills/CHANGELOG.md": {
-      "sha256": "f586ff4e49e8b037f27fa7e2ef386e92052b181ed66331b385a6a8f46c28705e",
-      "bytes": 5894,
+      "sha256": "7e8c1a851fbb1a0102a3206dabbda1499ccf1dc7436f63e2753d2a43d40fe754",
+      "bytes": 6138,
       "executable": false
     },
     "plugins/general-skills/README.md": {
-      "sha256": "0d2340aa1081c7999595e3123fde17b3c6f6941e4b41c352bd3db24ca581ba63",
+      "sha256": "81936484b2e82eac05e3fc6e87ffc99debf560624cc5dd9d7ba31cdb5a2e7495",
       "bytes": 4891,
       "executable": false
     },
     "plugins/general-skills/plugin.json": {
-      "sha256": "e70a3b0396f8eb736ff090444c6aae7409097ad10cb24bf7d74d530c2ab73094",
+      "sha256": "11f30ad946805aef42935faa65ec5e256689ba503ec0f749f98612cfd45b078c",
       "bytes": 867,
       "executable": false
     },
@@ -1883,8 +1883,8 @@
       "executable": false
     },
     "plugins/general-skills/references/ui-refinement-sources.md": {
-      "sha256": "9029d282683d54a63a83302140f2fc542a496bb89665a6183ae9c23d8d3dbc95",
-      "bytes": 3870,
+      "sha256": "4c346bd28ad16249a657d88cb88fc7342c1b2e791ecf5b9081ada310171e79cd",
+      "bytes": 4466,
       "executable": false
     },
     "plugins/general-skills/references/ui-typography-and-polish.md": {
@@ -1953,8 +1953,8 @@
       "executable": false
     },
     "plugins/general-skills/skills/motion-design/SKILL.md": {
-      "sha256": "1276bf05cd347889c0ddccd6c6bc3ba2e2741878d3d1d37c548039a0037a1ec7",
-      "bytes": 3485,
+      "sha256": "34142a9c7b0f8cb990e4f131da71d246006a0c77370cb175ac3677a2904b1525",
+      "bytes": 3525,
       "executable": false
     },
     "plugins/general-skills/skills/motion-design/references/offline-resources.md": {
@@ -1963,8 +1963,8 @@
       "executable": false
     },
     "plugins/general-skills/skills/motion-design/references/ui-motion-recipes.md": {
-      "sha256": "2431e950683100f95d4b183dbd4e8a4ecd3de236cea1783f8f3be03e61abeaff",
-      "bytes": 3523,
+      "sha256": "df61e0287d9d99d065cb44d3f59a1b7f78697f3197b538f988a5a579e803f66d",
+      "bytes": 5169,
       "executable": false
     },
     "plugins/general-skills/skills/research-methodology/SKILL.md": {

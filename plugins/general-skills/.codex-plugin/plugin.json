@@ -10,7 +10,7 @@
     "defaultPrompt": null
   },
   "name": "general-skills",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "description": "Nine optional skills for creative direction, visual design, motion, Russian UI copy, GSAP, Three.js, brainstorming, deep research and claim verification in ChatGPT Work and Codex.",
   "author": {
     "name": "ios3kov"
